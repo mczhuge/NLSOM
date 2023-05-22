@@ -199,6 +199,12 @@ ssh-add ~/.ssh/id_rsa
 ## Preliminary Experiments in Paper 
 
 
+## Contribute
+Please feel free to submit a pull request if you can optimize the identified issue. We are eager to promptly incorporate any improvements. 
+* Add more communities and agents
+* Optimize the prompt of the Mindstorm
+* Design a more accurate reward mechanism
+* Make the NLSOM learnable
 
 ## Acknowledgments
 
@@ -210,12 +216,7 @@ We also thank great AI platforms:
 
 [huggingface](https://github.com/huggingface/transformers), [modelscope](https://github.com/modelscope/modelscope).
 
-## Contribute
-Please feel free to submit a pull request if you can optimize the identified issue. We are eager to promptly incorporate any improvements. 
-* Add more communities and agents
-* Optimize the prompt of the Mindstorm
-* Design a more accurate reward mechanism
-* Make the NLSOM learnable
+
 
 ## :black_nib: Citation
 
