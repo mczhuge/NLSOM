@@ -50,7 +50,9 @@ pip install colorama
 pip install torch==1.13.1
 pip install torchvision==0.14.1
 pip install transformers
-pip install modelscope
+pip install modelscope[cv] -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
+pip install modelscope[nlp] -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
+pip install modelscope[audio] -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
 
 pip install easyocr
 pip install tinydb
