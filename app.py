@@ -3,6 +3,7 @@ from streamlit_chat import message
 from env.organize import Organize
 from pathlib import Path
 import ast
+import torch
 from colorama import Fore, Back, Style
 from PIL import Image
 
