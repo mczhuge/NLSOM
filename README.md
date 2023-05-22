@@ -201,6 +201,13 @@ Please feel free to submit a pull request if you can optimize the identified iss
 * Design a more accurate reward mechanism
 * Make the NLSOM learnable
 
+<h4 align="center">Contributers</h4>
+
+![Repo Contributors](https://badgen.net/github/contributors/Syknapse/Contribute-To-This-Project/?label=Maintainers)
+
+![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)
+
+[Back to the top &uparrow;](#introduction)
 
 
 ## Preliminary Experiments in Paper 
