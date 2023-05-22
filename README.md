@@ -34,6 +34,8 @@ Features:
 ### 💾 Usage
 
 #### 1. Install
+
+* Install the dependancies
 ```
 conda create -n nlsom python=3.8
 pip install colorlog==6.7.0
@@ -111,6 +113,36 @@ sqlalchemy 2.0.12
 pip install tinydb
 ```
 
+* Change the Huggingface/Modelscope save path (Not neccessary but useful)
+
+
+```
+import transformers
+print(transformers.__file__)
+# Get the path: ${YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/transformers/__init__.py
+```
+
+Open the ``${YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/transformers/utils/hub.py``, change the line:
+```
+torch_cache_home = os.getenv("TORCH_HOME", os.path.join(os.getenv("XDG_CACHE_HOME", "${your_nlsom_path}/checkpoints"), "torch"))
+hf_cache_home = os.path.expanduser(
+   os.getenv("HF_HOME", os.path.join(os.getenv("XDG_CACHE_HOME", "${your_nlsom_path}/checkpoints"), "huggingface"))
+)
+```
+
+Similarily,
+
+```
+>>> import modelscope
+>>> print(modelscope.__file__)
+# Get the path: ${YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/modelscope/utils/file_utils.py
+```
+
+change the line:
+```
+default_cache_dir = Path.home().joinpath('/ibex/ai/home/zhugem/AutoMind/checkpoints', 'modelscope')
+```
+
 ```
 streamlit run app.py
 ```
@@ -118,25 +150,7 @@ streamlit run app.py
 
 #### 2-1. Focus more on NLSOM
 
-改下载路径
-```
->>> import modelscope
->>> print(modelscope.__file__)
-/home/zhugem/anaconda3/envs/automind/lib/python3.8/site-packages/modelscope/utils/file_utils.py
-default_cache_dir = Path.home().joinpath('/ibex/ai/home/zhugem/AutoMind/checkpoints', 'modelscope')
-```
 
-```
-import transformers
-print(transformers.__file__)
-/home/zhugem/anaconda3/envs/automind/lib/python3.8/site-packages/transformers/__init__.py
-/home/zhugem/anaconda3/envs/automind/lib/python3.8/site-packages/transformers/utils/hub.py
-torch_cache_home = os.getenv("TORCH_HOME", os.path.join(os.getenv("XDG_CACHE_HOME", "/ibex/ai/home/zhugem/AutoMind/checkpoints"), "torch"))
-hf_cache_home = os.path.expanduser(
-   os.getenv("HF_HOME", os.path.join(os.getenv("XDG_CACHE_HOME", "/ibex/ai/home/zhugem/AutoMind/checkpoints"), "huggingface"))
-)
-
-```
 
 ```
 import langchain
