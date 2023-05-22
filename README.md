@@ -149,23 +149,21 @@ streamlit run app.py
 
 #### 2-1. Focus more on NLSOM
 
-
-
-```
-import langchain
-print(langchain.__file__)
-cp -r automind/* /home/zhugem/anaconda3/envs/automind/lib/python3.8/site-packages/langchain/
-```
+* 网页演示, P图->描述->生成一张新的图->来段音乐。
 
 #### 2-2. Focus more on Mindstorm
 
 ##### 1. Model Collaboration
 
+* JSON 演示 (VQA Demo)
+
 ##### 2. API Collaboration
+
+* JSON 演示 (Search Demo)
 
 ##### 3. Role-Play Collaboration
 
-
+* JSON 演示 (发表不同观点)
 
 
 ### 
