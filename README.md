@@ -44,7 +44,7 @@ pip install guidance
 pip install wolframalpha
 pip install wikipedia
 pip install bs4
-pip install streamlit-1.22.0
+pip install streamlit==1.22.0
 pip install streamlit_chat==0.0.2.2
 pip install deeplake
 pip install python-dotenv
