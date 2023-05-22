@@ -198,13 +198,7 @@ ssh-add ~/.ssh/id_rsa
 
 ## Preliminary Experiments in Paper 
 
-## :black_nib: Citation
 
-Reference to cite:
-
-```
-
-```
 
 ## Acknowledgments
 
@@ -223,6 +217,13 @@ Please feel free to submit a pull request if you can optimize the identified iss
 * Design a more accurate reward mechanism
 * Make the NLSOM learnable
 
+## :black_nib: Citation
+
+Reference to cite:
+
+```
+
+```
 
 
 
