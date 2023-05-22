@@ -46,6 +46,12 @@ pip install wikipedia
 pip install bs4
 pip install streamlit==1.22.0
 pip install streamlit_chat==0.0.2.2
+pip install colorama
+pip install torch==1.13.1
+pip install torchvision==0.14.1
+
+pip install easyocr
+pip install tinydb
 pip install deeplake
 pip install python-dotenv
 pip install watchdog
@@ -54,12 +60,6 @@ pip install pdf2image==1.16.3
 pip install pytesseract==0.3.10
 pip install tabulate
 pip install tesseract
-pip install colorama
-pip install torch==1.13.1
-pip install torchvision==0.14.1
-pip install easyocr
-
-pip install tinydb
 
 
 langchain
