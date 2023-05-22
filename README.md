@@ -56,6 +56,7 @@ pip install modelscope[cv] -f https://modelscope.oss-cn-beijing.aliyuncs.com/rel
 pip install modelscope[nlp] -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
 pip install modelscope[audio] -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
 pip install fairseq
+pip install open_clip_torch
 
 pip install easyocr
 pip install tinydb
