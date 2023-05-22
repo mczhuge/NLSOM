@@ -225,10 +225,7 @@ Please feel free to submit a pull request if you can optimize the identified iss
 
 <h4 align="center">Contributers</h4>
 
-![Repo Contributors](https://badgen.net/github/contributors/mczhuge/NLSOM/?label=Contributers)
-
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=mczhuge/NLSOM)
 
-[Back to the top &uparrow;](#introduction)
 
 
