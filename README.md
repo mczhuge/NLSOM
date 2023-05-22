@@ -41,7 +41,6 @@ pip install langchain==0.0.158
 pip install sqlalchemy==2.0.12
 pip install openai
 pip install guidance
-pip install tinydb
 pip install wolframalpha
 pip install wikipedia
 pip install bs4
@@ -59,6 +58,8 @@ pip install colorama
 pip install torch==1.13.1
 pip install torchvision==0.14.1
 pip install easyocr
+
+pip install tinydb
 
 
 langchain
