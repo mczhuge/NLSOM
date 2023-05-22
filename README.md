@@ -1,5 +1,5 @@
 # <p align=center>`Mindstorms in Natural Language-based Societies of Mind`</p><!-- omit in toc -->
-![overview](config/som.svg)
+![overview](config/nlsom.svg)
 > What magical trick makes us intelligent?  The trick is that there is no trick.  The power of intelligence stems from our vast diversity, not from any single, perfect principle. — Marvin Minsky, The Society of Mind, p. 308
 
 ![](https://i.imgur.com/waxVImv.png)
