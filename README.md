@@ -229,6 +229,6 @@ Please feel free to submit a pull request if you can optimize the identified iss
 
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=mczhuge/NLSOM)
 
-[Back to the top &uparrow;](###introduction)
+[Back to the top &uparrow;](#introduction)
 
 
