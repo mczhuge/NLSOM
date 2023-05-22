@@ -115,7 +115,6 @@ pip install tinydb
 
 * Change the Huggingface/Modelscope save path (Not neccessary but useful)
 
-
 ```
 import transformers
 print(transformers.__file__)
@@ -130,7 +129,7 @@ hf_cache_home = os.path.expanduser(
 )
 ```
 
-Similarily,
+Similarily, change the checkpoints saving place of modelscope,
 
 ```
 >>> import modelscope
