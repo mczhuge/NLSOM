@@ -223,9 +223,6 @@ Please feel free to submit a pull request if you can optimize the identified iss
 * Design a more accurate reward mechanism
 * Make the NLSOM learnable
 
-<h4 align="center">Contributers</h4>
-
-![GitHub Contributors Image](https://contrib.rocks/image?repo=mczhuge/NLSOM)
 
 
 
