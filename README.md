@@ -194,20 +194,6 @@ eval `ssh-agent -s`
 ssh-add ~/.ssh/id_rsa
 ```
 
-## Contribute
-Please feel free to submit a pull request if you can optimize the identified issue. We are eager to promptly incorporate any improvements. 
-* Add more communities and agents
-* Optimize the prompt of the Mindstorm
-* Design a more accurate reward mechanism
-* Make the NLSOM learnable
-
-<h4 align="center">Contributers</h4>
-
-![Repo Contributors](https://badgen.net/github/contributors/Syknapse/Contribute-To-This-Project/?label=Maintainers)
-
-![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)
-
-[Back to the top &uparrow;](#introduction)
 
 
 ## Preliminary Experiments in Paper 
@@ -229,4 +215,20 @@ This project utilizes parts of code from the following open-source repositories:
 We also thank great AI platforms:
 
 [huggingface](https://github.com/huggingface/transformers), [modelscope](https://github.com/modelscope/modelscope).
+
+## Contribute
+Please feel free to submit a pull request if you can optimize the identified issue. We are eager to promptly incorporate any improvements. 
+* Add more communities and agents
+* Optimize the prompt of the Mindstorm
+* Design a more accurate reward mechanism
+* Make the NLSOM learnable
+
+<h4 align="center">Contributers</h4>
+
+![Repo Contributors](https://badgen.net/github/contributors/mczhuge/NLSOM/?label=Contributers)
+
+![GitHub Contributors Image](https://contrib.rocks/image?repo=mczhuge/NLSOM)
+
+[Back to the top &uparrow;](#introduction)
+
 
