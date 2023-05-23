@@ -213,7 +213,7 @@ ssh-add ~/.ssh/id_rsa
 The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment/vqa).
 
 ## Contribute
-Please feel free to submit a pull request if you can optimize the identified issue. We are eager to promptly incorporate any improvements. 
+Please feel free to submit a pull request if you can optimize the identified issue. We will promptly incorporate any improvements. 
 * Support multiple inputs
 * Add more communities and agents
 * Optimize the prompt of the Mindstorm
