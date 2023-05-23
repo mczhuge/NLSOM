@@ -37,7 +37,7 @@ Features:
 
 * Install the dependancies
 ```
-conda env create -f nlsom.yaml
+conda env create -n nlsom -f nlsom.yaml
 ```
 
 ```
