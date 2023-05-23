@@ -117,7 +117,7 @@ pip install tinydb
 
 * Change the Huggingface/Modelscope save path (Not neccessary but useful)
 
-```
+```bash
 >>> import transformers
 >>> print(transformers.__file__)
 # Get the path: {YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/transformers/__init__.py
