@@ -219,7 +219,7 @@ The original experiments on paper can be found in [experiments](https://github.c
 ## Contribute
 Please feel free to submit a pull request if you can optimize the identified issue. We will promptly incorporate any improvements. 
 * Support multiple inputs
-* Support display 3D output
+* Support displaying 3D output
 * Add more communities and agents
 * Optimize the prompt of the Mindstorm
 * Design a more accurate reward mechanism
