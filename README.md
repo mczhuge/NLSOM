@@ -120,14 +120,14 @@ pip install tinydb
 ```
 import transformers
 print(transformers.__file__)
-# Get the path: ${YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/transformers/__init__.py
+# Get the path: {YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/transformers/__init__.py
 ```
 
-Open the ``${YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/transformers/utils/hub.py`` and change the line:
-```
-torch_cache_home = os.getenv("TORCH_HOME", os.path.join(os.getenv("XDG_CACHE_HOME", "${YOUR_NLSOM_PATH}/checkpoints"), "torch"))
+Open the ``{YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/transformers/utils/hub.py`` and change the line:
+``
+torch_cache_home = os.getenv("TORCH_HOME", os.path.join(os.getenv("XDG_CACHE_HOME", "{YOUR_NLSOM_PATH}/checkpoints"), "torch"))
 hf_cache_home = os.path.expanduser(
-   os.getenv("HF_HOME", os.path.join(os.getenv("XDG_CACHE_HOME", "${YOUR_NLSOM_PATH}/checkpoints"), "huggingface"))
+   os.getenv("HF_HOME", os.path.join(os.getenv("XDG_CACHE_HOME", "{YOUR_NLSOM_PATH}/checkpoints"), "huggingface"))
 )
 ```
 
@@ -139,9 +139,9 @@ Similarily, change the checkpoints saving place of modelscope,
 # Get the path: ${YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/modelscope/__init__.py
 ```
 
-Open ``${YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/modelscope/utils/file_utils.py`` and change the line:
+Open ``{YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/modelscope/utils/file_utils.py`` and change the line:
 ```
-default_cache_dir = Path.home().joinpath('${YOUR_NLSOM_PATH}/checkpoints', 'modelscope')
+default_cache_dir = Path.home().joinpath('{YOUR_NLSOM_PATH}/checkpoints', 'modelscope')
 ```
 
 ```
