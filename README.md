@@ -37,6 +37,10 @@ Features:
 
 * Install the dependancies
 ```
+conda env create -n nlsom -f nlsom.yaml
+```
+
+```
 conda create -n nlsom python=3.8
 pip install colorlog==6.7.0
 pip install langchain==0.0.158
@@ -209,12 +213,13 @@ ssh-add ~/.ssh/id_rsa
 
 
 
-## Preliminary Experiments in Paper 
-The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment/vqa).
+## Preliminary Experiments on Paper 
+The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment/vqa). They provide some basic exploration of Mindstorm and natural language-based society of mind.
 
 ## Contribute
 Please feel free to submit a pull request if you can optimize the identified issue. We will promptly incorporate any improvements. 
 * Support multiple inputs
+* Support displaying 3D output
 * Add more communities and agents
 * Optimize the prompt of the Mindstorm
 * Design a more accurate reward mechanism
