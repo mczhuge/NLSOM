@@ -57,7 +57,7 @@ pip install torch==1.13.1
 pip install torchvision==0.14.1
 pip install transformers
 python3 -m pip install nvidia-cudnn-cu11==8.6.0.163 tensorflow==2.12.*
-
+pip install easydict
 pip install modelscope[cv] -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
 pip install modelscope[nlp] -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
 pip install modelscope[audio] -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
@@ -65,6 +65,9 @@ pip install fairseq
 pip install open_clip_torch
 !pip install duckduckgo-search
 pip install ffmpeg
+pip install trimesh
+pip install PyMCubes
+pip install scikit-image
 
 pip install easyocr
 pip install tinydb
