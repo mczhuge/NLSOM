@@ -69,6 +69,7 @@ pip install trimesh
 pip install PyMCubes
 pip install scikit-image
 
+
 pip install easyocr
 pip install tinydb
 pip install deeplake
