@@ -37,6 +37,10 @@ Features:
 
 * Install the dependancies
 ```
+conda env create -f nlsom.yaml
+```
+
+```
 conda create -n nlsom python=3.8
 pip install colorlog==6.7.0
 pip install langchain==0.0.158
