@@ -219,7 +219,7 @@ The original experiments on paper can be found in [experiments](https://github.c
 
 ## Contribute
 Please feel free to submit a pull request if you can optimize the identified issue. We will promptly incorporate any improvements. 
-* Support multiple inputs
+* Support targets with multiple inputs
 * Support displaying 3D output
 * Add more communities and agents
 * Optimize the prompt of the Mindstorm
@@ -232,7 +232,7 @@ This project utilizes parts of code from the following open-source repositories:
 
 [langchain](https://github.com/hwchase17/langchain), [BabyAGI](https://github.com/yoheinakajima/babyagi), [TaskMatrix](https://github.com/microsoft/TaskMatrix), [DataChad](https://github.com/gustavz/DataChad), [streamlit](https://github.com/streamlit/streamlit).
 
-We also thank great AI platforms:
+We also thank great AI platforms and all the used models or APIs:
 
 [huggingface](https://github.com/huggingface/transformers), [modelscope](https://github.com/modelscope/modelscope).
 
