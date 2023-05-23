@@ -19,7 +19,7 @@ When you provide *a file* and *a target*, LLM automates all these processes for 
 
 Features:
 - [x] Rule your NLSOM: effortlessly organize an NLSOM in various fields by simply changing the template.
-- [x] Easy to extend: customise your own community and agents.
+- [x] Easy to extend: customise your own community and agents. (Now we have X communities and Y agents)
 - [x] Reward Design: provide a reward mechanism (albeit rough). You can easily upgrade to a more refined version.
 - [x] An elegant UI: facilitate better visualization and support for diverse media sources (image, text, audio, video, docs, pdf, etc).
 
@@ -210,7 +210,7 @@ ssh-add ~/.ssh/id_rsa
 
 
 ## Preliminary Experiments in Paper 
-The original experiments on paper can be found in [experiments]().
+The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment/vqa).
 
 ## Contribute
 Please feel free to submit a pull request if you can optimize the identified issue. We are eager to promptly incorporate any improvements. 
