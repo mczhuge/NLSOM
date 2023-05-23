@@ -133,7 +133,7 @@ hf_cache_home = os.path.expanduser(
 
 Similarily, change the checkpoints saving place of modelscope,
 
-```
+```bash
 >>> import modelscope
 >>> print(modelscope.__file__)
 # Get the path: ${YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/modelscope/__init__.py
