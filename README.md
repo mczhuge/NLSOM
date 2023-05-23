@@ -62,6 +62,7 @@ pip install modelscope[audio] -f https://modelscope.oss-cn-beijing.aliyuncs.com/
 pip install fairseq
 pip install open_clip_torch
 !pip install duckduckgo-search
+pip install ffmpeg
 
 pip install easyocr
 pip install tinydb
