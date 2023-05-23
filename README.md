@@ -65,6 +65,9 @@ pip install fairseq
 pip install open_clip_torch
 !pip install duckduckgo-search
 pip install ffmpeg
+pip install trimesh
+pip install PyMCubes
+pip install scikit-image
 
 pip install easyocr
 pip install tinydb
