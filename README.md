@@ -17,8 +17,6 @@ When you provide *a file* and *a target*, LLM automates all these processes for 
 - **🧠 Mindstorm**: Empower with the automated mindstorm. Multiple agents (models or APIs) can effortlessly collaborate to solve tasks together.
 - **💰 Reward**: Rewards are given to all agents involved.
 
-The original experiments on paper can be found in [experiments]().
-
 Features:
 - [x] Rule your NLSOM: effortlessly organize an NLSOM in various fields by simply changing the template.
 - [x] Easy to extend: customise your own community and agents.
@@ -212,7 +210,7 @@ ssh-add ~/.ssh/id_rsa
 
 
 ## Preliminary Experiments in Paper 
-
+The original experiments on paper can be found in [experiments]().
 
 ## Contribute
 Please feel free to submit a pull request if you can optimize the identified issue. We are eager to promptly incorporate any improvements. 
