@@ -28,7 +28,7 @@ Features:
 
 - We introduce the concepts of *society, community and agent*.
 - *Agents* in the same *community* will collaborate 
-- Juergen also proposed the Economy of minds (EOM), but we have yet to implement it.
+- Juergen proposed the Economy of minds (EOM, sec 4 in paper), but we have yet to implement it.
 
 
 
