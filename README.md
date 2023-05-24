@@ -69,6 +69,9 @@ pip install ffmpeg
 pip install trimesh
 pip install PyMCubes
 pip install scikit-image
+pip install TTS
+
+
 
 
 pip install easyocr
