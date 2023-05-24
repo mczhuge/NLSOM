@@ -25,17 +25,18 @@ python -c "from modelscope.pipelines import pipeline;print(pipeline('image-capti
 pip install setuptools==59.5.0
 ```
 
-* Set OPENAI API
-```
-export OPENAI_API_KEY=${Your OpenAI API}
-```
-
 * Get COCO dataset
 ```
 sh download_coco.sh
 ```
 
+* Set OPENAI API
+```
+export OPENAI_API_KEY=${Your OpenAI API}
+```
+
 * Run
 ```
+conda activate mindstorm
 python run.py
 ```
