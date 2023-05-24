@@ -1,3 +1,3 @@
-The preliminary experiments in original paper:
+In the original paper, several preliminary experiments were conducted to validate the concept of Mindstorm. 
 
 * [VQA](https://github.com/mczhuge/NLSOM/tree/main/experiment/vqa)
