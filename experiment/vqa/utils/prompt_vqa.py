@@ -102,9 +102,9 @@ def prompt_from_LLM(model="ChatGPT", prompt="", role="", max_token=100):
 def mission_prompt_generation(task):
 
     if task == "VQA":
-        prologue = "Introduce this image in details."
+        prologue = "Introduce this image in detail."
     if task == "Image Captioning":
-        prologue  = "Introduce this image in details."
+        prologue  = "Introduce this image in detail."
 
     return prologue 
 
