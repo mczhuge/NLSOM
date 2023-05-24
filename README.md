@@ -11,7 +11,7 @@
 ### ✨ Introduction
 
 This project is the **technical extenstion** for original [NLSOM paper](): allowing you to build a specific NLSOM quickly. 
-When you provide *a file* and *a target*, LLM automates all these processes for you:
+When you provide *the inputs (files or targets)*, LLM automates all these processes for you:
 
 - **🧰 Recommendation**: Autonomously select communities and agents to form a self-organized NLSOM for solving the target.
 - **🧠 Mindstorm**: Empower with the automated mindstorm. Multiple agents (models or APIs) can effortlessly collaborate to solve tasks together.
