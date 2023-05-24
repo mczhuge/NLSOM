@@ -10,7 +10,7 @@ or
 
 ```
 conda create --name mindstorm python=3.8.5  
-conda activate l2t
+conda activate mindstorm
 conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 -c pytorch
 pip install pandas==1.4.3
 pip install git+https://github.com/huggingface/transformers.git #@add_blip2_ydshieh
