@@ -11,7 +11,7 @@
 ### ✨ Introduction
 
 This project is the **technical extenstion** for original [NLSOM paper](): allowing you to build a specific NLSOM quickly. 
-When you provide *a file* and *a target*, LLM automates all these processes for you:
+When you provide *the inputs (files or targets)*, LLM automates all these processes for you:
 
 - **🧰 Recommendation**: Autonomously select communities and agents to form a self-organized NLSOM for solving the target.
 - **🧠 Mindstorm**: Empower with the automated mindstorm. Multiple agents (models or APIs) can effortlessly collaborate to solve tasks together.
@@ -26,8 +26,9 @@ Features:
 
 ### 💡️ Important Concepts
 
-- We introduce the concepts of *society, community and agent*.
-- *Agents* in the same *community* will collaborate 
+- We introduce the concepts NLSOM, which contains *society, community and agent*.
+- *Agents* will collaborate to solve the task, we called it *Mindstorm*. 
+- Juergen proposed the *Economy of minds* (EOM, sec 4 in paper), but we have yet to implement it.
 
 
 
@@ -246,7 +247,7 @@ We also thank great AI platforms and all the used models or APIs:
 
 ## :black_nib: Citation
 
-Reference to cite:
+References to cite:
 
 ```
 @article{schmidhuber2015learning,
