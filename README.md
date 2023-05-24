@@ -26,9 +26,9 @@ Features:
 
 ### 💡️ Important Concepts
 
-- We introduce the concepts of *society, community and agent*.
-- *Agents* in the same *community* will collaborate 
-- Juergen proposed the Economy of minds (EOM, sec 4 in paper), but we have yet to implement it.
+- We introduce the concepts NLSOM, which contains *society, community and agent*.
+- *Agents* in the same *community* will collaborate, we called it *Mindstorm*. 
+- Juergen proposed the *Economy of minds* (EOM, sec 4 in paper), but we have yet to implement it.
 
 
 
