@@ -271,7 +271,7 @@ if __name__ == "__main__":
 
     # dataset
     parser.add_argument("--split", default="val")
-    parser.add_argument("--dataset_path", default="/home/zhugem/L2T/MM-SOM/data")
+    parser.add_argument("--dataset_path", default="data")
     parser.add_argument("--vqa_txt", default="/aokvqa/val.txt")
 
     # experiment_save
