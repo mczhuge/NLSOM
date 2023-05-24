@@ -1,13 +1,6 @@
 ## Usage
 
 * Install
-
-```
-conda create env -f environment.yaml
-```
-
-or 
-
 ```
 conda create --name mindstorm python=3.8.5  
 conda activate mindstorm
