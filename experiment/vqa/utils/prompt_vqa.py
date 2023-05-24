@@ -1,9 +1,6 @@
 import os
 import openai
 import time
-import wandb
-
-#from utils.eval import true_of_fault
 
 # add your OPENAI_API_KEY
 openai.api_key = os.getenv('OPENAI_API_KEY')
@@ -105,13 +102,11 @@ def prompt_from_LLM(model="ChatGPT", prompt="", role="", max_token=100):
 def mission_prompt_generation(task):
 
     if task == "VQA":
-        #mission = "We have a VQA question. First, introduce this image in details."
-        prolugue = "Introduce this image in details."
+        prologue = "Introduce this image in details."
     if task == "Image Captioning":
-        #mission = "We have a VQA question. First, introduce this image in details."
-        prolugue = "Introduce this image in details."
+        prologue  = "Introduce this image in details."
 
-    return prolugue
+    return prologue 
 
 
 def mindstorm_prompt_generation(task, question, options, prologue, generated_questions, turn, answer, mode="monarchical"):

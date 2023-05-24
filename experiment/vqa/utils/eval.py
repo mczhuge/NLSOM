@@ -40,7 +40,7 @@ def true_of_fault(item, answer_pairs_list, generated_answers, problem_dict, data
     
     else:
         failure_count += 1
-        print("\033[1;31;31mFail to preidct: {}\033[1;m".format(generated_answers))
+        print("\033[1;31;31mFail to predict: {}\033[1;m".format(generated_answers))
         random_res = random.randint(0,len(options)-1) 
         generated_answers = answer_pairs_list[random_res]
 

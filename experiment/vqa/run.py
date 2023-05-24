@@ -35,7 +35,6 @@ from utils.prompt_vqa import (
 
 from utils.eval import true_of_fault
 from utils.data import aokvqa_data
-from utils.print import print_scores
 
 # add your OPENAI_API_KEY
 openai.api_key = os.getenv('OPENAI_API_KEY')
@@ -48,9 +47,7 @@ def main(parser):
     split = args.split
     dataset_path = args.dataset_path
     vqa_txt = args.vqa_txt
-    model_save_path = args.model_save_path
     mindstorm_round = args.mindstorm_round
-    project_name = args.project_name
     group_name = args.group_name
     
     # vlm setting 
@@ -126,15 +123,11 @@ def main(parser):
 
             options = []      
            
-            print(answer_options)
-
             for oid in range(10):
                 if oid < len(answer_options):
                     options.append(_abc_[str(oid)] + answer_options[oid])
                 else:
                     answer_options.append("_NONE_")
-
-            print(answer_options)
             print("\033[1;34;36mOptions: \033[1;m" + '{' + str(options).replace("[", "").replace("]", "") + '}')
 
             ###############################
@@ -230,29 +223,6 @@ def main(parser):
 
             right_count += 1 if generated_answers==answer_options[int(answer_idx)] else 0
 
-       
-            # Show other VLM's answer
-            question = "Question: " + VQA_question + "Options: " + str(options).replace("[", "").replace("]", "") + " Context: Select the best answer. " + "Answer: "
-
-            # BLIP2 (Agent1)
-            input = processor(raw_image, question, return_tensors="pt").to("cuda", torch.float16)
-            generated_answer_ids = BLIP2_MODEL.generate(**input, max_new_tokens=20)
-            generated_answers_blip2 = processor.batch_decode(generated_answer_ids, skip_special_tokens=True)[0].strip()
-            print("\033[1;33;33m{}: \033[1;m".format(_VLM1_) + generated_answers_blip2)   
-            
-                            
-            # OFA (Agent2)
-            input = {'image': image_file_path, 'text': question}
-            generated_answers_ofa =  ofa_pipe(input)[OutputKeys.TEXT][0]   
-            print("\033[1;33;33m{}: \033[1;m".format(_VLM2_) + generated_answers_ofa)
-            
-            
-            # mPLUG (Agent3)
-            input = {'image': image_file_path, 'text': question}
-            generated_answers_mplug = mPLUG_VQA(input)["text"]
-            print("\033[1;33;33m{}: \033[1;m".format(_VLM3_) + generated_answers_mplug)
-
-
             current_wr = (right_count/count) * 100
             current_fc = (failure_count/count) * 100
             print(right_count, count)
@@ -274,15 +244,6 @@ if __name__ == "__main__":
     parser.add_argument("--dataset_path", default="data")
     parser.add_argument("--vqa_txt", default="/aokvqa/val.txt")
 
-    # experiment_save
-    result_path = "./results/"
-    timestamp = str(datetime.datetime.now()).split(".")[0]
-    random_seed = str(np.random.randint(1,100))
-    model_save_path = os.path.join(result_path, timestamp, random_seed)
-    parser.add_argument("--model_save_path",  default=model_save_path)
-    if not os.path.exists(model_save_path):
-        os.makedirs(model_save_path)
-        
     # setting
     parser.add_argument("--mindstorm_round", default=5)
     parser.add_argument("--mode", default="QCM")
