@@ -247,7 +247,7 @@ We also thank great AI platforms and all the used models or APIs:
 
 ## :black_nib: Citation
 
-Reference to cite:
+References to cite:
 
 ```
 @article{schmidhuber2015learning,
