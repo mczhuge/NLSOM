@@ -70,6 +70,7 @@ pip install trimesh
 pip install PyMCubes
 pip install scikit-image
 pip install TTS
+pip install git+https://github.com/huggingface/diffusers transformers accelerate
 
 
 
