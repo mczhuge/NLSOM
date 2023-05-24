@@ -249,7 +249,19 @@ We also thank great AI platforms and all the used models or APIs:
 Reference to cite:
 
 ```
+@article{schmidhuber2015learning,
+  title={On learning to think: Algorithmic information theory for novel combinations of reinforcement learning controllers and recurrent neural world models},
+  author={Schmidhuber, J{\"u}rgen},
+  journal={arXiv preprint arXiv:1511.09249},
+  year={2015}
+}
 
+@book{minsky1988society,
+  title={Society of mind},
+  author={Minsky, Marvin},
+  year={1988},
+  publisher={Simon and Schuster}
+}
 ```
 
 
