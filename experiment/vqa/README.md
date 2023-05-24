@@ -1,10 +1,6 @@
 ## Usage
 
 * Install
-<<<<<<< HEAD
-
-=======
->>>>>>> 5b48664bcf65c6d45f8d3cd8c35635d7a90e0fc6
 ```
 conda create --name mindstorm python=3.8.5  
 conda activate mindstorm
