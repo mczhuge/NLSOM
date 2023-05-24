@@ -1,10 +1,13 @@
 ## Usage
 
 * Install
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5b48664bcf65c6d45f8d3cd8c35635d7a90e0fc6
 ```
 conda create --name mindstorm python=3.8.5  
-conda activate l2t
+conda activate mindstorm
 conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 -c pytorch
 pip install pandas==1.4.3
 pip install git+https://github.com/huggingface/transformers.git #@add_blip2_ydshieh
@@ -25,17 +28,18 @@ python -c "from modelscope.pipelines import pipeline;print(pipeline('image-capti
 pip install setuptools==59.5.0
 ```
 
-* Set OPENAI API
-```
-export OPENAI_API_KEY=${Your OpenAI API}
-```
-
 * Get COCO dataset
 ```
 sh download_coco.sh
 ```
 
+* Set OPENAI API
+```
+export OPENAI_API_KEY=${Your OpenAI API}
+```
+
 * Run
 ```
+conda activate mindstorm
 python run.py
 ```
