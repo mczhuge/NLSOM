@@ -17,7 +17,6 @@ import ast
 import argparse
 
 sys.path.append(".")
-import wandb
 import datetime
 from transformers import Blip2Processor, Blip2ForConditionalGeneration, AutoProcessor, AutoModelForCausalLM
 from huggingface_hub import hf_hub_download
@@ -51,7 +50,6 @@ def main(parser):
     vqa_txt = args.vqa_txt
     model_save_path = args.model_save_path
     mindstorm_round = args.mindstorm_round
-    log_to_wandb = args.log_to_wandb
     project_name = args.project_name
     group_name = args.group_name
     
@@ -60,19 +58,6 @@ def main(parser):
     _VLM1_ = ["BLIP2", "Salesforce/blip2-flan-t5-xl"]
     _VLM2_ = ["OFA", 'damo/ofa_visual-question-answering_pretrain_large_en']
     _VLM3_ = ["mPLUG", "damo/mplug_visual-question-answering_coco_large_en"]
-
-    # wandb setting
-    exp_prefix=f'{group_name}-{mindstorm_round}-{random.randint(int(1e5), int(1e6) - 1)}'
-
-    if log_to_wandb:
-        wandb.init(
-            name=exp_prefix,
-            group=group_name,
-            project=project_name,
-            config=""
-        )
-        wandb_save_path = model_save_path + "/" + wandb.run.name
-        os.mkdir(wandb_save_path)
 
     # load models
     need_LLM = ["VQA"]
@@ -225,7 +210,7 @@ def main(parser):
             print("\033[1;33;33m{}'s analysis: \033[1;m".format(model_name) + analysis) 
 
             ###################
-            ##     Return    ##
+            ##   Execution   ##
             ###################
             
             execution_prompt = execution_prompt_generation(options, analysis, VQA_question, VQA_or_QA)
@@ -245,7 +230,8 @@ def main(parser):
 
             right_count += 1 if generated_answers==answer_options[int(answer_idx)] else 0
 
-
+       
+            # Show other VLM's answer
             question = "Question: " + VQA_question + "Options: " + str(options).replace("[", "").replace("]", "") + " Context: Select the best answer. " + "Answer: "
 
             # BLIP2 (Agent1)
@@ -271,9 +257,6 @@ def main(parser):
             current_fc = (failure_count/count) * 100
             print(right_count, count)
             print(f"Current Win Rate: {current_wr:.5f}%, Current Failure Rate: {current_fc:.5f}%")
-            if log_to_wandb:
-                wandb.log({'Total Count:': count, 'Right Count:': right_count, 'Current Win Rate': current_wr, 'Current Failure Rate': current_fc})  
-
 
         else:
             raise NotImplementedError
@@ -303,10 +286,7 @@ if __name__ == "__main__":
     # setting
     parser.add_argument("--mindstorm_round", default=5)
     parser.add_argument("--mode", default="QCM")
-
-    # wandb
-    parser.add_argument("--log_to_wandb", default=True)
-    parser.add_argument("--project_name", default="NLSOM-55")
-    parser.add_argument("--group_name", default="VQA-Monarchical-GBOM")
+    parser.add_argument("--project_name", default="NLSOM")
+    parser.add_argument("--group_name", default="VQA")
 
     main(parser)
