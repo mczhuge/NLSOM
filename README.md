@@ -222,7 +222,11 @@ eval `ssh-agent -s`
 ssh-add ~/.ssh/id_rsa
 ```
 
+# API
 
+```
+export REPLICATE_API_TOKEN=r8_WssXC8wLfU6nIOZSgm69CM49SFvuObr35zgcu
+```
 
 ## Preliminary Experiments on Paper 
 The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and natural language-based society of mind.
