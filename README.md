@@ -70,12 +70,11 @@ pip install trimesh
 pip install PyMCubes
 pip install scikit-image
 pip install TTS
-pip install git+https://github.com/huggingface/diffusers transformers accelerate
-
-
-
-
 pip install easyocr
+
+
+
+
 pip install tinydb
 pip install deeplake
 pip install python-dotenv
