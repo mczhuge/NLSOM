@@ -228,13 +228,14 @@ ssh-add ~/.ssh/id_rsa
 The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and natural language-based society of mind.
 
 ## Contribute
-Please feel free to submit a pull request if you can optimize the identified issue. We will promptly incorporate any improvements. 
-* Support targets with multiple inputs
-* Support displaying 3D output
-* Add more communities and agents
-* Optimize the prompt of the Mindstorm
-* Design a more accurate reward mechanism
-* Make the NLSOM learnable
+Please feel free to submit a pull request if you can optimize the identified issues. We will promptly incorporate any improvements.
+
+* Support targets with multiple inputs.
+* Support displaying 3D output.
+* Add more communities and agents.
+* Optimize the prompt of the Mindstorm.
+* Design a more accurate reward mechanism.
+* Make the NLSOM learnable.
 
 ## Acknowledgments
 
