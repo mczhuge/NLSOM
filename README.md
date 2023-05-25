@@ -226,7 +226,7 @@ ssh-add ~/.ssh/id_rsa
 
 
 ## Preliminary Experiments on Paper 
-The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment/vqa). They provide some basic exploration of Mindstorm and natural language-based society of mind.
+The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and natural language-based society of mind.
 
 ## Contribute
 Please feel free to submit a pull request if you can optimize the identified issue. We will promptly incorporate any improvements. 
