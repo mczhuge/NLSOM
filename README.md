@@ -78,7 +78,7 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>
     <p>
         <ul>
-            <li><b>System:</b> Based on this objective, I recommend that NLSOM includes the following AI communities: (1) Role-play</li>
+            <li><b>System:</b> Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) Role-play</u></li>
         </ul>
     </p>   
     <p>
