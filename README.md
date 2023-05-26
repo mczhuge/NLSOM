@@ -30,7 +30,7 @@ Features:
 - *Agents* will collaborate to solve the task, we called it *Mindstorm*. 
 - Juergen proposed the *Economy of minds* (EOM, sec 3 in paper), but we have yet to implement it.
 
-### UI
+
 
 ### Demo
 #### 2-1. Focus more on NLSOM
