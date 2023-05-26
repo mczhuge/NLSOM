@@ -26,10 +26,7 @@ ORGANIZING_EXAMPLE = [
     {"objective": "Show me the answer of the question in the image", "society": str(AI_SOCIETY), "organizing": ["image_captioning", "ocr", "wolframalpha"]},
     {"objective": "Help me inpainting the image", "society": str(AI_SOCIETY), "organizing": ["image_inpainting"]},
     {"objective": "If you are in the three kindoms, how you can conquer the world.", "society": str(AI_SOCIETY), "organizing": ["role_play"]},
-<<<<<<< HEAD
-    {"objective": "Tell me the details of \"KAUST\".", "society": str(AI_SOCIETY), "organizing": ["search"]}
-=======
->>>>>>> 82b85184c74eb57d7edf430ee027484d21f61b10
+    {"objective": "Tell me the details of \"KAUST\".", "society": str(AI_SOCIETY), "organizing": ["search"]},
 ]
 
 
@@ -101,12 +98,6 @@ Previous conversation history:
 New input: {input}
 Thought: Should we organize one agent? {agent_scratchpad}
 """
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 82b85184c74eb57d7edf430ee027484d21f61b10
-
 
 
 
