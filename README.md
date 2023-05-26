@@ -113,11 +113,22 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p> 
     <p>
         <ul>
-            <li><b>⚪️ NLSOM System:</b>  To defeat Cao Cao, I would use a combination of strategy and cunning. I would first employ a strategy of deception by convincing Cao Cao that I have a much larger army than I actually possess. I would then use my own army to surround and contain him, preventing any escape. Finally, I would use my own cunning and intelligence to outsmart him in the battles that ensued, outwitting him in any way possible in order to gain victory.
+            <li><b>⚪️ NLSOM System (Review):</b>  All four agents have been used to answer the user's question. GuanYu suggested using strategic planning and superior military tactics, LiuBei suggested uniting the people of the realm and forming an alliance, ZhugeLiang suggested using an unconventional approach and psychological tactics, and ZhangFei suggested using a combination of strategy and cunning.
     </li>
         </ul>
-    </p>   
-    
+    </p>  
+     <p>
+        <ul>
+            <li><b>⚪️ NLSOM System (Output):</b>  GuanYu suggested using strategic planning and superior military tactics, LiuBei suggested uniting the people of the realm and forming an alliance, ZhugeLiang suggested using an unconventional approach and psychological tactics, and ZhangFei suggested using a combination of strategy and cunning.
+    </li>
+        </ul>
+    </p> 
+     <p>
+        <ul>
+            <li><b>💰 NLSOM System (Reward):</b>  ["GuanYu": 2, "LiuBei": 2, "ZhugeLiang": 3, "ZhangFei": 3]
+    </li>
+        </ul>
+    </p> 
 </details>
 
 ### 💾 Usage
