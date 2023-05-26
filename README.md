@@ -94,6 +94,25 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
         </ul>
     </p>  
     
+    <p>
+        <ul>
+            <li><b>LiuBei:</b> In the Three Kingdoms period, I would defeat Cao Cao by uniting the people of the realm under my leadership. I would inspire them to rise up and fight for a righteous cause, encouraging them to believe that together we can overcome any obstacle. In addition, I would employ a combination of diplomatic and military strategies to outwit Cao Cao and his forces. I would also rally the support of the other great leaders of the time, such as Sun Quan and Liu Shan, and form an alliance to defeat Cao Cao. Ultimately, I believe that by unifying the people and employing a multi-pronged approach, we can overcome any foe and secure victory in the end.
+    </li>
+        </ul>
+    </p>  
+    <p>
+        <ul>
+            <li><b>ZhugeLiang:</b> In the Three Kingdoms period, I would defeat Cao Cao by uniting the people of the realm under my leadership. I would inspire them to rise up and fight for a righteous cause, encouraging them to believe that together we can overcome any obstacle. In addition, I would employ a combination of diplomatic and military strategies to outwit Cao Cao and his forces. I would also rally the support of the other great leaders of the time, such as Sun Quan and Liu Shan, and form an alliance to defeat Cao Cao. Ultimately, I believe that by unifying the people and employing a multi-pronged approach, we can overcome any foe and secure victory in the end.
+    </li>
+        </ul>
+    </p>  
+    
+        <p>
+        <ul>
+            <li><b>ZhangFei:</b> In the Three Kingdoms period, I would defeat Cao Cao by uniting the people of the realm under my leadership. I would inspire them to rise up and fight for a righteous cause, encouraging them to believe that together we can overcome any obstacle. In addition, I would employ a combination of diplomatic and military strategies to outwit Cao Cao and his forces. I would also rally the support of the other great leaders of the time, such as Sun Quan and Liu Shan, and form an alliance to defeat Cao Cao. Ultimately, I believe that by unifying the people and employing a multi-pronged approach, we can overcome any foe and secure victory in the end.
+    </li>
+        </ul>
+    </p>  
     
     
 </details>
