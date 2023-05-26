@@ -69,7 +69,7 @@ Features:
 
 
 <details>
-    <summary>Demo 4: Role-Play Collaboration</summary>
+    <summary>Demo 4: Role-Play Collaboration (The three kingdoms)</summary>
     <p>
         <ul>
             <li><b>User:</b> XXX</li>
