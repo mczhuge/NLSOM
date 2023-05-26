@@ -35,7 +35,14 @@ Features:
 ### 🤖 Demo
 #### 1. Focus more on NLSOM
 
-* 网页演示, P图->描述->生成一张新的图->来段音乐。
+* <details>
+    <summary><b>Demo1: Model Collaboration</b></summary>
+    <p>
+        <ul>
+            <li>2022.4.28: Add support of inference on **Hugging Face transformers**. For how to use it, please refer to the doc [transformers.md](transformers.md) and our [Hugging Face models](https://huggingface.co/OFA-Sys).</li>
+        </ul>
+    </p>
+</details>
 
 #### 2. Focus more on Mindstorm
 
