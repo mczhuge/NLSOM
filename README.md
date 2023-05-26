@@ -81,19 +81,12 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
             <li><b>System:</b> Based on this objective, I recommend that NLSOM includes the following AI communities: </li>
         </ul>
     </p>   
-    
-
-    
     <p>
         <ul>
-            <li><b>System:</b> The final loaded AI communities and their corresponding agents are:
-{'role_play': ['GuanYu', 'LiuBei', 'ZhugeLiang', 'ZhangFei']}
+            <li><b>System:</b> The final loaded AI communities and their corresponding agents are:{'role_play': ['GuanYu', 'LiuBei', 'ZhugeLiang', 'ZhangFei']}
     </li>
         </ul>
     </p>     
-    
-   
-
 </details>
 
 ### 💾 Usage
