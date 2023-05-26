@@ -94,17 +94,6 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
         </ul>
     </p>  
     
-    <p>
-        <ul>
-            <li><b>🟤 GuanYu:</b> If I were in the Three Kingdoms period now, I would defeat Cao Cao by utilizing strategic planning and employing my superior military tactics. I would use my unparalleled leadership skills to motivate and inspire my troops to take on the challenge of defeating Cao Cao. Additionally, I would rely on my intelligence and knowledge of the enemy to outwit and outmaneuver him. I do not fear death and I am willing to take great risks in order to achieve victory. Through my courage, strength and determination I will surely prevail.
-    </li>
-        </ul>
-    </p>  
-    
-    
-
-    
-    
 </details>
 
 ### 💾 Usage
