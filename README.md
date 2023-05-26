@@ -46,7 +46,7 @@ Features:
 
 #### 2. Focus more on Mindstorm
 
-* <details>
+<details>
     <summary>Demo 2: Model Collaboration</summary>
     <p>
         <ul>
@@ -56,7 +56,7 @@ Features:
 </details>
 
 
-* <details>
+<details>
     <summary>Demo 3: API Collaboration</summary>
     <p>
         <ul>
@@ -68,7 +68,7 @@ Features:
 
 
 
-* <details>
+<details>
     <summary>Demo 4: Role-Play Collaboration</summary>
     <p>
         <ul>
