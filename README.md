@@ -71,7 +71,7 @@ Features:
 <details>
     <summary><b>
 Demo 4: Collaborative Role-Play (The Three Kingdoms)</b></summary>
-  <img src="[https://img.shields.io/badge/lang-简体中文-red.svg](https://media.discordapp.net/attachments/1090896867753213973/1111747539721539695/mczhuge_The_three_Kingdoms_Icon_with_ancient_Chinese_city._e9187825-51d2-45bd-b903-c9c0c3c613fa.png?width=1178&height=1178)" alt="简体中文">
+  <img src="[https://img.shields.io/badge/lang-简体中文-red.svg](https://media.discordapp.net/attachments/1090896867753213973/1111747539721539695/mczhuge_The_three_Kingdoms_Icon_with_ancient_Chinese_city._e9187825-51d2-45bd-b903-c9c0c3c613fa.png?width=1178&height=1178)">
     <p>
         <ul>
             <li><b>🔴 User:</b> If you find yourself in the Three Kingdoms period, what would be the most effective approach to defeat Cao Cao?</li>
