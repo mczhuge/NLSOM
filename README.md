@@ -83,7 +83,7 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>   
     <p>
         <ul>
-            <li><b>System:</b> The final loaded AI communities and their corresponding agents are: (1) GuanYu, (2) LiuBei, (3) ZhugeLiang, (4) ZhangFei
+            <li><b>System:</b> The final loaded AI communities and their corresponding agents are: (a) GuanYu, (b) LiuBei, (c) ZhugeLiang, (d) ZhangFei
     </li>
         </ul>
     </p>     
