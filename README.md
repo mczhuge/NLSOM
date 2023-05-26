@@ -72,7 +72,7 @@ Features:
     <summary>Demo 4: Role-Play Collaboration</summary>
     <p>
         <ul>
-            <li><b>User:</b> XXX</li>
+            <li><p style="color:red;"><b>User:</b></p> XXX</li>
         </ul>
     </p>
 </details>
