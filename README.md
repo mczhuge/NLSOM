@@ -30,7 +30,44 @@ Features:
 - *Agents* will collaborate to solve the task, we called it *Mindstorm*. 
 - Juergen proposed the *Economy of minds* (EOM, sec 3 in paper), but we have yet to implement it.
 
+### UI
 
+### Demo
+#### 2-1. Focus more on NLSOM
+
+* 网页演示, P图->描述->生成一张新的图->来段音乐。
+
+#### 2-2. Focus more on Mindstorm
+
+* Demo1: Model Collaboration
+<details>
+    <summary><b>Demo2: API Collaboration</b></summary>
+    <p>
+        <ul>
+            <li>2022.4.28: Add support of inference on **Hugging Face transformers**. For how to use it, please refer to the doc [transformers.md](transformers.md) and our [Hugging Face models](https://huggingface.co/OFA-Sys).</li>
+        </ul>
+    </p>
+</details>
+<br></br>
+
+<details>
+    <summary><b>Demo2: API Collaboration</b></summary>
+    <p>
+        <ul>
+            <li>2022.4.28: Add support of inference on **Hugging Face transformers**. For how to use it, please refer to the doc [transformers.md](transformers.md) and our [Hugging Face models](https://huggingface.co/OFA-Sys).</li>
+        </ul>
+    </p>
+</details>
+<br></br>
+
+
+
+<details>
+    <summary><b>Demo3: Role-Play Collaboration</b></summary>
+    <p>
+        Download data (see <a href="datasets.md">datasets.md</a>) and models (see <a href="checkpoints.md">checkpoints.md</a>) and put them in the correct directory. The dataset zipfile <code>coco_image_gen.zip</code> contains <code>coco_vqgan_train.tsv</code>, <code>coco_vqgan_dev.tsv</code> and <code>coco_vqgan_full_test.tsv</code>. Each line of the dataset represents a sample with the following format. The information of uniq-id, image-code (produced by <a href="https://github.com/CompVis/taming-transformers">vqgan</a>, a list of integers separated by single-whitespaces), lowercased caption are separated by tabs.
+    </p>
+</details>
 
 ### 💾 Usage
 
@@ -167,41 +204,7 @@ streamlit run app.py
 ```
 
 
-#### 2-1. Focus more on NLSOM
 
-* 网页演示, P图->描述->生成一张新的图->来段音乐。
-
-#### 2-2. Focus more on Mindstorm
-
-* Demo1: Model Collaboration
-<details>
-    <summary><b>Demo2: API Collaboration</b></summary>
-    <p>
-        <ul>
-            <li>2022.4.28: Add support of inference on **Hugging Face transformers**. For how to use it, please refer to the doc [transformers.md](transformers.md) and our [Hugging Face models](https://huggingface.co/OFA-Sys).</li>
-        </ul>
-    </p>
-</details>
-<br></br>
-
-<details>
-    <summary><b>Demo2: API Collaboration</b></summary>
-    <p>
-        <ul>
-            <li>2022.4.28: Add support of inference on **Hugging Face transformers**. For how to use it, please refer to the doc [transformers.md](transformers.md) and our [Hugging Face models](https://huggingface.co/OFA-Sys).</li>
-        </ul>
-    </p>
-</details>
-<br></br>
-
-
-
-<details>
-    <summary><b>Demo3: Role-Play Collaboration</b></summary>
-    <p>
-        Download data (see <a href="datasets.md">datasets.md</a>) and models (see <a href="checkpoints.md">checkpoints.md</a>) and put them in the correct directory. The dataset zipfile <code>coco_image_gen.zip</code> contains <code>coco_vqgan_train.tsv</code>, <code>coco_vqgan_dev.tsv</code> and <code>coco_vqgan_full_test.tsv</code>. Each line of the dataset represents a sample with the following format. The information of uniq-id, image-code (produced by <a href="https://github.com/CompVis/taming-transformers">vqgan</a>, a list of integers separated by single-whitespaces), lowercased caption are separated by tabs.
-    </p>
-</details>
 
 #### 2. Run
 ```
