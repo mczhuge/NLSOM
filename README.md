@@ -33,11 +33,11 @@ Features:
 
 
 ### 🤖 Demo
-#### 2-1. Focus more on NLSOM
+#### 1. Focus more on NLSOM
 
 * 网页演示, P图->描述->生成一张新的图->来段音乐。
 
-#### 2-2. Focus more on Mindstorm
+#### 2. Focus more on Mindstorm
 
 * Demo1: Model Collaboration
 <details>
@@ -48,7 +48,7 @@ Features:
         </ul>
     </p>
 </details>
-<br></br>
+
 
 <details>
     <summary><b>Demo2: API Collaboration</b></summary>
@@ -58,7 +58,7 @@ Features:
         </ul>
     </p>
 </details>
-<br></br>
+
 
 
 
