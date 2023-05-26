@@ -78,12 +78,12 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>
     <p>
         <ul>
-            <li><b>⚪️ NLSOM System:</b> Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) Role-play</u></li>
+            <li><b>⚪️ NLSOM System (Recommendation):</b> Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) Role-play</u></li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li><b>⚪️ NLSOM System:</b> The final loaded AI communities and their corresponding agents are: (a) GuanYu, (b) LiuBei, (c) ZhugeLiang, (d) ZhangFei
+            <li><b>⚪️ NLSOM System (Recommendation):</b> We load the recommended AI communities with their their corresponding agents: (a) GuanYu, (b) LiuBei, (c) ZhugeLiang, (d) ZhangFei
     </li>
         </ul>
     </p>     
@@ -111,6 +111,13 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
     </li>
         </ul>
     </p> 
+    <p>
+        <ul>
+            <li><b>⚪️ NLSOM System:</b>  To defeat Cao Cao, I would use a combination of strategy and cunning. I would first employ a strategy of deception by convincing Cao Cao that I have a much larger army than I actually possess. I would then use my own army to surround and contain him, preventing any escape. Finally, I would use my own cunning and intelligence to outsmart him in the battles that ensued, outwitting him in any way possible in order to gain victory.
+    </li>
+        </ul>
+    </p>   
+    
 </details>
 
 ### 💾 Usage
