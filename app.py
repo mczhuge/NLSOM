@@ -10,12 +10,11 @@ from PIL import Image
 from society.community import *
 from env.prompt import NLSOM_PREFIX, NLSOM_FORMAT_INSTRUCTIONS, NLSOM_SUFFIX, NLSOM_PREFIX_CN, NLSOM_FORMAT_INSTRUCTIONS_CN, NLSOM_SUFFIX_CN, AI_SOCIETY
 
-#export OPENAI_API_KEY=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
+# export OPENAI_API_KEY=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
 # eyJhbGciOiJIUzUxMiIsImlhdCI6MTY4NDQ4MzEyNywiZXhwIjoxNjg0NTY5NTE2fQ.eyJpZCI6Im1pbmdjaGVuemh1Z2UifQ.Kmm8XriNPdc_a4fF2tLOeGH2SvlpNQ84YT2ZiDaK0G9CJ9W8DmXuBhWb8dsTyTJIweCDg7pfy2-ko8b5u7C46Q
 # mczhuge
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
-device = torch.device("cuda") if torch.cuda.is_available() else "cpu"
+#openai.api_key = os.getenv('OPENAI_API_KEY')
 os.makedirs('data', exist_ok=True)
 
 from constants import (
@@ -36,7 +35,7 @@ from constants import (
 )
 
 from utils import (
-    advanced_options_form,
+    #advanced_options_form,
     authenticate,
     delete_uploaded_file,
     generate_response,
@@ -63,6 +62,7 @@ st.text("3️⃣ I will automatically organize an NLSOM and solve the task.")
 SESSION_DEFAULTS = {
     "past": [],
     "usage": {},
+    "device": "cuda:0", # TODO: support multiple GPUs
     "chat_history": [],
     "generated": [],
     "data_name": [],
@@ -145,8 +145,8 @@ with st.sidebar:
     clear_button = st.button("Clear Conversation", key="clear")
 
     # Advanced Options
-    if ENABLE_ADVANCED_OPTIONS:
-        advanced_options_form()
+    # if ENABLE_ADVANCED_OPTIONS:
+    #     advanced_options_form()
 
 
 
@@ -199,6 +199,8 @@ def load_candidate(candidate_list, AI_SOCIETY):
 
     print("==candidate_list==", candidate_list)
 
+    device = st.session_state["device"]
+
     load_dict = {}
     for community in candidate_list:
         print("==community==", community.strip())
@@ -206,7 +208,7 @@ def load_candidate(candidate_list, AI_SOCIETY):
         for agent in agents:
             print("==community, agent==", community.strip(), agent)
             # Change the device "cuda:0" if you have more.
-            st.session_state["load_dict"][agent] = "cpu" #"cuda:0" # TODO: Automatically load into different GPUs
+            st.session_state["load_dict"][agent] = device #"cpu" #"cuda:0" # TODO: Automatically load into different GPUs
             if str(community).strip() not in st.session_state["agents"].keys():
                 st.session_state["agents"][str(community).strip()] = [agent]
             else:
@@ -247,6 +249,8 @@ if uploaded_file and uploaded_file != st.session_state["uploaded_file"]:
     data_source = save_uploaded_file(uploaded_file)
     #data_name = st.session_state["data_name"] = "data/" + data_source.split("/")[-1]
     filename = "data/" + uploaded_file.name
+
+    # TODO: 识别上传图片的属性
 
     if len(re.findall(r'\b([-\w]+\.(?:jpg|png|jpeg|bmp|svg|ico|tif|tiff|gif|JPG))\b', filename)) != 0:
         filetype = "image"
@@ -291,7 +295,9 @@ with container:
         st.session_state["past"].append(user_input)
         print("1", st.session_state["data_name"])
         print("2", user_input)
-        community = Organize(st.session_state["data_name"] + " " + user_input)
+        if st.session_state["data_name"] != []:
+            community = Organize(st.session_state["data_name"] + " " + user_input) # TODO: 验证是否有识别这张图
+        community = Organize(user_input)
         #message(f"基于这个目标, 我推荐NLSOM需要包含以下团体: {community}")
         community = community.replace("[", "").replace("]", "").replace("'", "").split(",")
         num_icon = ["1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣","🔟"]
