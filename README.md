@@ -36,7 +36,7 @@ Features:
 #### 1. Focus more on NLSOM
 
 * <details>
-    <summary><b>Demo 1: Society of Mind</b></summary>
+    <summary>Demo 1: Society of Mind</summary>
     <p>
         <ul>
             <li>2022.4.28: Add support of inference on **Hugging Face transformers**. For how to use it, please refer to the doc [transformers.md](transformers.md) and our [Hugging Face models](https://huggingface.co/OFA-Sys).</li>
@@ -57,7 +57,7 @@ Features:
 
 
 * <details>
-    <summary><b>Demo 3: API Collaboration</b></summary>
+    <summary>Demo 3: API Collaboration</summary>
     <p>
         <ul>
             <li>2022.4.28: Add support of inference on **Hugging Face transformers**. For how to use it, please refer to the doc [transformers.md](transformers.md) and our [Hugging Face models](https://huggingface.co/OFA-Sys).</li>
@@ -69,7 +69,7 @@ Features:
 
 
 * <details>
-    <summary><b>Demo 4: Role-Play Collaboration</b></summary>
+    <summary>Demo 4: Role-Play Collaboration</summary>
     <p>
         Download data (see <a href="datasets.md">datasets.md</a>) and models (see <a href="checkpoints.md">checkpoints.md</a>) and put them in the correct directory. The dataset zipfile <code>coco_image_gen.zip</code> contains <code>coco_vqgan_train.tsv</code>, <code>coco_vqgan_dev.tsv</code> and <code>coco_vqgan_full_test.tsv</code>. Each line of the dataset represents a sample with the following format. The information of uniq-id, image-code (produced by <a href="https://github.com/CompVis/taming-transformers">vqgan</a>, a list of integers separated by single-whitespaces), lowercased caption are separated by tabs.
     </p>
