@@ -73,6 +73,7 @@ Features:
     <p>
         <ul>
             <li><p style="color:red;">User:</p> XXX</li>
+            <span style="color:red">some **This is Red Bold.** text</span>
         </ul>
     </p>
 </details>
