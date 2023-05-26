@@ -25,6 +25,7 @@ ORGANIZING_EXAMPLE = [
     {"objective": "Tell me about this image, where is this place? What is the temperature of this place now?", "society": str(AI_SOCIETY), "organizing": ["image_captioning", "vqa", "weathermap"]},
     {"objective": "Show me the answer of the question in the image", "society": str(AI_SOCIETY), "organizing": ["image_captioning", "ocr", "wolframalpha"]},
     {"objective": "Help me inpainting the image", "society": str(AI_SOCIETY), "organizing": ["image_inpainting"]},
+    {"objective": "If you are in the three kindoms, how you can conquer the world.", "society": str(AI_SOCIETY), "organizing": ["role_play"]},
 ]
 
 
