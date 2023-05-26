@@ -261,6 +261,13 @@ We also thank great AI platforms and all the used models or APIs:
 References to cite:
 
 ```
+@article{zhuge2023mindstorms,
+  title={Mindstorms in Natural Language-based Societies of Mind},
+  author={XXX},
+  journal={arXiv preprint arXiv:XXX},
+  year={2023}
+}
+
 @article{schmidhuber2015learning,
   title={On learning to think: Algorithmic information theory for novel combinations of reinforcement learning controllers and recurrent neural world models},
   author={Schmidhuber, J{\"u}rgen},
