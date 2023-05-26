@@ -82,9 +82,7 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
         </ul>
     </p>   
     
-    ``
-    1️⃣ Role-play
-    ``
+    `` 1️⃣ Role-play``
     
     <p>
         <ul>
