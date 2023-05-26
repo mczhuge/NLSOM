@@ -8,7 +8,7 @@
 <a href="https://github.com/reworkd/AgentGPT/blob/master/docs/README.zh-HANS.md"><img src="https://img.shields.io/badge/lang-简体中文-red.svg" alt="简体中文"></a>
 
 
-### ✨ Introduction
+## ✨ Introduction
 
 This project is the **technical extenstion** for original [NLSOM paper](): allowing you to build a specific NLSOM quickly. 
 When you provide the inputs (files or targets), LLM automates all these processes for you:
@@ -24,7 +24,7 @@ Features:
 - [x] An elegant UI: facilitate better visualization and support for diverse media sources (image, text, audio, video, docs, pdf, etc).
 
 
-### 💡️ Important Concepts
+## 💡️ Important Concepts
 
 - We introduce the concepts NLSOM, which contains society, community and agent.
 - Agents will collaborate to solve the task, we called it Mindstorm. 
@@ -32,8 +32,8 @@ Features:
 
 
 
-### 🤖 Demo
-#### 1. Focus more on NLSOM
+## 🤖 Demo
+### 1. Focus more on NLSOM
 
 <details>
     <summary>Demo 1: Society of Mind</summary>
@@ -44,7 +44,7 @@ Features:
     </p>
 </details>
 
-#### 2. Focus more on Mindstorm
+### 2. Focus more on Mindstorm
 
 <details>
     <summary>Demo 2: Model Collaboration</summary>
