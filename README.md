@@ -4,12 +4,8 @@
 
 ![](https://i.imgur.com/waxVImv.png)
 [![KAUST-AINT](https://cemse.kaust.edu.sa/themes/custom/bootstrap_cemse/logo.svg)](https://cemse.kaust.edu.sa/ai)
-<img src="config/ai-init.png" width="100" height="30" align="middle" />
+<img src="config/ai-init.png" width="50" height="50" align="middle" />
 
-作者：Fsn_soul
-链接：https://www.jianshu.com/p/5c1805c6f0ff
-来源：简书
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2304.12995)
 <a href="https://github.com/reworkd/AgentGPT/blob/master/docs/README.zh-HANS.md"><img src="https://img.shields.io/badge/lang-简体中文-red.svg" alt="简体中文"></a>
 
