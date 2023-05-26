@@ -28,7 +28,7 @@ Features:
 
 - We introduce the concepts NLSOM, which contains *society, community and agent*.
 - *Agents* will collaborate to solve the task, we called it *Mindstorm*. 
-- Juergen proposed the *Economy of minds* (EOM, sec 4 in paper), but we have yet to implement it.
+- Juergen proposed the *Economy of minds* (EOM, sec 3 in paper), but we have yet to implement it.
 
 
 
@@ -50,6 +50,7 @@ pip install openai
 pip install guidance
 pip install wolframalpha
 pip install wikipedia
+pip install arxiv
 pip install bs4
 pip install streamlit==1.22.0
 pip install streamlit_chat==0.0.2.2
@@ -69,9 +70,14 @@ pip install ffmpeg
 pip install trimesh
 pip install PyMCubes
 pip install scikit-image
-
-
+pip install TTS
 pip install easyocr
+pip install guidance
+
+
+
+
+
 pip install tinydb
 pip install deeplake
 pip install python-dotenv
@@ -219,25 +225,30 @@ eval `ssh-agent -s`
 ssh-add ~/.ssh/id_rsa
 ```
 
+# API
 
+```
+export REPLICATE_API_TOKEN=r8_WssXC8wLfU6nIOZSgm69CM49SFvuObr35zgcu
+```
 
 ## Preliminary Experiments on Paper 
-The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment/vqa). They provide some basic exploration of Mindstorm and natural language-based society of mind.
+The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and natural language-based society of mind.
 
 ## Contribute
-Please feel free to submit a pull request if you can optimize the identified issue. We will promptly incorporate any improvements. 
-* Support targets with multiple inputs
-* Support displaying 3D output
-* Add more communities and agents
-* Optimize the prompt of the Mindstorm
-* Design a more accurate reward mechanism
-* Make the NLSOM learnable
+Please feel free to submit a pull request if you can optimize the identified issues. We will promptly incorporate any improvements.
+
+* Support targets with multiple inputs.
+* Support displaying 3D output.
+* Add more communities and agents.
+* Optimize the prompt of the Mindstorm.
+* Design a more accurate reward mechanism.
+* Make the NLSOM learnable.
 
 ## Acknowledgments
 
 This project utilizes parts of code from the following open-source repositories:
 
-[langchain](https://github.com/hwchase17/langchain), [BabyAGI](https://github.com/yoheinakajima/babyagi), [TaskMatrix](https://github.com/microsoft/TaskMatrix), [DataChad](https://github.com/gustavz/DataChad), [streamlit](https://github.com/streamlit/streamlit).
+[langchain](https://github.com/hwchase17/langchain), [BabyAGI](https://github.com/yoheinakajima/babyagi), [TaskMatrix](https://github.com/microsoft/TaskMatrix), [DataChad](https://github.com/gustavz/DataChad), [streamlit](https://github.com/streamlit/streamlit), [CAMEL](https://github.com/lightaime/camel), [Guidance](https://github.com/microsoft/guidance).
 
 We also thank great AI platforms and all the used models or APIs:
 
