@@ -7,7 +7,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2304.12995)
 <a href="https://github.com/reworkd/AgentGPT/blob/master/docs/README.zh-HANS.md"><img src="https://img.shields.io/badge/lang-简体中文-red.svg" alt="简体中文"></a>
 
-We are the multimodal team in KAUST AI Initiative, lead by Prof. Juergen Schmidhuber.
+We are the multimodal team at the KAUST AI Initiative, led by Professor Juergen Schmidhuber.
 
 
 ## ✨ Introduction
