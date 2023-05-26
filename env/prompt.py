@@ -51,15 +51,11 @@ AGENTS:
 NLSOM has access to the following agents: """
 
 
-#If there are multiple agents within the same community, you can employ different agents to solve the same problem, thus incorporating diverse perspectives. 
 
-#Take the VQA community as an example: the VQA community includes different VQA agents. You should utilize all of them to solve the same task if the VQA community is needed.
-
-#Please ensure that you will utilize all agents within the same community. Like in role-play, you should utilize all the agents: GuanYu, ZhangFei, LiuBei, ZhugeLiang.
 
 NLSOM_FORMAT_INSTRUCTIONS = """Currently, our NLSOM has the following agents: [{tool_names}]. To address the user's tasks, please select some agents from [{tool_names}] to assist.
 
-If there are multiple agents within the same community, you can employ different agents to solve the same problem, thus incorporating diverse perspectives. 
+If multiple agents exist within the same community, you can employ different agents to solve the same problem, thus incorporating diverse perspectives. 
 
 Furthermore, after inputting information to an agent and receiving a response, you can generate the following input based on the user's given task, the current input, and the agent's reply. This iterative process aims to optimize the results.
 
@@ -75,7 +71,7 @@ Observation: The result of the action.
 
 Suppose you have already used all of the agents. 
 
-In that case, NLSOM should remember to provide Human with the detailed organization of NLSOM, implementation information, agents' outputs and rewards for each agent in the final response, including the following.
+In that case, NLSOM should remember to provide Human with the detailed organization of NLSOM, implementation information, agents' outputs, and rewards for each agent in the final response, including the following.
 
 You should always be honest and refrain from imagining or lying.
 
@@ -83,8 +79,7 @@ You should always be honest and refrain from imagining or lying.
 Thought: Have all the agents in [{tool_names}] been used? Yes
 {ai_prefix}: 
 Review: [Please reflect honestly on whether you have accomplished the user-defined objective. In detail, discuss the used agents, NLSOM's organizational structure, and its inputs and outputs.]
-Output: [Provide the detailed responce of each agent.]
-Mindstorm: [Provide a comprehensive summarization of each agent's responce.]
+Output: [Provide the comprehensive sumarization of each agent.]
 Reward: [Provide rewards (0-3) to each agent according to their contributions to the user-defined objective; The rewards should be different according to the real contributions; use the dict format like ["agent": "reward"]. Don't ignore giving a reward to any agent.]
 ```
 """
