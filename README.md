@@ -173,13 +173,26 @@ streamlit run app.py
 
 #### 2-2. Focus more on Mindstorm
 
-##### 1. Model Collaboration
+* Demo1: Model Collaboration
+<details>
+    <summary><b>Demo2: API Collaboration</b></summary>
+    <p>
+        <ul>
+            <li>2022.4.28: Add support of inference on **Hugging Face transformers**. For how to use it, please refer to the doc [transformers.md](transformers.md) and our [Hugging Face models](https://huggingface.co/OFA-Sys).</li>
+        </ul>
+    </p>
+</details>
+<br></br>
 
-* JSON 演示 (VQA Demo)
-
-##### 2. API Collaboration
-
-* JSON 演示 (Search Demo)
+<details>
+    <summary><b>Demo2: API Collaboration</b></summary>
+    <p>
+        <ul>
+            <li>2022.4.28: Add support of inference on **Hugging Face transformers**. For how to use it, please refer to the doc [transformers.md](transformers.md) and our [Hugging Face models](https://huggingface.co/OFA-Sys).</li>
+        </ul>
+    </p>
+</details>
+<br></br>
 
 <details>
     <summary><b>Demo3: Role-Play Collaboration</b></summary>
