@@ -78,27 +78,39 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>
     <p>
         <ul>
-            <li><b>⚪️ System:</b> Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) Role-play</u></li>
+            <li><b>⚪️ NLSOM System:</b> Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) Role-play</u></li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li><b>⚪️ System:</b> The final loaded AI communities and their corresponding agents are: (a) GuanYu, (b) LiuBei, (c) ZhugeLiang, (d) ZhangFei
+            <li><b>⚪️ NLSOM System:</b> The final loaded AI communities and their corresponding agents are: (a) GuanYu, (b) LiuBei, (c) ZhugeLiang, (d) ZhangFei
     </li>
         </ul>
     </p>     
     <p>
         <ul>
-            <li><b>🟤 GuanYu:</b> If I were in the Three Kingdoms period now, I would defeat Cao Cao by utilizing strategic planning and employing my superior military tactics. I would use my unparalleled leadership skills to motivate and inspire my troops to take on the challenge of defeating Cao Cao. Additionally, I would rely on my intelligence and knowledge of the enemy to outwit and outmaneuver him. I do not fear death and I am willing to take great risks in order to achieve victory. Through my courage, strength and determination I will surely prevail.
+            <li><b>🟢 GuanYu:</b> If I were in the Three Kingdoms period now, I would defeat Cao Cao by utilizing strategic planning and employing my superior military tactics. I would use my unparalleled leadership skills to motivate and inspire my troops to take on the challenge of defeating Cao Cao. Additionally, I would rely on my intelligence and knowledge of the enemy to outwit and outmaneuver him. I do not fear death and I am willing to take great risks in order to achieve victory. Through my courage, strength and determination I will surely prevail.
     </li>
         </ul>
     </p>  
     <p>
         <ul>
-            <li><b>🟤 GuanYu:</b> If I were in the Three Kingdoms period now, I would defeat Cao Cao by utilizing strategic planning and employing my superior military tactics. I would use my unparalleled leadership skills to motivate and inspire my troops to take on the challenge of defeating Cao Cao. Additionally, I would rely on my intelligence and knowledge of the enemy to outwit and outmaneuver him. I do not fear death and I am willing to take great risks in order to achieve victory. Through my courage, strength and determination I will surely prevail.
+            <li><b>🟡 LiuBei:</b> In the Three Kingdoms period, I would defeat Cao Cao by uniting the people of the realm under my leadership. I would inspire them to rise up and fight for a righteous cause, encouraging them to believe that together we can overcome any obstacle. In addition, I would employ a combination of diplomatic and military strategies to outwit Cao Cao and his forces. I would also rally the support of the other great leaders of the time, such as Sun Quan and Liu Shan, and form an alliance to defeat Cao Cao. Ultimately, I believe that by unifying the people and employing a multi-pronged approach, we can overcome any foe and secure victory in the end.
     </li>
         </ul>
     </p>   
+    <p>
+        <ul>
+            <li><b>🔵 ZhugeLiang:</b> As the most accomplished strategist of my era, I believe the best way to defeat Cao Cao is to use an unconventional approach. I propose a strategy of feigning weakness and then attacking unexpectedly, thus catching Cao Cao off guard. By using this tactic, I believe it is possible to overwhelm Cao Cao's forces and ultimately defeat him. Furthermore, I would also employ psychological tactics, such as spreading rumors and misinformation, to weaken his resolve and undermine his confidence. By combining these two tactics, we can ensure victory over Cao Cao.
+    </li>
+        </ul>
+    </p> 
+    <p>
+        <ul>
+            <li><b>🟤 ZhangFei:</b>  To defeat Cao Cao, I would use a combination of strategy and cunning. I would first employ a strategy of deception by convincing Cao Cao that I have a much larger army than I actually possess. I would then use my own army to surround and contain him, preventing any escape. Finally, I would use my own cunning and intelligence to outsmart him in the battles that ensued, outwitting him in any way possible in order to gain victory.
+    </li>
+        </ul>
+    </p> 
 </details>
 
 ### 💾 Usage
