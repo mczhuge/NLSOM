@@ -69,8 +69,8 @@ Features:
 
 
 <details>
-    <summary>
-Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
+    <summary><b>
+Demo 4: Collaborative Role-Play (The Three Kingdoms)</b></summary>
     <p>
         <ul>
             <li><b>🔴 User:</b> If you find yourself in the Three Kingdoms period, what would be the most effective approach to defeat Cao Cao?</li>
