@@ -73,12 +73,12 @@ Features:
 Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
     <p>
         <ul>
-            <li><b>User:</b> <em>If you find yourself in the Three Kingdoms period, what would be the most effective approach to defeat Cao Cao?</em></li>
+            <li><b>User:</b> If you find yourself in the Three Kingdoms period, what would be the most effective approach to defeat Cao Cao?</li>
         </ul>
     </p>
     <p>
         <ul>
-            <li><b>System:</b> <em> Based on this objective, I recommend that NLSOM includes the following AI communities: 1️⃣ Role-play</em></li>
+            <li><b>System:</b> Based on this objective, I recommend that NLSOM includes the following AI communities: 1️⃣ Role-play</li>
         </ul>
     </p>   
     
