@@ -57,7 +57,8 @@ Features:
 
 
 <details>
-    <summary>Demo 3: API Collaboration</summary>
+    <summary><b>
+Demo 3: Collaborative API Usages (Search for KAUST AI Initiative)</b></summary>
     <p>
         <ul>
             <li>2022.4.28: Add support of inference on **Hugging Face transformers**. For how to use it, please refer to the doc [transformers.md](transformers.md) and our [Hugging Face models](https://huggingface.co/OFA-Sys).</li>
