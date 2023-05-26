@@ -32,7 +32,7 @@ Features:
 
 
 
-### Demo
+### 🤖 Demo
 #### 2-1. Focus more on NLSOM
 
 * 网页演示, P图->描述->生成一张新的图->来段音乐。
