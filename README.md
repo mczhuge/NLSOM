@@ -248,7 +248,7 @@ Please feel free to submit a pull request if you can optimize the identified iss
 
 This project utilizes parts of code from the following open-source repositories:
 
-[langchain](https://github.com/hwchase17/langchain), [BabyAGI](https://github.com/yoheinakajima/babyagi), [TaskMatrix](https://github.com/microsoft/TaskMatrix), [DataChad](https://github.com/gustavz/DataChad), [streamlit](https://github.com/streamlit/streamlit), [CAMEL](https://github.com/lightaime/camel).
+[langchain](https://github.com/hwchase17/langchain), [BabyAGI](https://github.com/yoheinakajima/babyagi), [TaskMatrix](https://github.com/microsoft/TaskMatrix), [DataChad](https://github.com/gustavz/DataChad), [streamlit](https://github.com/streamlit/streamlit).
 
 We also thank great AI platforms and all the used models or APIs:
 
