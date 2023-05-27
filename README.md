@@ -107,7 +107,8 @@ Features:
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112116808401555486/Presentation5_pdf.io.png?width=1620&height=262">
     <p>
         <ul>
-            <li><b>🔴 User:</b> Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
+            <li><b>🔴 User:</b> What century were these invented in? 
+ </li>
         </ul>
     </p>
     <p>
