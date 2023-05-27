@@ -339,8 +339,9 @@ pip install ffmpeg
 pip install trimesh
 pip install PyMCubes
 pip install scikit-image
-pip install TTS
+pip install TTS # Change many existed packages
 pip install easyocr
+pip install replicate==0.8.3
 
 
 
