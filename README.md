@@ -33,7 +33,7 @@ Features:
 
 
 ## 🤖 Demo
-### 1. Focus more on NLSOM
+### 1️⃣ Focus more on NLSOM
 
 <details open>
     <summary><b>
