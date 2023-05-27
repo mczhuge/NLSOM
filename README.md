@@ -379,7 +379,7 @@ The original experiments on paper can be found in [experiments](https://github.c
 Please feel free to submit a pull request if you can optimize the identified issues. We will promptly incorporate any improvements.
 
 * Make mindstorm more stable: 1) design a better prompt, 2) develop a tailor-made mindstorm system with or without using LangChain.
-* Support multi-turn mindstorm.
+* Support multi-turn mindstorms.
 * Support targets with multiple inputs.
 * Support displaying 3D output.
 * Add more communities and agents.
