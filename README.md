@@ -35,7 +35,7 @@ Features:
 ## 🤖 Demo
 ### 1. Focus more on NLSOM
 
-<details>
+<details open>
     <summary>Demo 1: Society of Mind</summary>
     <p>
         <ul>
