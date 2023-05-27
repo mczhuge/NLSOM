@@ -37,7 +37,7 @@ Features:
 
 <details open>
     <summary><b>
- Demo 1: Society of Mind (XXX)</b></summary>
+ 🧸 Demo 1: Society of Mind (XXX)</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112116808401555486/Presentation5_pdf.io.png?width=1620&height=262">
     <p>
         <ul>
