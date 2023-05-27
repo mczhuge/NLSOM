@@ -1,3 +1,5 @@
+# A Simple Role-Play Framework
+
 import os
 import openai
 
