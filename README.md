@@ -48,7 +48,7 @@ Features:
 
 <details>
     <summary><b>
-Demo 3: Demo 2: Model Collaboration (VQA Agent)</b></summary>
+ CLICK 👉 Demo 2: Model Collaboration (VQA Agent)</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112102854895865937/Presentation5-1.png?width=1620&height=228" alt="some_text">
     <p>
         <ul>
@@ -112,7 +112,7 @@ Demo 3: Demo 2: Model Collaboration (VQA Agent)</b></summary>
 
 <details>
     <summary><b>
-Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
+CLICK 👉 Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112102854895865937/Presentation5-1.png?width=1620&height=228" alt="some_text">
     <p>
         <ul>
@@ -181,7 +181,7 @@ Summary: Existential risk from artificial general intelligence is the hypothesis
 
 <details>
     <summary><b>
-Demo 4: Collaborative Role-Play (The Three Kingdoms)</b></summary>
+CLICK 👉 Demo 4: Collaborative Role-Play (The Three Kingdoms)</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1111773821859541012/image.png?width=1620&height=436" alt="some_text">
     <p>
         <ul>
