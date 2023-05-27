@@ -21,7 +21,7 @@ When you provide the inputs (files or targets), LLM automates all these processe
 
 Features:
 - [x] Rule your NLSOM: effortlessly organize an NLSOM in various fields by simply changing the template.
-- [x] Easy to extend: customise your own community and agents (now we have 17 communities and 32 agents). 
+- [x] Easy to extend: customise your own community and agents (now we have 17 communities and 31 agents). 
 - [x] Reward Design: provide a reward mechanism (albeit rough). You can easily upgrade to a more refined version.
 - [x] An elegant UI: facilitate better visualization and support for diverse media sources (image, text, audio, video, docs, pdf, etc).
 
