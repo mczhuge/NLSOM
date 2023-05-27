@@ -36,8 +36,8 @@ Features:
 ### 1. Focus more on NLSOM
 
 <details open>
-    <summary><b>
- Demo 1: Society of Mind (XXX)</b></summary>
+    <summary>
+ Demo 1: Society of Mind (XXX)</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112116808401555486/Presentation5_pdf.io.png?width=1620&height=262">
     <p>
         <ul>
@@ -166,8 +166,8 @@ Features:
 </details>
 
 <details>
-    <summary><b>
-Demo 3: Collaborative API Usages (Introduce "AGI")</b> 👈 CLIKE TO OPEN</summary>
+    <summary>
+Demo 3: Collaborative API Usages (Introduce "AGI") 👈 CLIKE TO OPEN</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112102854895865937/Presentation5-1.png?width=1620&height=228" alt="some_text">
     <p>
         <ul>
@@ -235,8 +235,8 @@ Summary: Existential risk from artificial general intelligence is the hypothesis
 
 
 <details open>
-    <summary><b>
-Demo 4: Collaborative Role-Play (The Three Kingdoms)</b></summary>
+    <summary>
+Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1111773821859541012/image.png?width=1620&height=436" alt="some_text">
     <p>
         <ul>
