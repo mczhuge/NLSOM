@@ -98,7 +98,8 @@ Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
     </p> 
     <p>
         <ul>
-            <li><b>🟤 Arxiv:</b>  ['Published: 2018-05-21', 'Title: AGI Safety Literature Review', 'Authors: Tom Everitt, Gary Lea, Marcus Hutter', 'Summary: The development of Artificial General Intelligence (AGI) promises to be a', 'major event. Along with its many potential benefits, it also raises serious', 'safety concerns (Bostrom, 2014). The intention of this paper is to provide an']
+            <li><b>🟤 Arxiv:</b>  Published: 2018-05-21; Title: AGI Safety Literature Review; Authors: Tom Everitt, Gary Lea, Marcus Hutter; Summary: The development of Artificial General Intelligence (AGI) promises to be a major event. Along with its many potential benefits, it also raises serious safety concerns (Bostrom, 2014). The intention of this paper is to provide an
+easily accessible and up-to-date collection of references for the emerging field of AGI safety. A significant number of safety problems for AGI have been identified. We list these, and survey recent research on solving them. We also cover works on how best to think of AGI from the limited knowledge we have today, predictions for when AGI will first be created, and what will happen after its creation. Finally, we review the current public policy on AGI.
     </li>
         </ul>
     </p> 
