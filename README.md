@@ -32,7 +32,7 @@ Features:
 
 
 
-# 🤖 Demo
+# 🧸 Demo
 ### 1. Focus more on NLSOM
 
 <details open>
