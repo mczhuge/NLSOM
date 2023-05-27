@@ -172,7 +172,7 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</b></summary>
     </p> 
     <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Review):</b>  The NLSOM has successfully solved the user-defined objective by utilizing all agents within the same community. Each agent has provided a unique perspective on how to defeat Cao Cao, and the combination of these perspectives has resulted in a comprehensive understanding of the situation.
+            <li><b>⚪️ NLSOM System (Review):</b>  The NLSOM has successfully solved the user-defined objective by utilizing all four agents. The organizational structure of the NLSOM was effective in providing a comprehensive solution to the user-defined objective. The agents provided different perspectives and strategies to defeat Cao Cao, which were then combined to form a comprehensive solution.
     </li>
         </ul>
     </p>  
