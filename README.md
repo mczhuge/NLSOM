@@ -324,7 +324,8 @@ pip install streamlit_chat==0.0.2.2
 pip install colorama
 pip install torch==1.13.1
 pip install torchvision==0.14.1
-pip install transformers
+#pip install transformers
+conda install -c huggingface transformers
 python3 -m pip install nvidia-cudnn-cu11==8.6.0.163 tensorflow==2.12.*
 pip install easydict
 pip install modelscope[cv] -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
