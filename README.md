@@ -46,9 +46,9 @@ Features:
 
 ### 2. Focus more on Mindstorm
 
-<details>
+<details open>
     <summary><b>
- Demo 2: Model Collaboration (Multimodal Agents)</b> 👈 CLICK </summary>
+ Demo 2: Model Collaboration (Multimodal Agents)</b> 👈 CLIKE TO CLOSE</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112102854895865937/Presentation5-1.png?width=1620&height=228" alt="some_text">
     <p>
         <ul>
@@ -110,9 +110,9 @@ Features:
     </p> 
 </details>
 
-<details>
+<details open>
     <summary><b>
-Demo 3: Collaborative API Usages (Introduce "AGI")</b> 👈 CLICK</summary>
+Demo 3: Collaborative API Usages (Introduce "AGI")</b> 👈 CLICK TO CLOSE</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112102854895865937/Presentation5-1.png?width=1620&height=228" alt="some_text">
     <p>
         <ul>
@@ -179,9 +179,9 @@ Summary: Existential risk from artificial general intelligence is the hypothesis
 
 
 
-<details>
+<details open>
     <summary><b>
-Demo 4: Collaborative Role-Play (The Three Kingdoms)</b>👈 CLICK</summary>
+Demo 4: Collaborative Role-Play (The Three Kingdoms)</b>👈 CLICK TO CLOSE</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1111773821859541012/image.png?width=1620&height=436" alt="some_text">
     <p>
         <ul>
