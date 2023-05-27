@@ -116,7 +116,7 @@ Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
     </p> 
      <p>
         <ul>
-            <li><b>💰 NLSOM System (Reward):</b>  ["GuanYu": 2, "LiuBei": 2, "ZhugeLiang": 3, "ZhangFei": 2]
+            <li><b>💰 NLSOM System (Reward):</b>  ["GuanYu": 2, "LiuBei": 2, "ZhugeLiang": 3, "ZhangFei": 3]
     </li>
         </ul>
     </p> 
