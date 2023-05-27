@@ -104,13 +104,13 @@ Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
     </p> 
     <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Review):</b>  The NLSOM has successfully solved the user-defined objective by employing all the agents from [Arxiv, Wikipedia, WolframAlpha, BingSearch]. The Arxiv agent provided a paper related to AGI, the Wikipedia agent provided a detailed description of AGI, the WolframAlpha agent provided a definition of AGI, and the BingSearch agent provided a comprehensive overview of AGI.
+            <li><b>⚪️ NLSOM System (Review):</b>  The NLSOM has successfully solved the user-defined objective by utilizing all agents. The agents have provided comprehensive information about AGI from different perspectives, including definition, potential and recent work.
     </li>
         </ul>
     </p>  
      <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Summary):</b>  Artificial General Intelligence (AGI) is a type of hypothetical intelligent agent that can learn to accomplish any intellectual task that human beings or other animals can perform. It is a primary goal of some artificial intelligence research and companies such as OpenAI, DeepMind, and Anthropic. AGI is a common topic in science fiction and futures studies. It is on-par with human capabilities, i.e. AGI system can perform any task that a human can.
+            <li><b>⚪️ NLSOM System (Summary):</b>  Artificial General Intelligence (AGI) is a representation of generalized human cognitive abilities in software so that, faced with an unfamiliar task, the AGI system could find a solution. AGI is expected to exceed human intelligence in every aspect and is part of the broader fields of Artificial Intelligence (AI) and Cognitive Science. AGI has the immense potential to mimic human intelligence, transfer learning, perform cognitive tasks, and operate autonomously. AGI is also expected to be the single most revolutionary step in human history.
     </li>
         </ul>
     </p> 
