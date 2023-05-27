@@ -178,7 +178,7 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</b></summary>
     </p>  
      <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Summary):</b>  GuanYu suggested using both military and diplomatic tactics to defeat Cao Cao. LiuBei suggested relying on the strength of loyal officers, the wisdom of advisers, and the courage of the people. ZhugeLiang suggested using tactical warfare, psychological warfare, and political maneuvering. ZhangFei suggested using strength, courage, intelligence, and the loyalty of followers.
+            <li><b>⚪️ NLSOM System (Summary):</b>  The most effective approach to defeat Cao Cao in the Three Kingdoms period is to combine the strength of GuanYu, LiuBei, ZhugeLiang, and ZhangFei. GuanYu suggested using both military and diplomatic tactics, LiuBei suggested using the power of unity and dedication, ZhugeLiang suggested using tactical warfare, psychological warfare, and political maneuvering, and ZhangFei suggested using strength, courage, intelligence, and the loyalty of followers. By combining these strategies, Cao Cao can be defeated.
     </li>
         </ul>
     </p> 
