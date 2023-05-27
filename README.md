@@ -32,8 +32,8 @@ Features:
 
 
 
-## 🤖 Demo
-### 1. Focus more on NLSOM
+# 🤖 Demo
+## 1. Focus more on NLSOM
 
 <details open>
     <summary><b>
