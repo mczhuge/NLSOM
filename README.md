@@ -377,7 +377,7 @@ The original experiments on paper can be found in [experiments](https://github.c
 ## Limitation
 Please feel free to submit a pull request if you can optimize the identified issues. We will promptly incorporate any improvements.
 
-* To enhance Mindstorm prompt stability. Alternatively, a new Mindstorm system can be developed with ot without using LangChain within a few days.
+* To enhance Mindstorm prompt stability. Alternatively, a new Mindstorm system can be developed with or without using LangChain within a few days.
 * Support targets with multiple inputs.
 * Support displaying 3D output.
 * Add more communities and agents.
