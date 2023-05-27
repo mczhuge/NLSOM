@@ -20,7 +20,7 @@ When you provide the inputs (files or targets), LLM automates all these processe
 Features:
 - [x] Rule your NLSOM: effortlessly organize an NLSOM in various fields by simply changing the template.
 - Just change the prompt template as you want in ``.env/prompt.py``
-- [x] Easy to extend: customise your own community and agents. 
+- [x] Easy to extend: customize your own community and agents. 
 -  Now we have 17 communities and 31 agents, add more by yourself in ``.society`` and ``.society/community.py``
 - [x] Reward Design: provide a reward mechanism (albeit rough). You can easily upgrade to a more refined version. 
 - For example: ``💰 NLSOM System (Reward): ["Arxiv": 2, "WolframAlpha": 0, "Wikipedia": 3, "BingSearch": 2]``
