@@ -92,13 +92,13 @@ Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
     </p>   
     <p>
         <ul>
-            <li><b>🔵 ZhugeLiang:</b>  My approach to defeating Cao Cao would be to outwit him through the use of strategy and cunning. I believe that the ability to outthink and outsmart your enemies is more powerful than any physical force. I have honed my skills in the art of war and I have a deep understanding of the dynamics of the Three Kingdoms period. I would use this knowledge to my advantage and create a strategy that would take Cao Cao by surprise. I would use guerilla tactics to surprise him and break his momentum. I would also use deception to mislead him and cause confusion. Ultimately, I believe that the key to victory is the combination of strategy, intelligence, and courage.
+            <li><b>🔵 WolframAlpha:</b>  My approach to defeating Cao Cao would be to outwit him through the use of strategy and cunning. I believe that the ability to outthink and outsmart your enemies is more powerful than any physical force. I have honed my skills in the art of war and I have a deep understanding of the dynamics of the Three Kingdoms period. I would use this knowledge to my advantage and create a strategy that would take Cao Cao by surprise. I would use guerilla tactics to surprise him and break his momentum. I would also use deception to mislead him and cause confusion. Ultimately, I believe that the key to victory is the combination of strategy, intelligence, and courage.
     </li>
         </ul>
     </p> 
     <p>
         <ul>
-            <li><b>🟤 ZhangFei:</b>  To defeat Cao Cao, I would employ a combination of tactics. I would use my strength and courage on the battlefield to lead a fierce charge against him, as well as using my intelligence to outwit him with deceptive strategies. I would also use the loyalty of my followers to my advantage, and make sure they are well-trained and equipped for any battle. By doing so, I will be sure to outwit and outlast Cao Cao!
+            <li><b>🟤 Arxiv:</b>  To defeat Cao Cao, I would employ a combination of tactics. I would use my strength and courage on the battlefield to lead a fierce charge against him, as well as using my intelligence to outwit him with deceptive strategies. I would also use the loyalty of my followers to my advantage, and make sure they are well-trained and equipped for any battle. By doing so, I will be sure to outwit and outlast Cao Cao!
     </li>
         </ul>
     </p> 
