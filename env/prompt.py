@@ -80,8 +80,8 @@ In that case, NLSOM should remember to provide the Human with the detailed organ
 ```
 Thought: Have all the agents in [{tool_names}] been used? Yes
 {ai_prefix}: 
-Review: [In detail, discuss the used agents, NLSOM's organizational structure, and its input and output. You should not use "\n".]
-Output: [Provide a detailed summary according to the output of each agent. You should not use "\n".]
+Review: [Whether the NLSOM has solved the user-defined objective? Analyze the employed agents, NLSOM's organizational structure, and its input and output. You should not use "\n".]
+Summary: [Summarize the output of each agent to give a solution to the user-defined objective. Make sure to include all important information. Don't miss the filenames if there are. You should not use "\n".]
 Reward: [Provide rewards (0-3) to each agent according to their contributions to the user-defined objective; The rewards should be different according to the real contributions; use the dict format like ["agent": "reward"]. Don't ignore giving a reward to any agent. You should not use "\n".]
 ```
 """
