@@ -47,14 +47,68 @@ Features:
 ### 2. Focus more on Mindstorm
 
 <details>
-    <summary>Demo 2: Model Collaboration</summary>
+    <summary><b>
+Demo 3: Demo 2: Model Collaboration (VQA Agent)</b></summary>
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112102854895865937/Presentation5-1.png?width=1620&height=228" alt="some_text">
     <p>
         <ul>
-            <li>2022.4.28: Add support of inference on **Hugging Face transformers**. For how to use it, please refer to the doc [transformers.md](transformers.md) and our [Hugging Face models](https://huggingface.co/OFA-Sys).</li>
+            <li><b>🔴 User:</b> Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
         </ul>
     </p>
+    <p>
+        <ul>
+            <li><b>🧰 NLSOM System (Recommendation):</b> Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) search</u></li>
+        </ul>
+    </p>   
+    <p>
+        <ul>
+            <li><b>⚪️ NLSOM System (Self-Organization):</b> We load the recommended AI communities with their their corresponding agents: (a) Arxiv, (b) WolframAlpha, (c) Wikipedia, (d) BingSearch
+    </li>
+        </ul>
+    </p>     
+    <p>
+        <ul>
+            <li><b>🟢 Arxiv:</b>  
+    </li>
+        </ul>
+    </p>  
+    <p>
+        <ul>
+            <li><b>🟡 WolframAlpha:</b> 
+    </li>
+        </ul>
+    </p>   
+    <p>
+        <ul>
+            <li><b>🔵 Wikipedia:</b> 
+    </li>
+        </ul>
+    </p> 
+    <p>
+        <ul>
+            <li><b>🟤  BingSeach:</b> 
+    </li>
+        </ul>
+    </p> 
+    <p>
+        <ul>
+            <li><b>⚪️ NLSOM System (Review):</b>  
+    </li>
+        </ul>
+    </p>  
+     <p>
+        <ul>
+            <li><b>⚪️ NLSOM System (Summary):</b> 
+    </li>
+        </ul>
+    </p> 
+     <p>
+        <ul>
+            <li><b>💰 NLSOM System (Reward):</b>  
+    </li>
+        </ul>
+    </p> 
 </details>
-
 
 <details>
     <summary><b>
