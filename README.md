@@ -318,6 +318,7 @@ pip install guidance
 pip install wolframalpha
 pip install wikipedia
 pip install arxiv
+pip install click
 pip install bs4
 pip install streamlit==1.22.0
 pip install streamlit_chat==0.0.2.2
@@ -340,7 +341,7 @@ pip install PyMCubes
 pip install scikit-image
 pip install TTS
 pip install easyocr
-pip install guidance
+
 
 
 
@@ -355,7 +356,7 @@ pip install pdf2image==1.16.3
 pip install pytesseract==0.3.10
 pip install tabulate
 pip install tesseract
-
+pip install guidance
 
 langchain
 pip3 install azure-storage-blob azure-identity
