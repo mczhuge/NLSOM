@@ -92,31 +92,31 @@ Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
     </p>   
     <p>
         <ul>
-            <li><b>🔵 WolframAlpha:</b>  My approach to defeating Cao Cao would be to outwit him through the use of strategy and cunning. I believe that the ability to outthink and outsmart your enemies is more powerful than any physical force. I have honed my skills in the art of war and I have a deep understanding of the dynamics of the Three Kingdoms period. I would use this knowledge to my advantage and create a strategy that would take Cao Cao by surprise. I would use guerilla tactics to surprise him and break his momentum. I would also use deception to mislead him and cause confusion. Ultimately, I believe that the key to victory is the combination of strategy, intelligence, and courage.
+            <li><b>🔵 WolframAlpha:</b>  
     </li>
         </ul>
     </p> 
     <p>
         <ul>
-            <li><b>🟤 Arxiv:</b>  To defeat Cao Cao, I would employ a combination of tactics. I would use my strength and courage on the battlefield to lead a fierce charge against him, as well as using my intelligence to outwit him with deceptive strategies. I would also use the loyalty of my followers to my advantage, and make sure they are well-trained and equipped for any battle. By doing so, I will be sure to outwit and outlast Cao Cao!
+            <li><b>🟤 Arxiv:</b>  
     </li>
         </ul>
     </p> 
     <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Review):</b>  All four agents have been used to answer the user's question. GuanYu suggested using both military and diplomatic tactics, LiuBei suggested using a combination of military and diplomatic strategies, ZhugeLiang suggested using tactical warfare, psychological warfare, and political maneuvering,and ZhangFei suggested relentless attack and superior defense.
+            <li><b>⚪️ NLSOM System (Review):</b>  The NLSOM has successfully solved the user-defined objective by employing all the agents from [Arxiv, Wikipedia, WolframAlpha, BingSearch]. The Arxiv agent provided a paper related to AGI, the Wikipedia agent provided a detailed description of AGI, the WolframAlpha agent provided a definition of AGI, and the BingSearch agent provided a comprehensive overview of AGI.
     </li>
         </ul>
     </p>  
      <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Output):</b>  The best way to defeat Cao Cao is to use a combination of military and diplomatic tactics, strategic alliances, and clever tactics such as forming alliances with other warlords, employing spies and informants, and making use of geographical advantages.
+            <li><b>⚪️ NLSOM System (Summary):</b>  Artificial General Intelligence (AGI) is a type of hypothetical intelligent agent that can learn to accomplish any intellectual task that human beings or other animals can perform. It is a primary goal of some artificial intelligence research and companies such as OpenAI, DeepMind, and Anthropic. AGI is a common topic in science fiction and futures studies. It is on-par with human capabilities, i.e. AGI system can perform any task that a human can.
     </li>
         </ul>
     </p> 
      <p>
         <ul>
-            <li><b>💰 NLSOM System (Reward):</b>  ["GuanYu": 2, "LiuBei": 2, "ZhugeLiang": 3, "ZhangFei": 3]
+            <li><b>💰 NLSOM System (Reward):</b>  ["Arxiv": 2, "Wikipedia": 3, "WolframAlpha": 0, "BingSearch": 3]
     </li>
         </ul>
     </p> 
