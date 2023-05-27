@@ -98,7 +98,7 @@ Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
     </p> 
     <p>
         <ul>
-            <li><b>🟤 ZhangFei:</b>  To defeat Cao Cao I would employ a strategy of relentless attack and superior defense. I would use my vast experience as a warrior and my superior knowledge of battlefield tactics to outmaneuver and outlast him. I would also rely on my courage and strength to lead my troops to victory. My loyalty to Liu Bei and my unwavering commitment to our cause will ensure that I will fight to the very end to protect our people. No matter the cost, I will make sure that Cao Cao is defeated!
+            <li><b>🟤 ZhangFei:</b>  To defeat Cao Cao, I would employ a combination of tactics. I would use my strength and courage on the battlefield to lead a fierce charge against him, as well as using my intelligence to outwit him with deceptive strategies. I would also use the loyalty of my followers to my advantage, and make sure they are well-trained and equipped for any battle. By doing so, I will be sure to outwit and outlast Cao Cao!
     </li>
         </ul>
     </p> 
