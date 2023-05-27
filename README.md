@@ -98,7 +98,7 @@ Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
     </p> 
     <p>
         <ul>
-            <li><b>🟤 ZhangFei:</b>  In order to defeat Cao Cao, I would use a combination of strategy and guile. My strategy would involve outwitting Cao Cao by using clever tactics such as forming alliances with other warlords, employing spies and informants to gather information about Cao Cao's plans, and making use of geographical advantages to gain an upper hand in battles. I would also seek to use Cao Cao's own ambition and pride against him, exploiting any weaknesses that could be used to my advantage. Ultimately, the key to victory lies in cleverly utilizing my resources and knowledge to outsmart Cao Cao and outmaneuver him on the battlefield.
+            <li><b>🟤 ZhangFei:</b>  As Zhuge Liang, I believe that the most effective approach to defeat Cao Cao is to use strategy and cunning rather than brute strength. By utilizing the element of surprise, taking advantage of favourable terrain, and outmaneuvering our opponent, we can make sure that our forces are successful. We must be prepared for the unexpected and focus on the long-term goal rather than short-term gains. By playing the long game, we can outlast Cao Cao's forces and ultimately achieve victory.
     </li>
         </ul>
     </p> 
