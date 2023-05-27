@@ -48,7 +48,7 @@ Features:
 
 <details>
     <summary><b>
- CLICK 👉 Demo 2: Model Collaboration (VQA Agent)</b></summary>
+ Demo 2: Model Collaboration (VQA Agent)</b> 👈 CLICK </summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112102854895865937/Presentation5-1.png?width=1620&height=228" alt="some_text">
     <p>
         <ul>
