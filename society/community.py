@@ -39,7 +39,7 @@ from society.image_to_3d.agent import HumanReconstruction # 1
 from society.object_detection.agent import DETR # 1
 from society.ocr.agent import EasyOCR # 1
 from society.role_play.agent import LiuBei, GuanYu, ZhangFei, ZhugeLiang #4
-from society.search.agent import ArxivSearch, BingSearch, WikipediaSearch, DuckDuckGoSearch, WolframAlpha #5
+from society.search.agent import SE_A, SE_B, SE_C, SE_D #4
 from society.sentence_refine.agent import SentenceRefine # 1
 from society.skin_retouching.agent import ABPN # 1
 from society.text_to_image.agent import Text2Image # 1
