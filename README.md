@@ -102,8 +102,8 @@ Features:
 ### 2. Focus more on Mindstorm
 
 <details>
-    <summary><b>
- Demo 2: Model Collaboration (Multimodal Agents)</b> 👈 CLIKE TO OPEN</summary>
+    <summary>
+ Demo 2: Model Collaboration (Multimodal Agents) 👈 CLIKE TO OPEN</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112116808401555486/Presentation5_pdf.io.png?width=1620&height=262">
     <p>
         <ul>
