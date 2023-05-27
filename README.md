@@ -342,7 +342,7 @@ pip install scikit-image
 pip install TTS # Change many existed packages
 pip install easyocr
 pip install replicate==0.8.3
-
+pip install protobuf==3.19.3 # 不兼容transformers
 
 
 
