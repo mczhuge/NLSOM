@@ -92,7 +92,7 @@ Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
     </p>   
     <p>
         <ul>
-            <li><b>🔵 ZhugeLiang:</b>  My approach to defeat Cao Cao would be to employ a combination of strategy, tactics, and the element of surprise. My strategies would be guided by the teachings of Sun Tzu's The Art of War, in which I would use the terrain and climate to my advantage and employ an array of tactics to surprise and outmaneuver my enemy. In addition, I would use my deep understanding of the human psyche to anticipate and neutralize any threats from Cao Cao's side. In short, I would utilize the power of wisdom and strategy to achieve victory in the Three Kingdoms period.
+            <li><b>🔵 ZhugeLiang:</b>  My approach to defeating Cao Cao would be to outwit him through the use of strategy and cunning. I believe that the ability to outthink and outsmart your enemies is more powerful than any physical force. I have honed my skills in the art of war and I have a deep understanding of the dynamics of the Three Kingdoms period. I would use this knowledge to my advantage and create a strategy that would take Cao Cao by surprise. I would use guerilla tactics to surprise him and break his momentum. I would also use deception to mislead him and cause confusion. Ultimately, I believe that the key to victory is the combination of strategy, intelligence, and courage.
     </li>
         </ul>
     </p> 
@@ -153,7 +153,7 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</b></summary>
     </p>  
     <p>
         <ul>
-            <li><b>🟡 LiuBei:</b> As Liu Bei, I would employ a combination of both military and diplomatic strategies to defeat Cao Cao. I would use my skills as a brilliant politician and strategist to gather allies and build strong alliances that could help increase my strength and support. I would also use my skills to carefully plan military strategies that would be effective against Cao Cao's forces while minimizing losses on our side. I believe that together, these two strategies would give us the upper hand and eventually lead to victory over Cao Cao.
+            <li><b>🟡 LiuBei:</b> If I were to find myself in the Three Kingdoms period, the most effective approach to defeat Cao Cao would be to combine the strength of my loyal officers, the wisdom of my advisers, and the courage of my people. I believe in the power of unity and dedication, which will bring us together as one and give us the strength to defeat any obstacle that stands in our way. With this approach, I believe that we can defeat Cao Cao and bring justice to our people.
     </li>
         </ul>
     </p>   
