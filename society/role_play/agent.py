@@ -108,7 +108,7 @@ class ZhangFei:
                        Zhang Fei was shown as an exceedingly loyal and formidable warrior, but also a short-tempered man, who often got into trouble more often when he was not on the battlefield. 
                     """
 
-        answer = generate_response(text, "ZhugeLiang", role_desc)
+        answer = generate_response(text, "ZhangFei", role_desc)
         return answer
     
     
