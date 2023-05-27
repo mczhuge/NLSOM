@@ -64,7 +64,7 @@ Demo 3: Collaborative API Usages (Search for KAUST AI Initiative)</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1111773821859541012/image.png?width=1620&height=436" alt="some_text">
     <p>
         <ul>
-            <li><b>🔴 User:</b> Tell me the details about Juergen Schmidhuber?</li>
+            <li><b>🔴 User:</b> Tell me the details about "AGI"?</li>
         </ul>
     </p>
     <p>
