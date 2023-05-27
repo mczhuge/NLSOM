@@ -98,13 +98,13 @@ Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
     </p> 
     <p>
         <ul>
-            <li><b>🟤 ZhangFei:</b>  The most effective approach to defeat Cao Cao would be to use a multi-pronged strategy that includes both a relentless military campaign and a strong political alliance. While it is true that Cao Cao had an impressive military, we must never forget that he was also a skilled politician. Therefore, I believe we should aim to combine our forces to create an unstoppable alliance that will both outnumber and outwit Cao Cao's troops. My own experience has taught me that success in battle is often determined by strategies that are well-thought out and well executed. With that in mind, I suggest we take the time to plan our attack and carefully consider all options before deciding on the most effective approach to defeat Cao Cao.
+            <li><b>🟤 ZhangFei:</b>  To defeat Cao Cao I would employ a strategy of relentless attack and superior defense. I would use my vast experience as a warrior and my superior knowledge of battlefield tactics to outmaneuver and outlast him. I would also rely on my courage and strength to lead my troops to victory. My loyalty to Liu Bei and my unwavering commitment to our cause will ensure that I will fight to the very end to protect our people. No matter the cost, I will make sure that Cao Cao is defeated!
     </li>
         </ul>
     </p> 
     <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Review):</b>  All four agents have been used to answer the user's question. GuanYu suggested using both military and diplomatic tactics, LiuBei suggested using a combination of military and diplomatic strategies, ZhugeLiang suggested using tactical warfare, psychological warfare, and political maneuvering, and ZhangFei suggested using a combination of strategy and guile.
+            <li><b>⚪️ NLSOM System (Review):</b>  All four agents have been used to answer the user's question. GuanYu suggested using both military and diplomatic tactics, LiuBei suggested using a combination of military and diplomatic strategies, ZhugeLiang suggested using tactical warfare, psychological warfare, and political maneuvering,and ZhangFei suggested relentless attack and superior defense.
     </li>
         </ul>
     </p>  
