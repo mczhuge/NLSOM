@@ -62,7 +62,7 @@ Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112102854895865937/Presentation5-1.png?width=700&height=108" alt="some_text" class="center">
     
     
-   <div style="text-align: center; width: 500px; border: green solid 1px;">
+   <div style="text-align: center; width: 1200px; border: green solid 1px;">
     <img alt="" src="https://media.discordapp.net/attachments/1090896867753213973/1112102854895865937/Presentation5-1.png?width=700&height=108" style="margin: 0 auto;" />
 </div>
     <p>
