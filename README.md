@@ -33,7 +33,7 @@ Features:
 
 
 ## 🤖 Demo
-### 1️⃣ Focus more on NLSOM
+### 🫧 1. Focus more on NLSOM
 
 <details open>
     <summary><b>
@@ -99,7 +99,7 @@ Features:
     </p> 
 </details>
 
-### 2. Focus more on Mindstorm
+### 🫧 2. Focus more on Mindstorm
 
 <details>
     <summary><b>
