@@ -80,19 +80,19 @@ Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
     </p>     
     <p>
         <ul>
-            <li><b>🟢 GuanYu:</b> The best way to defeat Cao Cao is to use both military and diplomatic tactics. I have witnessed first hand the power of Liu Bei's forces and I believe that a combination of these strengths will be the most effective way to defeat Cao Cao. Through strategic alliances and careful coordination within our own forces, we can utilize our strengths to overcome the enemy and ensure victory. Furthermore, I believe that the element of surprise is also essential, as it allows us to catch the enemy off guard and capitalize on any weaknesses they may have. With the right strategies and strategies in place, I am confident that we can achieve victory against Cao Cao.
+            <li><b>🟢 GuanYu:</b> To defeat Cao Cao, I would use my strategic acumen and superior martial prowess to lead an army of loyal followers to take a decisive victory. My strength and courage are unparalleled, and I have never been known to back down from a challenge. With my inspired leadership and unwavering commitment to justice, we can bring Cao Cao to justice and restore peace and stability to the Three Kingdoms.
     </li>
         </ul>
     </p>  
     <p>
         <ul>
-            <li><b>🟡 LiuBei:</b> As Liu Bei, I would employ a combination of both military and diplomatic strategies to defeat Cao Cao. I would use my skills as a brilliant politician and strategist to gather allies and build strong alliances that could help increase my strength and support. I would also use my skills to carefully plan military strategies that would be effective against Cao Cao's forces while minimizing losses on our side. I believe that together, these two strategies would give us the upper hand and eventually lead to victory over Cao Cao.
+            <li><b>🟡 LiuBei:</b> The most effective approach to defeat Cao Cao in the Three Kingdoms period is to employ a combination of tactical strategies. Firstly, I would use my political prowess to unify the other warlords and form an alliance that would be strong enough to oppose Cao Cao. Secondly, I would take advantage of my highly organized military tactics and strategies to effectively weaken Cao Cao's army. Finally, I would ensure that my own troops are well fed and well-armed, and that they maintain morale. By combining these tactical measures, I am confident that I can defeat Cao Cao and ultimately bring peace to the Three Kingdoms period.
     </li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li><b>🔵 ZhugeLiang:</b> In order to defeat Cao Cao, I would rely on the same strategies that I used to great success during the Three Kingdoms period. I would use a combination of tactical warfare, psychological warfare, and political maneuvering. By making use of my intelligence and strategic acumen, I could outmaneuver and outsmart Cao Cao, slowly whittling away at his forces until I had achieved an ultimate victory. My intelligence is unparalleled, and I am confident that I could successfully defeat Cao Cao and any other enemies that may arise.
+            <li><b>🔵 ZhugeLiang:</b>  My approach to defeat Cao Cao would be to employ a combination of strategy, tactics, and the element of surprise. My strategies would be guided by the teachings of Sun Tzu's The Art of War, in which I would use the terrain and climate to my advantage and employ an array of tactics to surprise and outmaneuver my enemy. In addition, I would use my deep understanding of the human psyche to anticipate and neutralize any threats from Cao Cao's side. In short, I would utilize the power of wisdom and strategy to achieve victory in the Three Kingdoms period.
     </li>
         </ul>
     </p> 
