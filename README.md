@@ -64,7 +64,7 @@ Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1111773821859541012/image.png?width=1620&height=436" alt="some_text">
     <p>
         <ul>
-            <li><b>🔴 User:</b> Tell me the details about the paper "On learning to think..."?</li>
+            <li><b>🔴 User:</b> Tell some stories about AGI, its definition, and recent work. </li>
         </ul>
     </p>
     <p>
