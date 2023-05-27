@@ -1,4 +1,6 @@
-#https://www.microsoft.com/en-us/bing/apis/bing-web-search-api
+# Since LangChain is biased toward each tool, we make each search engine anonymous. 
+# We will update a version of "Mindstorm" in LangChain, or we write a new NLSOM framework in the future.
+# For BingSearch, please refer to https://www.microsoft.com/en-us/bing/apis/bing-web-search-api
 
 
 import os
@@ -11,8 +13,8 @@ from langchain.tools import Tool
 from langchain.utilities import ArxivAPIWrapper
 from langchain.utilities import WikipediaAPIWrapper
 from langchain.utilities import BingSearchAPIWrapper
-from langchain.utilities import GoogleSearchAPIWrapper
-from langchain.tools import DuckDuckGoSearchRun
+# from langchain.utilities import GoogleSearchAPIWrapper
+# from langchain.tools import DuckDuckGoSearchRun
 from langchain.utilities.wolfram_alpha import WolframAlphaAPIWrapper
 
 def prompts(name, description):
@@ -22,94 +24,88 @@ def prompts(name, description):
         return func
 
     return decorator
-    
-class ArxivSearch:
+
+
+
+#SE_A
+class SE_A:
     def __init__(self, device="cpu"):
         self.device = "cpu"
         self.arxiv = ArxivAPIWrapper()
 
-    @prompts(name="ArxivSearch",
-             description="A wrapper around Arxiv.org "
-                         "Useful for when you need to search a paper realted to some keywords or author name, "
-                         "from scientific articles on arxiv.org. "
+    @prompts(name="SE_A",
+             # "A wrapper around Arxiv.org "
+             description="A wrapper around XXX.org "
+                         "Useful for when you need to search information, especially academia information, "
                          "Input should be a search query.")
     def inference(self, text):
         docs = self.arxiv.run(text)
-        return docs
+        return docs.split("\n\n")[0]
+
     
-
-class BingSearch:
-    def __init__(self, device="cpu"):
-        self.device = "cpu"
-        self.bing = BingSearchAPIWrapper()
-
-    @prompts(name="BingSearch",
-             description="A wrapper around Microsoft bing.com,"
-                         "Useful for when you need to search information from the internet, "
-                         "Input should be a search query.")
-    def inference(self, text):
-        docs = self.bing.run(text)
-        return docs
-
-
-class DuckDuckGoSearch:
-    def __init__(self, device="cpu"):
-        self.device = "cpu"
-        self.DuckDuckGo = DuckDuckGoSearchRun()
-
-    @prompts(name="DuckDuckGoSearch",
-             description="A wrapper around search engine DuckDuckGo,"
-                         "Useful for when you need to search information from the internet, "
-                         "Input should be a search query.")
-    def inference(self, text):
-        docs = self.DuckDuckGo.run(text)
-        return docs
-
-
-class WikipediaSearch:
-    def __init__(self, device="cpu"):
-        self.device = "cpu"
-        self.wikipedia = WikipediaAPIWrapper()
-
-    @prompts(name="WikipediaSearch",
-             description="A wrapper around www.wikipedia.org "
-                         "Useful for when you need to search wikipedia document realted to some keywords or author name, "
-                         "Input should be a search query.")
-    def inference(self, text):
-        docs = self.wikipedia.run(text)
-        return docs
-    
-class WolframAlpha:
+#class WolframAlphaSearch:
+class SE_B:
     def __init__(self, device="cpu"):
         self.device = device
         self.wolfram = WolframAlphaAPIWrapper()
 
-    @prompts(name="WolframAlpha",
-             description="A wrapper around www.wikipedia.org "
-                         "Compute expert-level answers using Wolfram’s breakthrough algorithms, knowledgebase and AI technology, "
-                         "Useful when you want to calculate the mathmatics problems or want to search some scietific knowledge"
+    @prompts(name="SE_B",
+             #"A wrapper around www.wolfram.org "
+             description="A wrapper around XXX.org "
+                        "Useful for when you need to search information from the internet, "
                          "Input should be a search query.")
     def inference(self, text):
         docs = self.wolfram.run(text)
-        return docs
+        return docs.split("\n")[0]
+    
+
+# class WikipediaSearch:
+class SE_C:
+    def __init__(self, device="cpu"):
+        self.device = "cpu"
+        self.wikipedia = WikipediaAPIWrapper()
+
+    @prompts(name="SE_C",
+             description="A wrapper around XXX.org "
+                         "Useful for when you need to search information from the internet, "
+                         "Input should be a search query.")
+    def inference(self, text):
+        docs = self.wikipedia.run(text)
+        return docs.split("\n\n")[0] #.split("\n")[0:2]
+    
+#class BingSearch:
+class SE_D:
+    def __init__(self, device="cpu"):
+        self.device = "cpu"
+        self.bing = BingSearchAPIWrapper()
+
+    @prompts(name="SE_D",
+             # "A wrapper around Microsoft bing.com,"
+             description="A wrapper around XXX.com,"
+                         "Useful for when you need to search information from the internet, "
+                         "Input should be a search query.")
+    def inference(self, text):
+        docs = self.bing.run(text)
+        return docs.split("\n")[0:5]
+
+
+# class DuckDuckGo:
+#     def __init__(self, device="cpu"):
+#         self.device = "cpu"
+#         self.DuckDuckGo = DuckDuckGoSearchRun()
+
+#     @prompts(name="DuckDuckGo",
+#              description="A wrapper around search engine DuckDuckGo,"
+#                          "Useful for when you need to search information from the internet, "
+#                          "Input should be a search query.")
+#     def inference(self, text):
+#         docs = self.DuckDuckGo.run(text)
+#         return docs
+
+
 
 
 if __name__ == "__main__":
-    # arxiv = ArxivAPIWrapper()
-    # docs = arxiv.inference("Juergen Schmidhuber")
 
-    # wiki =  WikipediaSearch()
-    # docs = wiki.inference("Juergen Schmidhuber")
-
-    # wolframalpha = WolframAlpha()
-    # docs = wolframalpha.inference("Who is Juergen Schmidhuber?")
-
-    bing = BingSearch()
-    docs = bing.inference("Juergen Schmidhuber")
-
-    # ddgo = DuckDuckGoSearch()
-    # docs = ddgo.inference("Juergen Schmidhuber")
-
-
-
-    print(docs)
+    bing = SE_D()
+    docs = bing.inference("AGI")
