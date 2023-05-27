@@ -116,7 +116,7 @@ Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
     </p> 
      <p>
         <ul>
-            <li><b>💰 NLSOM System (Reward):</b>  ["Arxiv": 2, "Wikipedia": 3, "WolframAlpha": 0, "BingSearch": 3]
+            <li><b>💰 NLSOM System (Reward):</b>  ["Arxiv": 2, "WolframAlpha": 0, "Wikipedia": 3, "BingSearch": 2]
     </li>
         </ul>
     </p> 
