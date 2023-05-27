@@ -1,6 +1,5 @@
 """
-In these natural language-based societies of mind (NLSOMs), new agents—all com municating 
-through the same universal symbolic language—are easily added in a modular fashion.  
+In these natural language-based societies of mind (NLSOMs), new agents—--all communicating through the same universal symbolic language—are easily added in a modular fashion.  
 We view this as a starting point towards much larger NLSOMs with billions of agents—some of which may be humans.
 """
 
