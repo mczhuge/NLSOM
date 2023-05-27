@@ -103,13 +103,13 @@ easily accessible and up-to-date collection of references for the emerging field
     </p> 
     <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Review):</b>  The NLSOM has successfully solved the user-defined objective by utilizing all agents. The agents have provided comprehensive information about AGI from different perspectives, including definition, potential and recent work.
+            <li><b>⚪️ NLSOM System (Review):</b>  All agents have been used and have provided useful information about AGI from different perspectives, including definition, potential and recent work.
     </li>
         </ul>
     </p>  
      <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Summary):</b>  Artificial General Intelligence (AGI) is a representation of generalized human cognitive abilities in software so that, faced with an unfamiliar task, the AGI system could find a solution. AGI is expected to exceed human intelligence in every aspect and is part of the broader fields of Artificial Intelligence (AI) and Cognitive Science. AGI has the immense potential to mimic human intelligence, transfer learning, perform cognitive tasks, and operate autonomously. AGI is also expected to be the single most revolutionary step in human history.
+            <li><b>⚪️ NLSOM System (Summary):</b>  Artificial General Intelligence (AGI) is the capacity for machines to perceive, learn, and carry out intellectual tasks in a manner similar to that of humans. AGI allows machines to mimic human behavior and thought processes in order to tackle any kind of complex problem. AGI is part of the broader fields of Artificial Intelligence (AI) and Cognitive Science. AGI has the immense potential to mimic human intelligence, transfer learning, perform cognitive tasks, and operate autonomously. However, developing AGI is still challenging owing to the demands of significant advancements in various fields like ML, neural networks, AI, NLP, and more.
     </li>
         </ul>
     </p> 
