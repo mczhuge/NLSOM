@@ -110,7 +110,7 @@ Summary: Existential risk from artificial general intelligence is the hypothesis
     </p>  
      <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Summary):</b>  Artificial General Intelligence (AGI) is the capacity for machines to perceive, learn, and carry out intellectual tasks in a manner similar to that of humans. AGI allows machines to mimic human behavior and thought processes in order to tackle any kind of complex problem. AGI is part of the broader fields of Artificial Intelligence (AI) and Cognitive Science. AGI has the immense potential to mimic human intelligence, transfer learning, perform cognitive tasks, and operate autonomously. However, developing AGI is still challenging owing to the demands of significant advancements in various fields like ML, neural networks, AI, NLP, and more.
+            <li><b>⚪️ NLSOM System (Summary):</b>  Artificial general intelligence (AGI) is the capacity for machines to perceive, learn, and carry out intellectual tasks in a manner similar to that of humans. AGI allows machines to mimic human behavior and thought processes in order to tackle any kind of complex problem. AGI is part of the broader fields of Artificial Intelligence (AI) and Cognitive Science. AGI has the immense potential to mimic human intelligence, transfer learning, perform cognitive tasks, and operate autonomously. AGI is expected to exceed human intelligence in every aspect and will extend upon AI, or Artificial Narrow Intelligence (ANI) systems, which are in widespread use today.
     </li>
         </ul>
     </p> 
