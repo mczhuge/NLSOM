@@ -92,13 +92,13 @@ Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
     </p>   
     <p>
         <ul>
-            <li><b>🔵 WolframAlpha:</b>  
+            <li><b>🔵 WolframAlpha:</b> Wolfram Alpha wasn't able to answer it 
     </li>
         </ul>
     </p> 
     <p>
         <ul>
-            <li><b>🟤 Arxiv:</b>  
+            <li><b>🟤 Arxiv:</b>  ['Published: 2018-05-21', 'Title: AGI Safety Literature Review', 'Authors: Tom Everitt, Gary Lea, Marcus Hutter', 'Summary: The development of Artificial General Intelligence (AGI) promises to be a', 'major event. Along with its many potential benefits, it also raises serious', 'safety concerns (Bostrom, 2014). The intention of this paper is to provide an']
     </li>
         </ul>
     </p> 
