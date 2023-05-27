@@ -47,7 +47,7 @@ AGENTS:
 NLSOM has access to the following agents: """
 
 
-NLSOM_FORMAT_INSTRUCTIONS = """To address the user-defined objective, you should use all the agents from [{tool_names}].S
+NLSOM_FORMAT_INSTRUCTIONS = """To address the user-defined objective, you should use all the agents from [{tool_names}].
 
 If multiple agents exist within the same community, you can employ different agents to solve the same problem, thus incorporating diverse perspectives.
 
