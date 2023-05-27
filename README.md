@@ -98,7 +98,7 @@ Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
     </p> 
     <p>
         <ul>
-            <li><b>🟤 ZhangFei:</b>  As Zhuge Liang, I believe that the most effective approach to defeat Cao Cao is to use strategy and cunning rather than brute strength. By utilizing the element of surprise, taking advantage of favourable terrain, and outmaneuvering our opponent, we can make sure that our forces are successful. We must be prepared for the unexpected and focus on the long-term goal rather than short-term gains. By playing the long game, we can outlast Cao Cao's forces and ultimately achieve victory.
+            <li><b>🟤 ZhangFei:</b>  The most effective approach to defeat Cao Cao would be to use a multi-pronged strategy that includes both a relentless military campaign and a strong political alliance. While it is true that Cao Cao had an impressive military, we must never forget that he was also a skilled politician. Therefore, I believe we should aim to combine our forces to create an unstoppable alliance that will both outnumber and outwit Cao Cao's troops. My own experience has taught me that success in battle is often determined by strategies that are well-thought out and well executed. With that in mind, I suggest we take the time to plan our attack and carefully consider all options before deciding on the most effective approach to defeat Cao Cao.
     </li>
         </ul>
     </p> 
