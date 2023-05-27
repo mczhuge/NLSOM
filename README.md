@@ -375,7 +375,7 @@ export REPLICATE_API_TOKEN=r8_WssXC8wLfU6nIOZSgm69CM49SFvuObr35zgcu
 ## Preliminary Experiments on Paper 
 The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and natural language-based society of mind.
 
-## Limitation
+## TODO
 Please feel free to submit a pull request if you can optimize the identified issues. We will promptly incorporate any improvements.
 
 * Make mindstorm more stable: 1) design a better prompt, 2) develop a tailor-made mindstorm system with or without using LangChain.
