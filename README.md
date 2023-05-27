@@ -171,13 +171,13 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</b></summary>
     </p> 
     <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Review):</b>  All four agents have been used and their responses have been considered. The responses from each agent have been analyzed and the most effective approach to defeat Cao Cao has been determined.
+            <li><b>⚪️ NLSOM System (Review):</b>  The NLSOM has successfully solved the user-defined objective by utilizing all agents within the same community. Each agent has provided a unique perspective on how to defeat Cao Cao, and the combination of these perspectives has resulted in a comprehensive understanding of the situation.
     </li>
         </ul>
     </p>  
      <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Output):</b>  The most effective approach to defeat Cao Cao is to use a combination of military tactics, psychological warfare, and political maneuvering. This approach should be combined with the strength of loyal officers, the wisdom of advisers, and the courage of the people.
+            <li><b>⚪️ NLSOM System (Summary):</b>  GuanYu suggested using both military and diplomatic tactics to defeat Cao Cao. LiuBei suggested relying on the strength of loyal officers, the wisdom of advisers, and the courage of the people. ZhugeLiang suggested using tactical warfare, psychological warfare, and political maneuvering. ZhangFei suggested using strength, courage, intelligence, and the loyalty of followers.
     </li>
         </ul>
     </p> 
