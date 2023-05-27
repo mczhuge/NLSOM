@@ -37,7 +37,7 @@ Features:
 
 <details open>
     <summary><b>
- Demo 1: Society of Mind (XXX)</b> 👈 CLIKE TO CLOSE</summary>
+ Demo 1: Society of Mind (XXX)</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112116808401555486/Presentation5_pdf.io.png?width=1620&height=262">
     <p>
         <ul>
@@ -236,7 +236,7 @@ Summary: Existential risk from artificial general intelligence is the hypothesis
 
 <details open>
     <summary><b>
-Demo 4: Collaborative Role-Play (The Three Kingdoms)</b>👈 CLICK TO CLOSE</summary>
+Demo 4: Collaborative Role-Play (The Three Kingdoms)</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1111773821859541012/image.png?width=1620&height=436" alt="some_text">
     <p>
         <ul>
