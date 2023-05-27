@@ -49,7 +49,7 @@ Features:
 <details>
     <summary><b>
  Demo 2: Model Collaboration (Multimodal Agents)</b> 👈 CLIKE TO OPEN</summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112102854895865937/Presentation5-1.png?width=1620&height=228" alt="some_text">
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112116808401555486/Presentation5_pdf.io.png?width=1620&height=262">
     <p>
         <ul>
             <li><b>🔴 User:</b> Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
