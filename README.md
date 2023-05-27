@@ -59,9 +59,7 @@ Features:
 <details>
     <summary><b>
 Demo 3: Collaborative API Usages (Introduce "AGI")</b></summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112102854895865937/Presentation5-1.png?width=1200&height=158" alt="some_text" class="center">
-    
-   
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112102854895865937/Presentation5-1.png?width=1620&height=228" alt="some_text">
     <p>
         <ul>
             <li><b>🔴 User:</b> Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
