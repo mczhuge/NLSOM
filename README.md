@@ -403,6 +403,8 @@ pip install setuptools==59.5.0
 pip install tensorboardX
 # [Set OCR]
 pip install easyocr
+# [Set Text-to-Video]
+pip install replicate==0.8.3
 ```
 
 
