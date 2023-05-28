@@ -153,6 +153,7 @@ Features:
         </ul>
     </p> 
 </details>
+------
 
 #### 2. Focus more on Mindstorm
 
@@ -221,7 +222,6 @@ Features:
     </p>   
     
 </details>
-
 ------
 
 <details>
