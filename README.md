@@ -30,7 +30,7 @@ Features:
 - Agents will collaborate to solve the task, we called it Mindstorm. 
 - Jürgen also proposed the Economy of minds (EOM, sec 3 in paper), but we have yet to implement it.
 - <details>
-    <summary><b>More insights</b> 👈 CLIKE TO OPEN</summary>
+    <summary><b>More insights</b> 👈 [CLIKE TO OPEN]</summary>
     <p>
         <ul>
             <li><b> Introduction:</b> Both Minsky’s “society of mind” and Schmidhuber’s “learning to think” inspire diverse societies of large multimodal neural networks (NNs) that solve problems by interviewing each other in a “mindstorm.” Recent implementations of NN-based societies of minds consist of large language models (LLMs) and other NN-based experts communicating through a natural language interface. In doing so, they overcome the limitations of single LLMs, improving multimodal zero-shot reasoning. In these natural language-based societies of mind (NLSOMs), new agents—all communicating through the same universal symbolic language—are easily added in a modular fashion. </li>
@@ -332,7 +332,7 @@ streamlit run app.py
 
 <details>
     <summary>
- Demo 2: Model Collaboration (Multimodal Agents) 👈 CLIKE TO OPEN</summary>
+ Demo 2: Model Collaboration (Multimodal Agents) 👈 [CLIKE TO OPEN]</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112394722493857872/Presentation2_copy_pdf.io_1.png?width=1620&height=220">
     <p>
         <ul>
@@ -400,7 +400,7 @@ streamlit run app.py
 
 <details>
     <summary>
-Demo 3: Collaborative API Usages (Introduce "AGI") 👈 CLIKE TO OPEN</summary>
+Demo 3: Collaborative API Usages (Introduce "AGI") 👈 [CLIKE TO OPEN]</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112116808401555486/Presentation5_pdf.io.png?width=1620&height=262" alt="some_text">
     <p>
         <ul>
