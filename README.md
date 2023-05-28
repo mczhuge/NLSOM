@@ -90,7 +90,7 @@ Features:
 #### 1. Focus more on NLSOM
 
 
-<details open>
+<details>
     <summary>
  Demo 1: Society of Mind (XXX)</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112390917492592731/Presentation2_copy_pdf.io.png?width=1620&height=220">
@@ -290,9 +290,9 @@ Summary: Existential risk from artificial general intelligence is the hypothesis
 </details>
 
 ------
-<details open>
+<details>
     <summary>
-Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
+Demo 4: Collaborative Role-Play (The Three Kingdoms) 👈 <b>[CLIKE TO OPEN]</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1111773821859541012/image.png?width=1620&height=436" alt="some_text">
     <p>
         <ul>
