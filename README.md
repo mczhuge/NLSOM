@@ -26,7 +26,8 @@ Features:
 
 ## 💡️ Important Concepts
 
-- We introduce the concepts NLSOM, which contains society, community and agent.
+- We introduce the concepts NLSOM, which contains society, community and agent-—all communicating through the same universal
+symbolic language—are easily added in a modular fashion
 - Agents will collaborate to solve the task, we called it Mindstorm. 
 - [Jürgen](https://scholar.google.com/citations?user=gLnCTgIAAAAJ&hl=en&oi=ao) also proposed the Economy of minds (EOM, sec 3 in paper), but we have yet to implement it.
 - <details>
