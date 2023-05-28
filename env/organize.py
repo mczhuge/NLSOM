@@ -23,5 +23,5 @@ few_shot_prompt = FewShotPromptTemplate(
 
 def Organize(objective):
     NLSOM_candiate = few_shot_prompt.format(input=objective, society=str(AI_SOCIETY))
-    llm = OpenAI(temperature=0.9)
+    llm = OpenAI(temperature=0.1)
     return llm(NLSOM_candiate)
