@@ -37,7 +37,7 @@ from society.ocr.agent import EasyOCR # 1
 from society.role_play.agent import LiuBei, GuanYu, ZhangFei, ZhugeLiang #4
 from society.search.agent import SE_A, SE_B, SE_C, SE_D #4
 from society.sentence_refine.agent import SentenceRefine # 1
-# from society.text_to_image.agent import Text2Image # 1
+from society.text_to_image.agent import AnythingV4, AnythingV3, OpenJourneyV4, OpenJourney, StableDiffusionV15, StableDiffusionV21B, StableDiffusionV21 # 7
 # from society.text_to_speech.agent import Text2Speech #1
 # from society.text_to_video.agent import DeforumSD #1
  
