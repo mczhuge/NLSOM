@@ -216,7 +216,7 @@ Features:
       </p> 
      <p>
         <ul>
-            <li><b>💬 Human (Jürgen): </b> While the ground-truth answer (Orville Wright made the first powered flight in 1903) in this VQA dataset is in line with the commonly held belief, in this instance the common belief is, in fact, incorrect. Please see: https://people.idsia.ch/~juergen/planetruth.html
+            <li><b>📝 Human (Jürgen): </b> While the ground-truth answer (Orville Wright made the first powered flight in 1903) in this VQA dataset is in line with the commonly held belief, in this instance the common belief is, in fact, incorrect. Please see: https://people.idsia.ch/~juergen/planetruth.html
     </li>
         </ul>
     </p>   
