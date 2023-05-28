@@ -269,59 +269,59 @@ streamlit run app.py
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112390917492592731/Presentation2_copy_pdf.io.png?width=1620&height=220">
     <p>
         <ul>
-            <li><b>🔴 User:</b> Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
+            <li>🔴 User:Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
         </ul>
     </p>
     <p>
         <ul>
-            <li><b>🧰 NLSOM System (Recommendation):</b> Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) search</u></li>
+            <li>🧰 NLSOM System (Recommendation): Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) search</u></li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Self-Organization):</b> We load the recommended AI communities with their their corresponding agents: (a) Arxiv, (b) WolframAlpha, (c) Wikipedia, (d) BingSearch
+            <li>⚪️ NLSOM System (Self-Organization): We load the recommended AI communities with their their corresponding agents: (a) Arxiv, (b) WolframAlpha, (c) Wikipedia, (d) BingSearch
     </li>
         </ul>
     </p>     
     <p>
         <ul>
-            <li><b>🟢 Arxiv:</b>  
+            <li>🟢 Arxiv:  
     </li>
         </ul>
     </p>  
     <p>
         <ul>
-            <li><b>🟡 WolframAlpha:</b> 
+            <li>🟡 WolframAlpha:
     </li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li><b>🔵 Wikipedia:</b> 
+            <li>🔵 Wikipedia:
     </li>
         </ul>
     </p> 
     <p>
         <ul>
-            <li><b>🟤  BingSeach:</b> 
+            <li>🟤  BingSeach:
     </li>
         </ul>
     </p> 
     <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Review):</b>  
+            <li>⚪️ NLSOM System (Review):  
     </li>
         </ul>
     </p>  
      <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Summary):</b> 
+            <li>⚪️ NLSOM System (Summary):
     </li>
         </ul>
     </p> 
      <p>
         <ul>
-            <li><b>💰 NLSOM System (Reward):</b>  
+            <li>💰 NLSOM System (Reward): 
     </li>
         </ul>
     </p> 
