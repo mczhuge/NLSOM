@@ -2,7 +2,7 @@ import os
 from langchain import PromptTemplate, FewShotPromptTemplate
 from langchain.llms import OpenAI
 
-from env.prompt import AI_SOCIETY, ORGANIZING_EXAMPLE
+from env.prompt_bak528 import AI_SOCIETY, ORGANIZING_EXAMPLE
 
 
 in_context_template = """Objective: {objective}\nSociety: {society}\nOrganizing: {organizing}""" 
@@ -23,5 +23,5 @@ few_shot_prompt = FewShotPromptTemplate(
 
 def Organize(objective):
     NLSOM_candiate = few_shot_prompt.format(input=objective, society=str(AI_SOCIETY))
-    llm = OpenAI(temperature=0.9)
+    llm = OpenAI(temperature=0.1)
     return llm(NLSOM_candiate)

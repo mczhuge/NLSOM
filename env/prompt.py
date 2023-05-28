@@ -23,7 +23,7 @@ ORGANIZING_EXAMPLE = [
     {"objective": "Describe this image in details", "society": str(AI_SOCIETY), "organizing": ["image_captioning"]},
     {"objective": "Make the woman in this image more beautiful", "society": str(AI_SOCIETY), "organizing": ["image_captioning", "image_enhancing"]},
     {"objective": "Show me the answer of the question in the image", "society": str(AI_SOCIETY), "organizing": ["image_captioning", "ocr"]},
-    {"objective": "If you are in the three kindoms, how you can conquer the world.", "society": str(AI_SOCIETY), "organizing": ["role_play"]},
+    {"objective": "If you are in the Three Kingdoms can conquer the world.", "society": str(AI_SOCIETY), "organizing": ["role_play"]},
     {"objective": "Introduce the \"KAUST AI Initiative\".", "society": str(AI_SOCIETY), "organizing": ["search"]},
     {"objective": "In this image, how many candles in the table? Choice: (a) 2, (b) 4, (c) 6, (d) 5. Answer:", "society": str(AI_SOCIETY), "organizing": ["vqa"]},
     {"objective": "VQA question: What is the relationship between the two individuals?", "society": str(AI_SOCIETY), "organizing": ["vqa"]},
@@ -36,7 +36,7 @@ Like the Society of Mind, NLSOM also consists of agents. In this case, the agent
 
 NLSOM can handle and comprehend multimodal inputs such as text, images, audio, and video using multiple agents with different functionalities.
 
-In the initial stage, you recommend communities to accomplish user-defined objective, where each community may contain one or multiple agents. For example, the VQA community includes different VQA agents.
+In the initial stage, you recommend communities to accomplish the user-defined objective, where each community may contain one or multiple agents. For example, the VQA community includes different VQA agents.
 
 When multiple agents in one community are available, you should utilize all of them. We call this "Mindstorm" which facilitates incorporating different perspectives and achieving a more comprehensive understanding. 
 
@@ -58,7 +58,7 @@ To progressively invoke the various tools within the NLSOM, please use the follo
 
 ```
 Thought: Have all the agents in [{tool_names}] been truly utilized (served as Action)? No
-Action: The action to take, one of [{tool_names}] which did not used
+Action: The action to take, one of [{tool_names}] which did not use
 Action Input: The input to the action
 Observation: The result of the action. 
 ```
@@ -72,7 +72,7 @@ Suppose you have already used all of the agents.
 In that case, NLSOM should remember to provide the Human with the detailed organization of NLSOM, implementation information, agents' outputs, and rewards for each agent in the final response, including the following format:
 
 ```
-Thought:Have all the agents in [{tool_names}] been truly utilized (served as Action)? Yes
+Thought: Have all the agents in [{tool_names}] been truly utilized (served as Action)? Yes
 {ai_prefix}: 
 Review: [1) Whether the NLSOM has utilized all the agents? 2) Whether the NLSOM has solved the user-defined objective? Analyze the employed agents, NLSOM's organizational structure, and their outputs.]
 Summary: [According to the outputs of each agent, provide a comprehensive solution to the user-defined objective as comprehensively as possible. You MUST record all the filenames if they exist. Do not use "\n".]
