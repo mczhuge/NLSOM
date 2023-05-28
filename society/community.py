@@ -44,7 +44,7 @@ from society.sentence_refine.agent import SentenceRefine # 1
 # Need GPU
 # from society.audio_recognition.agent import Paraformer # 1
 # from society.body_reshaping.agent import SAFG # 1
-from society.image_captioning.agent import BLIP2_captioning #mPLUG_captioning, OFA_distilled_captioning, OFA_large_captioning, BLIP2_captioning # 4
+from society.image_captioning.agent import mPLUG_captioning, OFA_distilled_captioning, OFA_large_captioning, BLIP2_captioning # 4
 # from society.image_colorization.agent import DDColor # 1
 # from society.image_deblur.agent import NAFNet # 1
 # from society.image_to_3d.agent import HumanReconstruction # 1
