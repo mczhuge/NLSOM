@@ -207,7 +207,7 @@ Features:
     </p> 
      <p>
         <ul>
-            <li><b>💰 NLSOM System (Reward):</b>  ["BLIP2_VQA": 2, "mPLUG_VQA": 2, "OFA_VQA": 2]
+            <li><b>💰 NLSOM System (Reward):</b>  ["BLIP2_VQA": 3, "mPLUG_VQA": 2, "OFA_VQA": 3]
     </li>
         </ul>
     </p> 
