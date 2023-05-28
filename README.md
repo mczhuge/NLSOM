@@ -153,8 +153,8 @@ Features:
         </ul>
     </p> 
 </details>
-------
 
+------
 #### 2. Focus more on Mindstorm
 
 <details>
@@ -222,8 +222,8 @@ Features:
     </p>   
     
 </details>
-------
 
+------
 <details>
     <summary>
 Demo 3: Collaborative API Usages (Introduce "AGI") 👈 <b>[CLIKE TO OPEN]</b></summary>
@@ -291,9 +291,6 @@ Summary: Existential risk from artificial general intelligence is the hypothesis
 </details>
 
 ------
-
-
-
 <details open>
     <summary>
 Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
