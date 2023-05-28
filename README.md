@@ -65,7 +65,7 @@ pip install wolframalpha
 pip install wikipedia
 pip install arxiv
 [Set Modelscope]
-pip install modelscope
+pip install modelscope==1.6.0
 python3 -m pip install nvidia-cudnn-cu11==8.6.0.163 tensorflow==2.12.*
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib
 python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
