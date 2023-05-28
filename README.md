@@ -10,7 +10,7 @@
 
 ## ✨ Introduction
 
-This project is the **technical extenstion** for original [NLSOM paper](): allowing you to build a specific NLSOM quickly. 
+This project is the **extensional template** for original [NLSOM paper](): allowing you to build a specific NLSOM quickly. 
 When you provide the inputs (files or targets), LLM automates all these processes for you:
 
 - **🧰 Recommendation**: Autonomously select communities and agents to form a self-organized NLSOM for solving the target.
@@ -28,147 +28,204 @@ Features:
 
 - We introduce the concepts NLSOM, which contains society, community and agent.
 - Agents will collaborate to solve the task, we called it Mindstorm. 
-- Jürgen also proposed the Economy of minds (EOM, sec 3 in paper), but we have yet to implement it.
+- [Jürgen](https://scholar.google.com/citations?user=gLnCTgIAAAAJ&hl=en&oi=ao) also proposed the Economy of minds (EOM, sec 3 in paper), but we have yet to implement it.
+- <details>
+    <summary><b>More insights</b> 👈 [CLIKE TO OPEN]</summary>
+    <p>
+        <ul>
+            <li><b> Introduction:</b> Both Minsky’s “society of mind” and Schmidhuber’s “learning to think” inspire diverse societies of large multimodal neural networks (NNs) that solve problems by interviewing each other in a “mindstorm.” Recent implementations of NN-based societies of minds consist of large language models (LLMs) and other NN-based experts communicating through a natural language interface. In doing so, they overcome the limitations of single LLMs, improving multimodal zero-shot reasoning. In these natural language-based societies of mind (NLSOMs), new agents—all communicating through the same universal symbolic language—are easily added in a modular fashion. </li>
+        </ul>
+    </p>    
+    
+    <p>
+        <ul>
+            <li><b> Advantages:</b>   This shared natural language communication interface has several advantages: 
+                <b>1) Scaling/Modularity.</b> Adding another LLM to an existing NLSOM or replacing one LLM with another (perhaps much larger) LLM does not change the interview interface between the LLMs because the latter is standardized in terms of natural language, which can be viewed as a universal code. This is very much aligned with the objectives of modular AI systems. 
+                <b>2) Explainable AI.</b> Since queries and answers are in natural language, human observers can understand more easily what the NLSOM is thinking while trying to solve its problem. This is in great accordance with the goals of attempting to create explainable AI. It also allows for easily including human experts in an NLSOM. 
+                <b>3) Human-Biased AI.</b> For thousands of years, NL has evolved to compactly encode all the things humans consider important. That is to say that an NLSOM would be expected to have a strong bias towards human thinking and reasoning. </li>
+        </ul>
+    </p>        
+    
+     <p>
+        <ul>
+            <li><b> Focus:</b>   Our primary objective extends beyond the development of a task automation system. Existing research has demonstrated the effectiveness of using language models (LLMs) as controllers to coordinate multiple models. Instead, we focus on enhancing collaboration and cohesion among various AI modules.
+            </li>
+        </ul>
+    </p>   
+     <p>
+        <ul>
+            <li><b> Process:</b>   In this GitHub project, 1) our first step is to utilize a recommendation process that provides users with relevant communities and agents aligned with their goals. These recommendations encompass tools, plugins, models, and role-players, which can then be loaded accordingly. 2) Additionally, we employ a Mindstorm approach, setting ourselves apart from previous models like VisualChatGPT and HuggingGPT, which rely solely on a single model for a specific function. Within our framework, a community of agents shares a common function, such as "search," while each agent possesses unique strengths and capabilities. For instance, agents like "Bing Search," "Wikipedia," "arXiv," and "WolframAlpha" collaborate to provide a more comprehensive understanding. 3) Furthermore, we emphasize the importance of reward mechanisms. In our current implementation, we reward different models for their contributions to task completion, which serves as a valuable means of evaluating a model's usefulness for specific tasks.
+            </li>
+        </ul>
+    </p>     
+     <p>
+        <ul>
+            <li><b> Limitation:</b>  The current GitHub version of NLSOM is in its preliminary stages and has limitations: 1) Unstable Mindstorm process (since it is driven by prompts rather by codes, we will upload it), and 3) the reward mechanism was not utilized for RL training. 
+            </li>
+        </ul>
+    </p>    
+     <p>
+        <ul>
+            <li><b> Outlook:</b>   The concept behind this project is to provide a preliminary NLSOM solution. To illustrate, let's consider a scenario where a non-technical individual lacks expertise in computer science and has limited knowledge about various AI plugins. In such cases, the NLSOM system can automatically recommend different communities and agents to automate tasks based on user input in natural language. Even without understanding the performance of a specific model, the user can benefit from multiple models with the same functionality working together to offer more comprehensive answers. These AI communities can collaborate and compete with each other. Furthermore, the NLSOM system implements a reward mechanism that grants AI models a higher status based on their performance. This reward mechanism serves the purpose of optimizing the end-to-end recommendation/Mindstorm process in the future. It establishes a system akin to a Darwinian meritocracy within the AI community, where models compete and succeed based on their demonstrated excellence.
+            </li>
+        </ul>
+    </p>     
+     <p>
+        <ul>
+            <li><b> Paragraph excerpt of EOM (Please refer to paper for more details):</b>   Some members of an NLSOM may interact with an environment. Occasionally, the environment may pay them in the form of some currency, say, USD. Let us consider an NLSOM member called M. In the beginning, M is endowed with a certain amount of USD. However, M must also regularly pay rent/taxes/other bills to its NLSOM and other relevant players in the environment. If M goes bankrupt, it disappears from the NLSOM, which we now call an Economy of Minds (EOM), to reflect its sense of business. M may offer other EOM members money in exchange for certain services (e.g., providing answers to questions or making a robot act in some way). Some EOM member N may accept an offer, deliver the service to M, and get paid by M. The corresponding natural language contract between M and N must pass a test of validity and enforceability, e.g., according to EU law. This requires some legal authority, possibly an LLM (at least one LLM has already passed a legal bar exam), who judges whether a proposed contract is legally binding. In case of disputes, a similar central executive authority will have to decide who owes how many USD to whom. Wealthy NLSOM members may spawn kids (e.g., copies or variants of themselves) and endow them with a fraction of their own wealth, always in line with the basic principles of credit conservation.
+            </li>
+        </ul>
+    </p>   
+    
+    
+</details>
+
+
+
+
 
 
 
 ## 🧸 Demo
-### 1. Focus more on NLSOM
+#### 1. Focus more on NLSOM
 
-<details open>
-    <summary><b>
- Demo 1: Society of Mind (XXX)</b></summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112116808401555486/Presentation5_pdf.io.png?width=1620&height=262">
+
+<details>
+    <summary>
+ Demo 1: Society of Mind (Automatical Task-Solving)👈 <b>[CLIKE TO OPEN]</b></summary>
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112390917492592731/Presentation2_copy_pdf.io.png?width=1620&height=220">
     <p>
         <ul>
-            <li><b>🔴 User:</b> Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
+            <li>🔴 User:Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
         </ul>
     </p>
     <p>
         <ul>
-            <li><b>🧰 NLSOM System (Recommendation):</b> Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) search</u></li>
+            <li>🧰 NLSOM System (Recommendation): Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) search</u></li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Self-Organization):</b> We load the recommended AI communities with their their corresponding agents: (a) Arxiv, (b) WolframAlpha, (c) Wikipedia, (d) BingSearch
+            <li>⚪️ NLSOM System (Self-Organization): We load the recommended AI communities with their their corresponding agents: (a) Arxiv, (b) WolframAlpha, (c) Wikipedia, (d) BingSearch
     </li>
         </ul>
     </p>     
     <p>
         <ul>
-            <li><b>🟢 Arxiv:</b>  
+            <li>🟢 Arxiv:  
     </li>
         </ul>
     </p>  
     <p>
         <ul>
-            <li><b>🟡 WolframAlpha:</b> 
+            <li>🟡 WolframAlpha:
     </li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li><b>🔵 Wikipedia:</b> 
+            <li>🔵 Wikipedia:
     </li>
         </ul>
     </p> 
     <p>
         <ul>
-            <li><b>🟤  BingSeach:</b> 
+            <li>🟤  BingSeach:
     </li>
         </ul>
     </p> 
     <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Review):</b>  
+            <li>⚪️ NLSOM System (Review):  
     </li>
         </ul>
     </p>  
      <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Summary):</b> 
+            <li>⚪️ NLSOM System (Summary):
     </li>
         </ul>
     </p> 
      <p>
         <ul>
-            <li><b>💰 NLSOM System (Reward):</b>  
+            <li>💰 NLSOM System (Reward): 
     </li>
         </ul>
     </p> 
 </details>
 
-### 2. Focus more on Mindstorm
+#### 2. Focus more on Mindstorm
 
 <details>
-    <summary><b>
- Demo 2: Model Collaboration (Multimodal Agents)</b> 👈 CLIKE TO OPEN</summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112116808401555486/Presentation5_pdf.io.png?width=1620&height=262">
+    <summary>
+ Demo 2: Model Collaboration (Multimodal Agents) 👈 <b>[CLIKE TO OPEN]</b></summary>
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112394722493857872/Presentation2_copy_pdf.io_1.png?width=1620&height=220">
     <p>
         <ul>
-            <li><b>🔴 User:</b> Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
+            <li><b>🔴 User:</b> VQA question: What century were these invented in?
         </ul>
     </p>
     <p>
         <ul>
-            <li><b>🧰 NLSOM System (Recommendation):</b> Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) search</u></li>
+            <li><b>🧰 NLSOM System (Recommendation):</b> Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) vqa</u></li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Self-Organization):</b> We load the recommended AI communities with their their corresponding agents: (a) Arxiv, (b) WolframAlpha, (c) Wikipedia, (d) BingSearch
+            <li><b>⚪️ NLSOM System (Self-Organization):</b> We load the recommended AI communities with their their corresponding agents: (a) BLIP2_VQA, (b) mPLUG_VQA, (c) OFA_VQA
     </li>
         </ul>
     </p>     
     <p>
         <ul>
-            <li><b>🟢 Arxiv:</b>  
+            <li><b>🟢 BLIP2_VQA:</b>  The 20th century was the century of the airplane.
     </li>
         </ul>
     </p>  
     <p>
         <ul>
-            <li><b>🟡 WolframAlpha:</b> 
+            <li><b>🟡 mPLUG_VQA:</b> 21st
     </li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li><b>🔵 Wikipedia:</b> 
+            <li><b>🔵 OFA_VQA:</b> 20th
     </li>
         </ul>
     </p> 
     <p>
         <ul>
-            <li><b>🟤  BingSeach:</b> 
-    </li>
-        </ul>
-    </p> 
-    <p>
-        <ul>
-            <li><b>⚪️ NLSOM System (Review):</b>  
-    </li>
+            <li><b>⚪️ NLSOM System (Review):</b>  Whether the NLSOM has utilized all the agents? Yes 2) Whether the NLSOM has solved the user-defined objective? Yes
         </ul>
     </p>  
      <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Summary):</b> 
+            <li><b>⚪️ NLSOM System (Summary):</b> The invention of the airplane was in the 20th century.
     </li>
         </ul>
     </p> 
      <p>
         <ul>
-            <li><b>💰 NLSOM System (Reward):</b>  
+            <li><b>💰 NLSOM System (Reward):</b>  ["BLIP2_VQA": 3, "mPLUG_VQA": 2, "OFA_VQA": 3]
     </li>
         </ul>
     </p> 
+      </p> 
+     <p>
+        <ul>
+            <li><b>📝 Human (Jürgen): </b> While the ground-truth answer (Orville Wright made the first powered flight in 1903) in this VQA dataset is in line with the commonly held belief, in this instance the common belief is, in fact, incorrect. Please see: https://people.idsia.ch/~juergen/planetruth.html
+    </li>
+        </ul>
+    </p>   
+    
 </details>
 
+
 <details>
-    <summary><b>
-Demo 3: Collaborative API Usages (Introduce "AGI")</b> 👈 CLIKE TO OPEN</summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112102854895865937/Presentation5-1.png?width=1620&height=228" alt="some_text">
+    <summary>
+Demo 3: Collaborative API Usages (Introduce "AGI") 👈 <b>[CLIKE TO OPEN]</b></summary>
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112116808401555486/Presentation5_pdf.io.png?width=1620&height=262" alt="some_text">
     <p>
         <ul>
             <li><b>🔴 User:</b> Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
@@ -232,11 +289,9 @@ Summary: Existential risk from artificial general intelligence is the hypothesis
 </details>
 
 
-
-
 <details open>
-    <summary><b>
-Demo 4: Collaborative Role-Play (The Three Kingdoms)</b></summary>
+    <summary>
+Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1111773821859541012/image.png?width=1620&height=436" alt="some_text">
     <p>
         <ul>
@@ -298,14 +353,55 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</b></summary>
     </p> 
 </details>
 
-### 💾 Usage
+------
 
-#### 1. Install
+## 💾 Usage
+
+### 1. Install
 
 * Install the dependancies
-```
+```bash
 conda env create -n nlsom -f nlsom.yaml
 ```
+
+#### Nanny installation instructions
+```bash
+# [Set Conda Env] 
+conda create -n nlsom python=3.8
+conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 -c pytorch
+pip install pandas==1.4.3
+# [Set LangChain, OpenAI]
+pip install langchain==0.0.158
+pip install sqlalchemy==2.0.12
+pip install openai
+pip install colorama
+# [Set Streamlit]
+cd config && unzip validators-0.20.0.tar.gz
+cd validators-0.20.0
+python setup.py build
+python setup.py install
+pip install streamlit==1.22.0
+pip install streamlit_chat==0.0.2.2
+# [Set Huggingface/transformers]
+pip install transformers==4.29.2
+pip install accelerate==0.19.0
+# [Set Search]
+pip install wolframalpha
+pip install wikipedia
+pip install arxiv
+# [Set Modelscope]
+pip install modelscope==1.6.0
+python3 -m pip install nvidia-cudnn-cu11==8.6.0.163 tensorflow==2.12.*
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib
+python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+pip install modelscope[multi-modal]
+pip install decord==0.6.0
+pip install fairseq
+pip install librosa
+pip install setuptools==59.5.0
+pip install tensorboardX
+```
+
 
 ```
 conda create -n nlsom python=3.8
@@ -317,13 +413,15 @@ pip install guidance
 pip install wolframalpha
 pip install wikipedia
 pip install arxiv
+pip install click
 pip install bs4
 pip install streamlit==1.22.0
 pip install streamlit_chat==0.0.2.2
 pip install colorama
 pip install torch==1.13.1
 pip install torchvision==0.14.1
-pip install transformers
+#pip install transformers
+conda install -c huggingface transformers
 python3 -m pip install nvidia-cudnn-cu11==8.6.0.163 tensorflow==2.12.*
 pip install easydict
 pip install modelscope[cv] -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
@@ -336,9 +434,10 @@ pip install ffmpeg
 pip install trimesh
 pip install PyMCubes
 pip install scikit-image
-pip install TTS
+pip install TTS # Change many existed packages
 pip install easyocr
-pip install guidance
+pip install replicate==0.8.3
+pip install protobuf==3.19.3 # 不兼容transformers
 
 
 
@@ -353,7 +452,7 @@ pip install pdf2image==1.16.3
 pip install pytesseract==0.3.10
 pip install tabulate
 pip install tesseract
-
+pip install guidance
 
 langchain
 pip3 install azure-storage-blob azure-identity
@@ -432,9 +531,6 @@ default_cache_dir = Path.home().joinpath('{YOUR_NLSOM_PATH}/checkpoints', 'model
 streamlit run app.py
 ```
 
-
-
-
 #### 2. Run
 ```
 eval `ssh-agent -s`
@@ -483,6 +579,7 @@ export REPLICATE_API_TOKEN=r8_WssXC8wLfU6nIOZSgm69CM49SFvuObr35zgcu
 ## Preliminary Experiments on Paper 
 The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and natural language-based society of mind.
 
+<!--
 ## TODO
 Please feel free to submit a pull request if you can optimize the identified issues. We will promptly incorporate any improvements.
 
@@ -493,6 +590,7 @@ Please feel free to submit a pull request if you can optimize the identified iss
 * Add more communities and agents.
 * Design a more accurate reward mechanism.
 * Make the NLSOM learnable.
+-->
 
 ## Acknowledgments
 
@@ -504,7 +602,9 @@ We also thank great AI platforms and all the used models or APIs:
 
 [huggingface](https://github.com/huggingface/transformers), [modelscope](https://github.com/modelscope/modelscope).
 
+Thanks Guohao and Hasan's experiments based on:
 
+[CAMEL](https://github.com/camel-ai/camel).
 
 ## :black_nib: Citation
 
