@@ -103,8 +103,6 @@ class SE_D:
 #         return docs
 
 
-
-
 if __name__ == "__main__":
 
     bing = SE_D()

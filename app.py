@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_chat import message
-from env.organize import Organize
+from env.recommendation import Organize
 from pathlib import Path
 import ast
 import torch
@@ -8,9 +8,10 @@ from colorama import Fore, Back, Style
 from PIL import Image
 
 from society.community import *
-from env.prompt import NLSOM_PREFIX, NLSOM_FORMAT_INSTRUCTIONS, NLSOM_SUFFIX, AI_SOCIETY
+from env.prompt_bak528 import NLSOM_PREFIX, NLSOM_FORMAT_INSTRUCTIONS, NLSOM_SUFFIX, AI_SOCIETY
 
 # export OPENAI_API_KEY=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
+# export OPENAI_API_KEY=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
 # eyJhbGciOiJIUzUxMiIsImlhdCI6MTY4NDQ4MzEyNywiZXhwIjoxNjg0NTY5NTE2fQ.eyJpZCI6Im1pbmdjaGVuemh1Z2UifQ.Kmm8XriNPdc_a4fF2tLOeGH2SvlpNQ84YT2ZiDaK0G9CJ9W8DmXuBhWb8dsTyTJIweCDg7pfy2-ko8b5u7C46Q
 # mczhuge
 
@@ -53,7 +54,7 @@ st.set_page_config(
 )
 
 LOGO_FILE = os.path.join("config", "nlsom.png")
-st.title(':orange[Mindstorm]: Natural Language-based :blue[Societies of Mind]')
+st.title(':orange[Mindstorms] in NL:blue[SOM]')
 st.text("1️⃣ Enter your API keys.  ")
 st.text("2️⃣ Next, upload a file and your task. ")
 st.text("3️⃣ I will automatically organize an NLSOM and solve the task.")
@@ -295,9 +296,10 @@ with container:
         st.session_state["past"].append(user_input)
         print("1", st.session_state["data_name"])
         print("2", user_input)
-        if st.session_state["data_name"] != []:
-            community = Organize(st.session_state["data_name"] + " " + user_input) # TODO: 验证是否有识别这张图
         community = Organize(user_input)
+        if st.session_state["data_name"] != []:
+            #community = Organize(st.session_state["data_name"] + " " + user_input) # TODO: 验证是否有识别这张图
+            user_input = st.session_state["data_name"] + ", " + user_input
         #message(f"基于这个目标, 我推荐NLSOM需要包含以下团体: {community}")
         community = community.replace("[", "").replace("]", "").replace("'", "").split(",")
         num_icon = ["1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣","🔟"]
@@ -314,7 +316,8 @@ with container:
         responce = generate_response(user_input, st.session_state["tools"], st.session_state["chat_history"])
         #reward = generate_reward(user_input, st.session_state["communities"], st.session_state["agents"], st.session_state["chat_history"])
         review, output, reward = responce.split("\n")[0], responce.split("\n")[1], responce.split("\n")[2]
-        
+        if "Analyze the employed agents" in review: # The review was unsuccessful, possibly due to the ongoing process or the brevity of the content.
+            review = review.split("Analyze the employed agents")[0].strip("[").strip("]")
         
         st.session_state["generated"].append(review)
         st.session_state["generated"].append(output)

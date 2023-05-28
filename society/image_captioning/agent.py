@@ -2,7 +2,6 @@ from modelscope.pipelines import pipeline
 from modelscope.utils.constant import Tasks
 from modelscope.outputs import OutputKeys
 
-
 import torch
 from PIL import Image
 import requests
@@ -19,7 +18,6 @@ def prompts(name, description):
 
 class mPLUG_captioning:
     def __init__(self, device):
-        print(f"Initializing mPLUG_captioning to {device}")
         self.device = device
         self.torch_dtype = torch.float16 if 'cuda' in device else torch.float32
         model_id = 'damo/mplug_image-captioning_coco_large_en'
@@ -35,10 +33,8 @@ class mPLUG_captioning:
         print(f"\nProcessed mPLUG_captioning, Input Image: {image_path}, Output Text: {captions}")
         return captions
     
-
 class OFA_distilled_captioning:
     def __init__(self, device):
-        print(f"Initializing OFA_distilled_captioning to {device}")
         self.device = device
         self.torch_dtype = torch.float16 if 'cuda' in device else torch.float32
         model_id = 'damo/ofa_image-caption_coco_large_en'
@@ -51,12 +47,10 @@ class OFA_distilled_captioning:
     def inference(self, image_path):
         image_path = image_path.strip("\n")
         captions = self.pipeline_caption(image_path)[OutputKeys.CAPTION]
-        #print(f"\nProcessed mPLUG_captioning, Input Image: {image_path}, Output Text: {captions}")
         return captions
     
 class OFA_large_captioning:
     def __init__(self, device):
-        print(f"Initializing OFA_large_captioning to {device}")
         self.device = device
         self.torch_dtype = torch.float16 if 'cuda' in device else torch.float32
         model_id = 'damo/ofa_image-caption_coco_large_en'
@@ -69,12 +63,10 @@ class OFA_large_captioning:
     def inference(self, image_path):
         image_path = image_path.strip("\n")
         captions = self.pipeline_caption(image_path)[OutputKeys.CAPTION]
-        #print(f"\nProcessed mPLUG_captioning, Input Image: {image_path}, Output Text: {captions}")
         return captions
     
 class BLIP2_captioning:
     def __init__(self, device):
-        print(f"Initializing BLIP2 to {device}")
         self.device = device
         self.torch_dtype = torch.float16 if 'cuda' in device else torch.float32
         model_id = 'Salesforce/blip2-flan-t5-xl'
@@ -93,3 +85,4 @@ class BLIP2_captioning:
         answer = self.processor.batch_decode(generated_answer_ids, skip_special_tokens=True)[0].strip()
 
         return answer
+

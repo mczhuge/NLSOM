@@ -50,7 +50,7 @@ def generate_response(task, role, desc):
 
 class GuanYu:
     template_model = True
-    def __init__(self, device="cuda:0"):
+    def __init__(self, device="cpu"):
         self.device = device
         
 
@@ -71,7 +71,7 @@ class GuanYu:
     
 class LiuBei:
     template_model = True
-    def __init__(self, device="cuda:0"):
+    def __init__(self, device="cpu"):
         self.device = device
         
 
@@ -82,7 +82,6 @@ class LiuBei:
 
     def inference(self, text):
 
-
         role_desc = """Liu Bei is widely regarded as the ideal benevolent and humane ruler who cared for his people and selected good advisers for his government. 
                        His fictional counterpart in the novel was a salutary example of a ruler who adhered to the Confucian set of moral values, such as loyalty and compassion. 
                        Historically, Liu Bei, like many Han rulers, was greatly influenced by Laozi. He was a brilliant politician and leader whose skill was a remarkable demonstration of "Confucian in appearance but Legalist in substance".
@@ -91,42 +90,17 @@ class LiuBei:
         answer = generate_response(text, "LiuBei", role_desc)
         return answer
     
-class ZhangFei:
-    template_model = True
-    def __init__(self, device="cuda:0"):
-        self.device = device
-        
-
-    @prompts(name="ZhangFei",
-             description="A role-play agent named ZhangFei, you can query him to answer his opinion"
-                         "Useful for when you need to discuss with a role-play agent, "
-                         "Input should be a question, output is the answer of this question")
-
-    def inference(self, text):
-
-
-        role_desc = """Zhang Fei, courtesy name Yide, was a military general serving under the warlord Liu Bei in the late Eastern Han dynasty and early Three Kingdoms period of China. 
-                       Zhang Fei and Guan Yu, who were among the earliest to join Liu Bei, shared a brotherly relationship with their lord and accompanied him on most of his early exploits.
-                       Zhang Fei was shown as an exceedingly loyal and formidable warrior, but also a short-tempered man, who often got into trouble more often when he was not on the battlefield. 
-                    """
-
-        answer = generate_response(text, "ZhangFei", role_desc)
-        return answer
-    
-    
 class ZhugeLiang:
     template_model = True
-    def __init__(self, device="cuda:0"):
+    def __init__(self, device="cpu"):
         self.device = device
         
-
     @prompts(name="ZhugeLiang",
              description="A role-play agent named ZhugeLiang, you can query him to answer his opinion"
                          "Useful for when you need to discuss with a role-play agent, "
                          "Input should be a question, output is the answer of this question")
 
     def inference(self, text):
-
 
         role_desc = """Zhuge Liang, courtesy name Kǒngmíng was a Chinese military engineer, strategist, statesman, and writer. 
                        He was chancellor and later regent of the state of Shu Han during the Three Kingdoms period. 
@@ -140,33 +114,30 @@ class ZhugeLiang:
 
         answer = generate_response(text, "ZhugeLiang", role_desc)
         return answer
+    
+class ZhangFei:
+    template_model = True
+    def __init__(self, device="cuda:0"):
+        self.device = device
+        
+    @prompts(name="ZhangFei",
+             description="A role-play agent named ZhangFei, you can query him to answer his opinion"
+                         "Useful for when you need to discuss with a role-play agent, "
+                         "Input should be a question, output is the answer of this question")
 
+    def inference(self, text):
 
+        role_desc = """Zhang Fei, courtesy name Yide, was a military general serving under the warlord Liu Bei in the late Eastern Han dynasty and early Three Kingdoms period of China. 
+                       Zhang Fei and Guan Yu, who were among the earliest to join Liu Bei, shared a brotherly relationship with their lord and accompanied him on most of his early exploits.
+                       Zhang Fei was shown as an exceedingly loyal and formidable warrior, but also a short-tempered man, who often got into trouble more often when he was not on the battlefield. 
+                    """
 
-
-
+        answer = generate_response(text, "ZhangFei", role_desc)
+        return answer
 
 if __name__ == "__main__":
     role = GuanYu()
     ans = role.inference("If you are in the Three Kingdoms period now, how to defeat Cao Cao?")
     print(ans)
 
-    print("#"*20)
 
-    role = LiuBei()
-    ans = role.inference("How to defeat Cao Cao?")
-    print(ans)
-
-    print("#"*20)
-
-    role = ZhugeLiang()
-    ans = role.inference("How to defeat Cao Cao?")
-    print(ans)
-
-    print("#"*20)
-
-    role = ZhangFei()
-    ans = role.inference("How to defeat Cao Cao?")
-    print(ans)
-
-    print("#"*20)

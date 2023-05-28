@@ -15,10 +15,8 @@ def prompts(name, description):
 
     return decorator
 
-
 class BLIP2_VQA:
-    def __init__(self, device):
-        print(f"Initializing BLIP2 to {device}")
+    def __init__(self, device="cuda:0"):
         self.device = device
         self.torch_dtype = torch.float16 if 'cuda' in device else torch.float32
         model_id = 'Salesforce/blip2-flan-t5-xl'
@@ -26,7 +24,7 @@ class BLIP2_VQA:
         self.BLIP2_MODEL = Blip2ForConditionalGeneration.from_pretrained(model_id, torch_dtype=torch.float16, device_map="auto")
 
     @prompts(name="BLIP2_VQA",
-             description="Useful when you want to ask some question about the image. Receives image_path and language-based question as inputs. "
+             description="Useful when you want to ask a question about the image. Receives image_path and question as inputs. "
                          "When using this model, you can also consider to ask more question according to previous question."
                          "If there are other VQA methods, it is also suggested to utilize other VQA methods to enhance your ability to answer the questions."
                          "The input to this tool should be a string, representing the image_path.")
@@ -41,18 +39,14 @@ class BLIP2_VQA:
             raw_image = Image.open(image_path).convert("RGB")
             question = "Describe this image in details."
             
-
-        input = self.processor(raw_image, question, return_tensors="pt").to("cuda", torch.float16)
+        input = self.processor(raw_image, question+"Answer with reason.", return_tensors="pt").to("cuda", torch.float16)
         generated_answer_ids = self.BLIP2_MODEL.generate(**input, max_new_tokens=20)
         answer = self.processor.batch_decode(generated_answer_ids, skip_special_tokens=True)[0].strip()
 
         return answer
 
-
-
 class mPLUG_VQA:
-    def __init__(self, device):
-        print(f"Initializing mPLUG to {device}")
+    def __init__(self, device="cuda:0"):
         self.device = device
         self.torch_dtype = torch.float16 if 'cuda' in device else torch.float32
         model_id = 'damo/mplug_visual-question-answering_coco_large_en'
@@ -70,17 +64,17 @@ class mPLUG_VQA:
             print("No question as input, use the template: \"Describe this image in details\" as question")
             image_path = input.strip()
             question = "Describe this image in details."
-        #else:
             
         image_path = image_path.strip("\n")
-        input = {'image': image_path, 'text': question}
+        input = {'image': image_path, 'text': question+"Let's think step by step."}
         answer = self.pipeline_caption(input)["text"]
         print(f"\nProcessed VQA, Input Image: {image_path}, Input Question: {question}, Output Text: {answer}")
         return answer
 
 
+
 class OFA_VQA:
-    def __init__(self, device):
+    def __init__(self, device="cuda:0"):
         print(f"Initializing OFA to {device}")
         self.device = device
         self.torch_dtype = torch.float16 if 'cuda' in device else torch.float32
@@ -105,9 +99,13 @@ class OFA_VQA:
             image_path = input.strip()
             question = "Describe this image in details."
             
-        input = {'image': image_path, 'text': question}
+        input = {'image': image_path, 'text': question+"Answer with reason."}
         answer = self.ofa_pipe(input)[OutputKeys.TEXT][0]  
         print(f"\nProcessed VQA, Input Image: {image_path}, Input Question: {question}, Output Text: {answer}")
         return answer
 
 
+if __name__ == "__main__":
+    #vqa = mPLUG_VQA("cuda:0")
+    vqa = BLIP2_VQA("cuda:0")
+    print(vqa.inference("xyz.png"))

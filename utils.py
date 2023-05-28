@@ -479,7 +479,7 @@ def generate_response(prompt: str, tools, history) -> str:
     
     response = mindstorm({'input': prompt.strip()})
     response['output'] = response['output'].replace("\\", "/")
-    response = re.sub('(image/[-\w]*.png)', lambda m: f'![](file={m.group(0)})*{m.group(0)}*', response['output'])
+    response = re.sub('(data/[-\w]*.png)', lambda m: f'![](file={m.group(0)})*{m.group(0)}*', response['output'])
 
     logger.info(f"Response: '{response}'")
     #st.session_state["chat_history"].append((prompt, response["answer"]))
