@@ -29,6 +29,7 @@ Features:
 - We introduce the concepts NLSOM, which contains society, community and agent.
 - Agents will collaborate to solve the task, we called it Mindstorm. 
 - Jürgen also proposed the Economy of minds (EOM, sec 3 in paper), but we have yet to implement it.
+- Why NLSOM is neccessary?
 
 ## 💾 Usage
 
@@ -73,8 +74,7 @@ pip install modelscope[multi-modal]
 pip install decord==0.6.0
 pip install fairseq
 pip install librosa
-
-python -c "from modelscope.pipelines import pipeline;print(pipeline('image-captioning')('https://shuangqing-public.oss-cn-zhangjiakou.aliyuncs.com/donuts.jpg'))"
+pip install setuptools==59.5.0
 ```
 
 
