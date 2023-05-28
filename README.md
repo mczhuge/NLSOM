@@ -44,7 +44,7 @@ conda env create -n nlsom -f nlsom.yaml
 conda create -n nlsom python=3.8
 conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 -c pytorch
 pip install pandas==1.4.3
-# [Set LangChain, OpenAI] -> stramlit没安装成功
+# [Set LangChain, OpenAI]
 pip install langchain==0.0.158
 pip install sqlalchemy==2.0.12
 pip install openai
@@ -56,15 +56,14 @@ python setup.py build
 python setup.py install
 pip install streamlit==1.22.0
 pip install streamlit_chat==0.0.2.2
-### So far, you've built the UI and established basic environments.
-[Set Huggingface/transformers]
+# [Set Huggingface/transformers]
 pip install transformers==4.29.2
 pip install accelerate==0.19.0
 [Set Search]
 pip install wolframalpha
 pip install wikipedia
 pip install arxiv
-[Set Modelscope]
+# [Set Modelscope]
 pip install modelscope==1.6.0
 python3 -m pip install nvidia-cudnn-cu11==8.6.0.163 tensorflow==2.12.*
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib
