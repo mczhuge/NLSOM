@@ -30,7 +30,7 @@ Features:
 - Agents will collaborate to solve the task, we called it Mindstorm. 
 - [Jürgen](https://scholar.google.com/citations?user=gLnCTgIAAAAJ&hl=en&oi=ao) also proposed the Economy of minds (EOM, sec 3 in paper), but we have yet to implement it.
 - <details>
-    <summary><b>More insights</b> 👈 [CLIKE TO OPEN]</summary>
+    <summary>More insights 👈 [CLIKE TO OPEN]</summary>
     <p>
         <ul>
             <li><b> Introduction:</b> Both Minsky’s “society of mind” and Schmidhuber’s “learning to think” inspire diverse societies of large multimodal neural networks (NNs) that solve problems by interviewing each other in a “mindstorm.” Recent implementations of NN-based societies of minds consist of large language models (LLMs) and other NN-based experts communicating through a natural language interface. In doing so, they overcome the limitations of single LLMs, improving multimodal zero-shot reasoning. In these natural language-based societies of mind (NLSOMs), new agents—all communicating through the same universal symbolic language—are easily added in a modular fashion. </li>
