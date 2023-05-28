@@ -58,7 +58,18 @@ Features:
             </li>
         </ul>
     </p>     
-    
+     <p>
+        <ul>
+            <li><b> Outlook:</b>   The concept behind this project is to provide a preliminary NLSOM solution.
+
+To illustrate, let's consider a scenario where a non-technical individual lacks expertise in computer science and has limited knowledge about various AI plugins. In such cases, the NLSOM system can automatically recommend different communities and agents to automate tasks based on user input in natural language.
+
+Even without understanding the performance of a specific model, the user can benefit from multiple models with the same functionality working together to offer more comprehensive answers. These AI communities can collaborate and compete with each other.
+
+Furthermore, the NLSOM system incorporates a reward mechanism that grants superiority to AI models and optimizes the end-to-end recommendation/Mindstorm process. This incentivization mechanism backs the overall system to economize and enhances the performance of the recommendations.
+            </li>
+        </ul>
+    </p>     
 </details>
 
 
