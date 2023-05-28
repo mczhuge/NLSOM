@@ -76,7 +76,7 @@ In that case, NLSOM should remember to provide the Human with the detailed organ
 Thought: Have all the agents in [{tool_names}] been truly utilized (served as Action)? Yes
 {ai_prefix}: 
 Review: [1) Whether the NLSOM has utilized all the agents? 2) Whether the NLSOM has solved the user-defined objective? Analyze the employed agents, NLSOM's organizational structure, and their outputs.]
-Summary: [According to the outputs of each agent, provide a comprehensive solution to the user-defined objective as comprehensively as possible. You MUST record all the filenames if they exist. Do not use "\n".]
+Summary: [According to the outputs of each agent, provide a solution to the user-defined objective as comprehensively as possible. You MUST record all the filenames if they exist. Do not use "\n".]
 Reward: [Provide rewards (0-3) to each agent according to their contributions to the user-defined objective; The rewards should be different according to the real contributions; use the dict format like ["agent": "reward"]. Don't ignore giving a reward to any agent. ]
 ```
 """
