@@ -30,9 +30,9 @@ Features:
 - Agents will collaborate to solve the task, we called it Mindstorm. 
 - Jürgen also proposed the Economy of minds (EOM, sec 3 in paper), but we have yet to implement it.
 
-### 💾 Usage
+## 💾 Usage
 
-#### 1. Install
+### 1. Install
 
 * Install the dependancies
 ```
