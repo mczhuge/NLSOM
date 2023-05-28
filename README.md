@@ -388,7 +388,7 @@ streamlit run app.py
       </p> 
      <p>
         <ul>
-            <li><b>Human (Juergen):</b> https://people.idsia.ch/~juergen/planetruth.html
+            <li><b>💬 Human (Juergen): </b> While the ground-truth answer in this VQA dataset is in line with the commonly held belief, in this instance the common belief is, in fact, incorrect. Please see: https://people.idsia.ch/~juergen/planetruth.html
     </li>
         </ul>
     </p>   
