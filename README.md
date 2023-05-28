@@ -92,7 +92,7 @@ Features:
 
 <details>
     <summary>
- Demo 1: Society of Mind (XXX)</summary>
+ Demo 1: Society of Mind (Automatical Task-Solving)👈 <b>[CLIKE TO OPEN]</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112390917492592731/Presentation2_copy_pdf.io.png?width=1620&height=220">
     <p>
         <ul>
