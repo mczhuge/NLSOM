@@ -263,6 +263,7 @@ streamlit run app.py
 ## 🧸 Demo
 ### 1. Focus more on NLSOM
 
+
 <details open>
     <summary>
  Demo 1: Society of Mind (XXX)</summary>
@@ -394,6 +395,8 @@ streamlit run app.py
     </p>   
     
 </details>
+
+------
 
 <details>
     <summary>
