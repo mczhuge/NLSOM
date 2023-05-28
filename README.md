@@ -578,6 +578,7 @@ export REPLICATE_API_TOKEN=r8_WssXC8wLfU6nIOZSgm69CM49SFvuObr35zgcu
 ## Preliminary Experiments on Paper 
 The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and natural language-based society of mind.
 
+<!--
 ## TODO
 Please feel free to submit a pull request if you can optimize the identified issues. We will promptly incorporate any improvements.
 
@@ -588,6 +589,7 @@ Please feel free to submit a pull request if you can optimize the identified iss
 * Add more communities and agents.
 * Design a more accurate reward mechanism.
 * Make the NLSOM learnable.
+-->
 
 ## Acknowledgments
 
