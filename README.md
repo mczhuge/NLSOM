@@ -11,7 +11,7 @@
 
 ## ✨ Introduction
 
-#### 💡️Concepts:
+#### Concepts:
 
 - We introduce the concepts NLSOM, which contains society, community and agent—all communicating through the same universal
 symbolic language—are easily added in a modular fashion
@@ -65,7 +65,7 @@ symbolic language—are easily added in a modular fashion
     </p>   
 </details>
 
-
+#### About this repo:
 This project is the **technical extenstion** for original [NLSOM paper](): allowing you to build a specific NLSOM quickly. 
 When you provide the inputs (files or targets), LLM automates all these processes for you:
 
