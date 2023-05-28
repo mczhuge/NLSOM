@@ -64,6 +64,14 @@ pip install accelerate==0.19.0
 pip install wolframalpha
 pip install wikipedia
 pip install arxiv
+[Set Modelscope]
+pip install modelscope
+python3 -m pip install nvidia-cudnn-cu11==8.6.0.163 tensorflow==2.12.*
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib
+python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+pip install librosa
+pip install fairseq
+python -c "from modelscope.pipelines import pipeline;print(pipeline('image-captioning')('https://shuangqing-public.oss-cn-zhangjiakou.aliyuncs.com/donuts.jpg'))"
 ```
 
 
