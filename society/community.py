@@ -39,7 +39,7 @@ from society.search.agent import SE_A, SE_B, SE_C, SE_D #4
 from society.sentence_refine.agent import SentenceRefine # 1
 from society.text_to_image.agent import AnythingV4, AnythingV3, OpenJourneyV4, OpenJourney, StableDiffusionV15, StableDiffusionV21B, StableDiffusionV21 # 7
 # from society.text_to_speech.agent import Text2Speech #1
-# from society.text_to_video.agent import DeforumSD #1
+from society.text_to_video.agent import DeforumSD #1
  
 # Need GPU
 # from society.audio_recognition.agent import Paraformer # 1
