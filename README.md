@@ -197,7 +197,7 @@ Features:
     </p> 
     <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Review):</b>  
+            <li><b>⚪️ NLSOM System (Review):</b>  All three agents have been utilized. BLIP2_VQA and OFA_VQA both returned the same answer, that the invention was in the 20th century. mPLUG_VQA returned the answer that the invention was in the 21st century.
     </li>
         </ul>
     </p>  
