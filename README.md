@@ -332,7 +332,7 @@ streamlit run app.py
 <details>
     <summary>
  Demo 2: Model Collaboration (Multimodal Agents) 👈 CLIKE TO OPEN</summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112389051408986112/vqa.png?width=1620&height=164">
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112390008008089741/vqa_pdf.io.png?width=1620&height=148">
     <p>
         <ul>
             <li><b>🔴 User:</b> VQA question: What century were these invented in?
@@ -390,7 +390,7 @@ streamlit run app.py
 <details>
     <summary>
 Demo 3: Collaborative API Usages (Introduce "AGI") 👈 CLIKE TO OPEN</summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112102854895865937/Presentation5-1.png?width=1620&height=228" alt="some_text">
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112116808401555486/Presentation5_pdf.io.png?width=1620&height=262" alt="some_text">
     <p>
         <ul>
             <li><b>🔴 User:</b> Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
