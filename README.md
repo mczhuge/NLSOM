@@ -266,7 +266,7 @@ streamlit run app.py
 <details open>
     <summary>
  Demo 1: Society of Mind (XXX)</summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112390008008089741/vqa_pdf.io.png?width=1620&height=148">
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112390917492592731/Presentation2_copy_pdf.io.png?width=1620&height=220">
     <p>
         <ul>
             <li><b>🔴 User:</b> Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
