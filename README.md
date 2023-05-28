@@ -10,7 +10,7 @@
 
 ## ✨ Introduction
 
-This project is the **basic template** for original [NLSOM paper](): allowing you to build a specific NLSOM quickly. 
+This project is the **extensional template** for original [NLSOM paper](): allowing you to build a specific NLSOM quickly. 
 When you provide the inputs (files or targets), LLM automates all these processes for you:
 
 - **🧰 Recommendation**: Autonomously select communities and agents to form a self-organized NLSOM for solving the target.
