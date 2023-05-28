@@ -90,7 +90,7 @@ Features:
 #### 1. Focus more on NLSOM
 
 
-> <details open>
+<details open>
     <summary>
  Demo 1: Society of Mind (XXX)</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112390917492592731/Presentation2_copy_pdf.io.png?width=1620&height=220">
