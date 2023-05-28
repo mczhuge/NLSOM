@@ -375,13 +375,13 @@ streamlit run app.py
     </p>  
      <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Summary):</b> 
+            <li><b>⚪️ NLSOM System (Summary):</b> The NLSOM has utilized all the agents from [BLIP2_VQA, mPLUG_VQA, OFA_VQA] and solved the user-defined objective. The output of each agent is that the invention was in the 20th century.
     </li>
         </ul>
     </p> 
      <p>
         <ul>
-            <li><b>💰 NLSOM System (Reward):</b>  
+            <li><b>💰 NLSOM System (Reward):</b>  ["BLIP2_VQA": 2, "mPLUG_VQA": 2, "OFA_VQA": 2]
     </li>
         </ul>
     </p> 
