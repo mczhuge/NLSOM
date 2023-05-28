@@ -16,7 +16,8 @@ When you provide the inputs (files or targets), LLM automates all these processe
 - **🧰 Recommendation**: Autonomously select communities and agents to form a self-organized NLSOM for solving the target.
 - **🧠 Mindstorm**: Empower with the automated mindstorm. Multiple agents (models or APIs) can effortlessly collaborate to solve tasks together.
 - **💰 Reward**: Rewards are given to all agents involved.
-- <details>
+
+<details>
     <summary>More insights 👈 <b>[CLICK]</b></summary>
     <p>
         <ul>
