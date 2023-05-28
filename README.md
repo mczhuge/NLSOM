@@ -5,38 +5,25 @@
 ![](https://i.imgur.com/waxVImv.png)
 [![KAUST-AINT](https://cemse.kaust.edu.sa/themes/custom/bootstrap_cemse/logo.svg)](https://cemse.kaust.edu.sa/ai)
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2304.12995)
-<a href="https://github.com/reworkd/AgentGPT/blob/master/docs/README.zh-HANS.md"><img src="https://img.shields.io/badge/lang-简体中文-red.svg" alt="简体中文"></a>
-
+<!--
+<a href="https://github.com/xxx/README.zh-HANS.md"><img src="https://img.shields.io/badge/lang-简体中文-red.svg" alt="简体中文"></a>
+-->
 
 ## ✨ Introduction
 
-This project is the **extensional template** for original [NLSOM paper](): allowing you to build a specific NLSOM quickly. 
-When you provide the inputs (files or targets), LLM automates all these processes for you:
+#### 1. Concepts:
 
-- **🧰 Recommendation**: Autonomously select communities and agents to form a self-organized NLSOM for solving the target.
-- **🧠 Mindstorm**: Empower with the automated mindstorm. Multiple agents (models or APIs) can effortlessly collaborate to solve tasks together.
-- **💰 Reward**: Rewards are given to all agents involved.
-
-Features:
-- [x] Rule your NLSOM: effortlessly organize an NLSOM in various fields by simply changing the template.
-- [x] Easy to extend: customize your own community and agents (Now we have 17 communities and 32 agents, see [society](https://github.com/mczhuge/NLSOM/tree/main/society)). 
-- [x] Reward Design: provide a reward mechanism (albeit rough). You can easily upgrade to a more refined version. 
-- [x] An elegant UI: facilitate better visualization and support for diverse media sources (image, text, audio, video, etc).
-
-
-## 💡️ Important Concepts
-
-- We introduce the concepts NLSOM, which contains society, community and agent.
+- We introduce the concepts NLSOM, which contains society, community and agent—all communicating through the same universal
+symbolic language—are easily added in a modular fashion
 - Agents will collaborate to solve the task, we called it Mindstorm. 
 - [Jürgen](https://scholar.google.com/citations?user=gLnCTgIAAAAJ&hl=en&oi=ao) also proposed the Economy of minds (EOM, sec 3 in paper), but we have yet to implement it.
 - <details>
-    <summary><b>More insights</b> 👈 [CLIKE TO OPEN]</summary>
+    <summary>More insights 👈 <b>[CLICK]</b></summary>
     <p>
         <ul>
             <li><b> Introduction:</b> Both Minsky’s “society of mind” and Schmidhuber’s “learning to think” inspire diverse societies of large multimodal neural networks (NNs) that solve problems by interviewing each other in a “mindstorm.” Recent implementations of NN-based societies of minds consist of large language models (LLMs) and other NN-based experts communicating through a natural language interface. In doing so, they overcome the limitations of single LLMs, improving multimodal zero-shot reasoning. In these natural language-based societies of mind (NLSOMs), new agents—all communicating through the same universal symbolic language—are easily added in a modular fashion. </li>
         </ul>
     </p>    
-    
     <p>
         <ul>
             <li><b> Advantages:</b>   This shared natural language communication interface has several advantages: 
@@ -45,7 +32,6 @@ Features:
                 <b>3) Human-Biased AI.</b> For thousands of years, NL has evolved to compactly encode all the things humans consider important. That is to say that an NLSOM would be expected to have a strong bias towards human thinking and reasoning. </li>
         </ul>
     </p>        
-    
      <p>
         <ul>
             <li><b> Focus:</b>   Our primary objective extends beyond the development of a task automation system. Existing research has demonstrated the effectiveness of using language models (LLMs) as controllers to coordinate multiple models. Instead, we focus on enhancing collaboration and cohesion among various AI modules.
@@ -76,9 +62,24 @@ Features:
             </li>
         </ul>
     </p>   
-    
-    
 </details>
+
+#### 2. About this repo:
+This project is the **technical extenstion** for original [NLSOM paper](): allowing you to build a specific NLSOM quickly. 
+When you provide the inputs (files or targets), LLM automates all these processes for you:
+
+- **🧰 Recommendation**: Autonomously select communities and agents to form a self-organized NLSOM for solving the target.
+- **🧠 Mindstorm**: Empower with the automated mindstorm. Multiple agents (models or APIs) can effortlessly collaborate to solve tasks together.
+- **💰 Reward**: Rewards are given to all agents involved.
+
+#### 3. Features:
+- [x] Rule your NLSOM: effortlessly organize an NLSOM in various fields by simply changing the template.
+- [x] Easy to extend: customize your own community and agents (Now we have 17 communities and 32 agents, see [society](https://github.com/mczhuge/NLSOM/tree/main/society)). 
+- [x] Reward Design: provide a reward mechanism (albeit rough). You can easily upgrade to a more refined version. 
+- [x] An elegant UI: facilitate better visualization and support for diverse media sources (image, text, audio, video, etc).
+
+
+
 
 
 
@@ -87,78 +88,12 @@ Features:
 
 
 ## 🧸 Demo
-#### 1. Focus more on NLSOM
 
-
-<details>
-    <summary>
- Demo 1: Society of Mind (Automatical Task-Solving)👈 <b>[CLIKE TO OPEN]</b></summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112390917492592731/Presentation2_copy_pdf.io.png?width=1620&height=220">
-    <p>
-        <ul>
-            <li>🔴 User:Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
-        </ul>
-    </p>
-    <p>
-        <ul>
-            <li>🧰 NLSOM System (Recommendation): Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) search</u></li>
-        </ul>
-    </p>   
-    <p>
-        <ul>
-            <li>⚪️ NLSOM System (Self-Organization): We load the recommended AI communities with their their corresponding agents: (a) Arxiv, (b) WolframAlpha, (c) Wikipedia, (d) BingSearch
-    </li>
-        </ul>
-    </p>     
-    <p>
-        <ul>
-            <li>🟢 Arxiv:  
-    </li>
-        </ul>
-    </p>  
-    <p>
-        <ul>
-            <li>🟡 WolframAlpha:
-    </li>
-        </ul>
-    </p>   
-    <p>
-        <ul>
-            <li>🔵 Wikipedia:
-    </li>
-        </ul>
-    </p> 
-    <p>
-        <ul>
-            <li>🟤  BingSeach:
-    </li>
-        </ul>
-    </p> 
-    <p>
-        <ul>
-            <li>⚪️ NLSOM System (Review):  
-    </li>
-        </ul>
-    </p>  
-     <p>
-        <ul>
-            <li>⚪️ NLSOM System (Summary):
-    </li>
-        </ul>
-    </p> 
-     <p>
-        <ul>
-            <li>💰 NLSOM System (Reward): 
-    </li>
-        </ul>
-    </p> 
-</details>
-
-#### 2. Focus more on Mindstorm
+#### 1. Focus more on Mindstorm
 
 <details>
     <summary>
- Demo 2: Model Collaboration (Multimodal Agents) 👈 <b>[CLIKE TO OPEN]</b></summary>
+ Demo 1: Model Collaboration (Multimodal Agents) 👈 <b>[CLICK]</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112394722493857872/Presentation2_copy_pdf.io_1.png?width=1620&height=220">
     <p>
         <ul>
@@ -224,7 +159,7 @@ Features:
 
 <details>
     <summary>
-Demo 3: Collaborative API Usages (Introduce "AGI") 👈 <b>[CLIKE TO OPEN]</b></summary>
+Demo 2: Collaborative API Usages (Introduce "AGI") 👈 <b>[CLICK]</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112116808401555486/Presentation5_pdf.io.png?width=1620&height=262" alt="some_text">
     <p>
         <ul>
@@ -291,7 +226,7 @@ Summary: Existential risk from artificial general intelligence is the hypothesis
 
 <details open>
     <summary>
-Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
+Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1111773821859541012/image.png?width=1620&height=436" alt="some_text">
     <p>
         <ul>
@@ -353,7 +288,73 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p> 
 </details>
 
-------
+#### 2. Focus more on NLSOM
+
+
+<details>
+    <summary>
+ Demo 4: Society of Mind (Automatical Task-Solving)👈 <b>[CLICK]</b></summary>
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112390917492592731/Presentation2_copy_pdf.io.png?width=1620&height=220">
+    <p>
+        <ul>
+            <li>🔴 User:Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
+        </ul>
+    </p>
+    <p>
+        <ul>
+            <li>🧰 NLSOM System (Recommendation): Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) search</u></li>
+        </ul>
+    </p>   
+    <p>
+        <ul>
+            <li>⚪️ NLSOM System (Self-Organization): We load the recommended AI communities with their their corresponding agents: (a) Arxiv, (b) WolframAlpha, (c) Wikipedia, (d) BingSearch
+    </li>
+        </ul>
+    </p>     
+    <p>
+        <ul>
+            <li>🟢 Arxiv:  
+    </li>
+        </ul>
+    </p>  
+    <p>
+        <ul>
+            <li>🟡 WolframAlpha:
+    </li>
+        </ul>
+    </p>   
+    <p>
+        <ul>
+            <li>🔵 Wikipedia:
+    </li>
+        </ul>
+    </p> 
+    <p>
+        <ul>
+            <li>🟤  BingSeach:
+    </li>
+        </ul>
+    </p> 
+    <p>
+        <ul>
+            <li>⚪️ NLSOM System (Review):  
+    </li>
+        </ul>
+    </p>  
+     <p>
+        <ul>
+            <li>⚪️ NLSOM System (Summary):
+    </li>
+        </ul>
+    </p> 
+     <p>
+        <ul>
+            <li>💰 NLSOM System (Reward): 
+    </li>
+        </ul>
+    </p> 
+</details>
+
 
 ## 💾 Usage
 
@@ -400,6 +401,8 @@ pip install fairseq
 pip install librosa
 pip install setuptools==59.5.0
 pip install tensorboardX
+# [Set OCR]
+pip install easyocr
 ```
 
 
