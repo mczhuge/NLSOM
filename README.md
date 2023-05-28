@@ -385,6 +385,14 @@ streamlit run app.py
     </li>
         </ul>
     </p> 
+      </p> 
+     <p>
+        <ul>
+            <li><b>Human (Juergen):</b> https://people.idsia.ch/~juergen/planetruth.html
+    </li>
+        </ul>
+    </p>   
+    
 </details>
 
 <details>
