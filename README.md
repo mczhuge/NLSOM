@@ -292,7 +292,7 @@ Summary: Existential risk from artificial general intelligence is the hypothesis
 ------
 <details open>
     <summary>
-Demo 4: Collaborative Role-Play (The Three Kingdoms) 👈 <b>[CLIKE TO CLOSE]</b></summary>
+Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1111773821859541012/image.png?width=1620&height=436" alt="some_text">
     <p>
         <ul>
