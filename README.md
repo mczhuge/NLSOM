@@ -16,14 +16,7 @@ When you provide the inputs (files or targets), LLM automates all these processe
 - **🧰 Recommendation**: Autonomously select communities and agents to form a self-organized NLSOM for solving the target.
 - **🧠 Mindstorm**: Empower with the automated mindstorm. Multiple agents (models or APIs) can effortlessly collaborate to solve tasks together.
 - **💰 Reward**: Rewards are given to all agents involved.
-
-Features:
-- [x] Rule your NLSOM: effortlessly organize an NLSOM in various fields by simply changing the template.
-- [x] Easy to extend: customize your own community and agents (Now we have 17 communities and 32 agents, see [society](https://github.com/mczhuge/NLSOM/tree/main/society)). 
-- [x] Reward Design: provide a reward mechanism (albeit rough). You can easily upgrade to a more refined version. 
-- [x] An elegant UI: facilitate better visualization and support for diverse media sources (image, text, audio, video, etc).
-
-<details>
+- <details>
     <summary>More insights 👈 <b>[CLICK]</b></summary>
     <p>
         <ul>
@@ -73,6 +66,14 @@ Features:
     
     
 </details>
+
+Features:
+- [x] Rule your NLSOM: effortlessly organize an NLSOM in various fields by simply changing the template.
+- [x] Easy to extend: customize your own community and agents (Now we have 17 communities and 32 agents, see [society](https://github.com/mczhuge/NLSOM/tree/main/society)). 
+- [x] Reward Design: provide a reward mechanism (albeit rough). You can easily upgrade to a more refined version. 
+- [x] An elegant UI: facilitate better visualization and support for diverse media sources (image, text, audio, video, etc).
+
+
 
 ## 💡️ Important Concepts
 
