@@ -10,7 +10,7 @@ for dirname in os.listdir("society"):
     else:
         AI_SOCIETY.append(dirname)
 
-# NLSOM Organizing
+# NLSOM Recommendation
 
 ORGANIZING_EXAMPLE = [
     {"objective": "Describe the image and generate another similar one", "society": str(AI_SOCIETY), "organizing": ["image_captioning", "text_to_image"]},
@@ -29,6 +29,7 @@ ORGANIZING_EXAMPLE = [
     {"objective": "VQA question: What is the relationship between the two individuals?", "society": str(AI_SOCIETY), "organizing": ["vqa"]},
 ]
 
+# NLSOM Task-Solving/Mindstorm/Reward
 
 NLSOM_PREFIX = """You are the NLSOM (Natural Language-based Society of Mind), which aims to build a system similar to the human mind society (The Society of Mind by Marvin Minsky).
 
