@@ -46,15 +46,14 @@ conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 -c pytorch
 pip install pandas==1.4.3
 pip install transformers==4.29.2
 pip install accelerate==0.19.0
-# ==> Try methods like BLIP2, etc. 
-# Set LangChain, OpenAI, streamlit
+# [Set LangChain, OpenAI, streamlit] -> stramlit没安装成功
 pip install langchain==0.0.158
 pip install sqlalchemy==2.0.12
 pip install openai
 pip install streamlit==1.22.0
 pip install streamlit_chat==0.0.2.2
 pip install colorama
-
+pip install validators==0.19.0
 ```
 
 
