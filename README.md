@@ -11,7 +11,7 @@
 
 ## ✨ Introduction
 
-#### Concepts:
+#### 1. Concepts:
 
 - We introduce the concepts NLSOM, which contains society, community and agent—all communicating through the same universal
 symbolic language—are easily added in a modular fashion
@@ -65,7 +65,7 @@ symbolic language—are easily added in a modular fashion
     </p>   
 </details>
 
-#### About this repo:
+#### 2. About this repo:
 This project is the **technical extenstion** for original [NLSOM paper](): allowing you to build a specific NLSOM quickly. 
 When you provide the inputs (files or targets), LLM automates all these processes for you:
 
@@ -73,7 +73,7 @@ When you provide the inputs (files or targets), LLM automates all these processe
 - **🧠 Mindstorm**: Empower with the automated mindstorm. Multiple agents (models or APIs) can effortlessly collaborate to solve tasks together.
 - **💰 Reward**: Rewards are given to all agents involved.
 
-Features:
+#### 3. Features:
 - [x] Rule your NLSOM: effortlessly organize an NLSOM in various fields by simply changing the template.
 - [x] Easy to extend: customize your own community and agents (Now we have 17 communities and 32 agents, see [society](https://github.com/mczhuge/NLSOM/tree/main/society)). 
 - [x] Reward Design: provide a reward mechanism (albeit rough). You can easily upgrade to a more refined version. 
