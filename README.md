@@ -127,6 +127,7 @@ pip install decord==0.6.0
 pip install fairseq
 pip install librosa
 pip install setuptools==59.5.0
+pip install tensorboardX
 ```
 
 
