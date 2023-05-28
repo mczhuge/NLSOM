@@ -197,7 +197,7 @@ Features:
     </p> 
     <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Review):</b>  All three agents have been utilized. BLIP2_VQA and OFA_VQA both returned the same answer, that the invention was in the 20th century. mPLUG_VQA returned the answer that the invention was in the 21st century.
+            <li><b>⚪️ NLSOM System (Review):</b> The NLSOM has utilized all the agents [BLIP2_VQA, mPLUG_VQA, OFA_VQA] to answer the user-defined objective. The outputs of each agent were: BLIP2_VQA: The 20th century was the century of the airplane; mPLUG_VQA: 21st; OFA_VQA: 20th. All the agents have contributed to the user-defined objective, and the final answer is that the invention was made in the 20th century.
     </li>
         </ul>
     </p>  
