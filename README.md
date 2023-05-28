@@ -332,7 +332,7 @@ streamlit run app.py
 
 <details>
     <summary>
- Demo 2: Model Collaboration (Multimodal Agents) 👈 [CLIKE TO OPEN]</summary>
+ Demo 2: Model Collaboration (Multimodal Agents) 👈 <b>[CLIKE TO OPEN]</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112394722493857872/Presentation2_copy_pdf.io_1.png?width=1620&height=220">
     <p>
         <ul>
@@ -400,7 +400,7 @@ streamlit run app.py
 
 <details>
     <summary>
-Demo 3: Collaborative API Usages (Introduce "AGI") 👈 [CLIKE TO OPEN]</summary>
+Demo 3: Collaborative API Usages (Introduce "AGI") 👈 <b>[CLIKE TO OPEN]</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112116808401555486/Presentation5_pdf.io.png?width=1620&height=262" alt="some_text">
     <p>
         <ul>
