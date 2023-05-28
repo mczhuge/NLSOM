@@ -88,78 +88,12 @@ When you provide the inputs (files or targets), LLM automates all these processe
 
 
 ## 🧸 Demo
-#### 1. Focus more on NLSOM
 
-
-<details>
-    <summary>
- Demo 1: Society of Mind (Automatical Task-Solving)👈 <b>[CLICK]</b></summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112390917492592731/Presentation2_copy_pdf.io.png?width=1620&height=220">
-    <p>
-        <ul>
-            <li>🔴 User:Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
-        </ul>
-    </p>
-    <p>
-        <ul>
-            <li>🧰 NLSOM System (Recommendation): Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) search</u></li>
-        </ul>
-    </p>   
-    <p>
-        <ul>
-            <li>⚪️ NLSOM System (Self-Organization): We load the recommended AI communities with their their corresponding agents: (a) Arxiv, (b) WolframAlpha, (c) Wikipedia, (d) BingSearch
-    </li>
-        </ul>
-    </p>     
-    <p>
-        <ul>
-            <li>🟢 Arxiv:  
-    </li>
-        </ul>
-    </p>  
-    <p>
-        <ul>
-            <li>🟡 WolframAlpha:
-    </li>
-        </ul>
-    </p>   
-    <p>
-        <ul>
-            <li>🔵 Wikipedia:
-    </li>
-        </ul>
-    </p> 
-    <p>
-        <ul>
-            <li>🟤  BingSeach:
-    </li>
-        </ul>
-    </p> 
-    <p>
-        <ul>
-            <li>⚪️ NLSOM System (Review):  
-    </li>
-        </ul>
-    </p>  
-     <p>
-        <ul>
-            <li>⚪️ NLSOM System (Summary):
-    </li>
-        </ul>
-    </p> 
-     <p>
-        <ul>
-            <li>💰 NLSOM System (Reward): 
-    </li>
-        </ul>
-    </p> 
-</details>
-
-#### 2. Focus more on Mindstorm
+#### 1. Focus more on Mindstorm
 
 <details>
     <summary>
- Demo 2: Model Collaboration (Multimodal Agents) 👈 <b>[CLICK]</b></summary>
+ Demo 1: Model Collaboration (Multimodal Agents) 👈 <b>[CLICK]</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112394722493857872/Presentation2_copy_pdf.io_1.png?width=1620&height=220">
     <p>
         <ul>
@@ -225,7 +159,7 @@ When you provide the inputs (files or targets), LLM automates all these processe
 
 <details>
     <summary>
-Demo 3: Collaborative API Usages (Introduce "AGI") 👈 <b>[CLICK]</b></summary>
+Demo 2: Collaborative API Usages (Introduce "AGI") 👈 <b>[CLICK]</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112116808401555486/Presentation5_pdf.io.png?width=1620&height=262" alt="some_text">
     <p>
         <ul>
@@ -292,7 +226,7 @@ Summary: Existential risk from artificial general intelligence is the hypothesis
 
 <details open>
     <summary>
-Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
+Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1111773821859541012/image.png?width=1620&height=436" alt="some_text">
     <p>
         <ul>
@@ -354,7 +288,73 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p> 
 </details>
 
-------
+#### 2. Focus more on NLSOM
+
+
+<details>
+    <summary>
+ Demo 4: Society of Mind (Automatical Task-Solving)👈 <b>[CLICK]</b></summary>
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112390917492592731/Presentation2_copy_pdf.io.png?width=1620&height=220">
+    <p>
+        <ul>
+            <li>🔴 User:Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
+        </ul>
+    </p>
+    <p>
+        <ul>
+            <li>🧰 NLSOM System (Recommendation): Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) search</u></li>
+        </ul>
+    </p>   
+    <p>
+        <ul>
+            <li>⚪️ NLSOM System (Self-Organization): We load the recommended AI communities with their their corresponding agents: (a) Arxiv, (b) WolframAlpha, (c) Wikipedia, (d) BingSearch
+    </li>
+        </ul>
+    </p>     
+    <p>
+        <ul>
+            <li>🟢 Arxiv:  
+    </li>
+        </ul>
+    </p>  
+    <p>
+        <ul>
+            <li>🟡 WolframAlpha:
+    </li>
+        </ul>
+    </p>   
+    <p>
+        <ul>
+            <li>🔵 Wikipedia:
+    </li>
+        </ul>
+    </p> 
+    <p>
+        <ul>
+            <li>🟤  BingSeach:
+    </li>
+        </ul>
+    </p> 
+    <p>
+        <ul>
+            <li>⚪️ NLSOM System (Review):  
+    </li>
+        </ul>
+    </p>  
+     <p>
+        <ul>
+            <li>⚪️ NLSOM System (Summary):
+    </li>
+        </ul>
+    </p> 
+     <p>
+        <ul>
+            <li>💰 NLSOM System (Reward): 
+    </li>
+        </ul>
+    </p> 
+</details>
+
 
 ## 💾 Usage
 
