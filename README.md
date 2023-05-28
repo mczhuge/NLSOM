@@ -11,7 +11,7 @@
 
 ## ✨ Introduction
 
-Concepts:
+#### 💡️Concepts:
 
 - We introduce the concepts NLSOM, which contains society, community and agent—all communicating through the same universal
 symbolic language—are easily added in a modular fashion
