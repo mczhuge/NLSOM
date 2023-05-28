@@ -39,7 +39,10 @@ Features:
     
     <p>
         <ul>
-            <li><b> Advantages:</b>   This shared natural language communication interface has several advantages: Scaling/Modularity. Adding another LLM to an existing NLSOM or replacing one LLM with another (perhaps much larger) LLM does not change the interview interface between the LLMs because the latter is standardized in terms of natural language, which can be viewed as a universal code. This is very much aligned with the objectives of modular AI systems. Explainable AI. Since queries and answers are in natural language, human observers can understand more easily what the NLSOM is thinking while trying to solve its problem. This is in great accordance with the goals of attempting to create explainable AI. It also allows for easily including human experts in an NLSOM. Human-Biased AI. For thousands of years, NL has evolved to compactly encode all the things humans consider important. That is to say that an NLSOM would be expected to have a strong bias towards human thinking and reasoning. </li>
+            <li><b> Advantages:</b>   This shared natural language communication interface has several advantages: 
+                Scaling/Modularity. Adding another LLM to an existing NLSOM or replacing one LLM with another (perhaps much larger) LLM does not change the interview interface between the LLMs because the latter is standardized in terms of natural language, which can be viewed as a universal code. This is very much aligned with the objectives of modular AI systems. 
+                Explainable AI. Since queries and answers are in natural language, human observers can understand more easily what the NLSOM is thinking while trying to solve its problem. This is in great accordance with the goals of attempting to create explainable AI. It also allows for easily including human experts in an NLSOM. 
+                Human-Biased AI. For thousands of years, NL has evolved to compactly encode all the things humans consider important. That is to say that an NLSOM would be expected to have a strong bias towards human thinking and reasoning. </li>
         </ul>
     </p>        
     
