@@ -30,7 +30,7 @@ Features:
 - Agents will collaborate to solve the task, we called it Mindstorm. 
 - Jürgen also proposed the Economy of minds (EOM, sec 3 in paper), but we have yet to implement it.
 - <details>
-    <summary>The detailed introduction of NLSOM 👈 CLIKE TO OPEN</summary>
+    <summary>More insights of NLSOM 👈 CLIKE TO OPEN</summary>
     <p>
         <ul>
             <li><b> Introduction:</b> Both Minsky’s “society of mind” and Schmidhuber’s “learning to think” inspire diverse societies of large multimodal neural networks (NNs) that solve problems by interviewing each other in a “mindstorm.” Recent implementations of NN-based societies of minds consist of large language models (LLMs) and other NN-based experts communicating through a natural language interface. In doing so, they overcome the limitations of single LLMs, improving multimodal zero-shot reasoning. In these natural language-based societies of mind (NLSOMs), new agents—all communicating through the same universal symbolic language—are easily added in a modular fashion. </li>
@@ -46,7 +46,15 @@ Features:
         </ul>
     </p>        
     
- 
+     <p>
+        <ul>
+            <li><b> Our focus:</b>   Our primary objective extends beyond the development of a task automation system. Existing research has demonstrated the effectiveness of using language models (LLMs) as controllers to coordinate multiple models. Instead, we focus on enhancing collaboration and cohesion among various AI modules.
+In this GitHub project, our first step is to utilize a recommendation process that provides users with relevant communities and agents aligned with their goals. These recommendations encompass tools, plugins, models, and role-players, which can then be loaded accordingly.
+Additionally, we employ a Mindstorm approach, setting ourselves apart from previous models like VisualChatGPT and HuggingGPT, which rely solely on a single model for a specific function. Within our framework, a community of agents shares a common function, such as "search," while each agent possesses unique strengths and capabilities. For instance, agents like "Bing Search," "Wikipedia," "arXiv," and "WolframAlpha" collaborate to provide a more comprehensive understanding.
+Furthermore, we emphasize the importance of reward mechanisms. In our current implementation, we reward different models for their contributions to task completion, which serves as a valuable means of evaluating a model's usefulness for specific tasks.
+            </li>
+        </ul>
+    </p>   
 </details>
 
 
