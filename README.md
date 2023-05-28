@@ -334,7 +334,7 @@ streamlit run app.py
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112116808401555486/Presentation5_pdf.io.png?width=1620&height=262">
     <p>
         <ul>
-            <li><b>🔴 User:</b> VQA question: What century were these invented in? 
+            <li><b>🔴 User:</b> VQA question: What century were these invented in? Why?
  </li>
         </ul>
     </p>
