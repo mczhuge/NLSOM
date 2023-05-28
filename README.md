@@ -339,36 +339,30 @@ streamlit run app.py
     </p>
     <p>
         <ul>
-            <li><b>🧰 NLSOM System (Recommendation):</b> Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) search</u></li>
+            <li><b>🧰 NLSOM System (Recommendation):</b> Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) vqa</u></li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li><b>⚪️ NLSOM System (Self-Organization):</b> We load the recommended AI communities with their their corresponding agents: (a) Arxiv, (b) WolframAlpha, (c) Wikipedia, (d) BingSearch
+            <li><b>⚪️ NLSOM System (Self-Organization):</b> We load the recommended AI communities with their their corresponding agents: (a) BLIP2_VQA, (b) mPLUG_VQA, (c) OFA_VQA
     </li>
         </ul>
     </p>     
     <p>
         <ul>
-            <li><b>🟢 Arxiv:</b>  
+            <li><b>🟢 BLIP2_VQA:</b>  
     </li>
         </ul>
     </p>  
     <p>
         <ul>
-            <li><b>🟡 WolframAlpha:</b> 
+            <li><b>🟡 mPLUG_VQA:</b> 
     </li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li><b>🔵 Wikipedia:</b> 
-    </li>
-        </ul>
-    </p> 
-    <p>
-        <ul>
-            <li><b>🟤  BingSeach:</b> 
+            <li><b>🔵 OFA_VQA:</b> 
     </li>
         </ul>
     </p> 
