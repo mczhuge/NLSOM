@@ -64,8 +64,6 @@ When you provide the inputs (files or targets), LLM automates all these processe
             </li>
         </ul>
     </p>   
-    
-    
 </details>
 
 Features:
