@@ -3,26 +3,26 @@ In these natural language-based societies of mind (NLSOMs), new agents—--all c
 We view this as a starting point towards much larger NLSOMs with billions of agents—some of which may be humans.
 """
 
-import inspect
-#import gradio as gr
-import uuid
-import os
-import re
-import io
-import numpy as np
-import random
-import torch
-from PIL import Image
-import argparse
-#import openai
-import requests
+# import inspect
+# #import gradio as gr
+# import uuid
+# import os
+# import re
+# import io
+# import numpy as np
+# import random
+# import torch
+# from PIL import Image
+# import argparse
+# import openai
+# import requests
 #import easyocr
-from transformers import Blip2Processor, Blip2ForConditionalGeneration
+# from transformers import Blip2Processor, Blip2ForConditionalGeneration
 
-from langchain.agents.initialize import initialize_agent
-from langchain.agents.tools import Tool
-from langchain.chains.conversation.memory import ConversationBufferMemory
-from langchain.llms.openai import OpenAI
+# from langchain.agents.initialize import initialize_agent
+# from langchain.agents.tools import Tool
+# from langchain.chains.conversation.memory import ConversationBufferMemory
+# from langchain.llms.openai import OpenAI
 # from modelscope.pipelines import pipeline
 # from modelscope.utils.constant import Tasks
 
@@ -31,17 +31,18 @@ from langchain.llms.openai import OpenAI
 # 17 communities / 32 agents
 
 # CPU Only
-# from society.audio_recognition.agent import Whisper, Paraformer # 2
-# from society.object_detection.agent import DETR # 1
-# from society.ocr.agent import EasyOCR # 1
+from society.audio_recognition.agent import Whisper # 1
+from society.object_detection.agent import DETR # 1
+from society.ocr.agent import EasyOCR # 1
 from society.role_play.agent import LiuBei, GuanYu, ZhangFei, ZhugeLiang #4
 from society.search.agent import SE_A, SE_B, SE_C, SE_D #4
-# from society.sentence_refine.agent import SentenceRefine # 1
+from society.sentence_refine.agent import SentenceRefine # 1
 # from society.text_to_image.agent import Text2Image # 1
 # from society.text_to_speech.agent import Text2Speech #1
 # from society.text_to_video.agent import DeforumSD #1
-
+ 
 # Need GPU
+# from society.audio_recognition.agent import Paraformer # 1
 # from society.body_reshaping.agent import SAFG # 1
 from society.image_captioning.agent import BLIP2_captioning #mPLUG_captioning, OFA_distilled_captioning, OFA_large_captioning, BLIP2_captioning # 4
 # from society.image_colorization.agent import DDColor # 1
