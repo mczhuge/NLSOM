@@ -29,7 +29,7 @@ Features:
 - We introduce the concepts NLSOM, which contains society, community and agent.
 - Agents will collaborate to solve the task, we called it Mindstorm. 
 - Jürgen also proposed the Economy of minds (EOM, sec 3 in paper), but we have yet to implement it.
-<details>
+- <details>
     <summary>The advantages of NLSOM</summary>
 </details>
 
