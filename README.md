@@ -360,12 +360,12 @@ Demo 4: Collaborative Role-Play (The Three Kingdoms)</summary>
 ### 1. Install
 
 * Install the dependancies
-```
+```bash
 conda env create -n nlsom -f nlsom.yaml
 ```
 
 #### Nanny installation instructions
-```
+```bash
 # [Set Conda Env] 
 conda create -n nlsom python=3.8
 conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 -c pytorch
