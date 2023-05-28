@@ -602,7 +602,9 @@ We also thank great AI platforms and all the used models or APIs:
 
 [huggingface](https://github.com/huggingface/transformers), [modelscope](https://github.com/modelscope/modelscope).
 
+Thanks Guohao and Hasan's experiments based on:
 
+[CAMEL](https://github.com/camel-ai/camel).
 
 ## :black_nib: Citation
 
