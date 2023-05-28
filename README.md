@@ -332,7 +332,7 @@ streamlit run app.py
 <details>
     <summary>
  Demo 2: Model Collaboration (Multimodal Agents) 👈 CLIKE TO OPEN</summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112392144318103665/Presentation2_copy_pdf.io.png?width=1620&height=220">
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112394722493857872/Presentation2_copy_pdf.io_1.png?width=1620&height=220">
     <p>
         <ul>
             <li><b>🔴 User:</b> VQA question: What century were these invented in?
