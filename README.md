@@ -32,7 +32,6 @@ When you provide the inputs (files or targets), LLM automates all these processe
                 <b>3) Human-Biased AI.</b> For thousands of years, NL has evolved to compactly encode all the things humans consider important. That is to say that an NLSOM would be expected to have a strong bias towards human thinking and reasoning. </li>
         </ul>
     </p>        
-    
      <p>
         <ul>
             <li><b> Focus:</b>   Our primary objective extends beyond the development of a task automation system. Existing research has demonstrated the effectiveness of using language models (LLMs) as controllers to coordinate multiple models. Instead, we focus on enhancing collaboration and cohesion among various AI modules.
@@ -63,8 +62,6 @@ When you provide the inputs (files or targets), LLM automates all these processe
             </li>
         </ul>
     </p>   
-    
-    
 </details>
 
 Features:
