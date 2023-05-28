@@ -351,19 +351,19 @@ streamlit run app.py
     </p>     
     <p>
         <ul>
-            <li><b>🟢 BLIP2_VQA:</b>  
+            <li><b>🟢 BLIP2_VQA:</b>  The 20th century was the century of the airplane.
     </li>
         </ul>
     </p>  
     <p>
         <ul>
-            <li><b>🟡 mPLUG_VQA:</b> 
+            <li><b>🟡 mPLUG_VQA:</b> 21st
     </li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li><b>🔵 OFA_VQA:</b> 
+            <li><b>🔵 OFA_VQA:</b> 20th
     </li>
         </ul>
     </p> 
