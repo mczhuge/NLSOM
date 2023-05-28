@@ -69,6 +69,8 @@ pip install modelscope==1.6.0
 python3 -m pip install nvidia-cudnn-cu11==8.6.0.163 tensorflow==2.12.*
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib
 python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+pip install modelscope[multi-modal]
+
 pip install librosa
 pip install fairseq
 python -c "from modelscope.pipelines import pipeline;print(pipeline('image-captioning')('https://shuangqing-public.oss-cn-zhangjiakou.aliyuncs.com/donuts.jpg'))"
