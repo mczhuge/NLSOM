@@ -17,6 +17,21 @@ When you provide the inputs (files or targets), LLM automates all these processe
 - **🧠 Mindstorm**: Empower with the automated mindstorm. Multiple agents (models or APIs) can effortlessly collaborate to solve tasks together.
 - **💰 Reward**: Rewards are given to all agents involved.
 
+Features:
+- [x] Rule your NLSOM: effortlessly organize an NLSOM in various fields by simply changing the template.
+- [x] Easy to extend: customize your own community and agents (Now we have 17 communities and 32 agents, see [society](https://github.com/mczhuge/NLSOM/tree/main/society)). 
+- [x] Reward Design: provide a reward mechanism (albeit rough). You can easily upgrade to a more refined version. 
+- [x] An elegant UI: facilitate better visualization and support for diverse media sources (image, text, audio, video, etc).
+
+
+
+## 💡️ Important Concepts
+
+- We introduce the concepts NLSOM, which contains society, community and agent—all communicating through the same universal
+symbolic language—are easily added in a modular fashion
+- Agents will collaborate to solve the task, we called it Mindstorm. 
+- [Jürgen](https://scholar.google.com/citations?user=gLnCTgIAAAAJ&hl=en&oi=ao) also proposed the Economy of minds (EOM, sec 3 in paper), but we have yet to implement it.
+
 <details>
     <summary>More insights 👈 <b>[CLICK]</b></summary>
     <p>
@@ -63,23 +78,6 @@ When you provide the inputs (files or targets), LLM automates all these processe
         </ul>
     </p>   
 </details>
-
-Features:
-- [x] Rule your NLSOM: effortlessly organize an NLSOM in various fields by simply changing the template.
-- [x] Easy to extend: customize your own community and agents (Now we have 17 communities and 32 agents, see [society](https://github.com/mczhuge/NLSOM/tree/main/society)). 
-- [x] Reward Design: provide a reward mechanism (albeit rough). You can easily upgrade to a more refined version. 
-- [x] An elegant UI: facilitate better visualization and support for diverse media sources (image, text, audio, video, etc).
-
-
-
-## 💡️ Important Concepts
-
-- We introduce the concepts NLSOM, which contains society, community and agent—all communicating through the same universal
-symbolic language—are easily added in a modular fashion
-- Agents will collaborate to solve the task, we called it Mindstorm. 
-- [Jürgen](https://scholar.google.com/citations?user=gLnCTgIAAAAJ&hl=en&oi=ao) also proposed the Economy of minds (EOM, sec 3 in paper), but we have yet to implement it.
-
-
 
 
 
