@@ -60,6 +60,12 @@ Features:
     </p>     
      <p>
         <ul>
+            <li><b> Limitation:</b>  The current GitHub version of NLSOM is in early stages and has limitations: 1) unstable prompt reliance, 2) performance dependent on supported agents, and 3) reward mechanism lacking RL training. We believe skilled engineers and teams will address and overcome all these challenges.
+            </li>
+        </ul>
+    </p>    
+     <p>
+        <ul>
             <li><b> Outlook:</b>   The concept behind this project is to provide a preliminary NLSOM solution. To illustrate, let's consider a scenario where a non-technical individual lacks expertise in computer science and has limited knowledge about various AI plugins. In such cases, the NLSOM system can automatically recommend different communities and agents to automate tasks based on user input in natural language. Even without understanding the performance of a specific model, the user can benefit from multiple models with the same functionality working together to offer more comprehensive answers. These AI communities can collaborate and compete with each other. Furthermore, the NLSOM system implements a reward mechanism that grants AI models a higher status based on their performance. This reward mechanism serves the purpose of optimizing the end-to-end recommendation/Mindstorm process in the future. It establishes a system akin to a Darwinian meritocracy within the AI community, where models compete and succeed based on their demonstrated excellence.
             </li>
         </ul>
