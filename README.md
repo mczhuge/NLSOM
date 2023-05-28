@@ -39,6 +39,7 @@ Features:
 conda env create -n nlsom -f nlsom.yaml
 ```
 
+#### Nanny installation instructions
 ```
 # [Set Conda Env] 
 conda create -n nlsom python=3.8
@@ -59,7 +60,7 @@ pip install streamlit_chat==0.0.2.2
 # [Set Huggingface/transformers]
 pip install transformers==4.29.2
 pip install accelerate==0.19.0
-[Set Search]
+# [Set Search]
 pip install wolframalpha
 pip install wikipedia
 pip install arxiv
