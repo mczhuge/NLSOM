@@ -60,7 +60,7 @@ Features:
     </p>     
      <p>
         <ul>
-            <li><b> Limitation:</b>  The current GitHub version of NLSOM is in its preliminary stages and has limitations: 1) unstable performance due to prompt reliance, 2) performance dependent on supported agents, and 3) the reward mechanism was not utilized for RL training. We believe more outstanding teams and members will address and overcome all of these challenges.
+            <li><b> Limitation:</b>  The current GitHub version of NLSOM is in its preliminary stages and has limitations: 1) unstable performance due to prompt reliance, 2) Mindstorm process is not very stable, and 3) the reward mechanism was not utilized for RL training. 
             </li>
         </ul>
     </p>    
