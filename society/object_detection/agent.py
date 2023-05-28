@@ -13,12 +13,9 @@ def prompts(name, description):
 
     return decorator
 
-
 class DETR:
-    def __init__(self, device):
-        print(f"Initializing DETR to {device}")
+    def __init__(self, device="cpu"):
         self.device = device
-        self.torch_dtype = torch.float16 if 'cuda' in device else torch.float32
         self.API_URL = "https://api-inference.huggingface.co/models/facebook/detr-resnet-50"
         self.headers = {"Authorization": "Bearer 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"}
 
@@ -41,9 +38,7 @@ class DETR:
         return response.json()
 
 
-
-
 if __name__ == "__main__":
-    object_detection_model = DETR(device="cuda:0")
-    result = object_detection_model.inference("WechatIMG896.jpeg")
+    object_detection_model = DETR(device="cpu")
+    result = object_detection_model.inference("xyz.png")
     print(result)
