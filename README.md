@@ -60,6 +60,10 @@ pip install streamlit_chat==0.0.2.2
 [Set Huggingface/transformers]
 pip install transformers==4.29.2
 pip install accelerate==0.19.0
+[Set Search]
+pip install wolframalpha
+pip install wikipedia
+pip install arxiv
 ```
 
 
