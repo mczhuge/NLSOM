@@ -401,6 +401,7 @@ pip install fairseq
 pip install librosa
 pip install setuptools==59.5.0
 pip install tensorboardX
+pip install open_clip_torch
 # [Set OCR]
 pip install easyocr
 # [Set Text-to-Video]
