@@ -145,9 +145,7 @@ pip install protobuf==3.20.3
 </p>
 </details>
 
-Besides, here is the trick to manage Huggingface/Modelscope cache:
-
-<details><summary>4. Manage the dir of checkpoints (Optional)  </summary>
+<details><summary>4. Manage the dir of checkpoints (Optional, not necessary)  </summary>
 <p>
 
 * Create the checkpoints dir
