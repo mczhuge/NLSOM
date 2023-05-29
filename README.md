@@ -89,9 +89,9 @@ Here are three different installation methods. Please choose the one that suits 
 
 1. CONDA: ``conda env create -n nlsom -f nlsom.yaml``
 
-3. PIP: ``pip install -r requirements.txt``
+2. PIP: ``pip install -r requirements.txt``
 
-<details><summary>3. Step-by-step installation (Recommended) </summary>
+<details><summary>3. Step-by-step installation (Recommended if 1, 2 cannot directly work) </summary>
 <p>
     
 ```bash
