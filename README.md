@@ -417,7 +417,7 @@ Please feel free to submit a pull request if you can optimize the identified iss
 
 ## ☑️  TODO
 
-Due to the heavy reliance on prompts in the current version, we will be further developing a new iteration that make NLSOM and Mindstorms more stable.
+Due to the heavy reliance on prompts in the current version, we will develop a new iteration that makes NLSOM and Mindstorms more stable.
 
 ## 💌 Acknowledgments
 
