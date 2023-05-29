@@ -466,9 +466,9 @@ The original experiments on paper can be found in [experiments](https://github.c
 
 ## ☑️  TODO
 
-In the original paper, the NLSOM is **pre-defined** and the mindstorm is **enforced**. However, in this repository, the NLSOM is **self-organized** and the mindstorm occurs **automatically**. Due to the heavy reliance on prompts in the current repository version, the current one are not stable. Therefore, it is possible to discover some solutions that can optimize the identified issues:
+In the original paper, the NLSOM is **pre-defined** and the mindstorm is **enforced**. However, in this repository, the NLSOM is **self-organized** and the mindstorm occurs **automatically**. Due to the heavy reliance on prompts in the current repository version, the current one are not stable. Therefore, there are some identified issues that are awaiting optimization:
 
-* Make mindstorm more stable: 1) design better prompts, 2) develop a tailor-made mindstorm system with or without using LangChain.
+* Make mindstorm more stable: 1) design better prompts or 2) develop a tailor-made mindstorm system.
 * Support multi-turn mindstorms.
 * Support targets with multiple inputs.
 * Add more communities and agents.
