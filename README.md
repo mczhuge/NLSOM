@@ -105,7 +105,7 @@ pip install sqlalchemy==2.0.12
 pip install openai
 pip install colorama
 # [Set Streamlit]
-cd assets && unzip validators-0.20.0.tar.gz
+cd assets && unzip validators-0.20.0.zip
 cd validators-0.20.0
 python setup.py build
 python setup.py install
