@@ -14,7 +14,7 @@
 #### 1. Concepts:
 
 - We introduce the concepts NLSOM, which contains society, community and agent—all communicating through the same universal
-symbolic language—are easily added in a modular fashion
+symbolic language—are easily added in a modular fashion.
 - Agents will collaborate to solve the task, we called it Mindstorm. 
 - [Jürgen](https://scholar.google.com/citations?user=gLnCTgIAAAAJ&hl=en&oi=ao) also proposed the Economy of minds (EOM, sec 3 in paper), but we have yet to implement it.
 - <details>
@@ -65,7 +65,7 @@ symbolic language—are easily added in a modular fashion
 </details>
 
 #### 2. About this repo:
-This project is the **technical extenstion** for original [NLSOM paper](https://arxiv.org/pdf/2305.17066.pdf): allowing you to build a specific NLSOM quickly. 
+This project is the **technical extension** for the original [NLSOM paper](https://arxiv.org/pdf/2305.17066.pdf): allowing you to build a specific NLSOM quickly. 
 When you provide the inputs (files or targets), LLM automates all these processes for you:
 
 - **🧰 Recommendation**: Autonomously select communities and agents to form a self-organized NLSOM for solving the target.
@@ -80,9 +80,8 @@ When you provide the inputs (files or targets), LLM automates all these processe
 
 
 <div align=center>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112536686577057852/WechatIMG969.jpeg?width=500&height=520">
+    <img src="https://github.com/mczhuge/NLSOM/assets/64179323/fed10cb8-a7b7-4103-a480-0f0048cb36cc" width="500" height="535">
 </div>
-
 
 ## 💾 Usage
 
@@ -344,56 +343,61 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
 <details open>
     <summary>
  Demo 4: Society of Mind (Automatical Task-Solving)</summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112726921487327334/som.png?width=1320&height=222">
-    <p>
+      <p>
         <ul>
-            <li>🔴 User: Turn this photo into color, generate a description based on the colored image, and then use the description to generate a video. </li>
+            <li>🔴 <b>User:</b> Provide an image. <br> <img src="https://github.com/mczhuge/NLSOM/assets/64179323/e8ac4340-996d-4ee2-9830-58ecddfe1a98" width="200px" height="243px">
         </ul>
     </p>
     <p>
         <ul>
-            <li>🧰 NLSOM System (Recommendation): Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) image_colorization, (2) skin_retouching, (3) image_captioning, (4) text_to_image </u></li>
+            <li>🔴 <b>User:</b> Turn this photo into color, generate a description based on the colored image, and then use the description to generate a video. </li>
+        </ul>
+    </p>
+    <p>
+        <ul>
+            <li>🧰 <b>NLSOM System (Recommendation):</b> Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) image_colorization, (2) image_captioning, (3) text_to_video </u></li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li>⚪️ NLSOM System (Self-Organization): We load the recommended AI communities with their their corresponding agents: (a) DDColor, (b) ABPN, (c) mPLUG_captioning, (d) OFA_large_captioning, (e) AnythingV4
+            <li>⚪️ <b>NLSOM System (Self-Organization):</b> We load the recommended AI communities with their their corresponding agents: (a) DDColor, (b) OFA_large_captioning, (c) DeforumSD
     </li>
         </ul>
     </p>     
     <p>
         <ul>
-            <li>🟢 DDColor: data/55cd88e5.png
+            <li>🟢 <b>DDColor:</b>  <br> <img src="https://github.com/mczhuge/NLSOM/assets/64179323/743339b4-d78c-4e9d-b394-6461addfe1f9" width="200px" height="243px"> </li>
     </li>
         </ul>
     </p>  
     <p>
         <ul>
-            <li>🟡 OFA_large_captioning: a portrait of an old man with white hair
+            <li>🟡 <b>OFA_large_captioning:</b> a portrait of an old man with white hair
         </ul>
     </p>   
     <p>
         <ul>
-            <li>🔵 DeforumSD: data/47bec94a.mp4 <video src="LINK" controls="controls" style="max-width: 730px;">
+            <li>🔵 <b>DeforumSD:</b> <br> 
+                <video src="https://github.com/mczhuge/NLSOM/assets/64179323/62fb8500-6c22-4ed4-bf61-bc3bc0a843bb" width="200px" height="243px">
 </video>
     </li>
         </ul>
     </p> 
     <p>
         <ul>
-            <li>⚪️ NLSOM System (Review):  1) Whether the NLSOM has utilized all the agents? Yes 2) Whether the NLSOM has solved the user-defined objective? Yes, the NLSOM has successfully turned the photo into color, generated a description, and used the description to generate a video.
+            <li>⚪️ <b>NLSOM System (Review):</b>  1) Whether the NLSOM has utilized all the agents? Yes 2) Whether the NLSOM has solved the user-defined objective? Yes, the NLSOM has successfully turned the photo into color, generated a description, and used the description to generate a video.
     </li>
         </ul>
     </p>  
      <p>
         <ul>
-            <li>⚪️ NLSOM System (Summary): The NLSOM has successfully turned the photo into color, generated a description, and used the description to generate a video. The output video is stored in data/47bec94a.mp4
+            <li>⚪️ <b>NLSOM System (Summary):</b> The NLSOM has successfully turned the photo into color, generated a description, and used the description to generate a video. The output video is stored in data/47bec94a.mp4
     </li>
         </ul>
     </p> 
      <p>
         <ul>
-            <li>💰 NLSOM System (Reward): [DDColor: 3, OFA_large_captioning: 3, DeforumSD: 3]
+            <li>💰 <b>NLSOM System (Reward):</b> [DDColor: 3, OFA_large_captioning: 3, DeforumSD: 3]
     </li>
         </ul>
     </p> 
@@ -462,6 +466,12 @@ References to cite:
   publisher={Simon and Schuster}
 }
 ```
+
+
+--------------------
+
+# DRAFT IGNORE!!
+
 
 ### 1. Install
 
