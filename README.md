@@ -91,7 +91,7 @@ Here are three different installation methods. Please choose the one that suits 
 
 2. CONDA: ``conda env create -f environment.yml``
 
-    <details><summary>3. Clear step-by-step installation </summary>
+<details><summary>3. Clear step-by-step installation </summary>
 <p>
     
 ```bash
