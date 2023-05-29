@@ -41,20 +41,16 @@ from constants import (
     APP_NAME,
     CHUNK_SIZE,
     DATA_PATH,
-    FETCH_K,
-    MAX_TOKENS,
-    MODEL,
     PAGE_ICON,
     REPO_URL,
     TEMPERATURE,
     K,
 )
 
-from env.prompt import (
+from bak.prompt import (
     NLSOM_PREFIX, 
     NLSOM_FORMAT_INSTRUCTIONS, 
     NLSOM_SUFFIX, 
-    AI_SOCIETY
 )
 
 # OpenAI Agent
@@ -132,63 +128,6 @@ def authenticate(
     # st.session_state["activeloop_token"] = activeloop_token
     # st.session_state["activeloop_org_name"] = activeloop_org_name
     logger.info("Authentification successful!")
-
-
-# def advanced_options_form() -> None:
-#     # Input Form that takes advanced options and rebuilds chain with them
-#     advanced_options = st.checkbox(
-#         "Advanced Options", help="Caution! This may break things!"
-#     )
-#     if advanced_options:
-#         with st.form("advanced_options"):
-#             temperature = st.slider(
-#                 "temperature",
-#                 min_value=0.0,
-#                 max_value=1.0,
-#                 value=TEMPERATURE,
-#                 help="Controls the randomness of the language model output",
-#             )
-#             col1, col2 = st.columns(2)
-#             fetch_k = col1.number_input(
-#                 "k_fetch",
-#                 min_value=1,
-#                 max_value=1000,
-#                 value=FETCH_K,
-#                 help="The number of documents to pull from the vector database",
-#             )
-#             k = col2.number_input(
-#                 "k",
-#                 min_value=1,
-#                 max_value=100,
-#                 value=K,
-#                 help="The number of most similar documents to build the context from",
-#             )
-#             chunk_size = col1.number_input(
-#                 "chunk_size",
-#                 min_value=1,
-#                 max_value=100000,
-#                 value=CHUNK_SIZE,
-#                 help=(
-#                     "The size at which the text is divided into smaller chunks "
-#                     "before being embedded.\n\nChanging this parameter makes re-embedding "
-#                     "and re-uploading the data to the database necessary "
-#                 ),
-#             )
-#             max_tokens = col2.number_input(
-#                 "max_tokens",
-#                 min_value=1,
-#                 max_value=4069,
-#                 value=MAX_TOKENS,
-#                 help="Limits the documents returned from database based on number of tokens",
-#             )
-#             applied = st.form_submit_button("Apply")
-#             if applied:
-#                 st.session_state["k"] = k
-#                 st.session_state["fetch_k"] = fetch_k
-#                 st.session_state["chunk_size"] = chunk_size
-#                 st.session_state["temperature"] = temperature
-#                 st.session_state["max_tokens"] = max_tokens
-#                 update_chain()
 
 
 def save_uploaded_file(uploaded_file: UploadedFile) -> str:
@@ -316,115 +255,6 @@ def load_any_data_source(
         handle_load_error(msg)
 
 
-def clean_data_source_string(data_source_string: str) -> str:
-    # replace all non-word characters with dashes
-    # to get a string that can be used to create a new dataset
-    dashed_string = re.sub(r"\W+", "-", data_source_string)
-    cleaned_string = re.sub(r"--+", "- ", dashed_string).strip("-")
-    return cleaned_string
-
-
-def setup_vector_store(data_source: str, chunk_size: int = CHUNK_SIZE) -> VectorStore:
-    # either load existing vector store or upload a new one to the hub
-    embeddings = OpenAIEmbeddings(
-        disallowed_special=(), openai_api_key=st.session_state["openai_api_key"]
-    )
-    # data_source_name = clean_data_source_string(data_source)
-    # dataset_path = f"hub://{st.session_state['activeloop_org_name']}/{data_source_name}-{chunk_size}"
-    # if deeplake.exists(dataset_path, token=st.session_state["activeloop_token"]):
-    #     with st.spinner("Loading vector store..."):
-    #         logger.info(f"Dataset '{dataset_path}' exists -> loading")
-    #         vector_store = DeepLake(
-    #             dataset_path=dataset_path,
-    #             read_only=True,
-    #             embedding_function=embeddings,
-    #             token=st.session_state["activeloop_token"],
-    #         )
-    # else:
-    #     with st.spinner("Reading, embedding and uploading data to hub..."):
-    #         logger.info(f"Dataset '{dataset_path}' does not exist -> uploading")
-    #         docs = load_any_data_source(data_source, chunk_size)
-    #         vector_store = DeepLake.from_documents(
-    #             docs,
-    #             embeddings,
-    #             dataset_path=dataset_path,
-    #             token=st.session_state["activeloop_token"],
-    #         )
-    return None #vector_store
-
-
-def build_chain(
-    #data_source: str,
-    k: int = K,
-    fetch_k: int = FETCH_K,
-    chunk_size: int = CHUNK_SIZE,
-    temperature: float = TEMPERATURE,
-    max_tokens: int = MAX_TOKENS,
-) -> ConversationalRetrievalChain:
-    # create the langchain that will be called to generate responses
-    
-    # vector_store = setup_vector_store(data_source, chunk_size)
-    # retriever = vector_store.as_retriever()
-
-    # # Search params "fetch_k" and "k" define how many documents are pulled from the hub
-    # # and selected after the document matching to build the context
-    # # that is fed to the model together with your prompt
-    # search_kwargs = {
-    #     "maximal_marginal_relevance": True,
-    #     "distance_metric": "cos",
-    #     "fetch_k": fetch_k,
-    #     "k": k,
-    # }
-    # retriever.search_kwargs.update(search_kwargs)
-
-
-
-    model = ChatOpenAI(
-        model_name=MODEL,
-        temperature=temperature,
-        openai_api_key=st.session_state["openai_api_key"],
-    )
-
-    """
-    chain = ConversationalRetrievalChain.from_llm(
-        model,
-        #retriever=retriever,
-        retriever=None,
-        chain_type="stuff",
-        verbose=True,
-        # we limit the maximum number of used tokens
-        # to prevent running into the models token limit of 4096
-        max_tokens_limit=max_tokens,
-    )
-    """
-
-
-
-    #logger.info(f"Data source '{data_source}' is ready to go!")
-
-
-    return None #chain
-
-
-def update_chain() -> None:
-    # Build chain with parameters from session state and store it back
-    # Also delete chat history to not confuse the bot with old context
-    try:
-        st.session_state["chain"] = build_chain(
-            #data_source=st.session_state["data_source"],
-            #k=st.session_state["k"],
-            #fetch_k=st.session_state["fetch_k"],
-            chunk_size=st.session_state["chunk_size"],
-            temperature=st.session_state["temperature"],
-            max_tokens=st.session_state["max_tokens"],
-        )
-        #st.session_state["chat_history"] = []
-    except Exception as e:
-        msg = f"Failed to build chain for data source '{st.session_state['data_source']}' with error: {e}"
-        logger.error(msg)
-        st.error(msg, icon=PAGE_ICON)
-
-
 def update_usage(cb: OpenAICallbackHandler) -> None:
     # Accumulate API call usage via callbacks
     logger.info(f"Usage: {cb}")
@@ -446,7 +276,6 @@ def cut_dialogue_history(history_memory, keep_last_n_words=500):
     
     tokens = str(history_memory).replace("[(", "").replace(")]", "").split()
     n_tokens = len(tokens)
-    print(f"history_memory:{history_memory}, n_tokens: {n_tokens}")
     if n_tokens < keep_last_n_words:
         return history_memory
     paragraphs = history_memory.split('\n')
@@ -468,41 +297,13 @@ def generate_response(prompt: str, tools, history) -> str:
         agent_kwargs={'prefix': NLSOM_PREFIX, 'format_instructions': NLSOM_FORMAT_INSTRUCTIONS,
                     'suffix': NLSOM_SUFFIX}, )
 
-
-    #print("====记忆池子1====", st.session_state["chat_history"])
-    #print("====记忆池子2====", mindstorm.memory.chat_memory.messages)
     mindstorm.memory.chat_memory.add_user_message(st.session_state["chat_history"][0][0])
     mindstorm.memory.chat_memory.add_user_message(st.session_state["chat_history"][0][1])
-    #mindstorm.memory.chat_memory.messages = cut_dialogue_history(mindstorm.memory.chat_memory.messages, keep_last_n_words=500)
-    #print("====记忆池子3====", mindstorm.memory.chat_memory.messages)
-    #print("===这是prompt===", prompt)
-    
+
     response = mindstorm({'input': prompt.strip()})
     response['output'] = response['output'].replace("\\", "/")
     response = re.sub('(data/[-\w]*.png)', lambda m: f'![](file={m.group(0)})*{m.group(0)}*', response['output'])
 
     logger.info(f"Response: '{response}'")
-    #st.session_state["chat_history"].append((prompt, response["answer"]))
     st.session_state["chat_history"].append((prompt, response))
     return response
-
-
-def generate_reward(target: str, communities, agents, process) -> str:
-    """
-    A prompt-based simple reward mechanism.
-    """
-    llm = OpenAI(model_name="text-davinci-003")
-
-    prompt = """There is a target given by human: {target}. 
-                And we use a system called NLSOM to solve this target.
-                The system uses several communities: {communities}.
-                Each community has one or multiple related agents, including {agents}.
-                And each agent will contribute to the target-solving.
-                Here is the process of target-solving: {process}.
-                You shosuld give each agent a reward (1-10) according to their contributions.
-                And you MUST should a dict format to give them rewards, such as:
-
-                Now according to the above information, give your reward to each agent in {agents}:
-            """
-    responce = llm(prompt)
-    return responce 
