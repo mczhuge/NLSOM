@@ -10,13 +10,12 @@
 -->
 
 ## ✨ Introduction
-
+We introduce the concept of Natural Language-Based Societies of Mind (NLSOM), a framework that overcomes limitations of single Large-Language Models (LLMs)
 #### 1. Concepts:
 
-- We introduce the concepts NLSOM, which contains society, community and agent—all communicating through the same universal
-symbolic language—are easily added in a modular fashion.
-- Agents will collaborate to solve the task, we called it Mindstorm. 
-- [Jürgen](https://scholar.google.com/citations?user=gLnCTgIAAAAJ&hl=en&oi=ao) also proposed the Economy of minds (EOM, sec 3 in paper), but we have yet to implement it.
+- Agents can be either LLMs or other NN-based experts, they all communicate in natural language.
+- Agents collaborate to solve the task by interviewing each other. we named this procedure as "Mindstorm". 
+- Additional components for NLSOM can be easily added in a modular fashion.
 - <details>
     <summary>More insights 👈 <b>[CLICK]</b></summary>
     <p>
@@ -66,10 +65,10 @@ symbolic language—are easily added in a modular fashion.
 
 #### 2. About this repo:
 This project is the **technical extension** for the original [NLSOM paper](https://arxiv.org/pdf/2305.17066.pdf): allowing you to build a specific NLSOM quickly. 
-When you provide the inputs (files or targets), LLM automates all these processes for you:
+When you provide the inputs (files or targets), This repository automates all these processes for you:
 
-- **🧰 Recommendation**: Autonomously select communities and agents to form a self-organized NLSOM for solving the target.
-- **🧠 Mindstorm**: Empower with the automated mindstorm. Multiple agents (models or APIs) can effortlessly collaborate to solve tasks together.
+- **🧰 Recommendation**: Autonomously select communities and agents to form a self-organized NLSOM for solving the specified task.
+- **🧠 Mindstorm**: Multiple agents (models or APIs) can collaborate to solve tasks together more efficiently.
 - **💰 Reward**: Rewards are given to all agents involved.
 
 #### 3. Features:
