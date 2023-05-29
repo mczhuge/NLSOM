@@ -2,8 +2,7 @@ import os
 from langchain import PromptTemplate, FewShotPromptTemplate
 from langchain.llms import OpenAI
 
-from env.prompt_bak528 import AI_SOCIETY, ORGANIZING_EXAMPLE
-
+from env.prompt import AI_SOCIETY, ORGANIZING_EXAMPLE
 
 in_context_template = """Objective: {objective}\nSociety: {society}\nOrganizing: {organizing}""" 
 
