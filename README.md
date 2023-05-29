@@ -1,10 +1,10 @@
-# <p align=center>`Mindstorms in Natural Language-based Societies of Mind`</p><!-- omit in toc -->
+# <p align=center>`Mindstorms in Natural Language-Based Societies of Mind`</p><!-- omit in toc -->
 ![overview](config/nlsom.svg)
 > What magical trick makes us intelligent?  The trick is that there is no trick.  The power of intelligence stems from our vast diversity, not from any single, perfect principle. — Marvin Minsky, The Society of Mind, p. 308
 
 ![](https://i.imgur.com/waxVImv.png)
 [![KAUST-AINT](https://cemse.kaust.edu.sa/themes/custom/bootstrap_cemse/logo.svg)](https://cemse.kaust.edu.sa/ai)
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2304.12995)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2305.17066.pdf)
 <!--
 <a href="https://github.com/xxx/README.zh-HANS.md"><img src="https://img.shields.io/badge/lang-简体中文-red.svg" alt="简体中文"></a>
 -->
@@ -65,7 +65,7 @@ symbolic language—are easily added in a modular fashion
 </details>
 
 #### 2. About this repo:
-This project is the **technical extenstion** for original [NLSOM paper](): allowing you to build a specific NLSOM quickly. 
+This project is the **technical extenstion** for original [NLSOM paper](https://arxiv.org/pdf/2305.17066.pdf): allowing you to build a specific NLSOM quickly. 
 When you provide the inputs (files or targets), LLM automates all these processes for you:
 
 - **🧰 Recommendation**: Autonomously select communities and agents to form a self-organized NLSOM for solving the target.
@@ -79,10 +79,56 @@ When you provide the inputs (files or targets), LLM automates all these processe
 - [x] An elegant UI: facilitate better visualization and support for diverse media sources (image, text, audio, video, etc).
 
 
+<div align=center>
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112536686577057852/WechatIMG969.jpeg?width=500&height=520">
+</div>
 
 
+## 💾 Usage
 
+### 1. Install
 
+```bash
+# [Set Conda Env] 
+conda create -n nlsom python=3.8
+conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 -c pytorch
+pip install pandas==1.4.3
+# [Set LangChain, OpenAI]
+pip install langchain==0.0.158
+pip install sqlalchemy==2.0.12
+pip install openai
+pip install colorama
+# [Set Streamlit]
+cd config && unzip validators-0.20.0.tar.gz
+cd validators-0.20.0
+python setup.py build
+python setup.py install
+pip install streamlit==1.22.0
+pip install streamlit_chat==0.0.2.2
+# [Set Huggingface/transformers]
+pip install transformers==4.29.2
+pip install accelerate==0.19.0
+# [Set Search]
+pip install wolframalpha
+pip install wikipedia
+pip install arxiv
+# [Set Modelscope]
+pip install modelscope==1.6.0
+python3 -m pip install nvidia-cudnn-cu11==8.6.0.163 tensorflow==2.12.*
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib
+python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+pip install modelscope[multi-modal]
+pip install decord==0.6.0
+pip install fairseq
+pip install librosa
+pip install setuptools==59.5.0
+pip install tensorboardX
+pip install open_clip_torch
+# [Set OCR]
+pip install easyocr
+# [Set Text-to-Video]
+pip install replicate==0.8.3
+```
 
 
 
@@ -356,7 +402,56 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
 </details>
 
 
-## 💾 Usage
+## 📋 Preliminary Experiments on Paper 
+The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and NLSOM.
+
+<!--
+## TODO
+Please feel free to submit a pull request if you can optimize the identified issues. We will promptly incorporate any improvements.
+
+* Make mindstorm more stable: 1) design better prompts, 2) develop a tailor-made mindstorm system with or without using LangChain.
+* Support multi-turn mindstorms.
+* Support targets with multiple inputs.
+* Support displaying 3D output.
+* Add more communities and agents.
+* Design a more accurate reward mechanism.
+* Make the NLSOM learnable.
+-->
+
+## 💌 Acknowledgments
+
+This project utilizes parts of code from the following open-source repositories: [langchain](https://github.com/hwchase17/langchain), [BabyAGI](https://github.com/yoheinakajima/babyagi), [TaskMatrix](https://github.com/microsoft/TaskMatrix), [DataChad](https://github.com/gustavz/DataChad), [streamlit](https://github.com/streamlit/streamlit).
+
+We also thank great AI platforms and all the used models or APIs: [huggingface](https://github.com/huggingface/transformers), [modelscope](https://github.com/modelscope/modelscope).
+
+Thanks Guohao and Hasan's experiments based on [CAMEL](https://github.com/camel-ai/camel).
+
+## :black_nib: Citation
+
+References to cite:
+
+```
+@article{zhuge2023mindstorms,
+  title={Mindstorms in Natural Language-Based Societies of Mind},
+  author={Zhuge, Mingchen and Liu, Haozhe and Faccio, Francesco and Ashley, Dylan R and Csord{\'a}s, R{\'o}bert and Gopalakrishnan, Anand and Hamdi, Abdullah and Hammoud, Hasan and Herrmann, Vincent and Irie, Kazuki and Kirsch, Louis and Li, Bing and Li, Guohao and Liu, Shuming and Mai, Jinjie and Pi{\k{e}}kos, Piotr and Ramesh, Aditya and Schlag, Imanol and Shi, Weimin and Stani{\'c}, Aleksandar and Wang, Wenyi and Wang, Yuhui and Xu, Mengmeng and Fan, Deng-Ping and Ghanem, Bernard and Schmidhuber, J{\"u}rgen},
+  journal={arXiv preprint arXiv:2305.17066},
+  year={2023}
+}
+
+@article{schmidhuber2015learning,
+  title={On learning to think: Algorithmic information theory for novel combinations of reinforcement learning controllers and recurrent neural world models},
+  author={Schmidhuber, J{\"u}rgen},
+  journal={arXiv preprint arXiv:1511.09249},
+  year={2015}
+}
+
+@book{minsky1988society,
+  title={Society of mind},
+  author={Minsky, Marvin},
+  year={1988},
+  publisher={Simon and Schuster}
+}
+```
 
 ### 1. Install
 
@@ -581,63 +676,4 @@ ssh-add ~/.ssh/id_rsa
 ```
 export REPLICATE_API_TOKEN=r8_WssXC8wLfU6nIOZSgm69CM49SFvuObr35zgcu
 ```
-
-## Preliminary Experiments on Paper 
-The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and natural language-based society of mind.
-
-<!--
-## TODO
-Please feel free to submit a pull request if you can optimize the identified issues. We will promptly incorporate any improvements.
-
-* Make mindstorm more stable: 1) design better prompts, 2) develop a tailor-made mindstorm system with or without using LangChain.
-* Support multi-turn mindstorms.
-* Support targets with multiple inputs.
-* Support displaying 3D output.
-* Add more communities and agents.
-* Design a more accurate reward mechanism.
-* Make the NLSOM learnable.
--->
-
-## Acknowledgments
-
-This project utilizes parts of code from the following open-source repositories:
-
-[langchain](https://github.com/hwchase17/langchain), [BabyAGI](https://github.com/yoheinakajima/babyagi), [TaskMatrix](https://github.com/microsoft/TaskMatrix), [DataChad](https://github.com/gustavz/DataChad), [streamlit](https://github.com/streamlit/streamlit).
-
-We also thank great AI platforms and all the used models or APIs:
-
-[huggingface](https://github.com/huggingface/transformers), [modelscope](https://github.com/modelscope/modelscope).
-
-Thanks Guohao and Hasan's experiments based on:
-
-[CAMEL](https://github.com/camel-ai/camel).
-
-## :black_nib: Citation
-
-References to cite:
-
-```
-@article{zhuge2023mindstorms,
-  title={Mindstorms in Natural Language-based Societies of Mind},
-  author={XXX},
-  journal={arXiv preprint arXiv:XXX},
-  year={2023}
-}
-
-@article{schmidhuber2015learning,
-  title={On learning to think: Algorithmic information theory for novel combinations of reinforcement learning controllers and recurrent neural world models},
-  author={Schmidhuber, J{\"u}rgen},
-  journal={arXiv preprint arXiv:1511.09249},
-  year={2015}
-}
-
-@book{minsky1988society,
-  title={Society of mind},
-  author={Minsky, Marvin},
-  year={1988},
-  publisher={Simon and Schuster}
-}
-```
-
-
 
