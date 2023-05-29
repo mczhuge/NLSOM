@@ -85,6 +85,10 @@ When you provide the inputs (files or targets), This repository automates all th
 
 ### 1. Install
 
+
+<details><summary>CLICK ME</summary>
+<p>
+
 ```bash
 # [Set Conda Env] 
 conda create -n nlsom python=3.8
@@ -131,6 +135,10 @@ pip3 install pymcubes
 # [Set TTS]
 pip install TTS
 ```
+
+</p>
+</details>
+
 
 ### 2. App
 
