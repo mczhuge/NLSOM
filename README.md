@@ -14,7 +14,7 @@
 #### 1. Concepts:
 
 - We introduce the concepts NLSOM, which contains society, community and agent—all communicating through the same universal
-symbolic language—are easily added in a modular fashion
+symbolic language—are easily added in a modular fashion.
 - Agents will collaborate to solve the task, we called it Mindstorm. 
 - [Jürgen](https://scholar.google.com/citations?user=gLnCTgIAAAAJ&hl=en&oi=ao) also proposed the Economy of minds (EOM, sec 3 in paper), but we have yet to implement it.
 - <details>
@@ -65,7 +65,7 @@ symbolic language—are easily added in a modular fashion
 </details>
 
 #### 2. About this repo:
-This project is the **technical extenstion** for original [NLSOM paper](https://arxiv.org/pdf/2305.17066.pdf): allowing you to build a specific NLSOM quickly. 
+This project is the **technical extension** for the original [NLSOM paper](https://arxiv.org/pdf/2305.17066.pdf): allowing you to build a specific NLSOM quickly. 
 When you provide the inputs (files or targets), LLM automates all these processes for you:
 
 - **🧰 Recommendation**: Autonomously select communities and agents to form a self-organized NLSOM for solving the target.
