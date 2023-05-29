@@ -84,9 +84,14 @@ When you provide the inputs (files or targets), This repository automates all th
 ## 💾 Usage
 
 ### 1. Install
+ 
+Three way to install this repo:
 
+1. ``pip install -r requirements.txt``
 
-<details><summary>CLICK ME FOR STEP-BY-STEP INSTALLATION</summary>
+2. ``conda env create -f environment.yml``
+
+<details><summary>3. CLICK ME FOR STEP-BY-STEP INSTALLATION</summary>
 <p>
 
 ```bash
