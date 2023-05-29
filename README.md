@@ -85,13 +85,20 @@ When you provide the inputs (files or targets), This repository automates all th
 
 ### 1. Install
  
-Three way to install this repo:
+Three way to install this repo, just select one of them:
 
 1. ``pip install -r requirements.txt``
 
 2. ``conda env create -f environment.yml``
 
-<details><summary>3. CLICK ME FOR STEP-BY-STEP INSTALLATION</summary>
+<details><summary>3. Clike me for step-by-step installation (more clear)</summary>
+<p>
+    
+1. Using pip: ``pip install -r requirements.txt``
+
+2. Using Conda package manager: ``conda env create -f environment.yml``
+
+<details><summary>3. Click here for step-by-step installation instructions (more detailed)</summary>
 <p>
 
 ```bash
