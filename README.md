@@ -344,10 +344,10 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
 <details open>
     <summary>
  Demo 4: Society of Mind (Automatical Task-Solving)</summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112726921487327334/som.png?width=1320&height=222">
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112726921487327334/som.png" width="150px" height="150px">
       <p>
         <ul>
-            <li>🔴 User: <img src="https://github.com/mczhuge/NLSOM/assets/64179323/743339b4-d78c-4e9d-b394-6461addfe1f9?width=150&height=150"> </li>
+            <li>🔴 User: <img src="https://github.com/mczhuge/NLSOM/assets/64179323/743339b4-d78c-4e9d-b394-6461addfe1f9" width="150px" height="150px"> </li>
         </ul>
     </p>
     <p>
