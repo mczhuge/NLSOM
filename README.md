@@ -343,41 +343,41 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112390917492592731/Presentation2_copy_pdf.io.png?width=1620&height=220">
     <p>
         <ul>
-            <li>🔴 User:Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
+            <li>🔴 User: Please help me by performing the following tasks: turn this photo into color, enhance the skin of the people in the image, generate a description based on the new image, and then use the description to generate a new image. </li>
         </ul>
     </p>
     <p>
         <ul>
-            <li>🧰 NLSOM System (Recommendation): Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) search</u></li>
+            <li>🧰 NLSOM System (Recommendation): Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) image_colorization, (2) skin_retouching, (3) image_captioning, (4) text_to_image </u></li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li>⚪️ NLSOM System (Self-Organization): We load the recommended AI communities with their their corresponding agents: (a) Arxiv, (b) WolframAlpha, (c) Wikipedia, (d) BingSearch
+            <li>⚪️ NLSOM System (Self-Organization): We load the recommended AI communities with their their corresponding agents: (a) DDColor, (b) ABPN, (c) mPLUG_captioning, (d) OFA_large_captioning, (e) AnythingV4
     </li>
         </ul>
     </p>     
     <p>
         <ul>
-            <li>🟢 Arxiv:  
+            <li>🟢 DDColor:  
     </li>
         </ul>
     </p>  
     <p>
         <ul>
-            <li>🟡 WolframAlpha:
+            <li>🟡 ABPN:
     </li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li>🔵 Wikipedia:
+            <li>🔵 mPLUG_captioning:
     </li>
         </ul>
     </p> 
     <p>
         <ul>
-            <li>🟤  BingSeach:
+            <li>🟤 OFA_large_captioning:
     </li>
         </ul>
     </p> 
