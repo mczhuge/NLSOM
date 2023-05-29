@@ -13,7 +13,7 @@
 We introduce the concept of Natural Language-Based Societies of Mind (NLSOM), a framework that overcomes limitations of a single Large-Language Model (LLM) by creating a society of models that is actively "mindstorming" to solve given task.
 #### 1. Concepts:
 - Agents can be either LLMs or other NN-based experts. They all communicate in natural language.
-- Agents collaborate to solve the task by interviewing each other. we named this procedure "Mindstorm". 
+- Agents collaborate to solve the task by interviewing each other. we call this procedure "Mindstorm". 
 - Additional components for NLSOM can be easily added in a modular fashion.
 - <details>
     <summary>More insights 👈 <b>[CLICK]</b></summary>
@@ -38,7 +38,7 @@ We introduce the concept of Natural Language-Based Societies of Mind (NLSOM), a 
     </p>   
      <p>
         <ul>
-            <li><b> Process:</b>   In this GitHub project, 1) our first step is to utilize a recommendation process that provides users with relevant communities and agents aligned with their goals. These recommendations encompass tools, plugins, models, and role-players, which can then be loaded accordingly. 2) Additionally, we employ a Mindstorm approach, setting ourselves apart from previous models like VisualChatGPT and HuggingGPT, which rely solely on a single model for a specific function. Within our framework, a community of agents shares a common function, such as "search," while each agent possesses unique strengths and capabilities. For instance, agents like "Bing Search," "Wikipedia," "arXiv," and "WolframAlpha" collaborate to provide a more comprehensive understanding. 3) Furthermore, we emphasize the importance of reward mechanisms. In our current implementation, we reward different models for their contributions to task completion, which serves as a valuable means of evaluating a model's usefulness for specific tasks.
+            <li><b> Process:</b>   In this GitHub project, 1) our first step is to recommend relevant communities and agents aligned with the users' goals. These recommendations encompass tools, plugins, models, and role-players, which can then be loaded accordingly. 2) Additionally, we employ a Mindstorm approach, setting ourselves apart from previous models like VisualChatGPT and HuggingGPT, which solely rely on a single model for a specific function. Within our framework, a community of agents shares a common function, such as "search", while each agent possesses unique strengths and capabilities. For instance, agents like "Bing Search," "Wikipedia," "arXiv," and "WolframAlpha" collaborate to provide a more comprehensive understanding. 3) Furthermore, we emphasize the importance of reward mechanisms. In our current implementation, we reward different models for their contributions to task completion, which serves as a valuable means of evaluating a model's usefulness for specific tasks.
             </li>
         </ul>
     </p>     
@@ -145,6 +145,48 @@ pip install protobuf==3.20.3
 </p>
 </details>
 
+Besides, here is trick to manage Huggingface/Modelscope cache:
+
+<details><summary>4. Manage the dir of checkpoints (Optional)  </summary>
+<p>
+
+* Create the checkpints cache dir
+```
+mkdir checkpoints && cd checkpoints
+mkdir huggingface
+mkdir modelscope
+```
+
+* Change Huggingface's setting
+```bash
+>>> import transformers
+>>> print(transformers.__file__)
+# Get the path: {YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/transformers/__init__.py
+```
+
+Open the ``{YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/transformers/utils/hub.py`` and change the line:
+```
+torch_cache_home = os.getenv("TORCH_HOME", os.path.join(os.getenv("XDG_CACHE_HOME", "{YOUR_NLSOM_PATH}/checkpoints"), "torch"))
+hf_cache_home = os.path.expanduser(
+   os.getenv("HF_HOME", os.path.join(os.getenv("XDG_CACHE_HOME", "{YOUR_NLSOM_PATH}/checkpoints"), "huggingface"))
+)
+```
+
+* Similarily, the modelscope's setting
+
+```bash
+>>> import modelscope
+>>> print(modelscope.__file__)
+# Get the path: ${YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/modelscope/__init__.py
+```
+
+Open ``{YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/modelscope/utils/file_utils.py`` and change the line:
+```
+default_cache_dir = Path.home().joinpath('{YOUR_NLSOM_PATH}/checkpoints', 'modelscope')
+```
+    
+</p>
+</details>
 
 ### 2. App
 
@@ -490,204 +532,13 @@ References to cite:
 # DRAFT IGNORE!!
 
 
-### 1. Install
-
-* Install the dependancies
-```bash
-conda env create -n nlsom -f nlsom.yaml
-```
-
-#### Nanny installation instructions
-```bash
-# [Set Conda Env] 
-conda create -n nlsom python=3.8
-conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 -c pytorch
-pip install pandas==1.4.3
-# [Set LangChain, OpenAI]
-pip install langchain==0.0.158
-pip install sqlalchemy==2.0.12
-pip install openai
-pip install colorama
-# [Set Streamlit]
-cd config && unzip validators-0.20.0.tar.gz
-cd validators-0.20.0
-python setup.py build
-python setup.py install
-pip install streamlit==1.22.0
-pip install streamlit_chat==0.0.2.2
-# [Set Huggingface/transformers]
-pip install transformers==4.29.2
-pip install accelerate==0.19.0
-# [Set Search]
-pip install wolframalpha
-pip install wikipedia
-pip install arxiv
-# [Set Modelscope]
-pip install modelscope==1.6.0
-python3 -m pip install nvidia-cudnn-cu11==8.6.0.163 tensorflow==2.12.*
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib
-python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
-pip install modelscope[multi-modal]
-pip install decord==0.6.0
-pip install fairseq
-pip install librosa
-pip install setuptools==59.5.0
-pip install tensorboardX
-pip install open_clip_torch
-# [Set OCR]
-pip install easyocr
-# [Set Text-to-Video]
-pip install replicate==0.8.3
-```
-
-
-```
-conda create -n nlsom python=3.8
-pip install colorlog==6.7.0
-pip install langchain==0.0.158
-pip install sqlalchemy==2.0.12
-pip install openai
-pip install guidance
-pip install wolframalpha
-pip install wikipedia
-pip install arxiv
-pip install click
-pip install bs4
-pip install streamlit==1.22.0
-pip install streamlit_chat==0.0.2.2
-pip install colorama
-pip install torch==1.13.1
-pip install torchvision==0.14.1
-#pip install transformers
-conda install -c huggingface transformers
-python3 -m pip install nvidia-cudnn-cu11==8.6.0.163 tensorflow==2.12.*
-pip install easydict
-pip install modelscope[cv] -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
-pip install modelscope[nlp] -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
-pip install modelscope[audio] -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
-pip install fairseq
-pip install open_clip_torch
-!pip install duckduckgo-search
-pip install ffmpeg
-pip install trimesh
-pip install PyMCubes
-pip install scikit-image
-pip install TTS # Change many existed packages
-pip install easyocr
-pip install replicate==0.8.3
-pip install protobuf==3.19.3 # 不兼容transformers
-
-
-
-
-
-pip install tinydb
-pip install deeplake
-pip install python-dotenv
-pip install watchdog
-pip install unstructured
-pip install pdf2image==1.16.3
-pip install pytesseract==0.3.10
-pip install tabulate
-pip install tesseract
-pip install guidance
-
-langchain
-pip3 install azure-storage-blob azure-identity
-pip install azure-ai-formrecognizer==3.2.0
-pip install  azure_ai_vision
-pip install azure-cognitiveservices-vision-customvision
-pip install azure-cognitiveservices-speech
-pip3 install azure-ai-textanalytics==5.2.0b2
-pip install ipython
-#text-to-protein
-git clone git@github.com:dptech-corp/Uni-Core.git
-pip install biopython
-#text-to-video
-pip install ipdb
-pip install open_clip_torch
-pip install pytorch-lightning
-#ocr
-pip install easyocr
-#ofa-ocr
-pip install unicodedata2
-pip install zhconv
-pip install decord>=0.6.0
-#cv_fft_inpainting_lama
-pip install kornia
-#damo/cv_mdm_motion-generation
-pip install smplx
-pip install git+https://github.com/openai/CLIP.git
-pip install chumpy
-pip install ffmpeg
-#cv_hrnet_image-human-reconstruction
-pip install trimesh
-pip3 install pymcubes
-#wikipedia api
-pip install wikipedia
-#wolframalpha
-pip install wolframalpha
-#!pip install arxiv
-https://github.com/microsoft/TaskMatrix/issues/179
-#Auto-GPT
-pip install langchain==0.0.158
-sqlalchemy 2.0.12
-#tinydb
-pip install tinydb
-```
-
-* Change the Huggingface/Modelscope save path (Not neccessary but useful)
-
-```bash
->>> import transformers
->>> print(transformers.__file__)
-# Get the path: {YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/transformers/__init__.py
-```
-
-Open the ``{YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/transformers/utils/hub.py`` and change the line:
-```
-torch_cache_home = os.getenv("TORCH_HOME", os.path.join(os.getenv("XDG_CACHE_HOME", "{YOUR_NLSOM_PATH}/checkpoints"), "torch"))
-hf_cache_home = os.path.expanduser(
-   os.getenv("HF_HOME", os.path.join(os.getenv("XDG_CACHE_HOME", "{YOUR_NLSOM_PATH}/checkpoints"), "huggingface"))
-)
-```
-
-Similarily, change the checkpoints saving place of modelscope,
-
-```bash
->>> import modelscope
->>> print(modelscope.__file__)
-# Get the path: ${YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/modelscope/__init__.py
-```
-
-Open ``{YOUR_ANACONDA_PATH}/envs/nlsom/lib/python3.8/site-packages/modelscope/utils/file_utils.py`` and change the line:
-```
-default_cache_dir = Path.home().joinpath('{YOUR_NLSOM_PATH}/checkpoints', 'modelscope')
-```
-
-```
-streamlit run app.py
-```
-
 #### 2. Run
 ```
 eval `ssh-agent -s`
 ssh-add ~/.ssh/id_rsa
 ```
 
-```
-wget https://github.com/git-lfs/git-lfs/releases/download/v3.3.0/git-lfs-linux-amd64-v3.3.0.tar.gz
-tar -zxvf git-lfs-linux-amd64-v3.3.0.tar.gz
-```
-```
-https://github.com/git-lfs/git-lfs/releases
-cd git-lfs-3.3.0 
-vim install.sh
--> prefix="/ibex/ai/home/zhugem/"
-vim ~/.bashrc
--> PATH+=:"/ibex/ai/home/zhugem/bin"
-source ~/.bashrc
-```
+
 
 ```
 srun -p batch -t 48:00:00 --gres=gpu:1 --reservation=A100 --cpus-per-gpu=12 --mem=128G --pty bash -l
@@ -697,10 +548,6 @@ srun -p batch -t 48:00:00 --gres=gpu:1 --reservation=A100 --cpus-per-gpu=12 --me
 srun -p batch -t 2:00:00 --gres=gpu:1 --constraint="v100" --cpus-per-task 4 --mem=24G --pty bash -l
 ```
 
-
-```
-cd /ibex/ai/home/zhugem
-```
 
 Sometines, the ssh gets unconnected.
 ```
