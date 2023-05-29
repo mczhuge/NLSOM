@@ -363,7 +363,8 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>     
     <p>
         <ul>
-            <li>🟢 DDColor: data/55cd88e5.png
+            <li>🟢 DDColor: <img src="https://github.com/mczhuge/NLSOM/assets/64179323/62fb8500-6c22-4ed4-bf61-bc3bc0a843bb">
+
     </li>
         </ul>
     </p>  
