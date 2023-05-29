@@ -374,7 +374,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>   
     <p>
         <ul>
-            <li>🔵 DeforumSD: https://replicate.delivery/pbxt/c6U9T0vfxoUre0B5GcWcOjGVQNKY7KfFcdAAffmWaKQ6QWEIC/out.mp4
+            <li>🔵 DeforumSD: data/47bec94a.mp4
     </li>
         </ul>
     </p> 
@@ -386,7 +386,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>  
      <p>
         <ul>
-            <li>⚪️ NLSOM System (Summary): The NLSOM has successfully turned the photo into color, generated a description, and used the description to generate a video. The output video is stored in https://replicate.delivery/pbxt/c6U9T0vfxoUre0B5GcWcOjGVQNKY7KfFcdAAffmWaKQ6QWEIC/out.mp4
+            <li>⚪️ NLSOM System (Summary): The NLSOM has successfully turned the photo into color, generated a description, and used the description to generate a video. The output video is stored in data/47bec94a.mp4
     </li>
         </ul>
     </p> 
