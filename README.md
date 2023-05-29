@@ -369,19 +369,12 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>  
     <p>
         <ul>
-            <li>🟡 mPLUG_captioning: a black and white photo of a man with a mustache.
-    </li>
+            <li>🟡 OFA_large_captioning: a black and white photo of a man with long white hair
         </ul>
     </p>   
     <p>
         <ul>
-            <li>🔵 OFA_large_captioning: a black and white photo of a man with long white hair
-    </li>
-        </ul>
-    </p> 
-    <p>
-        <ul>
-            <li>🟤 DeforumSD: https://replicate.delivery/pbxt/c6U9T0vfxoUre0B5GcWcOjGVQNKY7KfFcdAAffmWaKQ6QWEIC/out.mp4
+            <li>🔵 DeforumSD: https://replicate.delivery/pbxt/c6U9T0vfxoUre0B5GcWcOjGVQNKY7KfFcdAAffmWaKQ6QWEIC/out.mp4
     </li>
         </ul>
     </p> 
