@@ -128,8 +128,8 @@ pip install replicate==0.8.3
 # [Set Image-to-3D]
 pip install trimesh
 pip3 install pymcubes
-# [Set Audio Recognition] -> 罪魁祸首?
-pip install funasr
+# [Set TTS]
+pip install TTS
 ```
 
 ### 2. App
