@@ -10,11 +10,10 @@
 -->
 
 ## ✨ Introduction
-We introduce the concept of Natural Language-Based Societies of Mind (NLSOM), a framework that overcomes limitations of single Large-Language Models (LLMs)
+We introduce the concept of Natural Language-Based Societies of Mind (NLSOM), a framework that overcomes limitations of a single Large-Language Model (LLM) by creating a society of models that is actively "mindstorming" to solve given task.
 #### 1. Concepts:
-
-- Agents can be either LLMs or other NN-based experts, they all communicate in natural language.
-- Agents collaborate to solve the task by interviewing each other. we named this procedure as "Mindstorm". 
+- Agents can be either LLMs or other NN-based experts. They all communicate in natural language.
+- Agents collaborate to solve the task by interviewing each other. we named this procedure "Mindstorm". 
 - Additional components for NLSOM can be easily added in a modular fashion.
 - <details>
     <summary>More insights 👈 <b>[CLICK]</b></summary>
