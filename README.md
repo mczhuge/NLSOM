@@ -91,13 +91,6 @@ Three way to install this repo, just select one of them:
 
 2. ``conda env create -f environment.yml``
 
-<details><summary>3. Clike me for step-by-step installation (more clear)</summary>
-<p>
-    
-1. Using pip: ``pip install -r requirements.txt``
-
-2. Using Conda package manager: ``conda env create -f environment.yml``
-
 <details><summary>3. Click here for step-by-step installation instructions</summary>
 <p>
 ```bash
