@@ -84,7 +84,16 @@ When you provide the inputs (files or targets), This repository automates all th
 ## 💾 Usage
 
 ### 1. Install
+ 
+Three way to install this repo, just select one of them:
 
+1. ``pip install -r requirements.txt``
+
+2. ``conda env create -f environment.yml``
+
+<details><summary>3. Click here for step-by-step installation instructions</summary>
+<p>
+    
 ```bash
 # [Set Conda Env] 
 conda create -n nlsom python=3.8
@@ -128,7 +137,13 @@ pip install replicate==0.8.3
 # [Set Image-to-3D]
 pip install trimesh
 pip3 install pymcubes
+# [Set TTS]
+pip install TTS
 ```
+    
+</p>
+</details>
+
 
 ### 2. App
 
