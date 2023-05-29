@@ -404,6 +404,65 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
 
 ## 💾 Usage
 
+
+
+## Preliminary Experiments on Paper 
+The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and natural language-based society of mind.
+
+<!--
+## TODO
+Please feel free to submit a pull request if you can optimize the identified issues. We will promptly incorporate any improvements.
+
+* Make mindstorm more stable: 1) design better prompts, 2) develop a tailor-made mindstorm system with or without using LangChain.
+* Support multi-turn mindstorms.
+* Support targets with multiple inputs.
+* Support displaying 3D output.
+* Add more communities and agents.
+* Design a more accurate reward mechanism.
+* Make the NLSOM learnable.
+-->
+
+## Acknowledgments
+
+This project utilizes parts of code from the following open-source repositories:
+
+[langchain](https://github.com/hwchase17/langchain), [BabyAGI](https://github.com/yoheinakajima/babyagi), [TaskMatrix](https://github.com/microsoft/TaskMatrix), [DataChad](https://github.com/gustavz/DataChad), [streamlit](https://github.com/streamlit/streamlit).
+
+We also thank great AI platforms and all the used models or APIs:
+
+[huggingface](https://github.com/huggingface/transformers), [modelscope](https://github.com/modelscope/modelscope).
+
+Thanks Guohao and Hasan's experiments based on:
+
+[CAMEL](https://github.com/camel-ai/camel).
+
+## :black_nib: Citation
+
+References to cite:
+
+```
+@article{zhuge2023mindstorms,
+  title={Mindstorms in Natural Language-based Societies of Mind},
+  author={XXX},
+  journal={arXiv preprint arXiv:XXX},
+  year={2023}
+}
+
+@article{schmidhuber2015learning,
+  title={On learning to think: Algorithmic information theory for novel combinations of reinforcement learning controllers and recurrent neural world models},
+  author={Schmidhuber, J{\"u}rgen},
+  journal={arXiv preprint arXiv:1511.09249},
+  year={2015}
+}
+
+@book{minsky1988society,
+  title={Society of mind},
+  author={Minsky, Marvin},
+  year={1988},
+  publisher={Simon and Schuster}
+}
+```
+
 ### 1. Install
 
 * Install the dependancies
@@ -627,63 +686,4 @@ ssh-add ~/.ssh/id_rsa
 ```
 export REPLICATE_API_TOKEN=r8_WssXC8wLfU6nIOZSgm69CM49SFvuObr35zgcu
 ```
-
-## Preliminary Experiments on Paper 
-The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and natural language-based society of mind.
-
-<!--
-## TODO
-Please feel free to submit a pull request if you can optimize the identified issues. We will promptly incorporate any improvements.
-
-* Make mindstorm more stable: 1) design better prompts, 2) develop a tailor-made mindstorm system with or without using LangChain.
-* Support multi-turn mindstorms.
-* Support targets with multiple inputs.
-* Support displaying 3D output.
-* Add more communities and agents.
-* Design a more accurate reward mechanism.
-* Make the NLSOM learnable.
--->
-
-## Acknowledgments
-
-This project utilizes parts of code from the following open-source repositories:
-
-[langchain](https://github.com/hwchase17/langchain), [BabyAGI](https://github.com/yoheinakajima/babyagi), [TaskMatrix](https://github.com/microsoft/TaskMatrix), [DataChad](https://github.com/gustavz/DataChad), [streamlit](https://github.com/streamlit/streamlit).
-
-We also thank great AI platforms and all the used models or APIs:
-
-[huggingface](https://github.com/huggingface/transformers), [modelscope](https://github.com/modelscope/modelscope).
-
-Thanks Guohao and Hasan's experiments based on:
-
-[CAMEL](https://github.com/camel-ai/camel).
-
-## :black_nib: Citation
-
-References to cite:
-
-```
-@article{zhuge2023mindstorms,
-  title={Mindstorms in Natural Language-based Societies of Mind},
-  author={XXX},
-  journal={arXiv preprint arXiv:XXX},
-  year={2023}
-}
-
-@article{schmidhuber2015learning,
-  title={On learning to think: Algorithmic information theory for novel combinations of reinforcement learning controllers and recurrent neural world models},
-  author={Schmidhuber, J{\"u}rgen},
-  journal={arXiv preprint arXiv:1511.09249},
-  year={2015}
-}
-
-@book{minsky1988society,
-  title={Society of mind},
-  author={Minsky, Marvin},
-  year={1988},
-  publisher={Simon and Schuster}
-}
-```
-
-
 
