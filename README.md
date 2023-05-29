@@ -402,7 +402,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
 </details>
 
 
-## Preliminary Experiments on Paper 
+## 📋 Preliminary Experiments on Paper 
 The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and NLSOM.
 
 <!--
@@ -418,7 +418,7 @@ Please feel free to submit a pull request if you can optimize the identified iss
 * Make the NLSOM learnable.
 -->
 
-## Acknowledgments
+## 💌 Acknowledgments
 
 This project utilizes parts of code from the following open-source repositories: [langchain](https://github.com/hwchase17/langchain), [BabyAGI](https://github.com/yoheinakajima/babyagi), [TaskMatrix](https://github.com/microsoft/TaskMatrix), [DataChad](https://github.com/gustavz/DataChad), [streamlit](https://github.com/streamlit/streamlit).
 
