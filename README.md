@@ -464,22 +464,9 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
 ## 📋 Preliminary Experiments on [Paper](https://arxiv.org/pdf/2305.17066.pdf) 
 The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and NLSOM.
 
-<!--
-## TODO
-Please feel free to submit a pull request if you can optimize the identified issues. We will promptly incorporate any improvements.
-
-* Make mindstorm more stable: 1) design better prompts, 2) develop a tailor-made mindstorm system with or without using LangChain.
-* Support multi-turn mindstorms.
-* Support targets with multiple inputs.
-* Support displaying 3D output.
-* Add more communities and agents.
-* Design a more accurate reward mechanism.
-* Make the NLSOM learnable.
--->
-
 ## ☑️  TODO
 
-Due to the heavy reliance on prompts in the current version, the NLSOM and Mindstorms are not stable. Please also feel free to submit a pull request if you can optimize the identified issues. We will promptly incorporate any improvements.
+In the original paper, the NLSOM is **pre-defined** and the mindstorm is **enforced**. However, in this repository, the NLSOM is **self-organized** and the mindstorm occurs **automatically**. Due to the heavy reliance on prompts in the current repository version, the current one are not stable. Therefore, it is possible to discover some solutions that can optimize the identified issues:
 
 * Make mindstorm more stable: 1) design better prompts, 2) develop a tailor-made mindstorm system with or without using LangChain.
 * Support multi-turn mindstorms.
