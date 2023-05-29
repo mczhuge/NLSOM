@@ -80,7 +80,7 @@ When you provide the inputs (files or targets), LLM automates all these processe
 
 
 <div align=center>
-    <img src="https://github.com/mczhuge/NLSOM/assets/64179323/fed10cb8-a7b7-4103-a480-0f0048cb36cc">
+    <img src="https://github.com/mczhuge/NLSOM/assets/64179323/fed10cb8-a7b7-4103-a480-0f0048cb36cc" width="500" height="700">
 </div>
 
 ## 💾 Usage
