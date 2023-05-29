@@ -347,7 +347,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112726921487327334/som.png?width=1320&height=222">
       <p>
         <ul>
-            <li>🔴 User: <img src="https://github.com/mczhuge/NLSOM/assets/64179323/743339b4-d78c-4e9d-b394-6461addfe1f9"> </li>
+            <li>🔴 User: <img src="https://github.com/mczhuge/NLSOM/assets/64179323/743339b4-d78c-4e9d-b394-6461addfe1f9?width=150&height=150"> </li>
         </ul>
     </p>
     <p>
@@ -368,7 +368,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>     
     <p>
         <ul>
-            <li>🟢 DDColor: <img src="https://github.com/mczhuge/NLSOM/assets/64179323/e8ac4340-996d-4ee2-9830-58ecddfe1a98">
+            <li>🟢 DDColor: <img src="https://github.com/mczhuge/NLSOM/assets/64179323/e8ac4340-996d-4ee2-9830-58ecddfe1a98?width=150&height=150">
     </li>
         </ul>
     </p>  
