@@ -84,7 +84,51 @@ When you provide the inputs (files or targets), LLM automates all these processe
 </div>
 
 
+## 💾 Usage
 
+### 1. Install
+
+```bash
+# [Set Conda Env] 
+conda create -n nlsom python=3.8
+conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 -c pytorch
+pip install pandas==1.4.3
+# [Set LangChain, OpenAI]
+pip install langchain==0.0.158
+pip install sqlalchemy==2.0.12
+pip install openai
+pip install colorama
+# [Set Streamlit]
+cd config && unzip validators-0.20.0.tar.gz
+cd validators-0.20.0
+python setup.py build
+python setup.py install
+pip install streamlit==1.22.0
+pip install streamlit_chat==0.0.2.2
+# [Set Huggingface/transformers]
+pip install transformers==4.29.2
+pip install accelerate==0.19.0
+# [Set Search]
+pip install wolframalpha
+pip install wikipedia
+pip install arxiv
+# [Set Modelscope]
+pip install modelscope==1.6.0
+python3 -m pip install nvidia-cudnn-cu11==8.6.0.163 tensorflow==2.12.*
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib
+python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+pip install modelscope[multi-modal]
+pip install decord==0.6.0
+pip install fairseq
+pip install librosa
+pip install setuptools==59.5.0
+pip install tensorboardX
+pip install open_clip_torch
+# [Set OCR]
+pip install easyocr
+# [Set Text-to-Video]
+pip install replicate==0.8.3
+```
 
 
 
