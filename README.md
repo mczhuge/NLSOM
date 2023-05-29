@@ -344,7 +344,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
 <details>
     <summary>
  Demo 4: Society of Mind (Automatical Task-Solving)👈 <b>[CLICK]</b></summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112726207105093633/som.png?width=1620&height=362">
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112726921487327334/som.png?width=1620&height=372">
     <p>
         <ul>
             <li>🔴 User: Turn this photo into color, generate a description based on the colored image, and then use the description to generate a video. </li>
