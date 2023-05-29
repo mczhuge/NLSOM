@@ -484,7 +484,6 @@ Due to the heavy reliance on prompts in the current version, the NLSOM and Minds
 * Make mindstorm more stable: 1) design better prompts, 2) develop a tailor-made mindstorm system with or without using LangChain.
 * Support multi-turn mindstorms.
 * Support targets with multiple inputs.
-* Support displaying 3D output.
 * Add more communities and agents.
 * Design a more accurate reward mechanism.
 * Make the NLSOM learnable.
