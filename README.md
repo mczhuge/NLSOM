@@ -80,9 +80,8 @@ When you provide the inputs (files or targets), LLM automates all these processe
 
 
 <div align=center>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112536686577057852/WechatIMG969.jpeg?width=500&height=520">
+    <img src="https://github.com/mczhuge/NLSOM/assets/64179323/fed10cb8-a7b7-4103-a480-0f0048cb36cc">
 </div>
-
 
 ## 💾 Usage
 
