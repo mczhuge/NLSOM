@@ -79,7 +79,7 @@ When you provide the inputs (files or targets), LLM automates all these processe
 - [x] An elegant UI: facilitate better visualization and support for diverse media sources (image, text, audio, video, etc).
 
 
-<img src="https://media.discordapp.net/attachments/1090896867753213973/1112536686577057852/WechatIMG969.jpeg?width=1090&height=1178?width=1620&height=220">
+<img src="https://media.discordapp.net/attachments/1090896867753213973/1112536686577057852/WechatIMG969.jpeg?width=1090&height=1178">
 
 
 
