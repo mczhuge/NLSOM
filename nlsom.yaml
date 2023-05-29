@@ -1,25 +1,63 @@
 name: nlsom
 channels:
+  - pytorch
   - defaults
 dependencies:
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=5.1=1_gnu
+  - blas=1.0=mkl
+  - bzip2=1.0.8=h7b6447c_0
   - ca-certificates=2023.01.10=h06a4308_0
+  - cudatoolkit=11.3.1=h2bc3f7f_2
+  - ffmpeg=4.3=hf484d3e_0
+  - freetype=2.12.1=h4a9f257_0
+  - giflib=5.2.1=h5eee18b_3
+  - gmp=6.2.1=h295c915_3
+  - gnutls=3.6.15=he1e5248_0
+  - intel-openmp=2023.1.0=hdb19cb5_46305
+  - jpeg=9e=h5eee18b_1
+  - lame=3.100=h7b6447c_0
+  - lcms2=2.12=h3be6417_0
   - ld_impl_linux-64=2.38=h1181459_1
+  - lerc=3.0=h295c915_0
+  - libdeflate=1.17=h5eee18b_0
   - libffi=3.4.4=h6a678d5_0
   - libgcc-ng=11.2.0=h1234567_1
   - libgomp=11.2.0=h1234567_1
+  - libiconv=1.16=h7f8727e_2
+  - libidn2=2.3.4=h5eee18b_0
+  - libpng=1.6.39=h5eee18b_0
   - libstdcxx-ng=11.2.0=h1234567_1
+  - libtasn1=4.19.0=h5eee18b_0
+  - libtiff=4.5.0=h6a678d5_2
+  - libunistring=0.9.10=h27cfd23_0
+  - libuv=1.44.2=h5eee18b_0
+  - libwebp=1.2.4=h11a3e52_1
+  - libwebp-base=1.2.4=h5eee18b_1
+  - lz4-c=1.9.4=h6a678d5_0
+  - mkl=2023.1.0=h6d00ec8_46342
+  - mkl-service=2.4.0=py38h5eee18b_1
+  - mkl_fft=1.3.6=py38h417a72b_1
+  - mkl_random=1.2.2=py38h417a72b_1
   - ncurses=6.4=h6a678d5_0
+  - nettle=3.7.3=hbbd107a_1
+  - openh264=2.1.1=h4ff587b_0
   - openssl=1.1.1t=h7f8727e_0
+  - pillow=9.4.0=py38h6a678d5_0
   - python=3.8.16=h7a1cb2a_3
+  - pytorch=1.10.1=py3.8_cuda11.3_cudnn8.2.0_0
+  - pytorch-mutex=1.0=cuda
   - readline=8.2=h5eee18b_0
-  - setuptools=66.0.0=py38h06a4308_0
   - sqlite=3.41.2=h5eee18b_0
+  - tbb=2021.8.0=hdb19cb5_0
   - tk=8.6.12=h1ccaba5_0
+  - torchaudio=0.10.1=py38_cu113
+  - torchvision=0.11.2=py38_cu113
+  - typing_extensions=4.5.0=py38h06a4308_0
   - wheel=0.38.4=py38h06a4308_0
   - xz=5.4.2=h5eee18b_0
   - zlib=1.2.13=h5eee18b_0
+  - zstd=1.5.5=hc292b87_0
   - pip:
     - absl-py==1.4.0
     - accelerate==0.19.0
@@ -29,107 +67,71 @@ dependencies:
     - aliyun-python-sdk-core==2.13.36
     - aliyun-python-sdk-kms==2.16.0
     - altair==4.2.2
-    - aniso8601==9.0.1
     - antlr4-python3-runtime==4.8
+    - arxiv==1.4.7
+    - astunparse==1.6.3
     - async-timeout==4.0.2
     - attrs==23.1.0
     - audioread==3.0.0
     - backports-zoneinfo==0.2.1
     - beautifulsoup4==4.12.2
     - bitarray==2.7.3
-    - bitstring==4.0.2
     - blinker==1.6.2
-    - blis==0.7.9
-    - boto3==1.26.137
-    - botocore==1.29.137
-    - bs4==0.0.1
-    - cachetools==5.3.0
-    - catalogue==2.0.8
+    - cachetools==5.3.1
     - certifi==2023.5.7
     - cffi==1.15.1
     - charset-normalizer==3.1.0
     - click==8.1.3
-    - cmake==3.26.3
     - colorama==0.4.6
-    - coloredlogs==14.0
-    - colorlog==6.7.0
-    - confection==0.0.4
     - contourpy==1.0.7
     - crcmod==1.7
     - cryptography==40.0.2
     - cycler==0.11.0
-    - cymem==2.0.7
-    - cython==0.29.34
+    - cython==0.29.35
     - dataclasses-json==0.5.7
     - datasets==2.8.0
     - decorator==5.1.1
     - decord==0.6.0
     - diffusers==0.14.0
     - dill==0.3.6
-    - diskcache==5.6.1
-    - distance==0.1.3
-    - dnspython==2.3.0
-    - duckduckgo-search==3.1.1
-    - easyasr==0.0.7
-    - edit-distance==1.0.6
-    - editdistance==0.5.2
+    - easyocr==1.7.0
     - einops==0.6.1
-    - en-core-web-sm==3.4.0
     - entrypoints==0.4
-    - espnet-tts-frontend==0.0.3
-    - et-xmlfile==1.1.0
-    - eventlet==0.33.3
     - fairseq==0.12.2
+    - feedparser==6.0.10
     - filelock==3.12.0
-    - flask==2.1.3
-    - flask-cors==3.0.10
-    - flask-restful==0.3.10
-    - flask-socketio==4.3.2
-    - flask-talisman==1.0.0
+    - flatbuffers==23.5.26
     - fonttools==4.39.4
     - frozenlist==1.3.3
     - fsspec==2023.5.0
     - ftfy==6.1.1
-    - funasr==0.5.3
-    - future==0.18.3
-    - g2p==1.1.20230511
-    - g2p-en==2.1.0
-    - gast==0.5.4
+    - gast==0.4.0
     - gitdb==4.0.10
     - gitpython==3.1.31
-    - google-auth==2.18.1
+    - google-auth==2.19.0
     - google-auth-oauthlib==1.0.0
+    - google-pasta==0.2.0
     - greenlet==2.0.2
     - grpcio==1.54.2
-    - guidance==0.0.53
     - h5py==3.8.0
     - huggingface-hub==0.14.1
-    - humanfriendly==10.0
     - hydra-core==1.0.7
-    - hyperpyyaml==1.2.0
     - idna==3.4
+    - imageio==2.29.0
     - importlib-metadata==6.6.0
     - importlib-resources==5.12.0
-    - inflect==6.0.4
-    - install==1.3.5
-    - itsdangerous==2.1.2
-    - jaconv==0.3.4
-    - jamo==0.4.1
     - jaraco-context==4.3.0
-    - jedi==0.18.2
-    - jieba==0.42.1
+    - jax==0.4.10
     - jinja2==3.1.2
     - jmespath==0.10.0
     - joblib==1.2.0
     - jsonschema==4.17.3
-    - kaldiio==2.18.0
-    - kantts==0.0.1
+    - keras==2.12.0
     - kiwisolver==1.4.4
-    - kwsbp==0.0.6
     - langchain==0.0.158
-    - langcodes==3.3.0
+    - lazy-loader==0.2
+    - libclang==16.0.0
     - librosa==0.9.2
-    - lit==16.0.5
     - llvmlite==0.40.0
     - lxml==4.9.2
     - markdown==3.4.3
@@ -139,183 +141,125 @@ dependencies:
     - marshmallow-enum==1.5.1
     - matplotlib==3.7.1
     - mdurl==0.1.2
-    - megatron-util==1.3.2
-    - mindaec==0.0.2
-    - mir-eval==0.7
-    - mock==5.0.2
+    - ml-dtypes==0.1.0
     - modelscope==1.6.0
     - more-itertools==9.1.0
-    - mpmath==1.3.0
-    - msgpack==1.0.5
     - multidict==6.0.4
     - multiprocess==0.70.14
-    - munkres==1.1.4
-    - murmurhash==1.0.9
     - mypy-extensions==1.0.0
-    - nest-asyncio==1.5.6
     - networkx==3.1
+    - ninja==1.11.1
     - nltk==3.8.1
     - numba==0.57.0
     - numexpr==2.8.4
     - numpy==1.22.0
-    - nvidia-cublas-cu11==11.10.3.66
-    - nvidia-cuda-cupti-cu11==11.7.101
-    - nvidia-cuda-nvrtc-cu11==11.7.99
-    - nvidia-cuda-runtime-cu11==11.7.99
-    - nvidia-cudnn-cu11==8.5.0.96
-    - nvidia-cufft-cu11==10.9.0.58
-    - nvidia-curand-cu11==10.2.10.91
-    - nvidia-cusolver-cu11==11.4.0.1
-    - nvidia-cusparse-cu11==11.7.4.91
-    - nvidia-nccl-cu11==2.14.3
-    - nvidia-nvtx-cu11==11.7.91
+    - nvidia-cublas-cu11==11.11.3.6
+    - nvidia-cudnn-cu11==8.6.0.163
     - oauthlib==3.2.2
     - omegaconf==2.0.6
     - open-clip-torch==2.20.0
     - openai==0.27.7
     - openapi-schema-pydantic==1.2.4
     - opencv-python==4.7.0.72
-    - openpyxl==3.1.2
+    - opencv-python-headless==4.7.0.72
+    - opt-einsum==3.3.0
     - oss2==2.17.0
     - packaging==23.1
-    - pandas==1.5.3
-    - panphon==0.20.0
-    - parsimonious==0.10.0
-    - parso==0.8.3
-    - pathy==0.10.1
-    - pexpect==4.8.0
-    - pickleshare==0.7.5
-    - pillow==9.5.0
+    - pandas==1.4.3
     - pip==23.1.2
     - pkgutil-resolve-name==1.3.10
     - platformdirs==3.5.1
     - pooch==1.7.0
     - portalocker==2.7.0
-    - preshed==3.0.8
-    - prompt-toolkit==3.0.38
-    - protobuf==3.20.0
+    - protobuf==3.20.3
     - psutil==5.9.5
-    - ptflops==0.7
-    - ptyprocess==0.7.0
-    - py-sound-connect==0.2.1
     - pyarrow==12.0.0
     - pyasn1==0.5.0
     - pyasn1-modules==0.3.0
+    - pyclipper==1.3.0.post4
     - pycocoevalcap==1.2
     - pycocotools==2.0.6
     - pycparser==2.21
     - pycryptodome==3.18.0
-    - pydantic==1.10.7
+    - pydantic==1.10.8
     - pydeck==0.8.1b0
     - pydeprecate==0.3.2
     - pygments==2.15.1
-    - pygtrie==2.5.0
+    - pymcubes==0.1.4
     - pympler==1.0.1
     - pyparsing==3.0.9
-    - pypinyin==0.44.0
     - pyrsistent==0.19.3
-    - pysptk==0.1.21
-    - pythainlp==4.0.1
-    - python-crfsuite==0.9.9
+    - python-bidi==0.4.2
     - python-dateutil==2.8.2
-    - python-engineio==3.14.2
-    - python-socketio==4.6.1
     - pytorch-lightning==1.7.7
-    - pytorch-wavelets==1.3.0
-    - pytorch-wpe==0.0.1
     - pytz==2023.3
-    - pyvi==0.1.1
     - pywavelets==1.4.1
     - pyyaml==6.0
     - rapidfuzz==3.0.0
     - regex==2023.5.5
-    - requests==2.30.0
+    - replicate==0.8.3
+    - requests==2.31.0
     - requests-oauthlib==1.3.1
     - resampy==0.4.2
     - responses==0.18.0
     - rich==13.3.5
-    - rotary-embedding-torch==0.2.3
-    - rouge==1.0.1
     - rouge-score==0.0.4
     - rsa==4.9
-    - ruamel-yaml==0.17.26
-    - ruamel-yaml-clib==0.2.7
-    - s3transfer==0.6.1
     - sacrebleu==2.3.1
-    - sacremoses==0.0.53
     - safetensors==0.3.1
+    - scikit-image==0.20.0
     - scikit-learn==1.2.2
-    - scipy==1.10.1
+    - scipy==1.9.1
     - sentencepiece==0.1.99
-    - seqeval==1.2.2
+    - setuptools==59.5.0
+    - sgmllib3k==1.0.0
+    - shapely==2.0.1
     - simplejson==3.19.1
     - six==1.16.0
-    - sklearn-crfsuite==0.3.6
-    - smart-open==6.3.0
     - smmap==5.0.0
     - sortedcontainers==2.4.0
     - soundfile==0.12.1
     - soupsieve==2.4.1
-    - sox==1.4.1
-    - spacy==3.4.4
-    - spacy-legacy==3.0.12
-    - spacy-loggers==1.0.4
-    - speechbrain==0.5.14
     - sqlalchemy==2.0.12
-    - srsly==2.4.6
     - streamlit==1.22.0
     - streamlit-chat==0.0.2.2
-    - subword-nmt==0.3.8
-    - sympy==1.12
     - tabulate==0.9.0
     - taming-transformers-rom1504==0.0.6
     - tenacity==8.2.2
-    - tensorboard==1.15.0
+    - tensorboard==2.12.3
     - tensorboard-data-server==0.7.0
     - tensorboardx==2.6
+    - tensorflow==2.12.0
+    - tensorflow-estimator==2.12.0
+    - tensorflow-io-gcs-filesystem==0.32.0
     - termcolor==2.3.0
-    - text-unidecode==1.3
-    - textgrid==1.5
-    - thinc==8.1.10
     - threadpoolctl==3.1.0
-    - tiktoken==0.4.0
+    - tifffile==2023.4.12
     - timm==0.9.2
     - tokenizers==0.13.3
     - toml==0.10.2
     - tomli==2.0.1
     - toolz==0.12.0
-    - torch==2.0.1
-    - torch-complex==0.4.3
-    - torchaudio==2.0.2
     - torchmetrics==0.11.4
-    - torchvision==0.15.2
     - tornado==6.3.2
     - tqdm==4.65.0
-    - traitlets==5.9.0
     - transformers==4.29.2
-    - triton==2.0.0
-    - ttsfrd==0.2.1
-    - typeguard==2.13.3
-    - typer==0.7.0
-    - typing-extensions==4.5.0
-    - typing-inspect==0.8.0
-    - tzdata==2023.3
+    - trimesh==3.21.7
+    - typing-inspect==0.9.0
     - tzlocal==5.0.1
-    - unicodecsv==0.14.1
     - unicodedata2==15.0.0
-    - unidecode==1.3.6
-    - urllib3==1.26.15
-    - validators==0.19.0
-    - wasabi==0.10.1
+    - urllib3==1.26.16
+    - validators==0.20.0
     - watchdog==3.0.0
     - wcwidth==0.2.6
-    - werkzeug==2.0.3
+    - werkzeug==2.3.4
     - wikipedia==1.4.0
     - wolframalpha==5.0.0
+    - wrapt==1.14.1
     - xmltodict==0.13.0
     - xxhash==3.2.0
     - yapf==0.33.0
     - yarl==1.9.2
     - zhconv==1.4.3
     - zipp==3.15.0
-prefix: /home/zhugem/anaconda3/envs/nlsom
+prefix: {YOUR_ANACONDA_PATH}/anaconda3/envs/nlsom
