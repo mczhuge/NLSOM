@@ -20,13 +20,17 @@ ORGANIZING_EXAMPLE = [
     {"objective": "Tell me about the \"Neural Network\".", "society": str(AI_SOCIETY), "organizing": ["search"]},
     {"objective": "Generate a 3D model from the 2D image", "society": str(AI_SOCIETY), "organizing": ["image_captioning", "text_to_3D"]},
     {"objective": "Generate an image about Beijing Olympic Game", "society": str(AI_SOCIETY), "organizing": ["text_to_image"]},
+    {"objective": "Make the girl's skin in this photo better and then according to this image to generate a description", "society": str(AI_SOCIETY), "organizing": ["skin_retouching", "image_captioning"]},
     {"objective": "Describe this image in details", "society": str(AI_SOCIETY), "organizing": ["image_captioning"]},
-    {"objective": "Make the woman in this image more beautiful", "society": str(AI_SOCIETY), "organizing": ["image_captioning", "image_enhancing"]},
+    {"objective": "Make the body of the woman in this image more beautiful", "society": str(AI_SOCIETY), "organizing": ["body_reshaping"]},
     {"objective": "Show me the answer of the question in the image", "society": str(AI_SOCIETY), "organizing": ["image_captioning", "ocr"]},
     {"objective": "If you are in the Three Kingdoms can conquer the world.", "society": str(AI_SOCIETY), "organizing": ["role_play"]},
     {"objective": "Introduce the \"KAUST AI Initiative\".", "society": str(AI_SOCIETY), "organizing": ["search"]},
     {"objective": "In this image, how many candles in the table? Choice: (a) 2, (b) 4, (c) 6, (d) 5. Answer:", "society": str(AI_SOCIETY), "organizing": ["vqa"]},
     {"objective": "VQA question: What is the relationship between the two individuals?", "society": str(AI_SOCIETY), "organizing": ["vqa"]},
+    {"objective": "Add color to this grayscale picture and generate a description based on the colored rendition afterwards.", "society": str(AI_SOCIETY), "organizing": ["image_colorization", "image_captioning"]},
+    {"objective": "Help improve the person's appearance in this photo.", "society": str(AI_SOCIETY), "organizing": ["body_reshaping"]},
+    {"objective": "Help me improve the skin of the woman in the photo.", "society": str(AI_SOCIETY), "organizing": ["skin_retouching"]},
 ]
 
 # NLSOM Task-Solving/Mindstorm/Reward
@@ -82,7 +86,7 @@ Reward: [Provide rewards (0-3) to each agent according to their contributions to
 """
 
 
-NLSOM_SUFFIX = """You have a very strict requirement for the accuracy of file names, ensuring that you never forget a file name when it does not exist.
+NLSOM_SUFFIX = """You are very strict to the filename correctness and will never fake a file name if it does not exist.
 
 If the file name was provided in the last observation of an agent, please remember it. When using an agent, the parameters must be in English.
 
@@ -94,11 +98,3 @@ Previous conversation history:
 New input: {input}
 Thought: Should we organize one agent? {agent_scratchpad}
 """
-
-
-
-
-
-
-
-
