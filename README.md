@@ -346,7 +346,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
  Demo 4: Society of Mind (Automatical Task-Solving)</summary>
       <p>
         <ul>
-            <li>🔴 User: <br> <img src="https://github.com/mczhuge/NLSOM/assets/64179323/743339b4-d78c-4e9d-b394-6461addfe1f9" width="200px" height="243px"> </li>
+            <li>🔴 User: Provide an image. <br> <img src="https://github.com/mczhuge/NLSOM/assets/64179323/e8ac4340-996d-4ee2-9830-58ecddfe1a98" width="200px" height="243px">
         </ul>
     </p>
     <p>
@@ -367,7 +367,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>     
     <p>
         <ul>
-            <li>🟢 DDColor:  <br> <img src="https://github.com/mczhuge/NLSOM/assets/64179323/e8ac4340-996d-4ee2-9830-58ecddfe1a98" width="200px" height="243px">
+            <li>🟢 DDColor:  <br> <img src="https://github.com/mczhuge/NLSOM/assets/64179323/743339b4-d78c-4e9d-b394-6461addfe1f9" width="200px" height="243px"> </li>
     </li>
         </ul>
     </p>  
@@ -378,8 +378,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>   
     <p>
         <ul>
-            <li>🔵 DeforumSD: <video src="https://github.com/mczhuge/NLSOM/assets/64179323/62fb8500-6c22-4ed4-bf61-bc3bc0a843bb
-" controls="controls" width="320" height="240"">
+            <li>🔵 DeforumSD: <br> <video width="320" height="240" controls> <source src="https://github.com/mczhuge/NLSOM/assets/64179323/62fb8500-6c22-4ed4-bf61-bc3bc0a843bb">
 </video>
     </li>
         </ul>
