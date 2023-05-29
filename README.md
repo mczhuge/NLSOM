@@ -150,7 +150,7 @@ Besides, here is the trick to manage Huggingface/Modelscope cache:
 <details><summary>4. Manage the dir of checkpoints (Optional)  </summary>
 <p>
 
-* Create the checkpint cache dir
+* Create the checkpoints dir
 ```
 mkdir checkpoints && cd checkpoints
 mkdir huggingface
