@@ -37,18 +37,18 @@ from society.ocr.agent import EasyOCR # 1
 from society.role_play.agent import LiuBei, GuanYu, ZhangFei, ZhugeLiang #4
 from society.search.agent import SE_A, SE_B, SE_C, SE_D #4
 from society.sentence_refine.agent import SentenceRefine # 1
-from society.text_to_image.agent import AnythingV4, AnythingV3, OpenJourneyV4, OpenJourney, StableDiffusionV15, StableDiffusionV21B, StableDiffusionV21 # 7
+from society.text_to_image.agent import AnythingV4 #, AnythingV3, OpenJourneyV4, OpenJourney, StableDiffusionV15, StableDiffusionV21B, StableDiffusionV21 # 7
 # from society.text_to_speech.agent import Text2Speech #1
 from society.text_to_video.agent import DeforumSD #1
  
 # Need GPU
 # from society.audio_recognition.agent import Paraformer # 1
-# from society.body_reshaping.agent import SAFG # 1
-from society.image_captioning.agent import mPLUG_captioning, OFA_distilled_captioning, OFA_large_captioning, BLIP2_captioning # 4
-# from society.image_colorization.agent import DDColor # 1
+from society.body_reshaping.agent import SAFG # 1
+from society.image_captioning.agent import mPLUG_captioning, OFA_large_captioning# 2 # OFA_distilled_captioning, BLIP2_captioning
+from society.image_colorization.agent import DDColor # 1
 # from society.image_deblur.agent import NAFNet # 1
 # from society.image_to_3d.agent import HumanReconstruction # 1
-# from society.skin_retouching.agent import ABPN # 1
+from society.skin_retouching.agent import ABPN # 1
 from society.vqa.agent import BLIP2_VQA, mPLUG_VQA, OFA_VQA #3
 
 
