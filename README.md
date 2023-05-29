@@ -346,39 +346,39 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
  Demo 4: Society of Mind (Automatical Task-Solving)</summary>
       <p>
         <ul>
-            <li>🔴 User: Provide an image. <br> <img src="https://github.com/mczhuge/NLSOM/assets/64179323/e8ac4340-996d-4ee2-9830-58ecddfe1a98" width="200px" height="243px">
+            <li>🔴 <b>User:</b> Provide an image. <br> <img src="https://github.com/mczhuge/NLSOM/assets/64179323/e8ac4340-996d-4ee2-9830-58ecddfe1a98" width="200px" height="243px">
         </ul>
     </p>
     <p>
         <ul>
-            <li>🔴 User: Turn this photo into color, generate a description based on the colored image, and then use the description to generate a video. </li>
+            <li>🔴 <b>User:</b> Turn this photo into color, generate a description based on the colored image, and then use the description to generate a video. </li>
         </ul>
     </p>
     <p>
         <ul>
-            <li>🧰 NLSOM System (Recommendation): Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) image_colorization, (2) image_captioning, (3) text_to_video </u></li>
+            <li>🧰 <b>NLSOM System (Recommendation):</b> Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) image_colorization, (2) image_captioning, (3) text_to_video </u></li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li>⚪️ NLSOM System (Self-Organization): We load the recommended AI communities with their their corresponding agents: (a) DDColor, (b) OFA_large_captioning, (c) DeforumSD
+            <li>⚪️ <b>NLSOM System (Self-Organization):</b> We load the recommended AI communities with their their corresponding agents: (a) DDColor, (b) OFA_large_captioning, (c) DeforumSD
     </li>
         </ul>
     </p>     
     <p>
         <ul>
-            <li>🟢 DDColor:  <br> <img src="https://github.com/mczhuge/NLSOM/assets/64179323/743339b4-d78c-4e9d-b394-6461addfe1f9" width="200px" height="243px"> </li>
+            <li>🟢 <b>DDColor:</b>  <br> <img src="https://github.com/mczhuge/NLSOM/assets/64179323/743339b4-d78c-4e9d-b394-6461addfe1f9" width="200px" height="243px"> </li>
     </li>
         </ul>
     </p>  
     <p>
         <ul>
-            <li>🟡 OFA_large_captioning: a portrait of an old man with white hair
+            <li>🟡 <b>OFA_large_captioning:</b> a portrait of an old man with white hair
         </ul>
     </p>   
     <p>
         <ul>
-            <li>🔵 DeforumSD: <br> 
+            <li>🔵 <b>DeforumSD:</b> <br> 
                 <video src="https://github.com/mczhuge/NLSOM/assets/64179323/62fb8500-6c22-4ed4-bf61-bc3bc0a843bb" width="200px" height="243px">
 </video>
     </li>
@@ -386,19 +386,19 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p> 
     <p>
         <ul>
-            <li>⚪️ NLSOM System (Review):  1) Whether the NLSOM has utilized all the agents? Yes 2) Whether the NLSOM has solved the user-defined objective? Yes, the NLSOM has successfully turned the photo into color, generated a description, and used the description to generate a video.
+            <li>⚪️ <b>NLSOM System (Review):</b>  1) Whether the NLSOM has utilized all the agents? Yes 2) Whether the NLSOM has solved the user-defined objective? Yes, the NLSOM has successfully turned the photo into color, generated a description, and used the description to generate a video.
     </li>
         </ul>
     </p>  
      <p>
         <ul>
-            <li>⚪️ NLSOM System (Summary): The NLSOM has successfully turned the photo into color, generated a description, and used the description to generate a video. The output video is stored in data/47bec94a.mp4
+            <li>⚪️ <b>NLSOM System (Summary):</b> The NLSOM has successfully turned the photo into color, generated a description, and used the description to generate a video. The output video is stored in data/47bec94a.mp4
     </li>
         </ul>
     </p> 
      <p>
         <ul>
-            <li>💰 NLSOM System (Reward): [DDColor: 3, OFA_large_captioning: 3, DeforumSD: 3]
+            <li>💰 <b>NLSOM System (Reward):</b> [DDColor: 3, OFA_large_captioning: 3, DeforumSD: 3]
     </li>
         </ul>
     </p> 
