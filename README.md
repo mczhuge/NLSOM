@@ -363,13 +363,13 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>     
     <p>
         <ul>
-            <li>🟢 DDColor:  result.png
+            <li>🟢 DDColor: data/55cd88e5.png
     </li>
         </ul>
     </p>  
     <p>
         <ul>
-            <li>🟡 OFA_large_captioning: a black and white photo of a man with long white hair
+            <li>🟡 OFA_large_captioning: a portrait of an old man with white hair
         </ul>
     </p>   
     <p>
@@ -392,7 +392,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p> 
      <p>
         <ul>
-            <li>💰 NLSOM System (Reward): [DDColor: 3, mPLUG_captioning: 2, OFA_large_captioning: 2, DeforumSD: 3]
+            <li>💰 NLSOM System (Reward): [DDColor: 3, OFA_large_captioning: 3, DeforumSD: 3]
     </li>
         </ul>
     </p> 
