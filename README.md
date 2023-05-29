@@ -86,7 +86,7 @@ When you provide the inputs (files or targets), This repository automates all th
 ### 1. Install
 
 
-<details><summary>CLICK ME</summary>
+<details><summary>CLICK ME FOR STEP-BY-STEP INSTALLATION</summary>
 <p>
 
 ```bash
