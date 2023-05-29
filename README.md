@@ -381,6 +381,9 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
             <li>🔵 <b>DeforumSD:</b> <br> 
                 <video src="https://github.com/mczhuge/NLSOM/assets/64179323/62fb8500-6c22-4ed4-bf61-bc3bc0a843bb" width="200px" height="243px">
 </video>
+                <video autoplay loop style="width:100%; height: auto; position:absolute; z-index: -1;">
+  <source src=https://github.com/mczhuge/NLSOM/assets/64179323/62fb8500-6c22-4ed4-bf61-bc3bc0a843bb" type="video/mp4" />
+</video>
     </li>
         </ul>
     </p> 
