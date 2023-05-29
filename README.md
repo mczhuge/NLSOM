@@ -98,9 +98,8 @@ Three way to install this repo, just select one of them:
 
 2. Using Conda package manager: ``conda env create -f environment.yml``
 
-<details><summary>3. Click here for step-by-step installation instructions (more detailed)</summary>
+<details><summary>3. Click here for step-by-step installation instructions</summary>
 <p>
-
 ```bash
 # [Set Conda Env] 
 conda create -n nlsom python=3.8
@@ -147,7 +146,6 @@ pip3 install pymcubes
 # [Set TTS]
 pip install TTS
 ```
-
 </p>
 </details>
 
