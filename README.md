@@ -399,7 +399,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
 </details>
 
 
-## 📋 Preliminary Experiments on [Paper)(https://arxiv.org/pdf/2305.17066.pdf) 
+## 📋 Preliminary Experiments on [Paper](https://arxiv.org/pdf/2305.17066.pdf) 
 The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and NLSOM.
 
 <!--
