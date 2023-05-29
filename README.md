@@ -442,9 +442,9 @@ References to cite:
 
 ```
 @article{zhuge2023mindstorms,
-  title={Mindstorms in Natural Language-based Societies of Mind},
-  author={XXX},
-  journal={arXiv preprint arXiv:XXX},
+  title={Mindstorms in Natural Language-Based Societies of Mind},
+  author={Zhuge, Mingchen and Liu, Haozhe and Faccio, Francesco and Ashley, Dylan R and Csord{\'a}s, R{\'o}bert and Gopalakrishnan, Anand and Hamdi, Abdullah and Hammoud, Hasan and Herrmann, Vincent and Irie, Kazuki and Kirsch, Louis and Li, Bing and Li, Guohao and Liu, Shuming and Mai, Jinjie and Pi{\k{e}}kos, Piotr and Ramesh, Aditya and Schlag, Imanol and Shi, Weimin and Stani{\'c}, Aleksandar and Wang, Wenyi and Wang, Yuhui and Xu, Mengmeng and Fan, Deng-Ping and Ghanem, Bernard and Schmidhuber, J{\"u}rgen},
+  journal={arXiv preprint arXiv:2305.17066},
   year={2023}
 }
 
