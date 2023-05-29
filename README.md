@@ -424,13 +424,9 @@ Please feel free to submit a pull request if you can optimize the identified iss
 
 ## Acknowledgments
 
-This project utilizes parts of code from the following open-source repositories:
+This project utilizes parts of code from the following open-source repositories: [langchain](https://github.com/hwchase17/langchain), [BabyAGI](https://github.com/yoheinakajima/babyagi), [TaskMatrix](https://github.com/microsoft/TaskMatrix), [DataChad](https://github.com/gustavz/DataChad), [streamlit](https://github.com/streamlit/streamlit).
 
-[langchain](https://github.com/hwchase17/langchain), [BabyAGI](https://github.com/yoheinakajima/babyagi), [TaskMatrix](https://github.com/microsoft/TaskMatrix), [DataChad](https://github.com/gustavz/DataChad), [streamlit](https://github.com/streamlit/streamlit).
-
-We also thank great AI platforms and all the used models or APIs:
-
-[huggingface](https://github.com/huggingface/transformers), [modelscope](https://github.com/modelscope/modelscope).
+We also thank great AI platforms and all the used models or APIs: [huggingface](https://github.com/huggingface/transformers), [modelscope](https://github.com/modelscope/modelscope).
 
 Thanks Guohao and Hasan's experiments based on [CAMEL](https://github.com/camel-ai/camel).
 
