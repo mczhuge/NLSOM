@@ -72,7 +72,7 @@ When you provide the inputs (files or targets), This repository automates all th
 
 #### 3. Features:
 - [x] Rule your NLSOM: effortlessly organize an NLSOM in various fields by simply changing the template.
-- [x] Easy to extend: customize your own community and agents (Now we have 17 communities and 32 agents, see [society](https://github.com/mczhuge/NLSOM/tree/main/society)). 
+- [x] Easy to extend: customize your own community and agents (Now we have 16 communities and 34 agents, see [society](https://github.com/mczhuge/NLSOM/tree/main/society)). 
 - [x] Reward Design: provide a reward mechanism (albeit rough). You can easily upgrade to a more refined version. 
 - [x] An elegant UI: facilitate better visualization and support for diverse media sources (image, text, audio, video, etc).
 
