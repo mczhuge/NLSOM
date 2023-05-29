@@ -13,7 +13,7 @@
 We introduce the concept of Natural Language-Based Societies of Mind (NLSOM), a framework that overcomes limitations of a single Large-Language Model (LLM) by creating a society of models that is actively "mindstorming" to solve given task.
 #### 1. Concepts:
 - Agents can be either LLMs or other NN-based experts. They all communicate in natural language.
-- Agents collaborate to solve the task by interviewing each other. we named this procedure "Mindstorm". 
+- Agents collaborate to solve the task by interviewing each other. we call this procedure "Mindstorm". 
 - Additional components for NLSOM can be easily added in a modular fashion.
 - <details>
     <summary>More insights 👈 <b>[CLICK]</b></summary>
@@ -38,7 +38,7 @@ We introduce the concept of Natural Language-Based Societies of Mind (NLSOM), a 
     </p>   
      <p>
         <ul>
-            <li><b> Process:</b>   In this GitHub project, 1) our first step is to utilize a recommendation process that provides users with relevant communities and agents aligned with their goals. These recommendations encompass tools, plugins, models, and role-players, which can then be loaded accordingly. 2) Additionally, we employ a Mindstorm approach, setting ourselves apart from previous models like VisualChatGPT and HuggingGPT, which rely solely on a single model for a specific function. Within our framework, a community of agents shares a common function, such as "search," while each agent possesses unique strengths and capabilities. For instance, agents like "Bing Search," "Wikipedia," "arXiv," and "WolframAlpha" collaborate to provide a more comprehensive understanding. 3) Furthermore, we emphasize the importance of reward mechanisms. In our current implementation, we reward different models for their contributions to task completion, which serves as a valuable means of evaluating a model's usefulness for specific tasks.
+            <li><b> Process:</b>   In this GitHub project, 1) our first step is to recommend relevant communities and agents aligned with the users' goals. These recommendations encompass tools, plugins, models, and role-players, which can then be loaded accordingly. 2) Additionally, we employ a Mindstorm approach, setting ourselves apart from previous models like VisualChatGPT and HuggingGPT, which solely rely on a single model for a specific function. Within our framework, a community of agents shares a common function, such as "search", while each agent possesses unique strengths and capabilities. For instance, agents like "Bing Search," "Wikipedia," "arXiv," and "WolframAlpha" collaborate to provide a more comprehensive understanding. 3) Furthermore, we emphasize the importance of reward mechanisms. In our current implementation, we reward different models for their contributions to task completion, which serves as a valuable means of evaluating a model's usefulness for specific tasks.
             </li>
         </ul>
     </p>     
