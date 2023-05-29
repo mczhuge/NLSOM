@@ -3,32 +3,7 @@ In these natural language-based societies of mind (NLSOMs), new agents—--all c
 We view this as a starting point towards much larger NLSOMs with billions of agents—some of which may be humans.
 """
 
-# import inspect
-# #import gradio as gr
-# import uuid
-# import os
-# import re
-# import io
-# import numpy as np
-# import random
-# import torch
-# from PIL import Image
-# import argparse
-# import openai
-# import requests
-#import easyocr
-# from transformers import Blip2Processor, Blip2ForConditionalGeneration
-
-# from langchain.agents.initialize import initialize_agent
-# from langchain.agents.tools import Tool
-# from langchain.chains.conversation.memory import ConversationBufferMemory
-# from langchain.llms.openai import OpenAI
-# from modelscope.pipelines import pipeline
-# from modelscope.utils.constant import Tasks
-
-
-
-# 17 communities / 32 agents
+# 16 communities / 34 agents
 
 # CPU Only
 from society.audio_recognition.agent import Whisper # 1
@@ -37,17 +12,16 @@ from society.ocr.agent import EasyOCR # 1
 from society.role_play.agent import LiuBei, GuanYu, ZhangFei, ZhugeLiang #4
 from society.search.agent import SE_A, SE_B, SE_C, SE_D #4
 from society.sentence_refine.agent import SentenceRefine # 1
-from society.text_to_image.agent import AnythingV4 #1  ==> [6 Candidates] ==> AnythingV3, OpenJourneyV4, OpenJourney, StableDiffusionV15, StableDiffusionV21B, StableDiffusionV21 # 7
-# from society.text_to_speech.agent import Text2Speech #1
+from society.text_to_image.agent import AnythingV4 #1 & [6 Candidates] AnythingV3, OpenJourneyV4, OpenJourney, StableDiffusionV15, StableDiffusionV21B, StableDiffusionV21 # 7
+from society.text_to_speech.agent import TTS #1
 from society.text_to_video.agent import DeforumSD #1
  
 # Need GPU
-# from society.audio_recognition.agent import Paraformer # 1
 from society.body_reshaping.agent import SAFG # 1
-from society.image_captioning.agent import OFA_large_captioning  # 1 ==> [3 Candiates] ==> OFA_distilled_captioning, BLIP2_captioning, mPLUG_captioning, OFA_large_captioning
-from society.image_colorization.agent import DDColor # 1 ==> [1 Candiates] ==> UNet
+from society.image_captioning.agent import OFA_large_captioning  # 1 & [3 Candiates] OFA_distilled_captioning, BLIP2_captioning, mPLUG_captioning, OFA_large_captioning
+from society.image_colorization.agent import DDColor # 1 & [1 Candiates] UNet
 from society.image_deblur.agent import NAFNet # 1
-# from society.image_to_3d.agent import HumanReconstruction # 1
+from society.image_to_3d.agent import HRNet # 1
 from society.skin_retouching.agent import ABPN # 1
 from society.vqa.agent import BLIP2_VQA, mPLUG_VQA, OFA_VQA #3
 
