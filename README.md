@@ -341,13 +341,13 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
 #### 2. Focus more on NLSOM
 
 
-<details>
+<details open>
     <summary>
- Demo 4: Society of Mind (Automatical Task-Solving)👈 <b>[CLICK]</b></summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112390917492592731/Presentation2_copy_pdf.io.png?width=1620&height=220">
+ Demo 4: Society of Mind (Automatical Task-Solving)</summary>
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112726921487327334/som.png?width=1320&height=222">
     <p>
         <ul>
-            <li>🔴 User: Please help me by performing the following tasks: turn this photo into color, generate a description based on the new image, and then use the description to generate a video. </li>
+            <li>🔴 User: Turn this photo into color, generate a description based on the colored image, and then use the description to generate a video. </li>
         </ul>
     </p>
     <p>
@@ -363,25 +363,19 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>     
     <p>
         <ul>
-            <li>🟢 DDColor:  result.png
+            <li>🟢 DDColor: data/55cd88e5.png
     </li>
         </ul>
     </p>  
     <p>
         <ul>
-            <li>🟡 mPLUG_captioning: a black and white photo of a man with a mustache.
-    </li>
+            <li>🟡 OFA_large_captioning: a portrait of an old man with white hair
         </ul>
     </p>   
     <p>
         <ul>
-            <li>🔵 OFA_large_captioning: a black and white photo of a man with long white hair
-    </li>
-        </ul>
-    </p> 
-    <p>
-        <ul>
-            <li>🟤 DeforumSD: https://replicate.delivery/pbxt/c6U9T0vfxoUre0B5GcWcOjGVQNKY7KfFcdAAffmWaKQ6QWEIC/out.mp4
+            <li>🔵 DeforumSD: data/47bec94a.mp4 <video src="LINK" controls="controls" style="max-width: 730px;">
+</video>
     </li>
         </ul>
     </p> 
@@ -393,20 +387,20 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>  
      <p>
         <ul>
-            <li>⚪️ NLSOM System (Summary): The NLSOM has successfully turned the photo into color, generated a description, and used the description to generate a video. The output video is stored in https://replicate.delivery/pbxt/c6U9T0vfxoUre0B5GcWcOjGVQNKY7KfFcdAAffmWaKQ6QWEIC/out.mp4
+            <li>⚪️ NLSOM System (Summary): The NLSOM has successfully turned the photo into color, generated a description, and used the description to generate a video. The output video is stored in data/47bec94a.mp4
     </li>
         </ul>
     </p> 
      <p>
         <ul>
-            <li>💰 NLSOM System (Reward): [DDColor: 3, mPLUG_captioning: 2, OFA_large_captioning: 2, DeforumSD: 3]
+            <li>💰 NLSOM System (Reward): [DDColor: 3, OFA_large_captioning: 3, DeforumSD: 3]
     </li>
         </ul>
     </p> 
 </details>
 
 
-## 📋 Preliminary Experiments on Paper 
+## 📋 Preliminary Experiments on [Paper](https://arxiv.org/pdf/2305.17066.pdf) 
 The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and NLSOM.
 
 <!--
@@ -421,6 +415,18 @@ Please feel free to submit a pull request if you can optimize the identified iss
 * Design a more accurate reward mechanism.
 * Make the NLSOM learnable.
 -->
+
+## ☑️  TODO
+
+Due to the heavy reliance on prompts in the current version, the NLSOM and Mindstorms are not stable. Please also feel free to submit a pull request if you can optimize the identified issues. We will promptly incorporate any improvements.
+
+* Make mindstorm more stable: 1) design better prompts, 2) develop a tailor-made mindstorm system with or without using LangChain.
+* Support multi-turn mindstorms.
+* Support targets with multiple inputs.
+* Support displaying 3D output.
+* Add more communities and agents.
+* Design a more accurate reward mechanism.
+* Make the NLSOM learnable.
 
 ## 💌 Acknowledgments
 
