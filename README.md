@@ -145,12 +145,12 @@ pip install protobuf==3.20.3
 </p>
 </details>
 
-Besides, here is trick to manage Huggingface/Modelscope cache:
+Besides, here is the trick to manage Huggingface/Modelscope cache:
 
 <details><summary>4. Manage the dir of checkpoints (Optional)  </summary>
 <p>
 
-* Create the checkpints cache dir
+* Create the checkpint cache dir
 ```
 mkdir checkpoints && cd checkpoints
 mkdir huggingface
@@ -172,7 +172,7 @@ hf_cache_home = os.path.expanduser(
 )
 ```
 
-* Similarily, the modelscope's setting
+* Similarly, the modelscope's setting
 
 ```bash
 >>> import modelscope
