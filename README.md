@@ -85,13 +85,13 @@ When you provide the inputs (files or targets), This repository automates all th
 
 ### 1. Install
  
-Three way to install this repo, just select one of them:
+Here are three different installation methods. Please choose the one that suits you best:
 
-1. ``pip install -r requirements.txt``
+1. PIP: ``pip install -r requirements.txt``
 
-2. ``conda env create -f environment.yml``
+2. CONDA: ``conda env create -f environment.yml``
 
-<details><summary>3. Click here for step-by-step installation instructions</summary>
+<details><summary>3. Clear step-by-step installation </summary>
 <p>
     
 ```bash
@@ -139,6 +139,7 @@ pip install trimesh
 pip3 install pymcubes
 # [Set TTS]
 pip install TTS
+pip install protobuf==3.20.3
 ```
     
 </p>
