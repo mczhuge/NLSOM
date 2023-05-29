@@ -142,10 +142,11 @@ pip install TTS
 pip install protobuf==3.20.3
 ```
     
+Besides, here is trick to manage Huggingface/Modelscope cache:
 </p>
 </details>
 
-<details><summary>4. Manage Huggingface/Modelscope (Optional)  </summary>
+<details><summary>4. Manage the dir of checkpoints (Optional)  </summary>
 <p>
 
 * Create the checkpints cache dir
