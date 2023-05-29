@@ -522,26 +522,8 @@ eval `ssh-agent -s`
 ssh-add ~/.ssh/id_rsa
 ```
 
-
-
-```
-srun -p batch -t 48:00:00 --gres=gpu:1 --reservation=A100 --cpus-per-gpu=12 --mem=128G --pty bash -l
-```
-
 ```
 srun -p batch -t 2:00:00 --gres=gpu:1 --constraint="v100" --cpus-per-task 4 --mem=24G --pty bash -l
 ```
 
-
-Sometines, the ssh gets unconnected.
-```
-eval `ssh-agent -s`
-ssh-add ~/.ssh/id_rsa
-```
-
-# API
-
-```
-export REPLICATE_API_TOKEN=r8_WssXC8wLfU6nIOZSgm69CM49SFvuObr35zgcu
-```
 
