@@ -365,37 +365,37 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>  
     <p>
         <ul>
-            <li>🟡 ABPN:
+            <li>🟡 mPLUG_captioning:
     </li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li>🔵 mPLUG_captioning:
+            <li>🔵 OFA_large_captioning:
     </li>
         </ul>
     </p> 
     <p>
         <ul>
-            <li>🟤 OFA_large_captioning:
+            <li>🟤 DeforumSD:
     </li>
         </ul>
     </p> 
     <p>
         <ul>
-            <li>⚪️ NLSOM System (Review):  
+            <li>⚪️ NLSOM System (Review):  1) Whether the NLSOM has utilized all the agents? Yes 2) Whether the NLSOM has solved the user-defined objective? Yes, the NLSOM has successfully turned the photo into color, generated a description, and used the description to generate a video.
     </li>
         </ul>
     </p>  
      <p>
         <ul>
-            <li>⚪️ NLSOM System (Summary):
+            <li>⚪️ NLSOM System (Summary): The NLSOM has successfully turned the photo into color, generated a description, and used the description to generate a video. The output video is stored in https://replicate.delivery/pbxt/c6U9T0vfxoUre0B5GcWcOjGVQNKY7KfFcdAAffmWaKQ6QWEIC/out.mp4
     </li>
         </ul>
     </p> 
      <p>
         <ul>
-            <li>💰 NLSOM System (Reward): 
+            <li>💰 NLSOM System (Reward): 【DDColor: 3, mPLUG_captioning: 2, OFA_large_captioning: 2, DeforumSD: 3]
     </li>
         </ul>
     </p> 
