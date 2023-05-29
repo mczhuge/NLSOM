@@ -87,11 +87,11 @@ When you provide the inputs (files or targets), This repository automates all th
  
 Here are three different installation methods. Please choose the one that suits you best:
 
-1. PIP: ``pip install -r requirements.txt``
+1. CONDA: ``conda env create -n nlsom -f nlsom.yaml``
 
-2. CONDA: ``conda env create -n nlsom -f nlsom.yaml``
+2. PIP: ``pip install -r requirements.txt``
 
-<details><summary>3. Clear step-by-step installation </summary>
+<details><summary>3. Step-by-step installation (Recommended and more controllable) </summary>
 <p>
     
 ```bash
@@ -105,7 +105,7 @@ pip install sqlalchemy==2.0.12
 pip install openai
 pip install colorama
 # [Set Streamlit]
-cd assets && unzip validators-0.20.0.tar.gz
+cd assets && unzip validators-0.20.0.zip
 cd validators-0.20.0
 python setup.py build
 python setup.py install
@@ -137,7 +137,7 @@ pip install replicate==0.8.3
 # [Set Image-to-3D]
 pip install trimesh
 pip3 install pymcubes
-# [Set TTS]
+# [Set TTS] - not recommended due to environmental conflicts
 pip install TTS
 pip install protobuf==3.20.3
 ```
@@ -145,12 +145,10 @@ pip install protobuf==3.20.3
 </p>
 </details>
 
-Besides, here is trick to manage Huggingface/Modelscope cache:
-
-<details><summary>4. Manage the dir of checkpoints (Optional)  </summary>
+<details><summary>4. Manage the dir of checkpoints (Optional, not necessary)  </summary>
 <p>
 
-* Create the checkpints cache dir
+* Create the checkpoints dir
 ```
 mkdir checkpoints && cd checkpoints
 mkdir huggingface
@@ -172,7 +170,7 @@ hf_cache_home = os.path.expanduser(
 )
 ```
 
-* Similarily, the modelscope's setting
+* Similarly, the modelscope's setting
 
 ```bash
 >>> import modelscope
@@ -466,27 +464,13 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
 ## 📋 Preliminary Experiments on [Paper](https://arxiv.org/pdf/2305.17066.pdf) 
 The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and NLSOM.
 
-<!--
-## TODO
-Please feel free to submit a pull request if you can optimize the identified issues. We will promptly incorporate any improvements.
-
-* Make mindstorm more stable: 1) design better prompts, 2) develop a tailor-made mindstorm system with or without using LangChain.
-* Support multi-turn mindstorms.
-* Support targets with multiple inputs.
-* Support displaying 3D output.
-* Add more communities and agents.
-* Design a more accurate reward mechanism.
-* Make the NLSOM learnable.
--->
-
 ## ☑️  TODO
 
-Due to the heavy reliance on prompts in the current version, the NLSOM and Mindstorms are not stable. Please also feel free to submit a pull request if you can optimize the identified issues. We will promptly incorporate any improvements.
+In the original paper, the NLSOM is **pre-defined** and the mindstorm is **enforced**. However, in this repository, the NLSOM is **self-organized** and the mindstorm occurs **automatically**. Due to the heavy reliance on prompts in the current repository version, the current one are not stable. Therefore, there are some identified issues that are awaiting optimization:
 
-* Make mindstorm more stable: 1) design better prompts, 2) develop a tailor-made mindstorm system with or without using LangChain.
+* Make mindstorm more stable: 1) design better prompts or 2) develop a tailor-made mindstorm system.
 * Support multi-turn mindstorms.
 * Support targets with multiple inputs.
-* Support displaying 3D output.
 * Add more communities and agents.
 * Design a more accurate reward mechanism.
 * Make the NLSOM learnable.
