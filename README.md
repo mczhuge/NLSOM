@@ -367,7 +367,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>     
     <p>
         <ul>
-            <li>🟢 <b>DDColor:</b>  <br> <img src="https://github.com/mczhuge/NLSOM/assets/64179323/743339b4-d78c-4e9d-b394-6461addfe1f9" width="200px" height="243px"> </li>
+            <li>🟢 <b>DDColor:</b>  <br> <img src="https://github.com/mczhuge/NLSOM/assets/64179323/743339b4-d78c-4e9d-b394-6461addfe1f9" width="200px" height="243px" autoplay> </li>
     </li>
         </ul>
     </p>  
