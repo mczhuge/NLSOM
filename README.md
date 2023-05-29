@@ -415,6 +415,10 @@ Please feel free to submit a pull request if you can optimize the identified iss
 * Make the NLSOM learnable.
 -->
 
+## 🗓 TODO
+
+Due to the heavy reliance on prompts in the current version, we will be further developing a new iteration that make NLSOM and Mindstorms more stable.
+
 ## 💌 Acknowledgments
 
 This project utilizes parts of code from the following open-source repositories: [langchain](https://github.com/hwchase17/langchain), [BabyAGI](https://github.com/yoheinakajima/babyagi), [TaskMatrix](https://github.com/microsoft/TaskMatrix), [DataChad](https://github.com/gustavz/DataChad), [streamlit](https://github.com/streamlit/streamlit).
