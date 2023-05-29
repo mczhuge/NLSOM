@@ -139,6 +139,7 @@ pip install trimesh
 pip3 install pymcubes
 # [Set TTS]
 pip install TTS
+pip install protobuf==3.20.3
 ```
     
 </p>
