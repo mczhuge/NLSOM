@@ -137,7 +137,7 @@ pip install replicate==0.8.3
 # [Set Image-to-3D]
 pip install trimesh
 pip3 install pymcubes
-# [Set TTS]
+# [Set TTS] - not recommended due to environmental conflicts
 pip install TTS
 pip install protobuf==3.20.3
 ```
