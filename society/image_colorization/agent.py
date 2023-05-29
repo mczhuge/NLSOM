@@ -55,5 +55,5 @@ class DDColor:
     
 if __name__ == "__main__":
     color_model = DDColor(device="cuda:0")
-    img = color_model.inference("c20805d012f6f4c9ffee3944b9a10e33_r.jpeg")
+    img = color_model.inference("xyz321.jpeg")
     print(img)
