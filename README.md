@@ -145,7 +145,7 @@ pip install protobuf==3.20.3
 </p>
 </details>
 
-<details><summary>4. Tricks to manage Huggingface/Modelscope  </summary>
+<details><summary>(Option) Tricks to manage Huggingface/Modelscope  </summary>
 <p>
 
 * Create the checkpints cache dir
