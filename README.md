@@ -4,7 +4,7 @@
 
 ![](https://i.imgur.com/waxVImv.png)
 [![KAUST-AINT](https://cemse.kaust.edu.sa/themes/custom/bootstrap_cemse/logo.svg)](https://cemse.kaust.edu.sa/ai)
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2304.12995)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2305.17066.pdf)
 <!--
 <a href="https://github.com/xxx/README.zh-HANS.md"><img src="https://img.shields.io/badge/lang-简体中文-red.svg" alt="简体中文"></a>
 -->
@@ -65,7 +65,7 @@ symbolic language—are easily added in a modular fashion
 </details>
 
 #### 2. About this repo:
-This project is the **technical extenstion** for original [NLSOM paper](): allowing you to build a specific NLSOM quickly. 
+This project is the **technical extenstion** for original [NLSOM paper](https://arxiv.org/pdf/2305.17066.pdf): allowing you to build a specific NLSOM quickly. 
 When you provide the inputs (files or targets), LLM automates all these processes for you:
 
 - **🧰 Recommendation**: Autonomously select communities and agents to form a self-organized NLSOM for solving the target.
