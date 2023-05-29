@@ -86,29 +86,29 @@ with st.sidebar:
             help=OPENAI_HELP,
             placeholder="This field is mandatory",
         )
-        openai_api_key2 = st.text_input(
+        huggingface_api_key = st.text_input(
             "🕹 HuggingFace API",
             type="password",
             help=OPENAI_HELP,
-            placeholder="This field is mandatory",
+            placeholder="This field is optional",
         )
-        openai_api_key3 = st.text_input(
+        bing_api_key = st.text_input(
             "🕹 BingSearch API",
             type="password",
             help=OPENAI_HELP,
-            placeholder="This field is mandatory",
+            placeholder="This field is optional",
         )
-        openai_api_key4 = st.text_input(
+        wolfram_api_key = st.text_input(
             "🕹 WolframAlpha API",
             type="password",
             help=OPENAI_HELP,
-            placeholder="This field is mandatory",
+            placeholder="This field is optional",
         )
-        openai_api_key4 = st.text_input(
+        replicate_api_key = st.text_input(
             "🕹 Replicate API",
             type="password",
             help=OPENAI_HELP,
-            placeholder="This field is mandatory",
+            placeholder="This field is optional",
         )
 
         language = st.selectbox(
