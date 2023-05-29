@@ -26,7 +26,7 @@ class SentenceRefine:
                          "Useful for when you need to search information from the internet, "
                          "Input should be a search query.")
     def inference(self, text):
-        prompt = "RPlease revise and slightly expand the following sentence: " + text
+        prompt = "Please revise and slightly expand the following sentence: " + text
         self.instructgpt = openai.Completion.create(
                     engine="text-davinci-003",
                     prompt=prompt,
