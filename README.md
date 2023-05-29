@@ -374,7 +374,8 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>   
     <p>
         <ul>
-            <li>🔵 DeforumSD: data/47bec94a.mp4
+            <li>🔵 DeforumSD: data/47bec94a.mp4 <video src="LINK" controls="controls" style="max-width: 730px;">
+</video>
     </li>
         </ul>
     </p> 
