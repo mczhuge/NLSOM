@@ -87,9 +87,9 @@ When you provide the inputs (files or targets), This repository automates all th
  
 Here are three different installation methods. Please choose the one that suits you best:
 
-1. PIP: ``pip install -r requirements.txt``
+1. CONDA: ``conda env create -n nlsom -f nlsom.yaml``
 
-2. CONDA: ``conda env create -n nlsom -f nlsom.yaml``
+3. PIP: ``pip install -r requirements.txt``
 
 <details><summary>3. Clear step-by-step installation </summary>
 <p>
