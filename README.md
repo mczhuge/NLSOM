@@ -352,12 +352,12 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>
     <p>
         <ul>
-            <li>🧰 NLSOM System (Recommendation): Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) image_colorization, (2) skin_retouching, (3) image_captioning, (4) text_to_image </u></li>
+            <li>🧰 NLSOM System (Recommendation): Based on this objective, I recommend that NLSOM includes the following AI communities: <u>(1) image_colorization, (2) image_captioning, (3) text_to_video </u></li>
         </ul>
     </p>   
     <p>
         <ul>
-            <li>⚪️ NLSOM System (Self-Organization): We load the recommended AI communities with their their corresponding agents: (a) DDColor, (b) ABPN, (c) mPLUG_captioning, (d) OFA_large_captioning, (e) AnythingV4
+            <li>⚪️ NLSOM System (Self-Organization): We load the recommended AI communities with their their corresponding agents: (a) DDColor, (b) OFA_large_captioning, (c) DeforumSD
     </li>
         </ul>
     </p>     
