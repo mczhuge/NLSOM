@@ -132,7 +132,7 @@ pip install replicate==0.8.3
 
 ### 2. App
 
-```
+```bash
 streamlit run app.py
 ```
 
