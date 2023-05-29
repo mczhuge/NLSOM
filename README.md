@@ -89,7 +89,7 @@ Here are three different installation methods. Please choose the one that suits 
 
 1. CONDA: ``conda env create -n nlsom -f nlsom.yaml``
 
-2. PIP: ``conda create -n nlsom python=3.8``, ``pip install -r requirements.txt``
+2. PIP: ``conda create -n nlsom python=3.8`` and then ``pip install -r requirements.txt``
 
 <details><summary>3. Step-by-step installation (Recommended and more controllable) </summary>
 <p>
