@@ -347,7 +347,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112390917492592731/Presentation2_copy_pdf.io.png?width=1620&height=220">
     <p>
         <ul>
-            <li>🔴 User: Please help me by performing the following tasks: turn this photo into color, enhance the skin of the people in the image, generate a description based on the new image, and then use the description to generate a new image. </li>
+            <li>🔴 User: Please help me by performing the following tasks: turn this photo into color, generate a description based on the new image, and then use the description to generate a video. </li>
         </ul>
     </p>
     <p>
