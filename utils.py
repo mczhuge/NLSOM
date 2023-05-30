@@ -9,8 +9,7 @@ from typing import List
 import openai
 import streamlit as st
 #from dotenv import load_dotenv
-from langchain.callbacks import OpenAICallbackHandler, get_openai_callback
-from langchain.chains import ConversationalRetrievalChain
+from langchain.callbacks import OpenAICallbackHandler
 from langchain.chains.conversation.memory import ConversationBufferMemory
 from langchain.chat_models import ChatOpenAI
 from langchain.agents.initialize import initialize_agent
@@ -31,20 +30,16 @@ from langchain.document_loaders import (
     UnstructuredWordDocumentLoader,
     WebBaseLoader,
 )
-from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.schema import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.vectorstores import DeepLake, VectorStore
 from streamlit.runtime.uploaded_file_manager import UploadedFile
 
-from constants import (
+from setting import (
     APP_NAME,
     CHUNK_SIZE,
     DATA_PATH,
     PAGE_ICON,
     REPO_URL,
-    TEMPERATURE,
-    K,
 )
 
 from env.prompt import (
@@ -53,12 +48,7 @@ from env.prompt import (
     NLSOM_SUFFIX, 
 )
 
-# OpenAI Agent
-nlsom_organizer = OpenAI(temperature=0)
-nlsom_memory = ConversationBufferMemory(memory_key="chat_history", output_key="output")
 
-# loads environment variables
-# load_dotenv()
 
 logger = logging.getLogger(APP_NAME)
 
@@ -83,27 +73,21 @@ configure_logger(0)
 
 
 def authenticate(
-    #openai_api_key: str, activeloop_token: str, activeloop_org_name: str
-    openai_api_key: str
+    openai_api_key = None,
+    huggingface_api_key = None,
+    bingsearch_api_key = None,
+    wolframalpha_api_key = None,
+    replicate_api_key = None,
 ) -> None:
     # Validate all credentials are set and correct
     # Check for env variables to enable local dev and deployments with shared credentials
+
     openai_api_key = (
         openai_api_key
         or os.environ.get("OPENAI_API_KEY")
-        or st.secrets.get("OPENAI_API_KEY")
+        #or st.secrets.get("OPENAI_API_KEY")
     )
-    # activeloop_token = (
-    #     activeloop_token
-    #     or os.environ.get("ACTIVELOOP_TOKEN")
-    #     or st.secrets.get("ACTIVELOOP_TOKEN")
-    # )
-    # activeloop_org_name = (
-    #     activeloop_org_name
-    #     or os.environ.get("ACTIVELOOP_ORG_NAME")
-    #     or st.secrets.get("ACTIVELOOP_ORG_NAME")
-    # )
-    # if not (openai_api_key and activeloop_token and activeloop_org_name):
+
     if not (openai_api_key):
         st.session_state["auth_ok"] = False
         st.error("Credentials neither set nor stored", icon=PAGE_ICON)
@@ -113,21 +97,68 @@ def authenticate(
         with st.spinner("Authentifying..."):
             openai.api_key = openai_api_key
             openai.Model.list()
-            # deeplake.exists(
-            #     f"hub://{activeloop_org_name}/DataChad-Authentication-Check",
-            #     token=activeloop_token,
-            # )
+
     except Exception as e:
         logger.error(f"Authentication failed with {e}")
         st.session_state["auth_ok"] = False
         st.error("Authentication failed", icon=PAGE_ICON)
         return
+    
     # store credentials in the session state
+    
+    # OpenAI
+    if openai_api_key == None and st.secrets["OPENAI_API_KEY"] == None:
+        logger.info("Authentification - OpenAI - Fail!")
+    else:
+        st.session_state["openai_api_key"] = openai_api_key \
+            if openai_api_key \
+            else st.secrets["OPENAI_API_KEY"]
+
+        os.environ["OPENAI_API_KEY"] = st.session_state["openai_api_key"]
+
+    
+    # Huggingface
+    if huggingface_api_key == None and st.secrets["HUGGINGFACE_ACCESS_Tokens"] == None:
+        logger.info("Authentification - Huggingface - Fail!")
+    else:
+        st.session_state["huggingface_api_key"] = huggingface_api_key \
+            if huggingface_api_key \
+            else st.secrets["HUGGINGFACE_ACCESS_Tokens"]
+        os.environ["HUGGINGFACE_ACCESS_Tokens"] = st.session_state["huggingface_api_key"]
+
+    # Wolframalpha  
+    if wolframalpha_api_key == None and st.secrets["WOLFRAM_ALPHA_APPID"] == None:
+        logger.info("Authentification - WolframAlpha - Fail!")
+    else:
+        st.session_state["wolframalpha_api_key"] = wolframalpha_api_key \
+            if wolframalpha_api_key \
+            else st.secrets["WOLFRAM_ALPHA_APPID"]
+        os.environ["WOLFRAM_ALPHA_APPID"] = st.session_state["wolframalpha_api_key"]
+
+
+    # BingSearch    
+    if bingsearch_api_key == None and st.secrets["BING_SUBSCRIPTION_KEY"] == None:
+        logger.info("Authentification - BingSearch - Fail!")
+    else:
+        st.session_state["bingsearch_api_key"] = bingsearch_api_key \
+            if bingsearch_api_key \
+            else st.secrets["BING_SUBSCRIPTION_KEY"]
+        os.environ["BING_SUBSCRIPTION_KEY"] = st.session_state["bingsearch_api_key"] 
+        os.environ["BING_SEARCH_URL"] = "https://api.bing.microsoft.com/v7.0/search"
+
+
+    # Replicate   
+    if replicate_api_key == None and st.secrets["REPLICATE_API_TOKEN"] == None:
+        logger.info("Authentification - Replicate - Fail!")
+    else:
+        st.session_state["replicate_api_key"] = replicate_api_key \
+            if replicate_api_key \
+            else st.secrets["REPLICATE_API_TOKEN"]
+        os.environ["REPLICATE_API_TOKEN"] = st.session_state["replicate_api_key"] 
+
     st.session_state["auth_ok"] = True
-    st.session_state["openai_api_key"] = openai_api_key
-    # st.session_state["activeloop_token"] = activeloop_token
-    # st.session_state["activeloop_org_name"] = activeloop_org_name
-    logger.info("Authentification successful!")
+    #os.environ["MODELSCOPE_GIT_TOKEN"] = st.session_state["openai_api_key"]
+
 
 
 def save_uploaded_file(uploaded_file: UploadedFile) -> str:
@@ -286,6 +317,10 @@ def cut_dialogue_history(history_memory, keep_last_n_words=500):
     return '\n' + '\n'.join(paragraphs)
 
 def generate_response(prompt: str, tools, history) -> str:
+
+    # OpenAI Agent
+    nlsom_organizer = OpenAI(temperature=0)
+    nlsom_memory = ConversationBufferMemory(memory_key="chat_history", output_key="output")
 
     mindstorm = initialize_agent(
         tools,
