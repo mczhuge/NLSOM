@@ -7,23 +7,28 @@ import re
 from colorama import Fore, Style
 from PIL import Image
 import os
+import soundfile as sf
+import shutil
+import torch
 
 from society.community import *
-from bak.prompt import AI_SOCIETY
+from env.prompt import AI_SOCIETY
 
 from langchain.agents.tools import Tool
 
 os.makedirs('data', exist_ok=True)
 
-from constants import (
+from setting import (
     APP_NAME,
     AUTHENTICATION_HELP,
     OPENAI_HELP,
+    HUGGINGFACE_HELP,
+    BINGSEARCH_HELP,
+    WOLFRAMALPHA_HELP,
+    REPLICATE_HELP,
     PAGE_ICON,
     REPO_URL,
-    TEMPERATURE,
     USAGE_HELP,
-    K,
 )
 
 from utils import (
@@ -52,7 +57,7 @@ st.text("4️⃣ Sovle the task.")
 SESSION_DEFAULTS = {
     "past": [],
     "usage": {},
-    "device": "cuda:0", # TODO: support multiple GPUs
+    "device": torch.device('cuda' if torch.cuda.is_available() else 'cpu'),
     "chat_history": [],
     "generated": [],
     "data_name": [],
@@ -61,10 +66,14 @@ SESSION_DEFAULTS = {
     "communities": {},
     "agents": {},
     "load_dict": {},
-    "data_source": [], #DEFAULT_DATA_SOURCE,
+    "data_source": [], 
     "uploaded_file": None,
     "auth_ok": False,
     "openai_api_key": None,
+    "huggingface_api_key": None,
+    "bingsearch_api_key": None,
+    "wolframalpha_api_key": None,
+    "replicate_api_key": None,
 }
 
 
@@ -73,6 +82,9 @@ for k, v in SESSION_DEFAULTS.items():
     if k not in st.session_state:
         st.session_state[k] = v
 
+# Move .env to .streamlit/secrets.toml
+os.makedirs(".streamlit", exist_ok=True)
+shutil.copyfile(".env", ".streamlit/secrets.toml")
 
 # Sidebar with Authentication
 # Only start App if authentication is OK
@@ -80,6 +92,7 @@ with st.sidebar:
 
     st.title("🔗 API Pool", help=AUTHENTICATION_HELP)
     with st.form("authentication"):
+
         openai_api_key = st.text_input(
             "🕹 OpenAI API",
             type="password",
@@ -89,25 +102,25 @@ with st.sidebar:
         huggingface_api_key = st.text_input(
             "🕹 HuggingFace API",
             type="password",
-            help=OPENAI_HELP,
+            help=HUGGINGFACE_HELP,
             placeholder="This field is optional",
         )
-        bing_api_key = st.text_input(
+        bingsearch_api_key = st.text_input(
             "🕹 BingSearch API",
             type="password",
-            help=OPENAI_HELP,
+            help=BINGSEARCH_HELP,
             placeholder="This field is optional",
         )
-        wolfram_api_key = st.text_input(
+        wolframalpha_api_key = st.text_input(
             "🕹 WolframAlpha API",
             type="password",
-            help=OPENAI_HELP,
+            help=WOLFRAMALPHA_HELP,
             placeholder="This field is optional",
         )
         replicate_api_key = st.text_input(
             "🕹 Replicate API",
             type="password",
-            help=OPENAI_HELP,
+            help=REPLICATE_HELP,
             placeholder="This field is optional",
         )
 
@@ -132,11 +145,19 @@ with st.sidebar:
     clear_button = st.button("Clear Conversation", key="clear")
 
 if clear_button:
-    # resets all chat history related caches
+    # Resets all chat history related caches
+    # delete_uploaded_file(st.session_state["data_source"])
     st.session_state["past"] = []
+    st.session_state["usage"] = {}
     st.session_state["generated"] = []
     st.session_state["chat_history"] = []
-
+    st.session_state["data_name"] = []
+    st.session_state["models"] = {}
+    st.session_state["communities"] = {}
+    st.session_state["agents"] = {}
+    st.session_state["load_dict"] = {}
+    st.session_state["data_source"] = []
+    st.session_state["uploaded_file"] = None
 
 # file upload and data source inputs
 uploaded_file = st.file_uploader("Upload a file")
@@ -172,15 +193,16 @@ def load_candidate(candidate_list, AI_SOCIETY):
 
 
     device = st.session_state["device"]
+    print(f"Current device: {device}")
 
     for community in candidate_list:
         agents = traverse_dir(community.strip())
         for agent in agents:
-            st.session_state["load_dict"][agent] = device #"cpu" #"cuda:0" # TODO: Automatically load into different GPUs
+            st.session_state["load_dict"][str(agent)] = device 
             if str(community).strip() not in st.session_state["agents"].keys():
-                st.session_state["agents"][str(community).strip()] = [agent]
+                st.session_state["agents"][str(community).strip()] = [str(agent)]
             else:
-                st.session_state["agents"][str(community).strip()].append(agent)
+                st.session_state["agents"][str(community).strip()].append(str(agent))
 
     st.session_state["generated"].append("We load the recommended AI communities with their their corresponding agents:\n{}".format(st.session_state["agents"]))
     
@@ -209,8 +231,7 @@ if uploaded_file and uploaded_file != st.session_state["uploaded_file"]:
     data_source = save_uploaded_file(uploaded_file)
     filename = "data/" + uploaded_file.name
 
-    # TODO: 识别上传图片的属性
-
+    # image source
     if len(re.findall(r'\b([-\w]+\.(?:jpg|png|jpeg|bmp|svg|ico|tif|tiff|gif|JPG))\b', filename)) != 0:
         filetype = "image"
         img = Image.open(filename)
@@ -220,26 +241,31 @@ if uploaded_file and uploaded_file != st.session_state["uploaded_file"]:
         img = img.convert('RGB')
         img.save(filename, "PNG")
 
+    # audio source
+    if len(re.findall(r'\b([-\w]+\.(?:wav|flac|mp3))\b', filename)) != 0:
+        filetype = "audio"
+
+    # video source
+    if len(re.findall(r'\b([-\w]+\.(?:avi|mov|flv|mp4|wmv))\b', filename)) != 0:
+        filetype = "video"
+
     #data_name = st.session_state["data_name"] = f"![](file={filename})*{filename}*"
     data_name = st.session_state["data_name"] = filename
-    st.session_state["generated"].append(f"Receive a file, it stored in {data_name}")
-
-    st.session_state["chat_history"].append((data_name, f"Receive a file, it stored in {data_name}"))
+    st.session_state["generated"].append(f"Receive a {filetype} file, it stored in {data_name}")
+    st.session_state["chat_history"].append((data_name, f"Receive the {filetype} file, it stored in {data_name}"))
     st.session_state["data_source"] = data_source
-    delete_uploaded_file(uploaded_file)
+    
 
 # container for chat history
 response_container = st.container()
 # container for text box
 container = st.container()
 
-
-
 # As streamlit reruns the whole script on each change
 # it is necessary to repopulate the chat containers
 with container:
     with st.form(key="prompt_input", clear_on_submit=True):
-        user_input = st.text_area("🎯 Your target:", key="input", height=100)
+        user_input = st.text_area("🎯 Your task:", key="input", height=100)
         submit_button = st.form_submit_button(label="Send")
 
     if submit_button and user_input:
@@ -262,6 +288,11 @@ with container:
         load_candidate(community, AI_SOCIETY)
 
         responce = generate_response(user_input, st.session_state["tools"], st.session_state["chat_history"])
+
+        print("###"*20)
+        print(responce)
+        print("###"*20)
+
         review, output, reward = responce.split("\n")[0], responce.split("\n")[1], responce.split("\n")[2]
         if "Analyze the employed agents" in review: # The review was unsuccessful, possibly due to the ongoing process or the brevity of the content.
             review = review.split("Analyze the employed agents")[0].strip("[").strip("]")
@@ -269,7 +300,6 @@ with container:
         st.session_state["generated"].append(review)
         st.session_state["generated"].append(output)
         st.session_state["generated"].append(reward)
-
         st.session_state["generated"].append(responce)
 
 if st.session_state["generated"]:
@@ -280,6 +310,7 @@ if st.session_state["generated"]:
 
         for i in range(len(st.session_state["generated"])):
             #print(st.session_state["generated"])
+            if i==0: continue
             message(st.session_state["generated"][i], key=str(i))
 
             image_parse = re.findall(r'\b([-\w]+\.(?:jpg|png|jpeg|bmp|svg|ico|tif|tiff|gif|JPG))\b', st.session_state["generated"][i])
@@ -287,10 +318,26 @@ if st.session_state["generated"]:
                 image = Image.open(os.path.join("data", image_parse[-1]))
                 st.image(image, caption=image_parse[-1])
 
-        # TODO: Reward
+            audio_parse = re.findall(r'\b([-\w]+\.(?:wav|flac|mp3))\b', st.session_state["generated"][i])
+            if audio_parse != []:
+                audio_format = audio_parse[-1].split(".")[-1]
+                
+                if audio_format != "wav":
+                    audio_bytes, samplerate = sf.read(os.path.join("data", audio_parse[-1]))
+                    audio_format = "wav"
+                    st.audio(audio_bytes, format=f"audio/{audio_format}", sample_rate=samplerate)
+                else:
+                    audio_file = open(os.path.join("data", audio_parse[-1]))
+                    audio_bytes = audio_file.read(os.path.join("data", audio_parse[-1]))
+                    st.audio(audio_bytes, format=f"audio/{audio_format}")
+
+            video_parse = re.findall(r'\b([-\w]+\.(?:avi|mov|flv|mp4|wmv))\b', st.session_state["generated"][i])
+            if video_parse != []:
+                video_file = open(os.path.join("data", video_parse[-1]), "rb")
+                video_bytes = video_file.read()
+                st.video(video_bytes)
 
 
-        
 # Usage sidebar with total used tokens and costs
 # We put this at the end to be able to show usage starting with the first response
 with st.sidebar:
