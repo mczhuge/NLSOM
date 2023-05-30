@@ -1,4 +1,3 @@
-# Will move to OFFICIAL GITHUB
 # <p align=center>`Mindstorms in Natural Language-Based Societies of Mind`</p><!-- omit in toc -->
 ![overview](assets/nlsom.svg)
 > What magical trick makes us intelligent?  The trick is that there is no trick.  The power of intelligence stems from our vast diversity, not from any single, perfect principle. — Marvin Minsky, The Society of Mind, p. 308
@@ -79,7 +78,7 @@ When you provide the inputs (files or targets), This repository automates all th
 
 
 <div align=center>
-    <img src="https://github.com/mczhuge/NLSOM/assets/64179323/fed10cb8-a7b7-4103-a480-0f0048cb36cc" width="500" height="535">
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1113213359974785165/1685481042679.jpg" width="500" height="535">
 </div>
 
 ## 💾 Usage
