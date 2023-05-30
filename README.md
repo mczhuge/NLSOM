@@ -480,7 +480,7 @@ Although the automatic implementation of NLSOM shows promise, the current reposi
 * Design a more precise reward mechanism.
 * Enhance learnability of NLSOM.
 
-We are still working on a better version (reduce prompts, and add code part of Mindstorm).
+We are still working on a better version (reduce prompts, and code parts of Mindstorm).
 
 ## 💌 Acknowledgments
 
