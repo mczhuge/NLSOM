@@ -111,6 +111,7 @@ python setup.py build
 python setup.py install
 pip install streamlit==1.22.0
 pip install streamlit_chat==0.0.2.2
+pip install soundfile
 # [Set Huggingface/transformers]
 pip install transformers==4.29.2
 pip install accelerate==0.19.0
