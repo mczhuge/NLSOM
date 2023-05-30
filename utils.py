@@ -47,7 +47,7 @@ from constants import (
     K,
 )
 
-from bak.prompt import (
+from env.prompt import (
     NLSOM_PREFIX, 
     NLSOM_FORMAT_INSTRUCTIONS, 
     NLSOM_SUFFIX, 
