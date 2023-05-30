@@ -1,6 +1,6 @@
 **(Continue to update..)**
 
-[figure](nlsom_exp.png)
+[figure](../assets/nlsom_exp.png)
 
 In the original paper, several preliminary experiments were conducted to validate the concept of Mindstorm. 
 
