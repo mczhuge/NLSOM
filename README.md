@@ -467,7 +467,7 @@ The original experiments on paper can be found in [experiments](https://github.c
 ## ☑️  TODO
 We adopt two ways to conduct NLSOM and Mindstorm: 1) in the original paper and [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment), NLSOM is pre-defined, and Mindstorm is enforced. 2) in this repository, NLSOM is self-organized, and Mindstorm occurs automatically. 
 
-However, this version is not stable due to heavy reliance on prompts. Several issues need optimization:
+Although the automatic implementation of NLSOM shows promise, the current repository is unstable due to its heavy dependence on prompts.  Several issues need optimization:
 * Improve stability of Mindstorm: a) enhance prompt design, or b) develop a dedicated Mindstorm system.
 * Enable multi-turn Mindstorms.
 * Support targets with multiple inputs.
