@@ -1,8 +1,4 @@
-import uuid
 import os
-import io
-import torch
-from PIL import Image
 import requests
 
 def prompts(name, description):
@@ -17,7 +13,7 @@ class DETR:
     def __init__(self, device="cpu"):
         self.device = device
         self.API_URL = "https://api-inference.huggingface.co/models/facebook/detr-resnet-50"
-        self.headers = {"Authorization": "Bearer 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"}
+        self.headers = {"Authorization": "Bearer "+os.getenv("HUGGINGFACE_ACCESS_Tokens")}
 
     @prompts(name="DETR (object detection)",
              description="useful when you want to detect the objects in an image. "
