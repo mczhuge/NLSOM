@@ -484,7 +484,8 @@ Although the automatic implementation of NLSOM shows promise, the current reposi
 * Design a more precise reward mechanism.
 * Enhance learnability of NLSOM.
 
-**v3.0:** Mingchen is working on a better version (reduce prompts, and code parts of Mindstorm).
+**v3.0:** Mingchen is working on a better version (reducing prompts and code parts of Mindstorm). Per Louis and Francesco's suggestions, we should make the reward mechanism more clear and Mindstorm more obvious. And we can choose to release it as an engineering supplement for the original NLSOM paper, or if there is an obvious updation, we can write a document/workshop/paper to record new features. 
+
 
 ## 💌 Acknowledgments
 
