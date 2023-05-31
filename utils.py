@@ -85,9 +85,9 @@ def authenticate(
     openai_api_key = (
         openai_api_key
         or os.environ.get("OPENAI_API_KEY")
-        #or st.secrets.get("OPENAI_API_KEY")
+        or st.secrets.get("OPENAI_API_KEY")
     )
-
+    st.session_state["auth_ok"] = True
     if not (openai_api_key):
         st.session_state["auth_ok"] = False
         st.error("Credentials neither set nor stored", icon=PAGE_ICON)
@@ -156,10 +156,7 @@ def authenticate(
             else st.secrets["REPLICATE_API_TOKEN"]
         os.environ["REPLICATE_API_TOKEN"] = st.session_state["replicate_api_key"] 
 
-    st.session_state["auth_ok"] = True
-    #os.environ["MODELSCOPE_GIT_TOKEN"] = st.session_state["openai_api_key"]
-
-
+    #st.session_state["auth_ok"] = True
 
 def save_uploaded_file(uploaded_file: UploadedFile) -> str:
     # streamlit uploaded files need to be stored locally

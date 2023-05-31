@@ -29,7 +29,7 @@ HUGGINGFACE_HELP = """
 """
 
 BINGSEARCH_HELP = """
-
+For BingSearch, please refer to https://www.microsoft.com/en-us/bing/apis/bing-web-search-api
 """
 
 WOLFRAMALPHA_HELP = """
