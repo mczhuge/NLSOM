@@ -486,9 +486,9 @@ Although the automatic implementation of NLSOM shows promise, the current reposi
 
 **v3.0:** Mingchen is working on a better version (reducing prompts and code parts of Mindstorm). Per Louis and Francesco's suggestions, we should make the reward mechanism more clear and Mindstorm more obvious. And we can choose to release it as an engineering supplement for the original NLSOM paper, or if there is an obvious updation, we can write a document/workshop/paper to record new features. 
 
-FF:
-* 1. How the user interacts with the platform (How the user provides questions in text or images, or videos, how the user receives the answer, and which other information is provided to the user)
-* 2. How the platform works in detail to provide an answer (if the models are chosen from a specific list of models, how many rounds of mindstorm, how many models, whether there is a leader or not)
+FF's opinion:
+* How the user interacts with the platform (How the user provides questions in text or images, or videos, how the user receives the answer, and which other information is provided to the user)
+* How the platform works in detail to provide an answer (if the models are chosen from a specific list of models, how many rounds of mindstorm, how many models, whether there is a leader or not)
 
 
 ## 💌 Acknowledgments
