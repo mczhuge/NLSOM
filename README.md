@@ -1,16 +1,14 @@
-# <p align=center>`Mindstorms in Natural Language-Based Societies of Mind`</p><!-- omit in toc -->
+# <p align=center>`Natural Language-Based Societies of Mind`</p><!-- omit in toc -->
 ![overview](assets/nlsom.svg)
 > What magical trick makes us intelligent?  The trick is that there is no trick.  The power of intelligence stems from our vast diversity, not from any single, perfect principle. — Marvin Minsky, The Society of Mind, p. 308
 
-![](https://i.imgur.com/waxVImv.png)
 [![KAUST-AINT](https://cemse.kaust.edu.sa/themes/custom/bootstrap_cemse/logo.svg)](https://cemse.kaust.edu.sa/ai)
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2305.17066.pdf)
-<!--
-<a href="https://github.com/xxx/README.zh-HANS.md"><img src="https://img.shields.io/badge/lang-简体中文-red.svg" alt="简体中文"></a>
--->
+[![GitHub license](https://img.shields.io/github/license/mczhuge/NLSOM)](https://github.com/mczhuge/NLSOM/blob/main/LICENSE)
+[![GitHub star chart](https://img.shields.io/github/stars/mczhuge/NLSOM?style=social)](https://star-history.com/#mczhuge/NLSOM)
 
 ## ✨ Introduction
-We introduce the concept of Natural Language-Based Societies of Mind (NLSOM), which contains society, communities and agents.
+We introduce the concept of **Natural Language-Based Societies of Mind (NLSOM)**, which contains society, communities and agents.
 #### 1. Concepts:
 - Agents can be either LLMs, NN-based experts, APIs and role-players. They all communicate in natural language.
 - Agents collaborate to solve the task by interviewing each other. we call this procedure "Mindstorm". 
@@ -146,7 +144,7 @@ pip install protobuf==3.20.3
 </p>
 </details>
 
-<details><summary>4. Manage the dir of checkpoints (Optional, not necessary)  </summary>
+<details><summary>Optional. Manage the dir of checkpoints  </summary>
 <p>
 
 * Create the checkpoints dir
@@ -466,38 +464,26 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
 </details>
 
 
-## 📋 Preliminary Experiments on [Paper](https://arxiv.org/pdf/2305.17066.pdf) 
-The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and NLSOM.
-
-## ☑️  TODO
+## ☑️  TODO?
 We adopt two ways to conduct NLSOM and Mindstorm: 
 
-**v1.0:** In the original paper and [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment), NLSOM is pre-defined, and Mindstorm is enforced. 
+**v1.0:** 📋 Preliminary Experiments: In the original [paper](https://arxiv.org/pdf/2305.17066.pdf), NLSOM is pre-defined, and Mindstorm is enforced. 
 
-**v2.0:** in this repository, NLSOM is self-organized, and Mindstorm occurs automatically. 
+**v2.0:** 📋 In this repository, NLSOM is self-organized, and Mindstorm occurs automatically. 
+
+**v3.0:** 🎯 Future Work: 1) RL; 2) Economy; 3) Self-Improvement; 4) Atom-based collaborations.
 
 Although the automatic implementation of NLSOM shows promise, the current repository is unstable due to its heavy dependence on prompts. Several issues need optimization:
 * Improve stability of Mindstorm: a) enhance prompt design, or b) develop a dedicated Mindstorm system.
-* Enable multi-turn Mindstorms.
-* Support targets with multiple inputs.
+* Support batch targets.
 * Expand communities and agents.
 * Design a more precise reward mechanism.
 * Enhance learnability of NLSOM.
 
-**v3.0:** Mingchen is working on a better version (reducing prompts and code parts of Mindstorm). Per Louis and Francesco's suggestions, we should make the reward mechanism more clear and Mindstorm more obvious. And we can choose to release it as an engineering supplement for the original NLSOM paper, or if there is an obvious updation, we can write a document/workshop/paper to record new features. 
-
-Francesco's opinions:
-* How the user interacts with the platform (How the user provides questions in text or images, or videos, how the user receives the answer, and which other information is provided to the user)
-* How the platform works in detail to provide an answer (if the models are chosen from a specific list of models, how many rounds of mindstorm, how many models, whether there is a leader or not)
-
-
 ## 💌 Acknowledgments
 
-This project utilizes parts of code from the following open-source repositories: [langchain](https://github.com/hwchase17/langchain), [BabyAGI](https://github.com/yoheinakajima/babyagi), [TaskMatrix](https://github.com/microsoft/TaskMatrix), [DataChad](https://github.com/gustavz/DataChad), [streamlit](https://github.com/streamlit/streamlit).
+This project utilizes parts of code from the following open-source repositories: [langchain](https://github.com/hwchase17/langchain), [BabyAGI](https://github.com/yoheinakajima/babyagi), [TaskMatrix](https://github.com/microsoft/TaskMatrix), [DataChad](https://github.com/gustavz/DataChad), [streamlit](https://github.com/streamlit/streamlit). We also thank great AI platforms and all the used models or APIs: [huggingface](https://github.com/huggingface/transformers), [modelscope](https://github.com/modelscope/modelscope).
 
-We also thank great AI platforms and all the used models or APIs: [huggingface](https://github.com/huggingface/transformers), [modelscope](https://github.com/modelscope/modelscope).
-
-Thanks Guohao and Hasan's experiments based on [CAMEL](https://github.com/camel-ai/camel).
 
 ## :black_nib: Citation
 
@@ -510,36 +496,7 @@ References to cite:
   journal={arXiv preprint arXiv:2305.17066},
   year={2023}
 }
-
-@article{schmidhuber2015learning,
-  title={On learning to think: Algorithmic information theory for novel combinations of reinforcement learning controllers and recurrent neural world models},
-  author={Schmidhuber, J{\"u}rgen},
-  journal={arXiv preprint arXiv:1511.09249},
-  year={2015}
-}
-
-@book{minsky1988society,
-  title={Society of mind},
-  author={Minsky, Marvin},
-  year={1988},
-  publisher={Simon and Schuster}
-}
 ```
 
-
---------------------
-
-# DRAFT IGNORE!!
-
-
-#### 2. Run
-```
-eval `ssh-agent -s`
-ssh-add ~/.ssh/id_rsa
-```
-
-```
-srun -p batch -t 2:00:00 --gres=gpu:1 --constraint="v100" --cpus-per-task 4 --mem=24G --pty bash -l
-```
 
 
