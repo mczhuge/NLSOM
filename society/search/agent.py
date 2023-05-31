@@ -3,9 +3,6 @@
 # For BingSearch, please refer to https://www.microsoft.com/en-us/bing/apis/bing-web-search-api
 
 import os
-os.environ["BING_SUBSCRIPTION_KEY"] = "62d6585cb6634347ba89f79f84e9313e"
-os.environ["BING_SEARCH_URL"] = "https://api.bing.microsoft.com/v7.0/search" 
-os.environ["WOLFRAM_ALPHA_APPID"] = "QHR6LE-5RRLX85RJT"
 import numpy as np
 
 from langchain.tools import Tool
@@ -26,8 +23,6 @@ def prompts(name, description):
     return decorator
 
 
-
-#class WolframAlphaSearch:
 class SE_A:
     def __init__(self, device="cpu"):
         self.device = device
@@ -43,8 +38,6 @@ class SE_A:
         docs = self.wolfram.run(text)
         return docs.split("\n")[0]
 
-
-#SE_B
 class SE_B:
     def __init__(self, device="cpu"):
         self.device = "cpu"
@@ -60,7 +53,6 @@ class SE_B:
         return docs.split("\n\n")[np.random.randint(0,3)]
 
     
-# class WikipediaSearch:
 class SE_C:
     def __init__(self, device="cpu"):
         self.device = "cpu"
@@ -74,7 +66,6 @@ class SE_C:
         docs = self.wikipedia.run(text)
         return docs.split("\n\n")[0] #.split("\n")[0:2]
     
-#class BingSearch:
 class SE_D:
     def __init__(self, device="cpu"):
         self.device = "cpu"
