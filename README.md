@@ -187,7 +187,7 @@ default_cache_dir = Path.home().joinpath('{YOUR_NLSOM_PATH}/checkpoints', 'model
 </p>
 </details>
 
-### 2. App
+### 2. APIs
 
 Please complete the API keys in ``.env.template``. The OpenAI API key is mandatory, while the others depend on your specific requirements. Then, ``mv .env.template .env``
 
