@@ -25,7 +25,7 @@ Once you are logged in, you find the API keys [here](https://platform.openai.com
 """
 
 HUGGINGFACE_HELP = """
-
+For Huggingface, please refer to https://huggingface.co/inference-api
 """
 
 BINGSEARCH_HELP = """
@@ -33,9 +33,13 @@ For BingSearch, please refer to https://www.microsoft.com/en-us/bing/apis/bing-w
 """
 
 WOLFRAMALPHA_HELP = """
-
+Please refer to https://products.wolframalpha.com/api
 """
 
 REPLICATE_HELP = """
+Please refer to https://replicate.com
+"""
 
+MODELSCOPE_HELP = """
+Please refer to http://www.modelscope.cn
 """
