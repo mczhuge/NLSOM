@@ -58,4 +58,8 @@ if __name__ == "__main__":
 #     def inference(self, filename):
 
 #         result =  self.pipeline_asr(filename)
+<<<<<<< HEAD
 #         return result
+=======
+#         return result
+>>>>>>> cd332a04fe00f6884ae0f28322b6837e25361609
