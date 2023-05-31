@@ -10,9 +10,9 @@
 -->
 
 ## ✨ Introduction
-We introduce the concept of Natural Language-Based Societies of Mind (NLSOM), a framework that overcomes limitations of a single Large-Language Model (LLM) by creating a society of models that is actively "mindstorming" to solve given task.
+We introduce the concept of Natural Language-Based Societies of Mind (NLSOM), which contains society, communities and agents.
 #### 1. Concepts:
-- Agents can be either LLMs or other NN-based experts. They all communicate in natural language.
+- Agents can be either LLMs, NN-based experts, APIs and role-players. They all communicate in natural language.
 - Agents collaborate to solve the task by interviewing each other. we call this procedure "Mindstorm". 
 - Additional components for NLSOM can be easily added in a modular fashion.
 - <details>
@@ -78,7 +78,7 @@ When you provide the inputs (files or targets), This repository automates all th
 
 
 <div align=center>
-    <img src="https://github.com/mczhuge/NLSOM/assets/64179323/fed10cb8-a7b7-4103-a480-0f0048cb36cc" width="500" height="535">
+    <img src="https://media.discordapp.net/attachments/1090896867753213973/1113213359974785165/1685481042679.jpg" width="500" height="535">
 </div>
 
 ## 💾 Usage
@@ -111,6 +111,7 @@ python setup.py build
 python setup.py install
 pip install streamlit==1.22.0
 pip install streamlit_chat==0.0.2.2
+pip install soundfile
 # [Set Huggingface/transformers]
 pip install transformers==4.29.2
 pip install accelerate==0.19.0
@@ -187,6 +188,10 @@ default_cache_dir = Path.home().joinpath('{YOUR_NLSOM_PATH}/checkpoints', 'model
 </details>
 
 ### 2. App
+
+Please complete the API keys in ``.env.template``. The OpenAI API key is mandatory, while the others depend on your specific requirements. Then, ``mv .env.template .env``
+
+### 3. App
 
 ```bash
 streamlit run app.py
@@ -269,7 +274,7 @@ Demo 2: Collaborative API Usages (Introduce "AGI") 👈 <b>[CLICK]</b></summary>
     <img src="https://media.discordapp.net/attachments/1090896867753213973/1112116808401555486/Presentation5_pdf.io.png?width=1620&height=262" alt="some_text">
     <p>
         <ul>
-            <li><b>🔴 User:</b> Introduce the "AGI" from different perspectives, including definition, potential and recent work. </li>
+            <li><b>🔴 User:</b> Introduce the "AGI" from different perspectives, including definition, potential. </li>
         </ul>
     </p>
     <p>
@@ -465,15 +470,21 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
 The original experiments on paper can be found in [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment). They provide some basic exploration of Mindstorm and NLSOM.
 
 ## ☑️  TODO
+We adopt two ways to conduct NLSOM and Mindstorm: 
 
-In the original paper, the NLSOM is **pre-defined** and the mindstorm is **enforced**. However, in this repository, the NLSOM is **self-organized** and the mindstorm occurs **automatically**. Due to the heavy reliance on prompts in the current repository version, the current one are not stable. Therefore, there are some identified issues that are awaiting optimization:
+**v1.0:** In the original paper and [experiments](https://github.com/mczhuge/NLSOM/tree/main/experiment), NLSOM is pre-defined, and Mindstorm is enforced. 
 
-* Make mindstorm more stable: 1) design better prompts or 2) develop a tailor-made mindstorm system.
-* Support multi-turn mindstorms.
+**v2.0:** in this repository, NLSOM is self-organized, and Mindstorm occurs automatically. 
+
+Although the automatic implementation of NLSOM shows promise, the current repository is unstable due to its heavy dependence on prompts. Several issues need optimization:
+* Improve stability of Mindstorm: a) enhance prompt design, or b) develop a dedicated Mindstorm system.
+* Enable multi-turn Mindstorms.
 * Support targets with multiple inputs.
-* Add more communities and agents.
-* Design a more accurate reward mechanism.
-* Make the NLSOM learnable.
+* Expand communities and agents.
+* Design a more precise reward mechanism.
+* Enhance learnability of NLSOM.
+
+We are still working on a better version (reduce prompts, and code parts of Mindstorm).
 
 ## 💌 Acknowledgments
 
@@ -522,26 +533,8 @@ eval `ssh-agent -s`
 ssh-add ~/.ssh/id_rsa
 ```
 
-
-
-```
-srun -p batch -t 48:00:00 --gres=gpu:1 --reservation=A100 --cpus-per-gpu=12 --mem=128G --pty bash -l
-```
-
 ```
 srun -p batch -t 2:00:00 --gres=gpu:1 --constraint="v100" --cpus-per-task 4 --mem=24G --pty bash -l
 ```
 
-
-Sometines, the ssh gets unconnected.
-```
-eval `ssh-agent -s`
-ssh-add ~/.ssh/id_rsa
-```
-
-# API
-
-```
-export REPLICATE_API_TOKEN=r8_WssXC8wLfU6nIOZSgm69CM49SFvuObr35zgcu
-```
 

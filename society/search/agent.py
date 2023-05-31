@@ -15,6 +15,7 @@ from langchain.utilities import BingSearchAPIWrapper
 # from langchain.utilities import GoogleSearchAPIWrapper
 # from langchain.tools import DuckDuckGoSearchRun
 from langchain.utilities.wolfram_alpha import WolframAlphaAPIWrapper
+import numpy as np
 
 def prompts(name, description):
     def decorator(func):
@@ -38,8 +39,13 @@ class SE_A:
                         "Useful for when you need to search information from the internet, "
                          "Input should be a search query.")
     def inference(self, text):
+<<<<<<< HEAD
         docs = self.wolfram.run(text)
         return docs.split("\n")[0]
+=======
+        docs = self.arxiv.run(text)
+        return docs.split("\n\n")[np.random.randint(0,3)]
+>>>>>>> f4f6308aa944455741945599b9b2e0418764066e
 
 #SE_B
 class SE_B:
