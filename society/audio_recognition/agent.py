@@ -1,5 +1,6 @@
 import requests
-from modelscope.pipelines import pipeline
+import os
+#from modelscope.pipelines import pipeline
 
 def prompts(name, description):
     def decorator(func):
@@ -13,7 +14,7 @@ class Whisper:
     def __init__(self, device="cpu"):
         self.device = device
         self.API_URL = "https://api-inference.huggingface.co/models/openai/whisper-base"
-        self.headers = {"Authorization": "Bearer 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"} # TODO: Huggingface API
+        self.headers = {"Authorization": "Bearer "+os.getenv("HUGGINGFACE_ACCESS_Tokens")} 
 
 
     @prompts(name="Whisper",
@@ -35,6 +36,15 @@ class Whisper:
         response = requests.post(self.API_URL, headers=self.headers, data=data)
         return response.json()
     
+    
+if __name__ == "__main__":
+    #"http://www.modelscope.cn/api/v1/models/damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-online/repo?Revision=master\u0026FilePath=example/asr_example.wav"
+    
+    asr_model = Whisper()
+    #asr_model = Paraformer(device="cuda:0")
+    result = asr_model.inference("sample1.flac")
+    print(result)
+
 
 # class Paraformer:
 #     def __init__(self, device="cuda:0"):
@@ -49,12 +59,3 @@ class Whisper:
 
 #         result =  self.pipeline_asr(filename)
 #         return result
-    
-
-if __name__ == "__main__":
-    #"http://www.modelscope.cn/api/v1/models/damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-online/repo?Revision=master\u0026FilePath=example/asr_example.wav"
-    
-    asr_model = Whisper()
-    #asr_model = Paraformer(device="cuda:0")
-    result = asr_model.inference("sample1.flac")
-    print(result)
