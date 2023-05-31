@@ -2,12 +2,11 @@
 # We will update a version of "Mindstorm" in LangChain, or we write a new NLSOM framework in the future.
 # For BingSearch, please refer to https://www.microsoft.com/en-us/bing/apis/bing-web-search-api
 
-
 import os
 os.environ["BING_SUBSCRIPTION_KEY"] = "62d6585cb6634347ba89f79f84e9313e"
-os.environ["BING_SEARCH_URL"] = "https://api.bing.microsoft.com/v7.0/search" #"https://api.cognitive.microsoft.com/bing/v7.0/search" #"https://api.bing.microsoft.com/v7.0/search"
+os.environ["BING_SEARCH_URL"] = "https://api.bing.microsoft.com/v7.0/search" 
 os.environ["WOLFRAM_ALPHA_APPID"] = "QHR6LE-5RRLX85RJT"
-
+import numpy as np
 
 from langchain.tools import Tool
 from langchain.utilities import ArxivAPIWrapper
@@ -27,29 +26,13 @@ def prompts(name, description):
 
 
 
-#SE_A
-class SE_A:
-    def __init__(self, device="cpu"):
-        self.device = "cpu"
-        self.arxiv = ArxivAPIWrapper()
-
-    @prompts(name="SE_A",
-             # "A wrapper around Arxiv.org "
-             description="A wrapper around XXX.org "
-                         "Useful for when you need to search information, especially academia information, "
-                         "Input should be a search query.")
-    def inference(self, text):
-        docs = self.arxiv.run(text)
-        return docs.split("\n\n")[0]
-
-    
 #class WolframAlphaSearch:
-class SE_B:
+class SE_A:
     def __init__(self, device="cpu"):
         self.device = device
         self.wolfram = WolframAlphaAPIWrapper()
 
-    @prompts(name="SE_B",
+    @prompts(name="SE_A",
              #"A wrapper around www.wolfram.org "
              description="A wrapper around XXX.org "
                         "Useful for when you need to search information from the internet, "
@@ -57,8 +40,23 @@ class SE_B:
     def inference(self, text):
         docs = self.wolfram.run(text)
         return docs.split("\n")[0]
-    
 
+#SE_B
+class SE_B:
+    def __init__(self, device="cpu"):
+        self.device = "cpu"
+        self.arxiv = ArxivAPIWrapper()
+
+    @prompts(name="SE_B",
+             # "A wrapper around Arxiv.org "
+             description="A wrapper around XXX.org "
+                         "Useful for when you need to search information, especially academia information, "
+                         "Input should be a search query.")
+    def inference(self, text):
+        docs = self.arxiv.run(text)
+        return docs.split("\n\n")[np.random.randint(0,3)]
+
+    
 # class WikipediaSearch:
 class SE_C:
     def __init__(self, device="cpu"):
