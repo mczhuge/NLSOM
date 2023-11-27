@@ -7,8 +7,14 @@
 [![GitHub license](https://img.shields.io/github/license/mczhuge/NLSOM)](https://github.com/mczhuge/NLSOM/blob/main/LICENSE)
 [![GitHub star chart](https://img.shields.io/github/stars/mczhuge/NLSOM?style=social)](https://star-history.com/#mczhuge/NLSOM)
 
+
 ## ✨ Introduction
 We introduce the concept of **Natural Language-Based Societies of Mind (NLSOM)**, which contains society, communities and agents.
+
+#### 🔥 News: 
+- [arXiv 2305.17066 (position paper)](https://arxiv.org/pdf/2305.17066.pdf) marks the beginning. Our vision continues to unfold and grow stronger! 💪 
+- **We finished [this repo](https://github.com/mczhuge/NLSOM) in May**, and released it **6 months** after its completion. Its aim is to create a general-purpose **NLSOMv2.0** (or multimodal language society).
+
 #### 1. Concepts:
 - Agents can be either LLMs, NN-based experts, APIs and role-players. They all communicate in natural language.
 - Agents collaborate to solve the task by interviewing each other. we call this procedure "Mindstorm". 
