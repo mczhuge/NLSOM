@@ -4,42 +4,28 @@
 
 [![KAUST-AINT](https://cemse.kaust.edu.sa/themes/custom/bootstrap_cemse/logo.svg)](https://cemse.kaust.edu.sa/ai)
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2305.17066.pdf)
-[![GitHub license](https://img.shields.io/github/license/mczhuge/NLSOM)](https://github.com/mczhuge/NLSOM/blob/main/LICENSE)
-[![GitHub star chart](https://img.shields.io/github/stars/mczhuge/NLSOM?style=social)](https://star-history.com/#mczhuge/NLSOM)
-
+[![GitHub license](https://img.shields.io/badge/License-MIT-orange.svg)](https://github.com/mczhuge/NLSOM/blob/main/LICENSE)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmczhuge%2FNLSOM&count_bg=%23543DC8&title_bg=%23555555&icon=awesomelists.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ## ✨ Introduction
-We introduce the concept of **Natural Language-Based Societies of Mind (NLSOM)**, which contains societies and communities of agents.
+We introduce the **Natural Language-Based Societies of Mind (NLSOM)** concept, which contains societies and communities of agents.
 
 #### 🔥 News: 
-- [arXiv 2305.17066 (position paper)](https://arxiv.org/pdf/2305.17066.pdf) marks the beginning. Our vision continues to unfold and grow stronger! 💪 
-- **We finished [this repo](https://github.com/mczhuge/NLSOM) in May**, and released it **6 months** after its completion. Its aim is to create a general-purpose **NLSOMv2.0** (or multimodal language society).
+- [Dylan R. Ashley](https://dylanashley.io) will give a presentation of NLSOM in [NeurIPS RO-FoMo](https://sites.google.com/view/r0-fomo/accepted-papers?authuser=0) workshop. See our [poster](https://metauto.ai/images/nlsom-v9.pdf).
+- [This position paper](https://arxiv.org/pdf/2305.17066.pdf) marks the beginning. Our vision continues to unfold and grow stronger!  
+- **We finished this repo in early May but was released 7 months later**. 
 
 #### 1. Concepts:
 - Agents can be either LLMs, NN-based experts, APIs and role-players. They all communicate in natural language.
-- Agents collaborate to solve the task by interviewing each other. We call this procedure "Mindstorm". 
-- Additional components for NLSOM can be easily added in a modular fashion.
+- To solve tasks, these agents use a collaborative "Mindstorm" process involving mutual interviews.
+- Additional components for NLSOM can be easily added in a modular way.
 - <details>
     <summary>More insights 👈 <b>[CLICK]</b></summary>
-    <p>
-        <ul>
-            <li><b> Introduction:</b> Both Minsky’s “society of mind” and Schmidhuber’s “learning to think” inspire diverse societies of large multimodal neural networks (NNs) that solve problems by interviewing each other in a “mindstorm.” Recent implementations of NN-based societies of minds consist of large language models (LLMs) and other NN-based experts communicating through a natural language interface. In doing so, they overcome the limitations of single LLMs, improving multimodal zero-shot reasoning. In these natural language-based societies of mind (NLSOMs), new agents—all communicating through the same universal symbolic language—are easily added in a modular fashion. </li>
-        </ul>
-    </p>    
-    <p>
-        <ul>
-            <li><b> Advantages:</b>   This shared natural language communication interface has several advantages: 
-                <b>1) Scaling/Modularity.</b> Adding another LLM to an existing NLSOM or replacing one LLM with another (perhaps much larger) LLM does not change the interview interface between the LLMs because the latter is standardized in terms of natural language, which can be viewed as a universal code. This is very much aligned with the objectives of modular AI systems. 
-                <b>2) Explainable AI.</b> Since queries and answers are in natural language, human observers can understand more easily what the NLSOM is thinking while trying to solve its problem. This is in great accordance with the goals of attempting to create explainable AI. It also allows for easily including human experts in an NLSOM. 
-                <b>3) Human-Biased AI.</b> For thousands of years, NL has evolved to compactly encode all the things humans consider important. That is to say that an NLSOM would be expected to have a strong bias towards human thinking and reasoning. </li>
-        </ul>
-    </p>        
-     <p>
-        <ul>
-            <li><b> Focus:</b>   Our primary objective extends beyond the development of a task automation system. Existing research has demonstrated the effectiveness of using language models (LLMs) as controllers to coordinate multiple models. Instead, we focus on enhancing collaboration and cohesion among various AI modules.
-            </li>
-        </ul>
-    </p>   
+        <p>
+         <ul>
+             <li><b> Concepts of NLSOMs:</b> Both Minsky’s “Society of Mind” and Schmidhuber’s “Learning to Think” inspire diverse societies of large multimodal neural networks (NNs) that solve problems by interviewing each other in a “Mindstorm.” Recent implementations of NN-based societies of minds consist of large language models (LLMs) and other NN-based experts communicating through a natural language interface. In doing so, they overcome the limitations of single LLMs, improving multimodal zero-shot reasoning. In these natural language-based societies of mind (NLSOMs), new agents—all communicating through the same universal symbolic language—are easily added in a modular fashion. </li>
+         </ul>
+     </p>        
      <p>
         <ul>
             <li><b> Process:</b>   In this GitHub project, 1) our first step is to recommend relevant communities and agents aligned with the users' goals. These recommendations encompass tools, plugins, models, and role-players, which can then be loaded accordingly. 2) Additionally, we employ a Mindstorm approach, setting ourselves apart from previous models like VisualChatGPT and HuggingGPT, which solely rely on a single model for a specific function. Within our framework, a community of agents shares a common function, such as "search", while each agent possesses unique strengths and capabilities. For instance, agents like "Bing Search," "Wikipedia," "arXiv," and "WolframAlpha" collaborate to provide a more comprehensive understanding. 3) Furthermore, we emphasize the importance of reward mechanisms. In our current implementation, we reward different models for their contributions to task completion, which serves as a valuable means of evaluating a model's usefulness for specific tasks.
@@ -48,37 +34,24 @@ We introduce the concept of **Natural Language-Based Societies of Mind (NLSOM)**
     </p>     
      <p>
         <ul>
-            <li><b> Limitation:</b>  The current GitHub version of NLSOM is in its preliminary stages and has limitations: 1) Unstable Mindstorm process (since it is driven by prompts), and 2) the reward mechanism was not utilized for RL training. 
-            </li>
-        </ul>
-    </p>    
-     <p>
-        <ul>
             <li><b> Outlook:</b>   The concept behind this project is to provide a preliminary NLSOM solution. To illustrate, let's consider a scenario where a non-technical individual lacks expertise in computer science and has limited knowledge about various AI plugins. In such cases, the NLSOM system can automatically recommend different communities and agents to automate tasks based on user input in natural language. Even without understanding the performance of a specific model, the user can benefit from multiple models with the same functionality working together to offer more comprehensive answers. These AI communities can collaborate and compete with each other. Furthermore, the NLSOM system implements a reward mechanism that grants AI models a higher status based on their performance. This reward mechanism serves the purpose of optimizing the end-to-end recommendation/Mindstorm process in the future. It establishes a system akin to a Darwinian meritocracy within the AI community, where models compete and succeed based on their demonstrated excellence.
             </li>
         </ul>
     </p>     
-     <p>
-        <ul>
-            <li><b> Paragraph excerpt of EOM (Please refer to paper for more details):</b>   Some members of an NLSOM may interact with an environment. Occasionally, the environment may pay them in the form of some currency, say, USD. Let us consider an NLSOM member called M. In the beginning, M is endowed with a certain amount of USD. However, M must also regularly pay rent/taxes/other bills to its NLSOM and other relevant players in the environment. If M goes bankrupt, it disappears from the NLSOM, which we now call an Economy of Minds (EOM), to reflect its sense of business. M may offer other EOM members money in exchange for certain services (e.g., providing answers to questions or making a robot act in some way). Some EOM member N may accept an offer, deliver the service to M, and get paid by M. The corresponding natural language contract between M and N must pass a test of validity and enforceability, e.g., according to EU law. This requires some legal authority, possibly an LLM (at least one LLM has already passed a legal bar exam), who judges whether a proposed contract is legally binding. In case of disputes, a similar central executive authority will have to decide who owes how many USD to whom. Wealthy NLSOM members may spawn kids (e.g., copies or variants of themselves) and endow them with a fraction of their own wealth, always in line with the basic principles of credit conservation.
-            </li>
-        </ul>
-    </p>   
 </details>
 
 #### 2. About this repo:
-This project is the **technical extension** for the original [NLSOM paper](https://arxiv.org/pdf/2305.17066.pdf): allowing you to build a specific NLSOM quickly. 
-When you provide the inputs (files or targets), This repository automates all these processes for you:
+This project is the **technical extension** for the original [NLSOM paper](https://arxiv.org/pdf/2305.17066.pdf), including:
 
 - **🧰 Recommendation**: Autonomously select communities and agents to form a self-organized NLSOM for solving the specified task.
 - **🧠 Mindstorm**: Multiple agents (models or APIs) can collaborate to solve tasks together more efficiently.
 - **💰 Reward**: Rewards are given to all agents involved.
 
 #### 3. Features:
-- [x] Rule your NLSOM: effortlessly organize an NLSOM in various fields by simply changing the template.
+- [x] Manage Easily: Simply change the template to organize your NLSOM in different areas.
 - [x] Easy to extend: customize your own community and agents (Now we have 16 communities and 34 agents, see [society](https://github.com/mczhuge/NLSOM/tree/main/society)). 
 - [x] Reward Design: provide a reward mechanism (albeit rough). You can easily upgrade to a more refined version. 
-- [x] An elegant UI: facilitate better visualization and support for diverse media sources (image, text, audio, video, etc).
+- [x] Elegant UI: has an interface and support for diverse file sources (image, text, audio, video, etc).
 
 
 <div align=center>
@@ -89,7 +62,7 @@ When you provide the inputs (files or targets), This repository automates all th
 
 ### 1. Install
  
-Here are three different installation methods. Please choose the one that suits you best:
+Choose from three different installation methods to find the one that best fits your needs.
 
 1. CONDA: ``conda env create -n nlsom -f nlsom.yaml``
 
@@ -308,13 +281,13 @@ easily accessible and up-to-date collection of references for the emerging field
     <p>
         <ul>
             <li><b>🔵 Wikipedia:</b> Page: Existential risk from artificial general intelligence
-Summary: Existential risk from artificial general intelligence is the hypothesis that substantial progress in artificial general intelligence (AGI) could result in human extinction or some other unrecoverable global catastrophe.The existential risk ("x-risk") school argues as follows: The human species currently dominates other species because the human brain has some distinctive capabilities that other animals lack. If AI surpasses humanity in general intelligence and becomes "superintelligent", then it could become difficult or impossible for humans to control. Just as the fate of the mountain gorilla depends on human goodwill, so might the fate of humanity depend on the actions of a future machine superintelligence.The probability of this type of scenario is widely debated, and hinges in part on differing scenarios for future progress in computer science. Concerns about superintelligence have been voiced by leading computer scientists and tech CEOs such as Geoffrey Hinton, Yoshua Bengio, Alan Turing, Elon Musk, and OpenAI CEO Sam Altman. In 2022, a survey of AI researchers found that some researchers believe that there is a 10 percent or greater chance that our inability to control AI will cause an existential catastrophe (more than half the respondents of the survey, with a 17% response rate).Two sources of concern are the problems of AI control and alignment: that controlling a superintelligent machine, or instilling it with human-compatible values, may be a harder problem than naïvely supposed. Many researchers believe that a superintelligence would resist attempts to shut it off or change its goals (as such an incident would prevent it from accomplishing its present goals) and that it will be extremely difficult to align superintelligence with the full breadth of important human values and constraints. In contrast, skeptics such as computer scientist Yann LeCun argue that superintelligent machines will have no desire for self-preservation.A third source of concern is that a sudden "intelligence explosion" might take an unprepared human race by surprise. To illustrate, if the first generation of a computer program that is able to broadly match the effectiveness of an AI researcher can rewrite its algorithms and double its speed or capabilities in six months, then the second-generation program is expected to take three calendar months to perform a similar chunk of work. In this scenario the time for each generation continues to shrink, and the system undergoes an unprecedentedly large number of generations of improvement in a short time interval, jumping from subhuman performance in many areas to superhuman performance in virtually all domains of interest. Empirically, examples like AlphaZero in the domain of Go show that AI systems can sometimes progress from narrow human-level ability to narrow superhuman ability extremely rapidly.
+Summary: Existential risk from artificial general intelligence is the hypothesis that substantial progress in artificial general intelligence (AGI) could result in human extinction or some other unrecoverable global catastrophe.The existential risk ("x-risk") school argues as follows: The human species currently dominates other species because the human brain has some distinctive capabilities that other animals lack. If AI surpasses humanity in general intelligence and becomes "superintelligent", then it could become difficult or impossible for humans to control. Just as the fate of the mountain gorilla depends on human goodwill, so might the fate of humanity depend on the actions of a future machine superintelligence.The probability of this type of scenario is widely debated, and hinges in part on differing scenarios for future progress in computer science...
     </li>
         </ul>
     </p> 
     <p>
         <ul>
-            <li><b>🟤  BingSeach:</b> Alternatively, AGI has been defined as<b> an autonomous system that surpasses human capabilities in the majority of economically valuable tasks.</b> Creating AGI is a primary goal of some artificial intelligence research and companies such as OpenAI, DeepMind, and Anthropic. AGI is a common topic in science fiction and futures studies. an engineered system displaying the property of artificial general intelligence, to a significant degree. the theoretical and practical study of artificial general intelligence systems and methods of creating them. <b>AGI</b> is part of the broader fields of Artificial Intelligence (AI) and Cognitive Science. Artificial general intelligence (<b>AGI</b>) is the capacity for machines to perceive, learn, and carry out intellectual tasks in a manner similar to that of humans. <b>AGI</b> allows machines to mimic human behavior and thought processes in order to tackle any kind of complex problem. Artificial General Intelligence (<b>AGI</b>) is the next generation of artificial intelligence (AI), which is expected to exceed human intelligence in every aspect (Barrett &amp; Baum, 2017; Bostrom, 2014; Torres, 2019 ). <b>AGI</b> will extend upon AI, or Artificial Narrow Intelligence (ANI) systems, which are in widespread use today. Artificial general intelligence <b>(AGI</b>) is the representation of generalized human cognitive abilities in software so that, faced with an unfamiliar task, the <b>AGI</b> system could find a solution. The intention of an <b>AGI</b> system is to perform any task that a human being is capable of. He defines <b>AGI</b> as AI systems that can solve any cognitive or human task in ways that are not limited to how they are trained. In theory, <b>AGI</b>, he says, can help scientists develop cures for ... Artificial general intelligence has the immense <b>potential</b> to mimic human intelligence, transfer learning, perform cognitive tasks, and operate autonomously. However, developing <b>AGI</b> is still challenging owing to the demands of significant advancements in various fields like ML, neural networks, AI, NLP, and more. The purpose of this article is to provide an <b>AGI</b> primer to help executives understand the path to machines achieving human-level intelligence, indicators by which to measure progress, and actions the reader can take to begin preparations today. Editor. • Fine motor skills. • Natural language processing and understanding. • Navigation. • Problem-solving. • Social and emotional engagement. • Creativity. In simpler words, if <b>AGI</b> ...
+            <li><b>🟤  BingSeach:</b> Alternatively, AGI has been defined as<b> an autonomous system that surpasses human capabilities in the majority of economically valuable tasks.</b> Creating AGI is a primary goal of some artificial intelligence research and companies such as OpenAI, DeepMind, and Anthropic. AGI is a common topic in science fiction and futures studies. an engineered system displaying the property of artificial general intelligence, to a significant degree. the theoretical and practical study of artificial general intelligence systems and methods of creating them...
     </li>
         </ul>
     </p> 
@@ -473,18 +446,11 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
 ## ☑️  TODO?
 We adopt two ways to conduct NLSOM and Mindstorm: 
 
-**v1.0:** 📋 Preliminary Experiments: In the original [paper](https://arxiv.org/pdf/2305.17066.pdf), NLSOM is pre-defined, and Mindstorm is enforced. 
+**v1.0:** 📋 Preliminary Experiments: In the original [paper](https://arxiv.org/pdf/2305.17066.pdf), NLSOM and Mindstorm is driven by hardcodes. 
 
-**v2.0:** 📋 In this repository, NLSOM is self-organized, and Mindstorm occurs automatically. 
+**v2.0:** 📋 In this version, NLSOM is self-organized, and Mindstorm happens automatically.
 
-**v3.0:** 🎯 Future Work: 1) RL; 2) Economy; 3) Self-Improvement; 4) Atom-based collaborations.
-
-Although the automatic implementation of NLSOM shows promise, the current repository is unstable due to its heavy dependence on prompts. Several issues need optimization:
-* Improve stability of Mindstorm: a) enhance prompt design, or b) develop a dedicated Mindstorm system.
-* Support batch targets.
-* Expand communities and agents.
-* Design a more precise reward mechanism.
-* Enhance learnability of NLSOM.
+**v3.0:** 🎯 Future Work: 1) introducing RL; 2) Economy of Minds; 3) Self-Improvement; etc.
 
 ## 💌 Acknowledgments
 
