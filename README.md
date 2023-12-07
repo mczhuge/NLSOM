@@ -9,7 +9,7 @@
 
 
 ## ✨ Introduction
-We introduce the concept of **Natural Language-Based Societies of Mind (NLSOM)**, which contains society, communities and agents.
+We introduce the concept of **Natural Language-Based Societies of Mind (NLSOM)**, which contains societies and communities of agents.
 
 #### 🔥 News: 
 - [arXiv 2305.17066 (position paper)](https://arxiv.org/pdf/2305.17066.pdf) marks the beginning. Our vision continues to unfold and grow stronger! 💪 
@@ -17,7 +17,7 @@ We introduce the concept of **Natural Language-Based Societies of Mind (NLSOM)**
 
 #### 1. Concepts:
 - Agents can be either LLMs, NN-based experts, APIs and role-players. They all communicate in natural language.
-- Agents collaborate to solve the task by interviewing each other. we call this procedure "Mindstorm". 
+- Agents collaborate to solve the task by interviewing each other. We call this procedure "Mindstorm". 
 - Additional components for NLSOM can be easily added in a modular fashion.
 - <details>
     <summary>More insights 👈 <b>[CLICK]</b></summary>
