@@ -55,7 +55,7 @@ This project is the **technical extension** for the original [NLSOM paper](https
 
 
 <div align=center>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1113213359974785165/1685481042679.jpg" width="500" height="535">
+    <img src="https://media.discordapp.net/attachments/1163006860480233476/1217565262518292581/1685481042679.jpg?ex=66047d03&is=65f20803&hm=95544943c0f391c68a74f91b3672472cc7c6524d194fd7d26681762b4ceff38e&=&format=webp&width=1018&height=1086" width="500" height="535">
 </div>
 
 ## 💾 Usage
@@ -182,7 +182,7 @@ streamlit run app.py
 <details>
     <summary>
  Demo 1: Model Collaboration (Multimodal Agents) 👈 <b>[CLICK]</b></summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112394722493857872/Presentation2_copy_pdf.io_1.png?width=1620&height=220">
+    <img src="https://media.discordapp.net/attachments/1163006860480233476/1217565793680756826/Presentation2_copy_pdf.io.png?ex=66047d82&is=65f20882&hm=9aa2c63c21b194cc7fa59ccd617014109dedb35b453dce0f6989b0682c8e95a7&=&format=webp&quality=lossless&width=1606&height=218">
     <p>
         <ul>
             <li><b>🔴 User:</b> VQA question: What century were these invented in?
@@ -248,7 +248,7 @@ streamlit run app.py
 <details>
     <summary>
 Demo 2: Collaborative API Usages (Introduce "AGI") 👈 <b>[CLICK]</b></summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1112116808401555486/Presentation5_pdf.io.png?width=1620&height=262" alt="some_text">
+    <img src="https://media.discordapp.net/attachments/1163006860480233476/1217566010622607411/Presentation5_pdf.io.png?ex=66047db6&is=65f208b6&hm=abee16f73e3d61fe6aa1d199860ea3d8fed94d9bafd9159182bcb3f0af1018a1&=&format=webp&quality=lossless&width=1100&height=178" alt="some_text">
     <p>
         <ul>
             <li><b>🔴 User:</b> Introduce the "AGI" from different perspectives, including definition, potential. </li>
@@ -315,7 +315,7 @@ Summary: Existential risk from artificial general intelligence is the hypothesis
 <details open>
     <summary>
 Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
-    <img src="https://media.discordapp.net/attachments/1090896867753213973/1111773821859541012/image.png?width=1620&height=436" alt="some_text">
+    <img src="https://media.discordapp.net/attachments/1163006860480233476/1217566385463492690/mczhuge_The_three_Kingdoms_Icon_with_ancient_Chinese_city._e9187825-51d2-45bd-b903-c9c0c3c613fa.png?ex=66047e0f&is=65f2090f&hm=2eda5c4a61899818aa9a97bf0813c6d379b803c0a08b32066036ff2358556ea8&=&format=webp&quality=lossless&width=700&height=700" alt="some_text">
     <p>
         <ul>
             <li><b>🔴 User:</b> If you find yourself in the Three Kingdoms period, what would be the most effective approach to defeat Cao Cao?</li>
@@ -384,7 +384,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
  Demo 4: Society of Mind (Automatical Task-Solving)</summary>
       <p>
         <ul>
-            <li>🔴 <b>User:</b> Provide an image. <br> <img src="https://github.com/mczhuge/NLSOM/assets/64179323/e8ac4340-996d-4ee2-9830-58ecddfe1a98" width="200px" height="243px">
+            <li>🔴 <b>User:</b> Provide an image. <br> <img src="https://media.discordapp.net/attachments/1163006860480233476/1217566646449737820/xyz321.jpeg?ex=66047e4d&is=65f2094d&hm=b9d0d6adcbc2e85fa9b115a30399c22e6bcc41618108e948165e92efbe737ddd&=&format=webp&width=526&height=700" width="200px" height="243px">
         </ul>
     </p>
     <p>
@@ -405,7 +405,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>     
     <p>
         <ul>
-            <li>🟢 <b>DDColor:</b>  <br> <img src="https://github.com/mczhuge/NLSOM/assets/64179323/743339b4-d78c-4e9d-b394-6461addfe1f9" width="200px" height="243px" autoplay> </li>
+            <li>🟢 <b>DDColor:</b>  <br> <img src="https://media.discordapp.net/attachments/1163006860480233476/1217566760534802494/217892as.png?ex=66047e69&is=65f20969&hm=688e3299976082ca2be8acbac72cd848dfd83f159f72778406965e55e2aa20ca&=&format=webp&quality=lossless&width=526&height=700" width="200px" height="243px" autoplay> </li>
     </li>
         </ul>
     </p>  
