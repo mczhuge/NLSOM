@@ -182,7 +182,7 @@ streamlit run app.py
 <details>
     <summary>
  Demo 1: Model Collaboration (Multimodal Agents) 👈 <b>[CLICK]</b></summary>
-    <img src="https://media.discordapp.net/attachments/1163006860480233476/1217565793680756826/Presentation2_copy_pdf.io.png?ex=66047d82&is=65f20882&hm=9aa2c63c21b194cc7fa59ccd617014109dedb35b453dce0f6989b0682c8e95a7&=&format=webp&quality=lossless&width=1606&height=218">
+    <img src="https://private-user-images.githubusercontent.com/64179323/324246245-6156655d-b4a3-4c2f-811d-a9de119699cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM3MDE4OTYsIm5iZiI6MTcxMzcwMTU5NiwicGF0aCI6Ii82NDE3OTMyMy8zMjQyNDYyNDUtNjE1NjY1NWQtYjRhMy00YzJmLTgxMWQtYTlkZTExOTY5OWNmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDIxVDEyMTMxNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRiOThiZWQ4N2RjNmQxZWExMDliYzQyZDYxM2UxNTdmYzU1ZDFjNDgzNjQ0YTkzZDIwZjc5NzIwOTVmZGQyZjkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.zRR1jExcdNwdTfdY-HHMdMrL9V0qqwki02nKqKRdKK0">
     <p>
         <ul>
             <li><b>🔴 User:</b> VQA question: What century were these invented in?
@@ -248,7 +248,7 @@ streamlit run app.py
 <details>
     <summary>
 Demo 2: Collaborative API Usages (Introduce "AGI") 👈 <b>[CLICK]</b></summary>
-    <img src="https://media.discordapp.net/attachments/1163006860480233476/1217566010622607411/Presentation5_pdf.io.png?ex=66047db6&is=65f208b6&hm=abee16f73e3d61fe6aa1d199860ea3d8fed94d9bafd9159182bcb3f0af1018a1&=&format=webp&quality=lossless&width=1100&height=178" alt="some_text">
+    <img src="https://private-user-images.githubusercontent.com/64179323/324246338-046d0283-ff30-43ed-bc87-7a561b6b2ac3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM3MDE5ODUsIm5iZiI6MTcxMzcwMTY4NSwicGF0aCI6Ii82NDE3OTMyMy8zMjQyNDYzMzgtMDQ2ZDAyODMtZmYzMC00M2VkLWJjODctN2E1NjFiNmIyYWMzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDIxVDEyMTQ0NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRjNGI2OTY5NjM0ZThkNTAxMzY5N2NiOWU2MjEyNDAyMWQ5NzRiNDM1ZmM2Zjk0YTFmYjJkZjMyMDEwYzMxZTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.I2OJGbyjWk5P_lLCTnIFyQX7Wjdtw8fcK3B3OcQY2nI" alt="some_text">
     <p>
         <ul>
             <li><b>🔴 User:</b> Introduce the "AGI" from different perspectives, including definition, potential. </li>
@@ -315,7 +315,7 @@ Summary: Existential risk from artificial general intelligence is the hypothesis
 <details open>
     <summary>
 Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
-    <img src="https://media.discordapp.net/attachments/1163006860480233476/1217566385463492690/mczhuge_The_three_Kingdoms_Icon_with_ancient_Chinese_city._e9187825-51d2-45bd-b903-c9c0c3c613fa.png?ex=66047e0f&is=65f2090f&hm=2eda5c4a61899818aa9a97bf0813c6d379b803c0a08b32066036ff2358556ea8&=&format=webp&quality=lossless&width=700&height=700" alt="some_text">
+    <img src="https://private-user-images.githubusercontent.com/64179323/324246245-6156655d-b4a3-4c2f-811d-a9de119699cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM3MDE4OTYsIm5iZiI6MTcxMzcwMTU5NiwicGF0aCI6Ii82NDE3OTMyMy8zMjQyNDYyNDUtNjE1NjY1NWQtYjRhMy00YzJmLTgxMWQtYTlkZTExOTY5OWNmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDIxVDEyMTMxNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRiOThiZWQ4N2RjNmQxZWExMDliYzQyZDYxM2UxNTdmYzU1ZDFjNDgzNjQ0YTkzZDIwZjc5NzIwOTVmZGQyZjkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.zRR1jExcdNwdTfdY-HHMdMrL9V0qqwki02nKqKRdKK0" alt="some_text">
     <p>
         <ul>
             <li><b>🔴 User:</b> If you find yourself in the Three Kingdoms period, what would be the most effective approach to defeat Cao Cao?</li>
