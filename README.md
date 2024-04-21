@@ -384,7 +384,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
  Demo 4: Society of Mind (Automatical Task-Solving)</summary>
       <p>
         <ul>
-            <li>🔴 <b>User:</b> Provide an image. <br> <img src="https://media.discordapp.net/attachments/1163006860480233476/1217566646449737820/xyz321.jpeg?ex=66047e4d&is=65f2094d&hm=b9d0d6adcbc2e85fa9b115a30399c22e6bcc41618108e948165e92efbe737ddd&=&format=webp&width=526&height=700" width="200px" height="243px">
+            <li>🔴 <b>User:</b> Provide an image. <br> <img src="https://private-user-images.githubusercontent.com/64179323/241741407-e8ac4340-996d-4ee2-9830-58ecddfe1a98.jpeg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM3MDE2NTQsIm5iZiI6MTcxMzcwMTM1NCwicGF0aCI6Ii82NDE3OTMyMy8yNDE3NDE0MDctZThhYzQzNDAtOTk2ZC00ZWUyLTk4MzAtNThlY2RkZmUxYTk4LmpwZWc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQyMVQxMjA5MTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMjU1ZTYyNTNiYzlhNzQwNmIxNGZiOWRlYzdiNzdmOWMwNWIyYjEyZDY1MTJhYWQ4N2Q3NjgyYmNkMzc2NmMyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.VKBbtV4qowTnmvZVY42OWr0sgCevvcSPM1mwjAwxhCA" width="200px" height="243px">
         </ul>
     </p>
     <p>
@@ -405,7 +405,7 @@ Demo 3: Collaborative Role-Play (The Three Kingdoms)</summary>
     </p>     
     <p>
         <ul>
-            <li>🟢 <b>DDColor:</b>  <br> <img src="https://media.discordapp.net/attachments/1163006860480233476/1217566760534802494/217892as.png?ex=66047e69&is=65f20969&hm=688e3299976082ca2be8acbac72cd848dfd83f159f72778406965e55e2aa20ca&=&format=webp&quality=lossless&width=526&height=700" width="200px" height="243px" autoplay> </li>
+            <li>🟢 <b>DDColor:</b>  <br> <img src="https://private-user-images.githubusercontent.com/64179323/241741429-743339b4-d78c-4e9d-b394-6461addfe1f9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM3MDE2NTQsIm5iZiI6MTcxMzcwMTM1NCwicGF0aCI6Ii82NDE3OTMyMy8yNDE3NDE0MjktNzQzMzM5YjQtZDc4Yy00ZTlkLWIzOTQtNjQ2MWFkZGZlMWY5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDIxVDEyMDkxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBiMDIyMzJiNGJhZTMwNzk0MTQwNTI5ZjUzYTViNmEyMThmYjg2NWIzYjQ5MTZkNDljNDhhOTUzYWRjODRhNzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.HsVAaY0y4x5B4rrekaVKhKKIcGO7XbwKsSUtUvvBg1s" width="200px" height="243px" autoplay> </li>
     </li>
         </ul>
     </p>  
