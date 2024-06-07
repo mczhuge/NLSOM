@@ -11,6 +11,7 @@
 We introduce the **Natural Language-Based Societies of Mind (NLSOM)** concept, which contains societies and communities of agents.
 
 #### 🔥 News: 
+- NLSOM got **Best Paper Award** in [NeurIPS 2023 Ro-FoMo Workshop](https://sites.google.com/view/r0-fomo/accepted-papers?authuser=0)!!
 - [Dylan R. Ashley](https://dylanashley.io) will give a presentation of NLSOM in [NeurIPS RO-FoMo](https://sites.google.com/view/r0-fomo/accepted-papers?authuser=0) workshop. See our [poster](https://metauto.ai/images/nlsom-v9.pdf).
 - [This position paper](https://arxiv.org/pdf/2305.17066.pdf) marks the beginning. Our vision continues to unfold and grow stronger!  
 - **We finished this repo in early May but was released 7 months later**. 
